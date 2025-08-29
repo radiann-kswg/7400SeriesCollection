@@ -28,7 +28,7 @@
     "ItemsOfModelNumbers": ["SN74HC05N"],
     "Description": "Hex inverter with open-collector outputs",
     "Description_JP": "6回路NOTゲート（オープンコレクタ出力）\n6回路インバータ（オープンコレクタ出力）",
-    "Rarity": "Commons",
+    "Rarity": "Normal",
     "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
   },
   {
@@ -60,7 +60,7 @@
     "ItemsOfModelNumbers": ["SN74HC11N"],
     "Description": "Triple 3-input AND gate",
     "Description_JP": "3回路3入力ANDゲート",
-    "Rarity": "Normal+",
+    "Rarity": "Normal",
     "GottenStarted_JP": ["マルツ電商/DigiKey"]
   },
   {
@@ -92,7 +92,7 @@
     "ItemsOfModelNumbers": [],
     "Description": "dual 4-input NOR gate with strobe, one gate expandable with 74x60",
     "Description_JP": "2回路4入力ストローブ付きNORゲート（1ゲートは74x60で拡張可能）",
-    "Rarity": "Abolition(R+)",
+    "Rarity": "Maniac(SR+)",
     "GottenStarted_JP": ["eBay(国際通販)"]
   },
   {
@@ -100,7 +100,7 @@
     "ItemsOfModelNumbers": [],
     "Description": "Triple 3-input NOR gate",
     "Description_JP": "3回路3入力NORゲート",
-    "Rarity": "Normal+",
+    "Rarity": "Normal",
     "GottenStarted_JP": ["共立エレショップ", "eBay(国際通販)"]
   },
   {
@@ -108,7 +108,7 @@
     "ItemsOfModelNumbers": ["SN74HC30N"],
     "Description": "8-input NAND gate",
     "Description_JP": "8入力NANDゲート",
-    "Rarity": "Commons",
+    "Rarity": "Normal",
     "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
   },
   {
@@ -132,7 +132,7 @@
     "ItemsOfModelNumbers": ["SN74LS36N"],
     "Description": "quad 2-input NOR gate (different pinout than 7402)",
     "Description_JP": "4回路2入力NORゲート(7402と異なるピン配置)",
-    "Rarity": "Maniac(SR+)",
+    "Rarity": "Abolition(R+)",
     "GottenStarted_JP": ["eBay(国際通販)"]
   },
   {
@@ -152,7 +152,7 @@
     "ItemsOfModelNumbers": [],
     "Description": "dual 4-input expander for 74x23, 74x50, 74x53, 74x55",
     "Description_JP": "2回路4入力拡張器（74x23、74x50、74x53、74x55用）",
-    "Rarity": "Maniac(SR+)",
+    "Rarity": "ManiacRare(SSR)",
     "GottenStarted_JP": ["eBay(国際通販)"]
   },
   {
@@ -184,7 +184,7 @@
     "ItemsOfModelNumbers": ["SN74LS82N"],
     "Description": "4-bit parallel adder",
     "Description_JP": "4ビットパラレル加算器",
-    "Rarity": "Maniac(SR+)",
+    "Rarity": "Maniac(SR)",
     "GottenStarted_JP": ["eBay(国際通販)"]
   },
   {
@@ -192,7 +192,7 @@
     "ItemsOfModelNumbers": ["SN74HC86N"],
     "Description": "Quad 2-input XOR gate",
     "Description_JP": "4回路2入力XORゲート",
-    "Rarity": "Normal+",
+    "Rarity": "Commons",
     "GottenStarted_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"]
   },
   {
@@ -200,7 +200,7 @@
     "ItemsOfModelNumbers": [],
     "Description": "4-bit binary counter (separate divide-by-2 and divide-by-8 sections); different pinout for 74L93",
     "Description_JP": "4ビットバイナリカウンタ（2剰余と8剰余でセクションを区切る）；74L93はピン配置が異なる",
-    "Rarity": "ManiacRare(SSR)",
+    "Rarity": "Maniac(SR)",
     "GottenStarted_JP": ["eBay(国際通販)"]
   },
   {
@@ -264,7 +264,7 @@
     "ItemsOfModelNumbers": [],
     "Description": "3-to-8 line decoder/demultiplexer with address latches",
     "Description_JP": "3入力8出力デコーダ/デマルチプレクサ（アドレスラッチ付き）",
-    "Rarity": "Normal",
+    "Rarity": "Normal+",
     "GottenStarted_JP": ["共立エレショップ"]
   },
   {
@@ -288,7 +288,7 @@
     "ItemsOfModelNumbers": ["K155ID1/К155ИД1"],
     "Description": "BCD to decimal decoder (for Nixie Driver)",
     "Description_JP": "BCD-10進デコーダ（ニキシー管ドライバ用）",
-    "Rarity": "SuperRare",
+    "Rarity": "Maniac(SR+)",
     "GottenStarted_JP": [
       "eBay(国際通販)",
       "Amazonの中華販売店より組み立て式ニキシー管時計キットに同梱"
@@ -398,7 +398,7 @@
     "ItemsOfModelNumbers": ["CD74HC166E"],
     "Description": "8-bit parallel-in/serial-out shift register",
     "Description_JP": "8ビットパラレル入力/シリアル出力シフトレジスタ",
-    "Rarity": "Rare",
+    "Rarity": "Normal",
     "GottenStarted_JP": ["マルツ電商/DigiKey"]
   },
   {
@@ -510,7 +510,7 @@
     "ItemsOfModelNumbers": ["CD74HC238E"],
     "Description": "3-to-8 line decoder/demultiplexer",
     "Description_JP": "3入力8出力デコーダ/デマルチプレクサ",
-    "Rarity": "SuperRare",
+    "Rarity": "Rare",
     "GottenStarted_JP": ["マルツ電商/DigiKey"]
   },
   {
