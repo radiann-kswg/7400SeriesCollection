@@ -1,7 +1,7 @@
 [
   {
     "PartNumber": "74x00",
-    "ItemsOfModelNumbers": ["SN74HC00N", "74HC00N"],
+    "ItemsOfModelNumbers": ["74HC00N", "SN74HC00N"],
     "Description": "Quad 2-input NAND gate",
     "Description_JP": "4回路2入力NANDゲート",
     "Rarity": "Commons",
@@ -9,7 +9,7 @@
   },
   {
     "PartNumber": "74x02",
-    "ItemsOfModelNumbers": ["SN74HC02N", "74HC02N"],
+    "ItemsOfModelNumbers": ["74HC02N", "SN74HC02N"],
     "Description": "Quad 2-input NOR gate",
     "Description_JP": "4回路2入力NORゲート",
     "Rarity": "Commons",
@@ -33,7 +33,7 @@
   },
   {
     "PartNumber": "74x07",
-    "ItemsOfModelNumbers": ["TC74HC07AP(F)"],
+    "ItemsOfModelNumbers": ["TC74HC07AP"],
     "Description": "Hex buffer/drivers with open-collector outputs",
     "Description_JP": "6回路バッファ/ドライバ（オープンコレクタ出力）",
     "Rarity": "Abolition(R+)",
@@ -73,7 +73,7 @@
   },
   {
     "PartNumber": "74x20",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["74HC20AP"],
     "Description": "Dual 4-input NAND gate",
     "Description_JP": "2回路4入力NANDゲート",
     "Rarity": "Normal",
@@ -97,7 +97,7 @@
   },
   {
     "PartNumber": "74x27",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["SN7427N", "SN74HC27N"],
     "Description": "Triple 3-input NOR gate",
     "Description_JP": "3回路3入力NORゲート",
     "Rarity": "Normal",
@@ -129,7 +129,7 @@
   },
   {
     "PartNumber": "74x36",
-    "ItemsOfModelNumbers": ["SN74LS36N"],
+    "ItemsOfModelNumbers": [],
     "Description": "quad 2-input NOR gate (different pinout than 7402)",
     "Description_JP": "4回路2入力NORゲート(7402と異なるピン配置)",
     "Rarity": "Abolition(R+)",
@@ -137,7 +137,7 @@
   },
   {
     "PartNumber": "74x42",
-    "ItemsOfModelNumbers": ["SN74LS42N", "TC74HC42AP(F)"],
+    "ItemsOfModelNumbers": ["TC74HC42AP"],
     "Description": "BCD to decimal decoder",
     "Description_JP": "BCD-10進デコーダ",
     "Rarity": "Rare",
@@ -173,7 +173,7 @@
   },
   {
     "PartNumber": "74x75",
-    "ItemsOfModelNumbers": ["SN74HC75E"],
+    "ItemsOfModelNumbers": ["CD74HC75E"],
     "Description": "4-bit bistable latch",
     "Description_JP": "4ビットバイスタブルラッチ",
     "Rarity": "Rare",
@@ -181,7 +181,7 @@
   },
   {
     "PartNumber": "74x82",
-    "ItemsOfModelNumbers": ["SN74LS82N"],
+    "ItemsOfModelNumbers": [],
     "Description": "4-bit parallel adder",
     "Description_JP": "4ビットパラレル加算器",
     "Rarity": "Maniac(SR)",
@@ -213,7 +213,7 @@
   },
   {
     "PartNumber": "74x109",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["SN74HC109N"],
     "Description": "Dual JK flip-flop, positive-edge triggered, set and reset",
     "Description_JP": "2回路JKフリップフロップ（正論理エッジトリガ、セット・リセット付き）",
     "Rarity": "Rare",
@@ -221,7 +221,7 @@
   },
   {
     "PartNumber": "74x112",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["SN74HC112N"],
     "Description": "Dual JK flip-flop, negative-edge triggered, preset and clear",
     "Description_JP": "2回路JKフリップフロップ（負論理エッジトリガ、プリセット・クリア付き）",
     "Rarity": "Rare",
@@ -229,7 +229,7 @@
   },
   {
     "PartNumber": "74x123",
-    "ItemsOfModelNumbers": ["74HC123AP", "TC74HC123APNEWF"],
+    "ItemsOfModelNumbers": ["74HC123AP"],
     "Description": "Dual retriggerable monostable multivibrator",
     "Description_JP": "2回路リトリガ可能単安定マルチバイブレータ",
     "Rarity": "Normal",
@@ -261,7 +261,7 @@
   },
   {
     "PartNumber": "74x137",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["CD74HC137E"],
     "Description": "3-to-8 line decoder/demultiplexer with address latches",
     "Description_JP": "3入力8出力デコーダ/デマルチプレクサ（アドレスラッチ付き）",
     "Rarity": "Normal+",
@@ -269,7 +269,7 @@
   },
   {
     "PartNumber": "74x138",
-    "ItemsOfModelNumbers": ["SN74HC138N", "74HC138AP"],
+    "ItemsOfModelNumbers": ["74HC138AP", "SN74HC138N"],
     "Description": "3-to-8 line decoder/demultiplexer",
     "Description_JP": "3入力8出力デコーダ/デマルチプレクサ",
     "Rarity": "Commons",
@@ -296,7 +296,7 @@
   },
   {
     "PartNumber": "74x147",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["CD74HC147E"],
     "Description": "10-to-4 line priority encoder",
     "Description_JP": "10入力4出力プライオリティエンコーダ",
     "Rarity": "Rare",
@@ -315,7 +315,7 @@
   },
   {
     "PartNumber": "74x151",
-    "ItemsOfModelNumbers": ["TC74HC151AP(F)"],
+    "ItemsOfModelNumbers": ["TC74HC151AP"],
     "Description": "8-input multiplexer",
     "Description_JP": "8入力マルチプレクサ",
     "Rarity": "Normal",
@@ -387,7 +387,7 @@
   },
   {
     "PartNumber": "74x165",
-    "ItemsOfModelNumbers": ["SN74HC165N", "74HC165AP"],
+    "ItemsOfModelNumbers": ["74HC165AP", "SN74HC165N"],
     "Description": "8-bit parallel-in/serial-out shift register",
     "Description_JP": "8ビットパラレル入力/シリアル出力シフトレジスタ",
     "Rarity": "Commons",
@@ -411,7 +411,7 @@
   },
   {
     "PartNumber": "74x173",
-    "ItemsOfModelNumbers": ["TC74HC173AF(F)"],
+    "ItemsOfModelNumbers": ["TC74HC173AF"],
     "Description": "4-bit D-type register with 3-state outputs",
     "Description_JP": "4ビットD型レジスタ（3状態出力）",
     "Rarity": "Normal+",
@@ -427,7 +427,7 @@
   },
   {
     "PartNumber": "74x175",
-    "ItemsOfModelNumbers": ["TC74HC175AP(F)"],
+    "ItemsOfModelNumbers": ["74HC175AP"],
     "Description": "Quad D-type flip-flop",
     "Description_JP": "4回路D型フリップフロップ",
     "Rarity": "Normal",
@@ -435,7 +435,7 @@
   },
   {
     "PartNumber": "74x181",
-    "ItemsOfModelNumbers": ["SN74S181NC"],
+    "ItemsOfModelNumbers": [],
     "Description": "4-bit arithmetic logic unit (ALU)",
     "Description_JP": "4ビット算術論理演算装置（ALU）",
     "Rarity": "ManiacRare(SSR)",
@@ -443,7 +443,7 @@
   },
   {
     "PartNumber": "74x189",
-    "ItemsOfModelNumbers": ["SN74LS189AN"],
+    "ItemsOfModelNumbers": [],
     "Description": "64-bit random access memory (RAM)",
     "Description_JP": "64ビットランダムアクセスメモリ（RAM）",
     "Rarity": "Maniac(SR+)",
@@ -451,7 +451,7 @@
   },
   {
     "PartNumber": "74x190",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["CD74HC190E"],
     "Description": "Synchronous up/down decade counter",
     "Description_JP": "同期式アップ/ダウン10進カウンタ",
     "Rarity": "Rare",
@@ -483,7 +483,7 @@
   },
   {
     "PartNumber": "74x194",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["CD74HC194E"],
     "Description": "4-bit bidirectional universal shift register",
     "Description_JP": "4ビット双方向ユニバーサルシフトレジスタ",
     "Rarity": "Rare",
@@ -499,7 +499,7 @@
   },
   {
     "PartNumber": "74x237",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["CD74HC237E"],
     "Description": "3-to-8 line decoder/demultiplexer with address latches",
     "Description_JP": "3入力8出力デコーダ/デマルチプレクサ（アドレスラッチ付き）",
     "Rarity": "Rare",
@@ -515,7 +515,7 @@
   },
   {
     "PartNumber": "74x240",
-    "ItemsOfModelNumbers": ["TC74HC240AP(F)"],
+    "ItemsOfModelNumbers": ["74HC240AP"],
     "Description": "Octal buffer/line driver, inverting, 3-state outputs",
     "Description_JP": "8回路バッファ/ラインドライバ（反転、3状態出力）",
     "Rarity": "Normal",
@@ -531,7 +531,7 @@
   },
   {
     "PartNumber": "74x242",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["TC74HC242P"],
     "Description": "Quad bus transceiver, inverting outputs",
     "Description_JP": "4回路バストランシーバ（反転出力）",
     "Rarity": "SuperRare",
@@ -539,7 +539,7 @@
   },
   {
     "PartNumber": "74x243",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["74HC243AP"],
     "Description": "quad bus transceiver, non-inverting outputs",
     "Description_JP": "4回路バストランシーバ（非反転出力）",
     "Rarity": "Rare",
@@ -563,7 +563,7 @@
   },
   {
     "PartNumber": "74x253",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["CD74HC253E"],
     "Description": "Dual 4-to-1 multiplexer with 3-state outputs",
     "Description_JP": "2回路4入力マルチプレクサ（3状態出力）",
     "Rarity": "Normal+",
@@ -619,7 +619,7 @@
   },
   {
     "PartNumber": "74x354",
-    "ItemsOfModelNumbers": ["CD74HC354E"],
+    "ItemsOfModelNumbers": ["HD74HC354P"],
     "Description": "8-to-1 data selector/multiplexer, transparent registers",
     "Description_JP": "8入力1出力データセレクタ/マルチプレクサ（透過レジスタ）",
     "Rarity": "Rare",
@@ -627,7 +627,7 @@
   },
   {
     "PartNumber": "74x356",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["TC74HC356P"],
     "Description": "8-to-1 data selector/multiplexer, edge-triggered registers",
     "Description_JP": "8入力1出力データセレクタ/マルチプレクサ（エッジトリガ型レジスタ）",
     "Rarity": "SuperRare",
@@ -643,7 +643,7 @@
   },
   {
     "PartNumber": "74x366",
-    "ItemsOfModelNumbers": ["CD74HC366E"],
+    "ItemsOfModelNumbers": [],
     "Description": "Hex buffer/line driver, inverting, 3-state outputs",
     "Description_JP": "6回路バッファ/ラインドライバ（反転、3状態出力）",
     "Rarity": "Rare",
@@ -659,7 +659,7 @@
   },
   {
     "PartNumber": "74x368",
-    "ItemsOfModelNumbers": ["SN74HC368N", "SN74368AN"],
+    "ItemsOfModelNumbers": ["SN74368AN", "SN74HC368N"],
     "Description": "Hex buffer/line driver, inverting, 3-state outputs",
     "Description_JP": "6回路バッファ/ラインドライバ（反転、3状態出力）",
     "Rarity": "Normal",
@@ -667,7 +667,7 @@
   },
   {
     "PartNumber": "74x373",
-    "ItemsOfModelNumbers": ["SN74HC373N", "TC74HC373APF"],
+    "ItemsOfModelNumbers": ["74HC373AP", "SN74HC373N"],
     "Description": "Octal transparent latch, 3-state outputs",
     "Description_JP": "8ビットトランスペアレントラッチ（3状態出力）",
     "Rarity": "Commons",
@@ -694,7 +694,7 @@
   },
   {
     "PartNumber": "74x381",
-    "ItemsOfModelNumbers": ["SN74S381AN"],
+    "ItemsOfModelNumbers": [],
     "Description": "4-bit arithmetic logic unit (ALU)",
     "Description_JP": "4ビット算術論理演算装置（ALU）",
     "Rarity": "ManiacRare(SSR)",
@@ -726,7 +726,7 @@
   },
   {
     "PartNumber": "74x533",
-    "ItemsOfModelNumbers": ["CD74HC533E"],
+    "ItemsOfModelNumbers": ["HD74HC533P"],
     "Description": "Octal D-type transparent latch, inverting, 3-state outputs",
     "Description_JP": "8ビットD型トランスペアレントラッチ（反転、3状態出力）",
     "Rarity": "Rare",
@@ -734,7 +734,7 @@
   },
   {
     "PartNumber": "74x540",
-    "ItemsOfModelNumbers": ["SN74HC540N"],
+    "ItemsOfModelNumbers": ["CD74HC540E"],
     "Description": "Octal buffer/line driver, inverting, 3-state outputs",
     "Description_JP": "8回路バッファ/ラインドライバ（反転、3状態出力）",
     "Rarity": "Normal+",
@@ -742,11 +742,11 @@
   },
   {
     "PartNumber": "74x541",
-    "ItemsOfModelNumbers": ["74HC541AP", "SN74HC541N"],
+    "ItemsOfModelNumbers": [],
     "Description": "Octal buffer/line driver, non-inverting, 3-state outputs",
     "Description_JP": "8回路バッファ/ラインドライバ（非反転、3状態出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["秋月電子", "マルツ電商/DigiKey"]
+    "GottenStarted_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x564",
@@ -790,7 +790,7 @@
   },
   {
     "PartNumber": "74x597",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["CD74HC597E"],
     "Description": "8-bit parallel-in/serial-out shift register",
     "Description_JP": "8ビットパラレル入力/シリアル出力シフトレジスタ",
     "Rarity": "Rare",
@@ -798,7 +798,7 @@
   },
   {
     "PartNumber": "74x620",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["HD74HC620P"],
     "Description": "Octal bus transceiver, inverting, 3-state outputs",
     "Description_JP": "8ビットバストランシーバ（反転、3状態出力）",
     "Rarity": "Rare",
@@ -806,7 +806,7 @@
   },
   {
     "PartNumber": "74x623",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["HD74HC623P"],
     "Description": "Octal bus transceiver, non-inverting, 3-state outputs",
     "Description_JP": "8ビットバストランシーバ（非反転、3状態出力）",
     "Rarity": "Rare",
@@ -814,7 +814,7 @@
   },
   {
     "PartNumber": "74x640",
-    "ItemsOfModelNumbers": ["SN74HC640N"],
+    "ItemsOfModelNumbers": [],
     "Description": "Octal bus transceiver, inverting, 3-state outputs",
     "Description_JP": "8ビットバストランシーバ（反転、3状態出力）",
     "Rarity": "Rare",
@@ -822,7 +822,7 @@
   },
   {
     "PartNumber": "74x645",
-    "ItemsOfModelNumbers": ["SN74HC645N"],
+    "ItemsOfModelNumbers": [],
     "Description": "Octal bus transceiver, non-inverting, 3-state outputs",
     "Description_JP": "8ビットバストランシーバ（非反転、3状態出力）",
     "Rarity": "Rare",
@@ -838,7 +838,7 @@
   },
   {
     "PartNumber": "74x682",
-    "ItemsOfModelNumbers": ["SN74HC682N"],
+    "ItemsOfModelNumbers": [],
     "Description": "8-bit magnitude comparator",
     "Description_JP": "8ビットマグニチュードコンパレータ",
     "Rarity": "SuperRare",

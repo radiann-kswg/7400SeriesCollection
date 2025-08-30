@@ -1,0 +1,23 @@
+[
+  {
+    "PartNumber": "74x50",
+    "ItemsOfModelNumbers": [],
+    "Description": "dual 2-2-input AND-OR-Invert gate, one gate expandable",
+    "Description_JP": "2回路2入力AND-OR-インバートゲート（1つのゲートは拡張可能）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x53",
+    "ItemsOfModelNumbers": [],
+    "Description": "2-2-2-2-input AND-OR-Invert gate, expandable",
+    "Description_JP": "2回路2入力AND-OR-インバートゲート（拡張可能）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x55",
+    "ItemsOfModelNumbers": [],
+    "Description": "4-4-input AND-OR-Invert gate, 74H55 is expandable",
+    "Description_JP": "4回路4入力AND-OR-インバートゲート（74H55は拡張可能）",
+    "Rarity": "Maniac(SR+)"
+  }
+]
