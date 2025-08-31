@@ -5,7 +5,7 @@
     "Description": "Quad 2-input NAND gate",
     "Description_JP": "4回路2入力NANDゲート",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x02",
@@ -13,7 +13,7 @@
     "Description": "Quad 2-input NOR gate",
     "Description_JP": "4回路2入力NORゲート",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x04",
@@ -21,7 +21,7 @@
     "Description": "Hex inverter",
     "Description_JP": "6回路NOTゲート\n6回路インバータ",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x05",
@@ -33,7 +33,7 @@
   },
   {
     "PartNumber": "74x07",
-    "ItemsOfModelNumbers": ["TC74HC07AP"],
+    "ItemsOfModelNumbers": ["74HC07AP"],
     "Description": "Hex buffer/drivers with open-collector outputs",
     "Description_JP": "6回路バッファ/ドライバ（オープンコレクタ出力）",
     "Rarity": "Abolition(R+)",
@@ -45,7 +45,7 @@
     "Description": "Quad 2-input AND gate",
     "Description_JP": "4回路2入力ANDゲート",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x10",
@@ -69,7 +69,7 @@
     "Description": "Hex Schmitt-trigger inverter",
     "Description_JP": "6回路シュミットトリガインバータ",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x20",
@@ -85,7 +85,7 @@
     "Description": "Dual 4-input AND gate",
     "Description_JP": "2回路4入力ANDゲート",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x23",
@@ -117,7 +117,7 @@
     "Description": "Quad 2-input OR gate",
     "Description_JP": "4回路2入力ORゲート",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x34",
@@ -169,7 +169,7 @@
     "Description": "Dual D flip-flop, positive-edge triggered, set and reset",
     "Description_JP": "2回路D型フリップフロップ（正論理エッジトリガ、セット・リセット付き）",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x75",
@@ -184,7 +184,7 @@
     "ItemsOfModelNumbers": [],
     "Description": "4-bit parallel adder",
     "Description_JP": "4ビットパラレル加算器",
-    "Rarity": "Maniac(SR)",
+    "Rarity": "ManiacRare(SSR)",
     "GottenStarted_JP": ["eBay(国際通販)"]
   },
   {
@@ -200,7 +200,7 @@
     "ItemsOfModelNumbers": [],
     "Description": "4-bit binary counter (separate divide-by-2 and divide-by-8 sections); different pinout for 74L93",
     "Description_JP": "4ビットバイナリカウンタ（2剰余と8剰余でセクションを区切る）；74L93はピン配置が異なる",
-    "Rarity": "Maniac(SR)",
+    "Rarity": "ManiacRare(SSR)",
     "GottenStarted_JP": ["eBay(国際通販)"]
   },
   {
@@ -241,7 +241,11 @@
     "Description": "Quad bus buffer, tri-state outputs",
     "Description_JP": "4回路バスバッファ（3状態出力）",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GottenStarted_JP": [
+      "秋月電子",
+      "共立エレショップ",
+      "74HCシリーズICキットなどから購入可能"
+    ]
   },
   {
     "PartNumber": "74x126",
@@ -257,7 +261,7 @@
     "Description": "Quad 2-input NAND gate with Schmitt-trigger inputs",
     "Description_JP": "4回路2入力NANDゲート（シュミットトリガ入力）",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x137",
@@ -273,7 +277,7 @@
     "Description": "3-to-8 line decoder/demultiplexer",
     "Description_JP": "3入力8出力デコーダ/デマルチプレクサ",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能", "秋月電子"]
+    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x139",
@@ -309,8 +313,9 @@
     "Description_JP": "8入力3出力プライオリティエンコーダ",
     "Rarity": "Normal",
     "GottenStarted_JP": [
-      "74HCシリーズICキットなどから購入可能",
-      "マルツ電商/DigiKey"
+      "秋月電子",
+      "マルツ電商/DigiKey",
+      "74HCシリーズICキットなどから購入可能"
     ]
   },
   {
@@ -367,7 +372,7 @@
     "Description": "4-bit binary counter, synchronous, with clear and load",
     "Description_JP": "4ビットバイナリカウンタ（同期式、クリア・ロード付き）",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GottenStarted_JP": ["秋月電子", "マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x163",
@@ -391,7 +396,7 @@
     "Description": "8-bit parallel-in/serial-out shift register",
     "Description_JP": "8ビットパラレル入力/シリアル出力シフトレジスタ",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x166",
@@ -406,7 +411,7 @@
     "ItemsOfModelNumbers": [],
     "Description": "16-bit register file (4x4)",
     "Description_JP": "16ビットレジスタファイル（4×4）",
-    "Rarity": "ManiacRare(SSR)",
+    "Rarity": "Maniac(SR+)",
     "GottenStarted_JP": ["eBay(国際通販)"]
   },
   {
@@ -438,15 +443,16 @@
     "ItemsOfModelNumbers": [],
     "Description": "4-bit arithmetic logic unit (ALU)",
     "Description_JP": "4ビット算術論理演算装置（ALU）",
-    "Rarity": "ManiacRare(SSR)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "Rarity": "VeryNerd(UR)",
+    "GottenStarted_JP": ["eBay(国際通販)"],
+    "Comments": ["日本での通関手続きで差し押さえられた実績あり"]
   },
   {
     "PartNumber": "74x189",
     "ItemsOfModelNumbers": [],
     "Description": "64-bit random access memory (RAM)",
     "Description_JP": "64ビットランダムアクセスメモリ（RAM）",
-    "Rarity": "Maniac(SR+)",
+    "Rarity": "ManiacRare(SSR)",
     "GottenStarted_JP": ["eBay(国際通販)"]
   },
   {
@@ -591,7 +597,7 @@
     "Description": "Octal D-type flip-flop with clear",
     "Description_JP": "8ビットD型フリップフロップ（クリア付き）",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x274",
@@ -672,8 +678,9 @@
     "Description_JP": "8ビットトランスペアレントラッチ（3状態出力）",
     "Rarity": "Commons",
     "GottenStarted_JP": [
-      "74HCシリーズICキットなどから購入可能",
-      "マルツ電商/DigiKey"
+      "秋月電子",
+      "マルツ電商/DigiKey",
+      "74HCシリーズICキットなどから購入可能"
     ]
   },
   {
@@ -697,8 +704,9 @@
     "ItemsOfModelNumbers": [],
     "Description": "4-bit arithmetic logic unit (ALU)",
     "Description_JP": "4ビット算術論理演算装置（ALU）",
-    "Rarity": "ManiacRare(SSR)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "Rarity": "VeryNerd(UR)",
+    "GottenStarted_JP": ["eBay(国際通販)"],
+    "Comments": ["日本での通関手続きで差し押さえられた実績あり"]
   },
   {
     "PartNumber": "74x390",
@@ -746,7 +754,7 @@
     "Description": "Octal buffer/line driver, non-inverting, 3-state outputs",
     "Description_JP": "8回路バッファ/ラインドライバ（非反転、3状態出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GottenStarted_JP": ["秋月電子", "マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x564",
@@ -786,7 +794,7 @@
     "Description": "8-bit serial-in/serial or parallel-out shift register with output latches",
     "Description_JP": "8ビット出力ラッチ付きシフトレジスタ\n8ビットシリアル入力/シリアルまたはパラレル出力シフトレジスタ（出力ラッチ付き）",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x597",
