@@ -16,30 +16,6 @@
     "GottenStarted_JP": ["Mouser"]
   },
   {
-    "PartNumber": "74x34",
-    "ItemsOfModelNumbers": [],
-    "Description": "Quad 2-input AND gate with open-collector outputs",
-    "Description_JP": "4回路2入力ANDゲート（オープンコレクタ出力）",
-    "Rarity": "Abolition(R+)",
-    "GottenStarted_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x37",
-    "ItemsOfModelNumbers": [],
-    "Description": "Quad 2-input NAND buffer/driver with open-collector outputs",
-    "Description_JP": "4回路2入力NANDバッファ/ドライバ（オープンコレクタ出力）",
-    "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x38",
-    "ItemsOfModelNumbers": [],
-    "Description": "Quad 2-input NAND buffer/driver with open-collector outputs",
-    "Description_JP": "4回路2入力NANDバッファ/ドライバ（オープンコレクタ出力）",
-    "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
-  },
-  {
     "PartNumber": "74x39",
     "ItemsOfModelNumbers": [],
     "Description": "Quad 2-input AND buffer/driver with open-collector outputs",
@@ -52,14 +28,6 @@
     "ItemsOfModelNumbers": [],
     "Description": "Hex inverter buffer/driver with open-collector outputs",
     "Description_JP": "6回路インバータバッファ/ドライバ（オープンコレクタ出力）",
-    "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x47",
-    "ItemsOfModelNumbers": [],
-    "Description": "BCD to 7-segment decoder/driver (open-collector outputs)",
-    "Description_JP": "BCD-7セグメントデコーダ/ドライバ（オープンコレクタ出力）",
     "Rarity": "Normal+",
     "GottenStarted_JP": ["Mouser"]
   },
@@ -101,30 +69,6 @@
     "GottenStarted_JP": ["Mouser"]
   },
   {
-    "PartNumber": "74x136",
-    "ItemsOfModelNumbers": [],
-    "Description": "Quad 2-input XOR gate with open-collector outputs",
-    "Description_JP": "4回路2入力XORゲート（オープンコレクタ出力）",
-    "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x145",
-    "ItemsOfModelNumbers": [],
-    "Description": "BCD to decimal decoder",
-    "Description_JP": "BCD-10進デコーダ",
-    "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x156",
-    "ItemsOfModelNumbers": [],
-    "Description": "BCD to decimal decoder with open-collector outputs",
-    "Description_JP": "BCD-10進デコーダ（オープンコレクタ出力）",
-    "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
-  },
-  {
     "PartNumber": "74x246",
     "ItemsOfModelNumbers": [],
     "Description": "Octal bus transceiver, inverting, 3-state outputs",
@@ -133,42 +77,10 @@
     "GottenStarted_JP": ["Mouser"]
   },
   {
-    "PartNumber": "74x247",
-    "ItemsOfModelNumbers": [],
-    "Description": "BCD to 7-segment decoder/driver (open-collector outputs)",
-    "Description_JP": "BCD-7セグメントデコーダ/ドライバ（オープンコレクタ出力）",
-    "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x251",
-    "ItemsOfModelNumbers": [],
-    "Description": "8-input multiplexer, 3-state outputs",
-    "Description_JP": "8入力マルチプレクサ（3状態出力）",
-    "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x299",
-    "ItemsOfModelNumbers": [],
-    "Description": "8-bit universal shift/storage register",
-    "Description_JP": "8ビットユニバーサルシフト/ストレージレジスタ",
-    "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
-  },
-  {
     "PartNumber": "74x375",
     "ItemsOfModelNumbers": [],
     "Description": "Quad D-type latch",
     "Description_JP": "4ビットD型ラッチ",
-    "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x399",
-    "ItemsOfModelNumbers": [],
-    "Description": "Dual 4-bit binary counter",
-    "Description_JP": "2回路4ビットバイナリカウンタ",
     "Rarity": "Normal+",
     "GottenStarted_JP": ["Mouser"]
   },
