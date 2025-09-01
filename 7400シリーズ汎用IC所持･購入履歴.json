@@ -32,6 +32,11 @@
     "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
   },
   {
+    "PartNumber": "74x06",
+    "ItemsOfModelNumbers": [],
+    "GottenStarted_JP": ["Mouser"]
+  },
+  {
     "PartNumber": "74x07",
     "ItemsOfModelNumbers": ["74HC07AP"],
     "Description": "Hex buffer/drivers with open-collector outputs",
@@ -77,7 +82,7 @@
     "Description": "Dual 4-input NAND gate",
     "Description_JP": "2回路4入力NANDゲート",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["共立エレショップ"]
+    "GottenStarted_JP": ["共立エレショップ", "Mouser"]
   },
   {
     "PartNumber": "74x21",
@@ -136,6 +141,20 @@
     "GottenStarted_JP": ["eBay(国際通販)"]
   },
   {
+    "PartNumber": "74x37",
+    "ItemsOfModelNumbers": [],
+    "Description": "Quad 2-input NAND buffer/driver with open-collector outputs",
+    "Description_JP": "4回路2入力NANDバッファ/ドライバ（オープンコレクタ出力）",
+    "GottenStarted_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x38",
+    "ItemsOfModelNumbers": [],
+    "Description": "Quad 2-input NAND buffer/driver with open-collector outputs",
+    "Description_JP": "4回路2入力NANDバッファ/ドライバ（オープンコレクタ出力）",
+    "GottenStarted_JP": ["Mouser"]
+  },
+  {
     "PartNumber": "74x42",
     "ItemsOfModelNumbers": ["TC74HC42AP"],
     "Description": "BCD to decimal decoder",
@@ -146,6 +165,13 @@
       "マルツ電商/DigiKey",
       "eBay(国際通販)"
     ]
+  },
+  {
+    "PartNumber": "74x47",
+    "ItemsOfModelNumbers": [],
+    "Description": "BCD to 7-segment decoder/driver (open-collector outputs)",
+    "Description_JP": "BCD-7セグメントデコーダ/ドライバ（オープンコレクタ出力）",
+    "GottenStarted_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x60",
@@ -196,6 +222,11 @@
     "GottenStarted_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"]
   },
   {
+    "PartNumber": "74x90",
+    "ItemsOfModelNumbers": [],
+    "GottenStarted_JP": ["Mouser"]
+  },
+  {
     "PartNumber": "74x93",
     "ItemsOfModelNumbers": [],
     "Description": "4-bit binary counter (separate divide-by-2 and divide-by-8 sections); different pinout for 74L93",
@@ -217,7 +248,7 @@
     "Description": "Dual JK flip-flop, positive-edge triggered, set and reset",
     "Description_JP": "2回路JKフリップフロップ（正論理エッジトリガ、セット・リセット付き）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["共立エレショップ"]
+    "GottenStarted_JP": ["共立エレショップ", "Mouser"]
   },
   {
     "PartNumber": "74x112",
@@ -264,6 +295,13 @@
     "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
+    "PartNumber": "74x136",
+    "ItemsOfModelNumbers": [],
+    "Description": "Quad 2-input XOR gate with open-collector outputs",
+    "Description_JP": "4回路2入力XORゲート（オープンコレクタ出力）",
+    "GottenStarted_JP": ["Mouser"]
+  },
+  {
     "PartNumber": "74x137",
     "ItemsOfModelNumbers": ["CD74HC137E"],
     "Description": "3-to-8 line decoder/demultiplexer with address latches",
@@ -285,7 +323,7 @@
     "Description": "Dual 2-to-4 line decoder/demultiplexer",
     "Description_JP": "2回路2入力4出力デコーダ/デマルチプレクサ",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GottenStarted_JP": ["Mouser", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x141",
@@ -297,6 +335,13 @@
       "eBay(国際通販)",
       "Amazonの中華販売店より組み立て式ニキシー管時計キットに同梱"
     ]
+  },
+  {
+    "PartNumber": "74x145",
+    "ItemsOfModelNumbers": [],
+    "Description": "BCD to decimal decoder",
+    "Description_JP": "BCD-10進デコーダ",
+    "GottenStarted_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x147",
@@ -348,7 +393,14 @@
     "Description": "dual 2-to-4 line decoder/demultiplexer, inverting outputs",
     "Description_JP": "2回路2入力4出力デコーダ/デマルチプレクサ（反転出力）",
     "Rarity": "Abolition(R+)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "GottenStarted_JP": ["Mouser", "eBay(国際通販)"]
+  },
+  {
+    "PartNumber": "74x156",
+    "ItemsOfModelNumbers": [],
+    "Description": "BCD to decimal decoder with open-collector outputs",
+    "Description_JP": "BCD-10進デコーダ（オープンコレクタ出力）",
+    "GottenStarted_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x157",
@@ -388,7 +440,7 @@
     "Description": "8-bit serial-in/parallel-out shift register",
     "Description_JP": "8ビットシリアル入力/パラレル出力シフトレジスタ",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GottenStarted_JP": ["Mouser", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x165",
@@ -420,7 +472,7 @@
     "Description": "4-bit D-type register with 3-state outputs",
     "Description_JP": "4ビットD型レジスタ（3状態出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GottenStarted_JP": ["マルツ電商/DigiKey", "Mouser"]
   },
   {
     "PartNumber": "74x174",
@@ -440,7 +492,7 @@
   },
   {
     "PartNumber": "74x181",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["SN74S181NC"],
     "Description": "4-bit arithmetic logic unit (ALU)",
     "Description_JP": "4ビット算術論理演算装置（ALU）",
     "Rarity": "VeryNerd(UR)",
@@ -449,7 +501,7 @@
   },
   {
     "PartNumber": "74x189",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["SN74LS189AN"],
     "Description": "64-bit random access memory (RAM)",
     "Description_JP": "64ビットランダムアクセスメモリ（RAM）",
     "Rarity": "ManiacRare(SSR)",
@@ -568,6 +620,20 @@
     "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
   },
   {
+    "PartNumber": "74x247",
+    "ItemsOfModelNumbers": [],
+    "Description": "BCD to 7-segment decoder/driver (open-collector outputs)",
+    "Description_JP": "BCD-7セグメントデコーダ/ドライバ（オープンコレクタ出力）",
+    "GottenStarted_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x251",
+    "ItemsOfModelNumbers": [],
+    "Description": "8-input multiplexer, 3-state outputs",
+    "Description_JP": "8入力マルチプレクサ（3状態出力）",
+    "GottenStarted_JP": ["Mouser"]
+  },
+  {
     "PartNumber": "74x253",
     "ItemsOfModelNumbers": ["CD74HC253E"],
     "Description": "Dual 4-to-1 multiplexer with 3-state outputs",
@@ -608,6 +674,11 @@
     "GottenStarted_JP": ["eBay(国際通販)"]
   },
   {
+    "PartNumber": "74x279",
+    "ItemsOfModelNumbers": [],
+    "GottenStarted_JP": ["Mouser"]
+  },
+  {
     "PartNumber": "74x280",
     "ItemsOfModelNumbers": ["SN74S280N"],
     "Description": "9-bit parity generator/checker",
@@ -622,6 +693,23 @@
     "Description_JP": "4ビットバイナリ全加算器",
     "Rarity": "Normal",
     "GottenStarted_JP": ["マルツ電商/DigiKey"]
+  },
+  {
+    "PartNumber": "74x293",
+    "ItemsOfModelNumbers": [],
+    "GottenStarted_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x298",
+    "ItemsOfModelNumbers": [],
+    "GottenStarted_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x299",
+    "ItemsOfModelNumbers": [],
+    "Description": "8-bit universal shift/storage register",
+    "Description_JP": "8ビットユニバーサルシフト/ストレージレジスタ",
+    "GottenStarted_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x354",
@@ -701,7 +789,7 @@
   },
   {
     "PartNumber": "74x381",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["SN74LS381AN"],
     "Description": "4-bit arithmetic logic unit (ALU)",
     "Description_JP": "4ビット算術論理演算装置（ALU）",
     "Rarity": "VeryNerd(UR)",
@@ -723,6 +811,13 @@
     "Description_JP": "2回路4ビットバイナリカウンタ",
     "Rarity": "Normal",
     "GottenStarted_JP": ["マルツ電商/DigiKey"]
+  },
+  {
+    "PartNumber": "74x399",
+    "ItemsOfModelNumbers": [],
+    "Description": "Dual 4-bit binary counter",
+    "Description_JP": "2回路4ビットバイナリカウンタ",
+    "GottenStarted_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x423",
