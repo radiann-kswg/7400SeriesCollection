@@ -32,20 +32,6 @@
     "GottenStarted_JP": ["Mouser"]
   },
   {
-    "PartNumber": "74x50",
-    "ItemsOfModelNumbers": [],
-    "Description": "Dual 2-2-input AND-OR-Invert gate, one gate expandable",
-    "Description_JP": "2回路2入力AND-OR-インバートゲート（1つのゲートは拡張可能）",
-    "Rarity": "Maniac(SR+)"
-  },
-  {
-    "PartNumber": "74x53",
-    "ItemsOfModelNumbers": [],
-    "Description": "2-2-2-2-input AND-OR-Invert gate, expandable",
-    "Description_JP": "2回路2入力AND-OR-インバートゲート（拡張可能）",
-    "Rarity": "Maniac(SR+)"
-  },
-  {
     "PartNumber": "74x54",
     "ItemsOfModelNumbers": [],
     "Description": "Octal D-type flip-flop",

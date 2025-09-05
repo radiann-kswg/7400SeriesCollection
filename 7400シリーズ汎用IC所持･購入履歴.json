@@ -180,6 +180,22 @@
     "GottenStarted_JP": ["Mouser"]
   },
   {
+    "PartNumber": "74x50",
+    "ItemsOfModelNumbers": ["K1LR551/К1ЛР551"],
+    "Description": "Dual 2-2-input AND-OR-Invert gate, one gate expandable",
+    "Description_JP": "2回路2入力AND-OR-インバートゲート（1つのゲートは拡張可能）",
+    "Rarity": "Maniac(SR+)",
+    "GottenStarted_JP": ["eBay(国際通販)"]
+  },
+  {
+    "PartNumber": "74x53",
+    "ItemsOfModelNumbers": ["K131LR3/К1311ЛР3"],
+    "Description": "2-2-2-2-input AND-OR-Invert gate, expandable",
+    "Description_JP": "2回路2入力AND-OR-インバートゲート（拡張可能）",
+    "Rarity": "Maniac(SSR)",
+    "GottenStarted_JP": ["eBay(国際通販)"]
+  },
+  {
     "PartNumber": "74x60",
     "ItemsOfModelNumbers": [],
     "Description": "dual 4-input expander for 74x23, 74x50, 74x53, 74x55",
@@ -376,7 +392,7 @@
   },
   {
     "PartNumber": "74x151",
-    "ItemsOfModelNumbers": ["TC74HC151AP"],
+    "ItemsOfModelNumbers": ["SN74HC151N", "TC74HC151AP"],
     "Description": "8-input multiplexer",
     "Description_JP": "8入力マルチプレクサ",
     "Rarity": "Normal",
@@ -509,7 +525,15 @@
     "Description_JP": "4ビット算術論理演算装置（ALU）",
     "Rarity": "ManiacRare(SSR)",
     "GottenStarted_JP": ["eBay(国際通販)"],
-    "Comments": ["日本での通関手続きで差し押さえられた実績あり"]
+    "Comments": ["日本での通関手続きで差し押さえられた実績あり(74x381と同梱時)"]
+  },
+  {
+    "PartNumber": "74x182",
+    "ItemsOfModelNumbers": [],
+    "Description": "Lookahead carry generator",
+    "Description_JP": "ルック・アヘッド・キャリー・ジェネレータ",
+    "Rarity": "ManiacRare(SSR)",
+    "GottenStarted_JP": ["eBay(国際通販)"]
   },
   {
     "PartNumber": "74x189",
@@ -573,7 +597,7 @@
     "Description": "3-to-8 line decoder/demultiplexer with address latches",
     "Description_JP": "3入力8出力デコーダ/デマルチプレクサ（アドレスラッチ付き）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["共立エレショップ"]
+    "GottenStarted_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x238",
@@ -745,11 +769,11 @@
   },
   {
     "PartNumber": "74x356",
-    "ItemsOfModelNumbers": ["TC74HC356P"],
+    "ItemsOfModelNumbers": ["TC74HC356P", "CD74HCT356E"],
     "Description": "8-to-1 data selector/multiplexer, edge-triggered registers",
     "Description_JP": "8入力1出力マルチプレクサ（エッジトリガ型レジスタ）",
     "Rarity": "SuperRare",
-    "GottenStarted_JP": ["共立エレショップ"]
+    "GottenStarted_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x365",
@@ -819,6 +843,14 @@
     "Rarity": "VeryNerd(UR)",
     "GottenStarted_JP": ["eBay(国際通販)"],
     "Comments": ["日本での通関手続きで差し押さえられた実績あり"]
+  },
+  {
+    "PartNumber": "74x382",
+    "ItemsOfModelNumbers": [],
+    "Description": "4-bit arithmetic logic unit(ALU), ripple carry and overflow outputs",
+    "Description_JP": "4ビット算術論理演算装置（ALU、リップルキャリー・オーバーフロー出力付き）",
+    "Rarity": "VeryNerd(UR)",
+    "GottenStarted_JP": ["eBay(国際通販)"]
   },
   {
     "PartNumber": "74x390",
