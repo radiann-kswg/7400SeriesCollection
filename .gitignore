@@ -1,5 +1,7 @@
 .[pP]rivate/
 .[tT]emp/
 .[dD]ocuments/
+DL_Datasheet/
 
 *_temp.json
+.DS_Store
