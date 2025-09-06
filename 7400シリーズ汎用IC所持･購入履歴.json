@@ -1,23 +1,23 @@
 [
   {
     "PartNumber": "74x00",
-    "ItemsOfModelNumbers": ["74HC00N", "74HC00AP", "SN74HC00N", "U74HC00L"],
+    "GottenItems_MN": ["74HC00N", "74HC00AP", "SN74HC00N", "U74HC00L"],
     "Description": "Quad 2-input NAND gate",
     "Description_JP": "4回路2入力NANDゲート",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x02",
-    "ItemsOfModelNumbers": ["74HC02N", "SN74HC02N"],
+    "GottenItems_MN": ["74HC02N", "SN74HC02N"],
     "Description": "Quad 2-input NOR gate",
     "Description_JP": "4回路2入力NORゲート",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x04",
-    "ItemsOfModelNumbers": [
+    "GottenItems_MN": [
       "74HC04AP",
       "74HCU04AP",
       "SN74HC04N",
@@ -26,151 +26,151 @@
     "Description": "Hex inverter",
     "Description_JP": "6回路NOTゲート\n6回路インバータ",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x05",
-    "ItemsOfModelNumbers": ["SN74HC05N"],
+    "GottenItems_MN": ["SN74HC05N"],
     "Description": "Hex inverter with open-collector outputs",
     "Description_JP": "6回路NOTゲート（オープンコレクタ出力）\n6回路インバータ（オープンコレクタ出力）",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x06",
-    "ItemsOfModelNumbers": ["SN74LS06N"],
+    "GottenItems_MN": ["SN74LS06N"],
     "Description": "Hex inverter buffer/driver with open-collector outputs",
     "Description_JP": "6回路インバータバッファ/ドライバ（オープンコレクタ出力）",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x07",
-    "ItemsOfModelNumbers": ["74HC07AP"],
+    "GottenItems_MN": ["74HC07AP"],
     "Description": "Hex buffer/drivers with open-collector outputs",
     "Description_JP": "6回路バッファ/ドライバ（オープンコレクタ出力）",
     "Rarity": "Abolition(R+)",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x08",
-    "ItemsOfModelNumbers": ["74HC08AP", "SN74HC08N"],
+    "GottenItems_MN": ["74HC08AP", "SN74HC08N"],
     "Description": "Quad 2-input AND gate",
     "Description_JP": "4回路2入力ANDゲート",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x10",
-    "ItemsOfModelNumbers": ["SN74HC10N"],
+    "GottenItems_MN": ["SN74HC10N"],
     "Description": "Triple 3-input NAND gate",
     "Description_JP": "3回路3入力NANDゲート",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x11",
-    "ItemsOfModelNumbers": ["SN74HC11N"],
+    "GottenItems_MN": ["SN74HC11N"],
     "Description": "Triple 3-input AND gate",
     "Description_JP": "3回路3入力ANDゲート",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x14",
-    "ItemsOfModelNumbers": ["74HC14AP", "SN74HC14N"],
+    "GottenItems_MN": ["74HC14AP", "SN74HC14N"],
     "Description": "Hex Schmitt-trigger inverter",
     "Description_JP": "6回路シュミットトリガインバータ",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x20",
-    "ItemsOfModelNumbers": ["74HC20AP", "SN74LS20N"],
+    "GottenItems_MN": ["74HC20AP", "SN74LS20N"],
     "Description": "Dual 4-input NAND gate",
     "Description_JP": "2回路4入力NANDゲート",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["共立エレショップ", "Mouser"]
+    "GetStartingECS_JP": ["共立エレショップ", "Mouser"]
   },
   {
     "PartNumber": "74x21",
-    "ItemsOfModelNumbers": ["74HC21AP", "SN74HC21N"],
+    "GottenItems_MN": ["74HC21AP", "SN74HC21N"],
     "Description": "Dual 4-input AND gate",
     "Description_JP": "2回路4入力ANDゲート",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x23",
-    "ItemsOfModelNumbers": [],
+    "GottenItems_MN": [],
     "Description": "dual 4-input NOR gate with strobe, one gate expandable with 74x60",
     "Description_JP": "2回路4入力ストローブ付きNORゲート（1ゲートは74x60で拡張可能）",
     "Rarity": "Maniac(SR+)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
     "PartNumber": "74x27",
-    "ItemsOfModelNumbers": ["SN7427N", "SN74HC27N"],
+    "GottenItems_MN": ["SN7427N", "SN74HC27N"],
     "Description": "Triple 3-input NOR gate",
     "Description_JP": "3回路3入力NORゲート",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["共立エレショップ", "eBay(国際通販)"]
+    "GetStartingECS_JP": ["共立エレショップ", "eBay(国際通販)"]
   },
   {
     "PartNumber": "74x30",
-    "ItemsOfModelNumbers": ["SN74HC30N"],
+    "GottenItems_MN": ["SN74HC30N"],
     "Description": "8-input NAND gate",
     "Description_JP": "8入力NANDゲート",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x32",
-    "ItemsOfModelNumbers": ["74HC32AP", "SN74HC32N"],
+    "GottenItems_MN": ["74HC32AP", "SN74HC32N"],
     "Description": "Quad 2-input OR gate",
     "Description_JP": "4回路2入力ORゲート",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x34",
-    "ItemsOfModelNumbers": [],
+    "GottenItems_MN": [],
     "Description": "hex buffer gate",
     "Description_JP": "6回路バッファゲート",
     "Rarity": "Abolition(R+)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
     "PartNumber": "74x36",
-    "ItemsOfModelNumbers": [],
+    "GottenItems_MN": [],
     "Description": "quad 2-input NOR gate (different pinout than 7402)",
     "Description_JP": "4回路2入力NORゲート(7402と異なるピン配置)",
     "Rarity": "Abolition(R+)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
     "PartNumber": "74x37",
-    "ItemsOfModelNumbers": ["SN74LS37N"],
+    "GottenItems_MN": ["SN74LS37N"],
     "Description": "Quad 2-input NAND buffer/driver with open-collector outputs",
     "Description_JP": "4回路2入力NANDバッファ/ドライバ（オープンコレクタ出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x38",
-    "ItemsOfModelNumbers": ["SN74LS38N"],
+    "GottenItems_MN": ["SN74LS38N"],
     "Description": "Quad 2-input NAND buffer/driver with open-collector outputs",
     "Description_JP": "4回路2入力NANDバッファ/ドライバ（オープンコレクタ出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x42",
-    "ItemsOfModelNumbers": ["TC74HC42AP"],
+    "GottenItems_MN": ["TC74HC42AP"],
     "Description": "BCD to decimal decoder",
     "Description_JP": "BCD-10進デコーダ",
     "Rarity": "Rare",
-    "GottenStarted_JP": [
+    "GetStartingECS_JP": [
       "共立エレショップ",
       "マルツ電商/DigiKey",
       "eBay(国際通販)"
@@ -178,131 +178,131 @@
   },
   {
     "PartNumber": "74x47",
-    "ItemsOfModelNumbers": ["SN74LS47N"],
+    "GottenItems_MN": ["SN74LS47N"],
     "Description": "BCD to 7-segment decoder/driver (open-collector outputs)",
     "Description_JP": "BCD-7セグメントデコーダ/ドライバ（オープンコレクタ出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x50",
-    "ItemsOfModelNumbers": ["K1LR551/К1ЛР551"],
+    "GottenItems_MN": ["K1LR551/К1ЛР551"],
     "Description": "Dual 2-2-input AND-OR-Invert gate, one gate expandable",
     "Description_JP": "2回路2入力AND-OR-インバートゲート（1つのゲートは拡張可能）",
     "Rarity": "Maniac(SR+)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
     "PartNumber": "74x53",
-    "ItemsOfModelNumbers": ["K131LR3/К1311ЛР3"],
+    "GottenItems_MN": ["K131LR3/К1311ЛР3"],
     "Description": "2-2-2-2-input AND-OR-Invert gate, expandable",
     "Description_JP": "2回路2入力AND-OR-インバートゲート（拡張可能）",
     "Rarity": "Maniac(SSR)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
     "PartNumber": "74x60",
-    "ItemsOfModelNumbers": [],
+    "GottenItems_MN": [],
     "Description": "dual 4-input expander for 74x23, 74x50, 74x53, 74x55",
     "Description_JP": "2回路4入力拡張器（74x23、74x50、74x53、74x55用）",
     "Rarity": "ManiacRare(SSR)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
     "PartNumber": "74x73",
-    "ItemsOfModelNumbers": ["CD74HC73E"],
+    "GottenItems_MN": ["CD74HC73E"],
     "Description": "Dual JK flip-flop, negative-edge triggered, clear",
     "Description_JP": "2回路JKフリップフロップ（負論理エッジトリガ、クリア付き）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x74",
-    "ItemsOfModelNumbers": ["74HC74AP", "SN74HC74N"],
+    "GottenItems_MN": ["74HC74AP", "SN74HC74N"],
     "Description": "Dual D flip-flop, positive-edge triggered, set and reset",
     "Description_JP": "2回路D型フリップフロップ（正論理エッジトリガ、セット・リセット付き）",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x75",
-    "ItemsOfModelNumbers": ["CD74HC75E"],
+    "GottenItems_MN": ["CD74HC75E"],
     "Description": "4-bit bistable latch",
     "Description_JP": "4ビットバイスタブルラッチ",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x82",
-    "ItemsOfModelNumbers": [],
+    "GottenItems_MN": [],
     "Description": "4-bit parallel adder",
     "Description_JP": "4ビットパラレル加算器",
     "Rarity": "ManiacRare(SSR)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
     "PartNumber": "74x86",
-    "ItemsOfModelNumbers": ["SN74HC86N"],
+    "GottenItems_MN": ["SN74HC86N"],
     "Description": "Quad 2-input XOR gate",
     "Description_JP": "4回路2入力XORゲート",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"]
   },
   {
     "PartNumber": "74x90",
-    "ItemsOfModelNumbers": ["SN74LS90N"],
+    "GottenItems_MN": ["SN74LS90N"],
     "Description": "Decade counter (4-bit, divide-by-10 and divide-by-2 sections)",
     "Description_JP": "10進カウンタ（4ビット、10分周・2分周セクション）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x93",
-    "ItemsOfModelNumbers": [],
+    "GottenItems_MN": [],
     "Description": "4-bit binary counter (separate divide-by-2 and divide-by-8 sections); different pinout for 74L93",
     "Description_JP": "4ビットバイナリカウンタ（2剰余と8剰余でセクションを区切る）；74L93はピン配置が異なる",
     "Rarity": "ManiacRare(SSR)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
     "PartNumber": "74x107",
-    "ItemsOfModelNumbers": ["CD74HC107E"],
+    "GottenItems_MN": ["CD74HC107E"],
     "Description": "Dual JK flip-flop, negative-edge triggered, set and reset",
     "Description_JP": "2回路JKフリップフロップ（負論理エッジトリガ、セット・リセット付き）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x109",
-    "ItemsOfModelNumbers": ["SN74HC109N", "SN74LS109AN"],
+    "GottenItems_MN": ["SN74HC109N", "SN74LS109AN"],
     "Description": "Dual JK flip-flop, positive-edge triggered, set and reset",
     "Description_JP": "2回路JKフリップフロップ（正論理エッジトリガ、セット・リセット付き）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["共立エレショップ", "Mouser"]
+    "GetStartingECS_JP": ["共立エレショップ", "Mouser"]
   },
   {
     "PartNumber": "74x112",
-    "ItemsOfModelNumbers": ["SN74HC112N"],
+    "GottenItems_MN": ["SN74HC112N"],
     "Description": "Dual JK flip-flop, negative-edge triggered, preset and clear",
     "Description_JP": "2回路JKフリップフロップ（負論理エッジトリガ、プリセット・クリア付き）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["共立エレショップ", "eBay(国際通販)"]
+    "GetStartingECS_JP": ["共立エレショップ", "eBay(国際通販)"]
   },
   {
     "PartNumber": "74x123",
-    "ItemsOfModelNumbers": ["74HC123AP"],
+    "GottenItems_MN": ["74HC123AP"],
     "Description": "Dual retriggerable monostable multivibrator",
     "Description_JP": "2回路リトリガ可能単安定マルチバイブレータ",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["秋月電子", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["秋月電子", "マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x125",
-    "ItemsOfModelNumbers": ["74HC125P", "SN74HC125N"],
+    "GottenItems_MN": ["74HC125P", "SN74HC125N"],
     "Description": "Quad bus buffer, tri-state outputs",
     "Description_JP": "4回路バスバッファ（3状態出力）",
     "Rarity": "Commons",
-    "GottenStarted_JP": [
+    "GetStartingECS_JP": [
       "秋月電子",
       "共立エレショップ",
       "74HCシリーズICキットなどから購入可能"
@@ -310,86 +310,86 @@
   },
   {
     "PartNumber": "74x126",
-    "ItemsOfModelNumbers": ["SN74HC126N"],
+    "GottenItems_MN": ["SN74HC126N"],
     "Description": "Quad bus buffer, tri-state outputs",
     "Description_JP": "4回路バスバッファ（3状態出力）",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x132",
-    "ItemsOfModelNumbers": ["SN74HC132N"],
+    "GottenItems_MN": ["SN74HC132N"],
     "Description": "Quad 2-input NAND gate with Schmitt-trigger inputs",
     "Description_JP": "4回路2入力NANDゲート（シュミットトリガ入力）",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x136",
-    "ItemsOfModelNumbers": ["SN74LS136N"],
+    "GottenItems_MN": ["SN74LS136N"],
     "Description": "Quad 2-input XOR gate with open-collector outputs",
     "Description_JP": "4回路2入力XORゲート（オープンコレクタ出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x137",
-    "ItemsOfModelNumbers": ["CD74HC137E"],
+    "GottenItems_MN": ["CD74HC137E"],
     "Description": "3-to-8 line decoder/demultiplexer with address latches",
     "Description_JP": "3入力8出力デコーダ/デマルチプレクサ（アドレスラッチ付き）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["共立エレショップ"]
+    "GetStartingECS_JP": ["共立エレショップ"]
   },
   {
     "PartNumber": "74x138",
-    "ItemsOfModelNumbers": ["74HC138AP", "SN74HC138N"],
+    "GottenItems_MN": ["74HC138AP", "SN74HC138N"],
     "Description": "3-to-8 line decoder/demultiplexer",
     "Description_JP": "3入力8出力デコーダ/デマルチプレクサ",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x139",
-    "ItemsOfModelNumbers": ["SN74HC139N", "SN74LS139AN"],
+    "GottenItems_MN": ["SN74HC139N", "SN74LS139AN"],
     "Description": "Dual 2-to-4 line decoder/demultiplexer",
     "Description_JP": "2回路2入力4出力デコーダ/デマルチプレクサ",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["Mouser", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["Mouser", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x141",
-    "ItemsOfModelNumbers": ["K155ID1/К155ИД1"],
+    "GottenItems_MN": ["K155ID1/К155ИД1"],
     "Description": "BCD to decimal decoder/driver for cold-cathode indicator or Nixie tube",
     "Description_JP": "BCD-10進デコーダ/ドライバー（冷陰極表示器/ニキシー管用）",
     "Rarity": "Maniac(SR+)",
-    "GottenStarted_JP": [
+    "GetStartingECS_JP": [
       "eBay(国際通販)",
       "Amazonの中華販売店より組み立て式ニキシー管時計キットに同梱"
     ]
   },
   {
     "PartNumber": "74x145",
-    "ItemsOfModelNumbers": ["SN74LS145N"],
+    "GottenItems_MN": ["SN74LS145N"],
     "Description": "BCD to decimal decoder",
     "Description_JP": "BCD-10進デコーダ",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x147",
-    "ItemsOfModelNumbers": ["CD74HC147E"],
+    "GottenItems_MN": ["CD74HC147E"],
     "Description": "10-to-4 line priority encoder",
     "Description_JP": "10入力4出力プライオリティエンコーダ",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["共立エレショップ"]
+    "GetStartingECS_JP": ["共立エレショップ"]
   },
   {
     "PartNumber": "74x148",
-    "ItemsOfModelNumbers": ["SN74HC148N"],
+    "GottenItems_MN": ["SN74HC148N"],
     "Description": "8-to-3 line priority encoder",
     "Description_JP": "8入力3出力プライオリティエンコーダ",
     "Rarity": "Normal",
-    "GottenStarted_JP": [
+    "GetStartingECS_JP": [
       "秋月電子",
       "マルツ電商/DigiKey",
       "74HCシリーズICキットなどから購入可能"
@@ -397,428 +397,428 @@
   },
   {
     "PartNumber": "74x151",
-    "ItemsOfModelNumbers": ["SN74HC151N", "TC74HC151AP"],
+    "GottenItems_MN": ["SN74HC151N", "TC74HC151AP"],
     "Description": "8-input multiplexer",
     "Description_JP": "8入力マルチプレクサ",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x153",
-    "ItemsOfModelNumbers": ["74HC153AP"],
+    "GottenItems_MN": ["74HC153AP"],
     "Description": "Dual 4-input multiplexer",
     "Description_JP": "2回路4入力マルチプレクサ",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x154",
-    "ItemsOfModelNumbers": ["CD74HC154EN"],
+    "GottenItems_MN": ["CD74HC154EN"],
     "Description": "4-to-16 line decoder/demultiplexer",
     "Description_JP": "4入力16出力デコーダ/デマルチプレクサ",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["Amazonで単品購入"]
+    "GetStartingECS_JP": ["Amazonで単品購入"]
   },
   {
     "PartNumber": "74x155",
-    "ItemsOfModelNumbers": ["SN74LS155AN"],
+    "GottenItems_MN": ["SN74LS155AN"],
     "Description": "dual 2-to-4 line decoder/demultiplexer, inverting outputs",
     "Description_JP": "2回路2入力4出力デコーダ/デマルチプレクサ（反転出力）",
     "Rarity": "Abolition(R+)",
-    "GottenStarted_JP": ["Mouser", "eBay(国際通販)"]
+    "GetStartingECS_JP": ["Mouser", "eBay(国際通販)"]
   },
   {
     "PartNumber": "74x156",
-    "ItemsOfModelNumbers": ["SN74LS156N"],
+    "GottenItems_MN": ["SN74LS156N"],
     "Description": "BCD to decimal decoder with open-collector outputs",
     "Description_JP": "BCD-10進デコーダ（オープンコレクタ出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x157",
-    "ItemsOfModelNumbers": ["SN74HC157N"],
+    "GottenItems_MN": ["SN74HC157N"],
     "Description": "Quad 2-to-1 multiplexer",
     "Description_JP": "4回路2入力マルチプレクサ",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x158",
-    "ItemsOfModelNumbers": ["SN74HC158N"],
+    "GottenItems_MN": ["SN74HC158N"],
     "Description": "Quad 2-to-1 multiplexer, inverting outputs",
     "Description_JP": "4回路2入力マルチプレクサ（反転出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x161",
-    "ItemsOfModelNumbers": ["SN74HC161N"],
+    "GottenItems_MN": ["SN74HC161N"],
     "Description": "4-bit binary counter, synchronous, with clear and load",
     "Description_JP": "4ビットバイナリカウンタ（同期式、クリア・ロード付き）",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["秋月電子", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["秋月電子", "マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x163",
-    "ItemsOfModelNumbers": ["SN74HC163N"],
+    "GottenItems_MN": ["SN74HC163N"],
     "Description": "4-bit binary counter, synchronous, with clear and load",
     "Description_JP": "4ビットバイナリカウンタ（同期式、クリア・ロード付き）",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x164",
-    "ItemsOfModelNumbers": ["SN74HC164N", "SN74LS164N"],
+    "GottenItems_MN": ["SN74HC164N", "SN74LS164N"],
     "Description": "8-bit serial-in/parallel-out shift register",
     "Description_JP": "8ビットシリアル入力/パラレル出力シフトレジスタ",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["Mouser", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["Mouser", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x165",
-    "ItemsOfModelNumbers": ["74HC165AP", "SN74HC165N"],
+    "GottenItems_MN": ["74HC165AP", "SN74HC165N"],
     "Description": "8-bit parallel-in/serial-out shift register",
     "Description_JP": "8ビットパラレル入力/シリアル出力シフトレジスタ",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x166",
-    "ItemsOfModelNumbers": ["CD74HC166E"],
+    "GottenItems_MN": ["CD74HC166E"],
     "Description": "8-bit parallel-in/serial-out shift register",
     "Description_JP": "8ビットパラレル入力/シリアル出力シフトレジスタ",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x170",
-    "ItemsOfModelNumbers": [],
+    "GottenItems_MN": [],
     "Description": "16-bit register file (4x4)",
     "Description_JP": "16ビットレジスタファイル（4×4）",
     "Rarity": "Maniac(SR+)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
     "PartNumber": "74x173",
-    "ItemsOfModelNumbers": ["SN74LS173AN", "TC74HC173AF"],
+    "GottenItems_MN": ["SN74LS173AN", "TC74HC173AF"],
     "Description": "4-bit D-type register with 3-state outputs",
     "Description_JP": "4ビットD型レジスタ（3状態出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["マルツ電商/DigiKey", "Mouser"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey", "Mouser"]
   },
   {
     "PartNumber": "74x174",
-    "ItemsOfModelNumbers": ["SN74HC174N"],
+    "GottenItems_MN": ["SN74HC174N"],
     "Description": "Hex D-type flip-flop",
     "Description_JP": "6回路D型フリップフロップ",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x175",
-    "ItemsOfModelNumbers": ["74HC175AP"],
+    "GottenItems_MN": ["74HC175AP"],
     "Description": "Quad D-type flip-flop",
     "Description_JP": "4回路D型フリップフロップ",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x181",
-    "ItemsOfModelNumbers": ["SN74S181NC"],
+    "GottenItems_MN": ["SN74S181NC"],
     "Description": "4-bit arithmetic logic unit (ALU)",
     "Description_JP": "4ビット算術論理演算装置（ALU）",
     "Rarity": "ManiacRare(SSR)",
-    "GottenStarted_JP": ["eBay(国際通販)"],
+    "GetStartingECS_JP": ["eBay(国際通販)"],
     "Comments": ["日本での通関手続きで差し押さえられた実績あり(74x381と同梱時)"]
   },
   {
     "PartNumber": "74x182",
-    "ItemsOfModelNumbers": [],
+    "GottenItems_MN": [],
     "Description": "Lookahead carry generator",
     "Description_JP": "ルック・アヘッド・キャリー・ジェネレータ",
     "Rarity": "ManiacRare(SSR)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
     "PartNumber": "74x189",
-    "ItemsOfModelNumbers": ["SN74LS189AN"],
+    "GottenItems_MN": ["SN74LS189AN"],
     "Description": "64-bit random access memory (RAM)",
     "Description_JP": "64ビットランダムアクセスメモリ（RAM）",
     "Rarity": "ManiacRare(SSR)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
     "PartNumber": "74x190",
-    "ItemsOfModelNumbers": ["CD74HC190E"],
+    "GottenItems_MN": ["CD74HC190E"],
     "Description": "Synchronous up/down decade counter",
     "Description_JP": "同期式アップ/ダウン10進カウンタ",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["共立エレショップ"]
+    "GetStartingECS_JP": ["共立エレショップ"]
   },
   {
     "PartNumber": "74x191",
-    "ItemsOfModelNumbers": ["SN74HC191N"],
+    "GottenItems_MN": ["SN74HC191N"],
     "Description": "Synchronous up/down binary counter",
     "Description_JP": "同期式アップ/ダウンバイナリカウンタ",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x192",
-    "ItemsOfModelNumbers": ["CD74HC192E"],
+    "GottenItems_MN": ["CD74HC192E"],
     "Description": "Synchronous up/down decade counter",
     "Description_JP": "同期式アップ/ダウン10進カウンタ",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x193",
-    "ItemsOfModelNumbers": ["SN74HC193N"],
+    "GottenItems_MN": ["SN74HC193N"],
     "Description": "Synchronous up/down binary counter",
     "Description_JP": "同期式アップ/ダウンバイナリカウンタ",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x194",
-    "ItemsOfModelNumbers": ["CD74HC194E"],
+    "GottenItems_MN": ["CD74HC194E"],
     "Description": "4-bit bidirectional universal shift register",
     "Description_JP": "4ビット双方向ユニバーサルシフトレジスタ",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["共立エレショップ"]
+    "GetStartingECS_JP": ["共立エレショップ"]
   },
   {
     "PartNumber": "74x221",
-    "ItemsOfModelNumbers": ["CD74HC221E"],
+    "GottenItems_MN": ["CD74HC221E"],
     "Description": "Dual monostable multivibrator",
     "Description_JP": "2回路単安定マルチバイブレータ",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x237",
-    "ItemsOfModelNumbers": ["CD74HC237E"],
+    "GottenItems_MN": ["CD74HC237E"],
     "Description": "3-to-8 line decoder/demultiplexer with address latches",
     "Description_JP": "3入力8出力デコーダ/デマルチプレクサ（アドレスラッチ付き）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x238",
-    "ItemsOfModelNumbers": ["CD74HC238E"],
+    "GottenItems_MN": ["CD74HC238E"],
     "Description": "3-to-8 line decoder/demultiplexer",
     "Description_JP": "3入力8出力デコーダ/デマルチプレクサ",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x240",
-    "ItemsOfModelNumbers": ["74HC240AP"],
+    "GottenItems_MN": ["74HC240AP"],
     "Description": "Octal buffer/line driver, inverting, 3-state outputs",
     "Description_JP": "8回路バッファ/ラインドライバ（反転、3状態出力）",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x241",
-    "ItemsOfModelNumbers": ["SN74HC241N"],
+    "GottenItems_MN": ["SN74HC241N"],
     "Description": "Octal buffer/line driver, non-inverting, 3-state outputs",
     "Description_JP": "8回路バッファ/ラインドライバ（非反転、3状態出力）",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x242",
-    "ItemsOfModelNumbers": ["TC74HC242P"],
+    "GottenItems_MN": ["TC74HC242P"],
     "Description": "Quad bus transceiver, inverting outputs",
     "Description_JP": "4回路バストランシーバ（反転出力）",
     "Rarity": "SuperRare",
-    "GottenStarted_JP": ["共立エレショップ"]
+    "GetStartingECS_JP": ["共立エレショップ"]
   },
   {
     "PartNumber": "74x243",
-    "ItemsOfModelNumbers": ["74HC243AP"],
+    "GottenItems_MN": ["74HC243AP"],
     "Description": "quad bus transceiver, non-inverting outputs",
     "Description_JP": "4回路バストランシーバ（非反転出力）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["共立エレショップ"]
+    "GetStartingECS_JP": ["共立エレショップ"]
   },
   {
     "PartNumber": "74x244",
-    "ItemsOfModelNumbers": ["SN74HC244N"],
+    "GottenItems_MN": ["SN74HC244N"],
     "Description": "Octal buffer/line driver, non-inverting, 3-state outputs",
     "Description_JP": "8回路バッファ/ラインドライバ（非反転、3状態出力）",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x245",
-    "ItemsOfModelNumbers": ["SN74HC245N"],
+    "GottenItems_MN": ["SN74HC245N"],
     "Description": "Octal bus transceiver, 3-state outputs",
     "Description_JP": "8ビットバストランシーバ（3状態出力）",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x247",
-    "ItemsOfModelNumbers": ["SN74LS247N"],
+    "GottenItems_MN": ["SN74LS247N"],
     "Description": "BCD to 7-segment decoder/driver (open-collector outputs)",
     "Description_JP": "BCD-7セグメントデコーダ/ドライバ（オープンコレクタ出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x251",
-    "ItemsOfModelNumbers": ["SN74HC251N", "SN74LS251N"],
+    "GottenItems_MN": ["SN74HC251N", "SN74LS251N"],
     "Description": "8-input multiplexer, 3-state outputs",
     "Description_JP": "8入力マルチプレクサ（3状態出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x253",
-    "ItemsOfModelNumbers": ["CD74HC253E"],
+    "GottenItems_MN": ["CD74HC253E"],
     "Description": "Dual 4-to-1 multiplexer with 3-state outputs",
     "Description_JP": "2回路4入力マルチプレクサ（3状態出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["共立エレショップ"]
+    "GetStartingECS_JP": ["共立エレショップ"]
   },
   {
     "PartNumber": "74x257",
-    "ItemsOfModelNumbers": ["SN74HC257N"],
+    "GottenItems_MN": ["SN74HC257N"],
     "Description": "Quad 2-to-1 multiplexer with 3-state outputs",
     "Description_JP": "4回路2入力マルチプレクサ（3状態出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x259",
-    "ItemsOfModelNumbers": ["SN74HC259N"],
+    "GottenItems_MN": ["SN74HC259N"],
     "Description": "8-bit addressable latch",
     "Description_JP": "8ビットアドレサブルラッチ",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["秋月電子", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["秋月電子", "マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x273",
-    "ItemsOfModelNumbers": ["74HC273AP", "SN74HC273N"],
+    "GottenItems_MN": ["74HC273AP", "SN74HC273N"],
     "Description": "Octal D-type flip-flop with clear",
     "Description_JP": "8ビットD型フリップフロップ（クリア付き）",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x274",
-    "ItemsOfModelNumbers": ["SN74LS274N/HD74LS274P"],
+    "GottenItems_MN": ["SN74LS274N/HD74LS274P"],
     "Description": "Octal D-type flip-flop",
     "Description_JP": "8ビットD型フリップフロップ",
     "Rarity": "Maniac(SR+)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
     "PartNumber": "74x279",
-    "ItemsOfModelNumbers": ["SN74LS279AN"],
+    "GottenItems_MN": ["SN74LS279AN"],
     "Description": "Quad SR latch",
     "Description_JP": "4回路SRラッチ",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x280",
-    "ItemsOfModelNumbers": ["SN74S280N"],
+    "GottenItems_MN": ["SN74S280N"],
     "Description": "9-bit parity generator/checker",
     "Description_JP": "9ビットパリティジェネレータ/チェッカ",
     "Rarity": "Maniac(SR+)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
     "PartNumber": "74x283",
-    "ItemsOfModelNumbers": ["CD74HC283E"],
+    "GottenItems_MN": ["CD74HC283E"],
     "Description": "4-bit binary full adder",
     "Description_JP": "4ビットバイナリ全加算器",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x293",
-    "ItemsOfModelNumbers": ["SN74LS293N"],
+    "GottenItems_MN": ["SN74LS293N"],
     "Description": "4-bit binary counter, up/down, separate clocks",
     "Description_JP": "4ビットバイナリカウンタ（アップ/ダウン、独立クロック）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x298",
-    "ItemsOfModelNumbers": ["SN74LS298N"],
+    "GottenItems_MN": ["SN74LS298N"],
     "Description": "Quad 2-input multiplexer/quad 2-bit bidirectional universal shift register",
     "Description_JP": "4回路2入力マルチプレクサ/4回路2ビット双方向ユニバーサルシフトレジスタ",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x299",
-    "ItemsOfModelNumbers": ["SN74LS299N"],
+    "GottenItems_MN": ["SN74LS299N"],
     "Description": "8-bit universal shift/storage register",
     "Description_JP": "8ビットユニバーサルシフト/ストレージレジスタ",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x354",
-    "ItemsOfModelNumbers": ["CD74HC354E", "HD74HC354P"],
+    "GottenItems_MN": ["CD74HC354E", "HD74HC354P"],
     "Description": "8-to-1 data selector/multiplexer, transparent registers",
     "Description_JP": "8入力1出力マルチプレクサ（透過レジスタ）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x356",
-    "ItemsOfModelNumbers": ["TC74HC356P", "CD74HCT356E"],
+    "GottenItems_MN": ["TC74HC356P", "CD74HCT356E"],
     "Description": "8-to-1 data selector/multiplexer, edge-triggered registers",
     "Description_JP": "8入力1出力マルチプレクサ（エッジトリガ型レジスタ）",
     "Rarity": "SuperRare",
-    "GottenStarted_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x365",
-    "ItemsOfModelNumbers": ["SN74HC365N"],
+    "GottenItems_MN": ["SN74HC365N"],
     "Description": "Hex buffer/line driver, 3-state outputs",
     "Description_JP": "6回路バッファ/ラインドライバ（3状態出力）",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x366",
-    "ItemsOfModelNumbers": ["CD74HC366E"],
+    "GottenItems_MN": ["CD74HC366E"],
     "Description": "Hex buffer/line driver, inverting, 3-state outputs",
     "Description_JP": "6回路バッファ/ラインドライバ（反転、3状態出力）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x367",
-    "ItemsOfModelNumbers": ["SN74HC367N"],
+    "GottenItems_MN": ["SN74HC367N"],
     "Description": "Hex buffer/line driver, non-inverting, 3-state outputs",
     "Description_JP": "6回路バッファ/ラインドライバ（非反転、3状態出力）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x368",
-    "ItemsOfModelNumbers": ["SN74368AN", "SN74HC368N"],
+    "GottenItems_MN": ["SN74368AN", "SN74HC368N"],
     "Description": "Hex buffer/line driver, inverting, 3-state outputs",
     "Description_JP": "6回路バッファ/ラインドライバ（反転、3状態出力）",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"]
   },
   {
     "PartNumber": "74x373",
-    "ItemsOfModelNumbers": ["74HC373AP", "SN74HC373N"],
+    "GottenItems_MN": ["74HC373AP", "SN74HC373N"],
     "Description": "Octal transparent latch, 3-state outputs",
     "Description_JP": "8ビットトランスペアレントラッチ（3状態出力）",
     "Rarity": "Commons",
-    "GottenStarted_JP": [
+    "GetStartingECS_JP": [
       "秋月電子",
       "マルツ電商/DigiKey",
       "74HCシリーズICキットなどから購入可能"
@@ -826,195 +826,195 @@
   },
   {
     "PartNumber": "74x374",
-    "ItemsOfModelNumbers": ["SN74HC374N"],
+    "GottenItems_MN": ["SN74HC374N"],
     "Description": "Octal D-type flip-flop, 3-state outputs",
     "Description_JP": "8ビットD型フリップフロップ（3状態出力）",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x377",
-    "ItemsOfModelNumbers": ["SN74HC377N"],
+    "GottenItems_MN": ["SN74HC377N"],
     "Description": "Octal D-type flip-flop",
     "Description_JP": "8ビットD型フリップフロップ",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x381",
-    "ItemsOfModelNumbers": ["SN74LS381AN"],
+    "GottenItems_MN": ["SN74LS381AN"],
     "Description": "4-bit arithmetic logic unit(ALU), generate and propagate outputs",
     "Description_JP": "4ビット算術論理演算装置（ALU、生成・伝播出力付き）",
     "Rarity": "VeryNerd(UR)",
-    "GottenStarted_JP": ["eBay(国際通販)"],
+    "GetStartingECS_JP": ["eBay(国際通販)"],
     "Comments": ["日本での通関手続きで差し押さえられた実績あり"]
   },
   {
     "PartNumber": "74x382",
-    "ItemsOfModelNumbers": [],
+    "GottenItems_MN": [],
     "Description": "4-bit arithmetic logic unit(ALU), ripple carry and overflow outputs",
     "Description_JP": "4ビット算術論理演算装置（ALU、リップルキャリー・オーバーフロー出力付き）",
     "Rarity": "VeryNerd(UR)",
-    "GottenStarted_JP": ["eBay(国際通販)"]
+    "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
     "PartNumber": "74x390",
-    "ItemsOfModelNumbers": ["CD74HC390E"],
+    "GottenItems_MN": ["CD74HC390E"],
     "Description": "Dual 4-bit decade counter",
     "Description_JP": "2回路4ビット10進カウンタ",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x393",
-    "ItemsOfModelNumbers": ["SN74HC393N"],
+    "GottenItems_MN": ["SN74HC393N"],
     "Description": "Dual 4-bit binary counter",
     "Description_JP": "2回路4ビットバイナリカウンタ",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x399",
-    "ItemsOfModelNumbers": ["SN74LS399N"],
+    "GottenItems_MN": ["SN74LS399N"],
     "Description": "Dual 4-bit binary counter",
     "Description_JP": "2回路4ビットバイナリカウンタ",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x423",
-    "ItemsOfModelNumbers": ["74HC423AP"],
+    "GottenItems_MN": ["74HC423AP"],
     "Description": "Dual retriggerable monostable multivibrator",
     "Description_JP": "2回路リトリガ可能単安定マルチバイブレータ",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["秋月電子"]
+    "GetStartingECS_JP": ["秋月電子"]
   },
   {
     "PartNumber": "74x533",
-    "ItemsOfModelNumbers": ["CD74HC533E", "HD74HC533P"],
+    "GottenItems_MN": ["CD74HC533E", "HD74HC533P"],
     "Description": "Octal D-type transparent latch, inverting, 3-state outputs",
     "Description_JP": "8ビットD型トランスペアレントラッチ（反転、3状態出力）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x540",
-    "ItemsOfModelNumbers": ["SN74HC540N", "CD74HC540E"],
+    "GottenItems_MN": ["SN74HC540N", "CD74HC540E"],
     "Description": "Octal buffer/line driver, inverting, 3-state outputs",
     "Description_JP": "8回路バッファ/ラインドライバ（反転、3状態出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x541",
-    "ItemsOfModelNumbers": ["74HC541AP", "SN74HC541N"],
+    "GottenItems_MN": ["74HC541AP", "SN74HC541N"],
     "Description": "Octal buffer/line driver, non-inverting, 3-state outputs",
     "Description_JP": "8回路バッファ/ラインドライバ（非反転、3状態出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["秋月電子", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["秋月電子", "マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x564",
-    "ItemsOfModelNumbers": ["CD74HC564E"],
+    "GottenItems_MN": ["CD74HC564E"],
     "Description": "Octal D-type flip-flop, inverting, 3-state outputs",
     "Description_JP": "8ビットD型フリップフロップ（反転、3状態出力）",
     "Rarity": "Normal+",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x573",
-    "ItemsOfModelNumbers": ["SN74HC573N"],
+    "GottenItems_MN": ["SN74HC573N"],
     "Description": "Octal transparent latch, 3-state outputs",
     "Description_JP": "8ビットトランスペアレントラッチ（3状態出力）",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x574",
-    "ItemsOfModelNumbers": ["SN74HC574N"],
+    "GottenItems_MN": ["SN74HC574N"],
     "Description": "Octal D-type flip-flop, 3-state outputs",
     "Description_JP": "8ビットD型フリップフロップ（3状態出力）",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x590",
-    "ItemsOfModelNumbers": ["74HC590AP"],
+    "GottenItems_MN": ["74HC590AP"],
     "Description": "8-bit binary counter with output register",
     "Description_JP": "8ビットバイナリカウンタ（出力レジスタ付き）",
     "Rarity": "Normal",
-    "GottenStarted_JP": ["秋月電子"]
+    "GetStartingECS_JP": ["秋月電子"]
   },
   {
     "PartNumber": "74x595",
-    "ItemsOfModelNumbers": ["SN74HC595", "SN74HC595N", "U74HC595AC"],
+    "GottenItems_MN": ["SN74HC595", "SN74HC595N", "U74HC595AC"],
     "Description": "8-bit serial-in/serial or parallel-out shift register with output latches",
     "Description_JP": "8ビット出力ラッチ付きシフトレジスタ\n8ビットシリアル入力/シリアルまたはパラレル出力シフトレジスタ（出力ラッチ付き）",
     "Rarity": "Commons",
-    "GottenStarted_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
   },
   {
     "PartNumber": "74x597",
-    "ItemsOfModelNumbers": ["CD74HC597E"],
+    "GottenItems_MN": ["CD74HC597E"],
     "Description": "8-bit parallel-in/serial-out shift register",
     "Description_JP": "8ビットパラレル入力/シリアル出力シフトレジスタ",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["共立エレショップ"]
+    "GetStartingECS_JP": ["共立エレショップ"]
   },
   {
     "PartNumber": "74x620",
-    "ItemsOfModelNumbers": ["HD74HC620P"],
+    "GottenItems_MN": ["HD74HC620P"],
     "Description": "Octal bus transceiver, inverting, 3-state outputs",
     "Description_JP": "8ビットバストランシーバ（反転、3状態出力）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["共立エレショップ"]
+    "GetStartingECS_JP": ["共立エレショップ"]
   },
   {
     "PartNumber": "74x623",
-    "ItemsOfModelNumbers": ["HD74HC623P"],
+    "GottenItems_MN": ["HD74HC623P"],
     "Description": "Octal bus transceiver, non-inverting, 3-state outputs",
     "Description_JP": "8ビットバストランシーバ（非反転、3状態出力）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["共立エレショップ"]
+    "GetStartingECS_JP": ["共立エレショップ"]
   },
   {
     "PartNumber": "74x640",
-    "ItemsOfModelNumbers": ["SN74HC640N"],
+    "GottenItems_MN": ["SN74HC640N"],
     "Description": "Octal bus transceiver, inverting, 3-state outputs",
     "Description_JP": "8ビットバストランシーバ（反転、3状態出力）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x645",
-    "ItemsOfModelNumbers": ["SN74HC645N"],
+    "GottenItems_MN": ["SN74HC645N"],
     "Description": "Octal bus transceiver, non-inverting, 3-state outputs",
     "Description_JP": "8ビットバストランシーバ（非反転、3状態出力）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x670",
-    "ItemsOfModelNumbers": ["CD74HC670E"],
+    "GottenItems_MN": ["CD74HC670E"],
     "Description": "4 x 4 register file",
     "Description_JP": "4×4レジスタファイル",
     "Rarity": "SuperRare",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x682",
-    "ItemsOfModelNumbers": ["SN74HC682N"],
+    "GottenItems_MN": ["SN74HC682N"],
     "Description": "8-bit magnitude comparator",
     "Description_JP": "8ビットマグニチュードコンパレータ",
     "Rarity": "SuperRare",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x688",
-    "ItemsOfModelNumbers": ["SN74HC688N"],
+    "GottenItems_MN": ["SN74HC688N"],
     "Description": "8-bit magnitude comparator, equality",
     "Description_JP": "8ビットマグニチュードコンパレータ（等価判定）",
     "Rarity": "Rare",
-    "GottenStarted_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   }
 ]
