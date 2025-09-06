@@ -1,7 +1,7 @@
 [
   {
     "PartNumber": "74x00",
-    "ItemsOfModelNumbers": ["74HC00N", "SN74HC00N"],
+    "ItemsOfModelNumbers": ["74HC00N", "74HC00AP", "SN74HC00N", "U74HC00L"],
     "Description": "Quad 2-input NAND gate",
     "Description_JP": "4回路2入力NANDゲート",
     "Rarity": "Commons",
@@ -17,7 +17,12 @@
   },
   {
     "PartNumber": "74x04",
-    "ItemsOfModelNumbers": ["SN74HC04N", "MM74HC04N/MC74HC04N"],
+    "ItemsOfModelNumbers": [
+      "74HC04AP",
+      "74HCU04AP",
+      "SN74HC04N",
+      "MM74HC04N/MC74HC04N"
+    ],
     "Description": "Hex inverter",
     "Description_JP": "6回路NOTゲート\n6回路インバータ",
     "Rarity": "Commons",
@@ -49,7 +54,7 @@
   },
   {
     "PartNumber": "74x08",
-    "ItemsOfModelNumbers": ["SN74HC08N"],
+    "ItemsOfModelNumbers": ["74HC08AP", "SN74HC08N"],
     "Description": "Quad 2-input AND gate",
     "Description_JP": "4回路2入力ANDゲート",
     "Rarity": "Commons",
@@ -73,7 +78,7 @@
   },
   {
     "PartNumber": "74x14",
-    "ItemsOfModelNumbers": ["SN74HC14N"],
+    "ItemsOfModelNumbers": ["74HC14AP", "SN74HC14N"],
     "Description": "Hex Schmitt-trigger inverter",
     "Description_JP": "6回路シュミットトリガインバータ",
     "Rarity": "Commons",
@@ -89,7 +94,7 @@
   },
   {
     "PartNumber": "74x21",
-    "ItemsOfModelNumbers": ["SN74HC21N"],
+    "ItemsOfModelNumbers": ["74HC21AP", "SN74HC21N"],
     "Description": "Dual 4-input AND gate",
     "Description_JP": "2回路4入力ANDゲート",
     "Rarity": "Commons",
@@ -121,7 +126,7 @@
   },
   {
     "PartNumber": "74x32",
-    "ItemsOfModelNumbers": ["SN74HC32N"],
+    "ItemsOfModelNumbers": ["74HC32AP", "SN74HC32N"],
     "Description": "Quad 2-input OR gate",
     "Description_JP": "4回路2入力ORゲート",
     "Rarity": "Commons",
@@ -213,7 +218,7 @@
   },
   {
     "PartNumber": "74x74",
-    "ItemsOfModelNumbers": ["SN74HC74N"],
+    "ItemsOfModelNumbers": ["74HC74AP", "SN74HC74N"],
     "Description": "Dual D flip-flop, positive-edge triggered, set and reset",
     "Description_JP": "2回路D型フリップフロップ（正論理エッジトリガ、セット・リセット付き）",
     "Rarity": "Commons",
@@ -293,7 +298,7 @@
   },
   {
     "PartNumber": "74x125",
-    "ItemsOfModelNumbers": ["SN74HC125N"],
+    "ItemsOfModelNumbers": ["74HC125P", "SN74HC125N"],
     "Description": "Quad bus buffer, tri-state outputs",
     "Description_JP": "4回路バスバッファ（3状態出力）",
     "Rarity": "Commons",
@@ -697,7 +702,7 @@
   },
   {
     "PartNumber": "74x273",
-    "ItemsOfModelNumbers": ["SN74HC273N"],
+    "ItemsOfModelNumbers": ["74HC273AP", "SN74HC273N"],
     "Description": "Octal D-type flip-flop with clear",
     "Description_JP": "8ビットD型フリップフロップ（クリア付き）",
     "Rarity": "Normal",
@@ -761,7 +766,7 @@
   },
   {
     "PartNumber": "74x354",
-    "ItemsOfModelNumbers": ["HD74HC354P"],
+    "ItemsOfModelNumbers": ["CD74HC354E", "HD74HC354P"],
     "Description": "8-to-1 data selector/multiplexer, transparent registers",
     "Description_JP": "8入力1出力マルチプレクサ（透過レジスタ）",
     "Rarity": "Rare",
@@ -785,7 +790,7 @@
   },
   {
     "PartNumber": "74x366",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["CD74HC366E"],
     "Description": "Hex buffer/line driver, inverting, 3-state outputs",
     "Description_JP": "6回路バッファ/ラインドライバ（反転、3状態出力）",
     "Rarity": "Rare",
@@ -886,7 +891,7 @@
   },
   {
     "PartNumber": "74x533",
-    "ItemsOfModelNumbers": ["HD74HC533P"],
+    "ItemsOfModelNumbers": ["CD74HC533E", "HD74HC533P"],
     "Description": "Octal D-type transparent latch, inverting, 3-state outputs",
     "Description_JP": "8ビットD型トランスペアレントラッチ（反転、3状態出力）",
     "Rarity": "Rare",
@@ -894,7 +899,7 @@
   },
   {
     "PartNumber": "74x540",
-    "ItemsOfModelNumbers": ["CD74HC540E"],
+    "ItemsOfModelNumbers": ["SN74HC540N", "CD74HC540E"],
     "Description": "Octal buffer/line driver, inverting, 3-state outputs",
     "Description_JP": "8回路バッファ/ラインドライバ（反転、3状態出力）",
     "Rarity": "Normal+",
@@ -902,7 +907,7 @@
   },
   {
     "PartNumber": "74x541",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["74HC541AP", "SN74HC541N"],
     "Description": "Octal buffer/line driver, non-inverting, 3-state outputs",
     "Description_JP": "8回路バッファ/ラインドライバ（非反転、3状態出力）",
     "Rarity": "Normal+",
@@ -942,7 +947,7 @@
   },
   {
     "PartNumber": "74x595",
-    "ItemsOfModelNumbers": ["SN74HC595", "SN74HC595N"],
+    "ItemsOfModelNumbers": ["SN74HC595", "SN74HC595N", "U74HC595AC"],
     "Description": "8-bit serial-in/serial or parallel-out shift register with output latches",
     "Description_JP": "8ビット出力ラッチ付きシフトレジスタ\n8ビットシリアル入力/シリアルまたはパラレル出力シフトレジスタ（出力ラッチ付き）",
     "Rarity": "Commons",
@@ -974,7 +979,7 @@
   },
   {
     "PartNumber": "74x640",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["SN74HC640N"],
     "Description": "Octal bus transceiver, inverting, 3-state outputs",
     "Description_JP": "8ビットバストランシーバ（反転、3状態出力）",
     "Rarity": "Rare",
@@ -982,7 +987,7 @@
   },
   {
     "PartNumber": "74x645",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["SN74HC645N"],
     "Description": "Octal bus transceiver, non-inverting, 3-state outputs",
     "Description_JP": "8ビットバストランシーバ（非反転、3状態出力）",
     "Rarity": "Rare",
@@ -990,7 +995,7 @@
   },
   {
     "PartNumber": "74x670",
-    "ItemsOfModelNumbers": ["CD75HC670E"],
+    "ItemsOfModelNumbers": ["CD74HC670E"],
     "Description": "4 x 4 register file",
     "Description_JP": "4×4レジスタファイル",
     "Rarity": "SuperRare",
@@ -998,7 +1003,7 @@
   },
   {
     "PartNumber": "74x682",
-    "ItemsOfModelNumbers": [],
+    "ItemsOfModelNumbers": ["SN74HC682N"],
     "Description": "8-bit magnitude comparator",
     "Description_JP": "8ビットマグニチュードコンパレータ",
     "Rarity": "SuperRare",
