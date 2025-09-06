@@ -197,7 +197,7 @@
     "GottenItems_MN": ["K131LR3/К1311ЛР3"],
     "Description": "2-2-2-2-input AND-OR-Invert gate, expandable",
     "Description_JP": "2回路2入力AND-OR-インバートゲート（拡張可能）",
-    "Rarity": "Maniac(SSR)",
+    "Rarity": "ManiacRare(SSR)",
     "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
