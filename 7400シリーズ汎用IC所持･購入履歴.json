@@ -105,7 +105,7 @@
     "GottenItems_MN": [],
     "Description": "dual 4-input NOR gate with strobe, one gate expandable with 74x60",
     "Description_JP": "2回路4入力ストローブ付きNORゲート（1ゲートは74x60で拡張可能）",
-    "Rarity": "Maniac(SR+)",
+    "Rarity": "ManiacRare(SSR)",
     "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
@@ -143,8 +143,8 @@
   {
     "PartNumber": "74x36",
     "GottenItems_MN": [],
-    "Description": "quad 2-input NOR gate (different pinout than 7402)",
-    "Description_JP": "4回路2入力NORゲート(7402と異なるピン配置)",
+    "Description": "quad 2-input NOR gate (different pinout than 74x02)",
+    "Description_JP": "4回路2入力NORゲート(74x02と異なるピン配置)",
     "Rarity": "Abolition(R+)",
     "GetStartingECS_JP": ["eBay(国際通販)"]
   },
@@ -190,15 +190,17 @@
     "Description": "Dual 2-2-input AND-OR-Invert gate, one gate expandable",
     "Description_JP": "2回路2入力AND-OR-インバートゲート（1つのゲートは拡張可能）",
     "Rarity": "Maniac(SR+)",
-    "GetStartingECS_JP": ["eBay(国際通販)"]
+    "GetStartingECS_JP": ["eBay(国際通販)"],
+    "Comments": ["キリル型番の互換品をeBayで入手可能"]
   },
   {
     "PartNumber": "74x53",
     "GottenItems_MN": ["K131LR3/К1311ЛР3"],
     "Description": "2-2-2-2-input AND-OR-Invert gate, expandable",
     "Description_JP": "2回路2入力AND-OR-インバートゲート（拡張可能）",
-    "Rarity": "ManiacRare(SSR)",
-    "GetStartingECS_JP": ["eBay(国際通販)"]
+    "Rarity": "Maniac(SR+)",
+    "GetStartingECS_JP": ["eBay(国際通販)"],
+    "Comments": ["キリル型番の互換品をeBayで入手可能"]
   },
   {
     "PartNumber": "74x60",
@@ -234,7 +236,7 @@
   },
   {
     "PartNumber": "74x82",
-    "GottenItems_MN": [],
+    "GottenItems_MN": ["SN7482N"],
     "Description": "4-bit parallel adder",
     "Description_JP": "4ビットパラレル加算器",
     "Rarity": "ManiacRare(SSR)",
@@ -258,7 +260,7 @@
   },
   {
     "PartNumber": "74x93",
-    "GottenItems_MN": [],
+    "GottenItems_MN": ["DM74LS93N"],
     "Description": "4-bit binary counter (separate divide-by-2 and divide-by-8 sections); different pinout for 74L93",
     "Description_JP": "4ビットバイナリカウンタ（2剰余と8剰余でセクションを区切る）；74L93はピン配置が異なる",
     "Rarity": "ManiacRare(SSR)",
@@ -282,7 +284,7 @@
   },
   {
     "PartNumber": "74x112",
-    "GottenItems_MN": ["SN74HC112N"],
+    "GottenItems_MN": ["SN74HC112N", "SN74LS112AN"],
     "Description": "Dual JK flip-flop, negative-edge triggered, preset and clear",
     "Description_JP": "2回路JKフリップフロップ（負論理エッジトリガ、プリセット・クリア付き）",
     "Rarity": "Rare",
@@ -365,7 +367,8 @@
     "GetStartingECS_JP": [
       "eBay(国際通販)",
       "Amazonの中華販売店より組み立て式ニキシー管時計キットに同梱"
-    ]
+    ],
+    "Comments": ["キリル型番の互換品をeBayで入手可能"]
   },
   {
     "PartNumber": "74x145",
@@ -493,7 +496,7 @@
   },
   {
     "PartNumber": "74x170",
-    "GottenItems_MN": [],
+    "GottenItems_MN": ["SN74LS170N"],
     "Description": "16-bit register file (4x4)",
     "Description_JP": "16ビットレジスタファイル（4×4）",
     "Rarity": "Maniac(SR+)",
@@ -710,7 +713,7 @@
   },
   {
     "PartNumber": "74x274",
-    "GottenItems_MN": ["SN74LS274N/HD74LS274P"],
+    "GottenItems_MN": ["SN74LS274N"],
     "Description": "Octal D-type flip-flop",
     "Description_JP": "8ビットD型フリップフロップ",
     "Rarity": "Maniac(SR+)",
