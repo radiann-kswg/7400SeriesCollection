@@ -1,0 +1,12 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "Generate FP/ALL JSONs",
+			"type": "shell",
+			"command": "python3 scripts/merge_fp.py",
+			"isBackground": false,
+			"group": "build"
+		}
+	]
+}
