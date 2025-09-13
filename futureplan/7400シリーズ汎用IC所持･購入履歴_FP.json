@@ -2,160 +2,97 @@
   {
     "PartNumber": "74x03",
     "GottenItems_MN": [],
-    "Description": "Quad 2-input NAND gate with open-collector outputs",
-    "Description_JP": "4回路2入力NANDゲート（オープンコレクタ出力）",
-    "Rarity": "Normal",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x10",
     "GottenItems_MN": [],
-    "Description": "Triple 3-input NAND gate",
-    "Description_JP": "3回路3入力NANDゲート",
-    "Rarity": "Commons",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x25",
     "GottenItems_MN": [],
-    "Description": "Dual 4-input NOR gate",
-    "Description_JP": "2回路4入力NORゲート",
-    "Rarity": "Normal+",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x26",
     "GottenItems_MN": ["SN74LS26N"],
-    "Description": "Quad 2-input NOR gate with open-collector outputs",
-    "Description_JP": "4回路2入力NORゲート（オープンコレクタ出力）",
-    "Rarity": "Normal+",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x27",
     "GottenItems_MN": ["SN74HC27N", "CD74HC27E", "CD74HCT27E"],
-    "Description": "Triple 3-input NOR gate",
-    "Description_JP": "3回路3入力NORゲート",
-    "Rarity": "Normal",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x39",
     "GottenItems_MN": [],
-    "Description": "Quad 2-input AND buffer/driver with open-collector outputs",
-    "Description_JP": "4回路2入力ANDバッファ/ドライバ（オープンコレクタ出力）",
-    "Rarity": "Normal+",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x40",
     "GottenItems_MN": [],
-    "Description": "Hex inverter buffer/driver with open-collector outputs",
-    "Description_JP": "6回路インバータバッファ/ドライバ（オープンコレクタ出力）",
-    "Rarity": "Normal+",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x54",
     "GottenItems_MN": [],
-    "Description": "Octal D-type flip-flop",
-    "Description_JP": "8ビットD型フリップフロップ",
-    "Rarity": "Normal+",
     "GetStartingECS_JP": ["Mouser"]
   },
-  {
-    "PartNumber": "74x55",
-    "GottenItems_MN": [],
-    "Description": "4-4-input AND-OR-Invert gate, 74H55 is expandable",
-    "Description_JP": "4回路4入力AND-OR-インバートゲート（74H55は拡張可能）",
-    "Rarity": "Maniac(SR+)"
-  },
+  { "PartNumber": "74x55", "GottenItems_MN": [], "Rarity": "Maniac(SR+)" },
   {
     "PartNumber": "74x110",
     "GottenItems_MN": [],
-    "Description": "Dual 4-input NAND gate",
-    "Description_JP": "2回路4入力NANDゲート",
-    "Rarity": "Normal+",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x175",
     "GottenItems_MN": [],
-    "Description": "Quad D-type flip-flop",
-    "Description_JP": "4回路D型フリップフロップ",
-    "Rarity": "Normal",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x246",
     "GottenItems_MN": [],
-    "Description": "Octal bus transceiver, inverting, 3-state outputs",
-    "Description_JP": "8ビットバストランシーバ（反転、3状態出力）",
-    "Rarity": "Normal+",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x273",
     "GottenItems_MN": [],
-    "Description": "Octal D-type flip-flop with clear",
-    "Description_JP": "8ビットD型フリップフロップ（クリア付き）",
-    "Rarity": "Normal",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x373",
     "GottenItems_MN": [],
-    "Description": "Octal transparent latch, 3-state outputs",
-    "Description_JP": "8ビットトランスペアレントラッチ（3状態出力）",
-    "Rarity": "Commons",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x375",
     "GottenItems_MN": ["74LS375N"],
-    "Description": "Quad D-type latch",
-    "Description_JP": "4ビットD型ラッチ",
-    "Rarity": "Rare",
     "GetStartingECS_JP": ["マルツ電商/DigiKey"]
   },
   {
     "PartNumber": "74x533",
     "GottenItems_MN": [],
-    "Description": "Octal D-type transparent latch, inverting, 3-state outputs",
-    "Description_JP": "8ビットD型トランスペアレントラッチ（反転、3状態出力）",
-    "Rarity": "Normal+",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x534",
     "GottenItems_MN": [],
-    "Description": "Octal D-type transparent latch, 3-state outputs",
-    "Description_JP": "8ビットD型トランスペアレントラッチ（3状態出力）",
-    "Rarity": "Rare",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x804",
     "GottenItems_MN": [],
-    "Description": "Octal buffer/line driver, 3-state outputs",
-    "Description_JP": "8ビットバッファ/ラインドライバ（3状態出力）",
-    "Rarity": "Normal+",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x808",
     "GottenItems_MN": [],
-    "Description": "Bidirectional 8-bit bus driver, 3-state outputs",
-    "Description_JP": "双方向8ビットバスドライバ（3状態出力）",
-    "Rarity": "Normal+",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x832",
     "GottenItems_MN": [],
-    "Description": "Octal bus driver, 3-state outputs",
-    "Description_JP": "8ビットバスドライバ（3状態出力）",
-    "Rarity": "Normal+",
     "GetStartingECS_JP": ["Mouser"]
   }
 ]
