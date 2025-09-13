@@ -5,7 +5,8 @@
     "Description": "Quad 2-input NAND gate",
     "Description_JP": "4回路2入力NANDゲート",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x02",
@@ -13,7 +14,16 @@
     "Description": "Quad 2-input NOR gate",
     "Description_JP": "4回路2入力NORゲート",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
+  },
+  {
+    "PartNumber": "74x03",
+    "Description": "Quad 2-input NAND gate with open-collector outputs",
+    "Description_JP": "4回路2入力NANDゲート（オープンコレクタ出力）",
+    "Rarity": "Normal+",
+    "GetStartingECS_JP": ["eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
     "PartNumber": "74x04",
@@ -21,12 +31,17 @@
       "74HC04AP",
       "74HCU04AP",
       "SN74HC04N",
+      "SN74H04N",
       "MM74HC04N/MC74HC04N"
     ],
     "Description": "Hex inverter",
     "Description_JP": "6回路NOTゲート\n6回路インバータ",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "Amazon", "eBay(国際通販)"],
+    "Comments": [
+      "Amazonの74HCシリーズICキットなどから入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"
+    ]
   },
   {
     "PartNumber": "74x05",
@@ -34,7 +49,11 @@
     "Description": "Hex inverter with open-collector outputs",
     "Description_JP": "6回路NOTゲート（オープンコレクタ出力）\n6回路インバータ（オープンコレクタ出力）",
     "Rarity": "Normal",
-    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["Amazon", "eBay(国際通販)"],
+    "Comments": [
+      "Amazonの74HCシリーズICキットなどから入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"
+    ]
   },
   {
     "PartNumber": "74x06",
@@ -58,7 +77,8 @@
     "Description": "Quad 2-input AND gate",
     "Description_JP": "4回路2入力ANDゲート",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x10",
@@ -66,15 +86,17 @@
     "Description": "Triple 3-input NAND gate",
     "Description_JP": "3回路3入力NANDゲート",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x11",
-    "GottenItems_MN": ["SN74HC11N"],
+    "GottenItems_MN": ["SN74HC11N", "HD74LS11P"],
     "Description": "Triple 3-input AND gate",
     "Description_JP": "3回路3入力ANDゲート",
     "Rarity": "Normal",
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
     "PartNumber": "74x14",
@@ -82,7 +104,8 @@
     "Description": "Hex Schmitt-trigger inverter",
     "Description_JP": "6回路シュミットトリガインバータ",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x20",
@@ -98,7 +121,8 @@
     "Description": "Dual 4-input AND gate",
     "Description_JP": "2回路4入力ANDゲート",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x23",
@@ -109,12 +133,24 @@
     "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
+    "PartNumber": "74x26",
+    "GottenItems_MN": ["SN74LS26N", "HD74LS26P", "DM7426N"],
+    "Description": "Quad 2-input NOR gate with open-collector outputs",
+    "Description_JP": "4回路2入力NORゲート（オープンコレクタ出力）",
+    "Rarity": "Maniac(SR+)",
+    "GetStartingECS_JP": ["eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
+  },
+  {
     "PartNumber": "74x27",
     "GottenItems_MN": ["SN7427N", "SN74HC27N"],
     "Description": "Triple 3-input NOR gate",
     "Description_JP": "3回路3入力NORゲート",
     "Rarity": "Normal",
-    "GetStartingECS_JP": ["共立エレショップ", "eBay(国際通販)"]
+    "GetStartingECS_JP": ["共立エレショップ", "eBay(国際通販)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(単品でも入手)"
+    ]
   },
   {
     "PartNumber": "74x30",
@@ -122,7 +158,8 @@
     "Description": "8-input NAND gate",
     "Description_JP": "8入力NANDゲート",
     "Rarity": "Normal",
-    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x32",
@@ -130,7 +167,8 @@
     "Description": "Quad 2-input OR gate",
     "Description_JP": "4回路2入力ORゲート",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x34",
@@ -191,7 +229,7 @@
     "Description_JP": "2回路2入力AND-OR-インバートゲート（1つのゲートは拡張可能）",
     "Rarity": "Maniac(SR+)",
     "GetStartingECS_JP": ["eBay(国際通販)"],
-    "Comments": ["キリル型番の互換品をeBayで入手可能"]
+    "Comments": ["キリル型番の互換品をeBayで入手"]
   },
   {
     "PartNumber": "74x53",
@@ -200,7 +238,7 @@
     "Description_JP": "2回路2入力AND-OR-インバートゲート（拡張可能）",
     "Rarity": "Maniac(SR+)",
     "GetStartingECS_JP": ["eBay(国際通販)"],
-    "Comments": ["キリル型番の互換品をeBayで入手可能"]
+    "Comments": ["キリル型番の互換品をeBayで入手"]
   },
   {
     "PartNumber": "74x60",
@@ -220,11 +258,15 @@
   },
   {
     "PartNumber": "74x74",
-    "GottenItems_MN": ["74HC74AP", "SN74HC74N"],
+    "GottenItems_MN": ["74HC74AP", "74S74N", "SN74HC74N"],
     "Description": "Dual D flip-flop, positive-edge triggered, set and reset",
     "Description_JP": "2回路D型フリップフロップ（正論理エッジトリガ、セット・リセット付き）",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "Amazon", "eBay(国際通販)"],
+    "Comments": [
+      "Amazonの74HCシリーズICキットなどから入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"
+    ]
   },
   {
     "PartNumber": "74x75",
@@ -244,11 +286,14 @@
   },
   {
     "PartNumber": "74x86",
-    "GottenItems_MN": ["SN74HC86N"],
+    "GottenItems_MN": ["SN74HC86N", "HD74LS86P"],
     "Description": "Quad 2-input XOR gate",
     "Description_JP": "4回路2入力XORゲート",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(単品でも入手)"
+    ]
   },
   {
     "PartNumber": "74x90",
@@ -268,11 +313,12 @@
   },
   {
     "PartNumber": "74x107",
-    "GottenItems_MN": ["CD74HC107E"],
+    "GottenItems_MN": ["CD74HC107E", "DM74LS107N"],
     "Description": "Dual JK flip-flop, negative-edge triggered, set and reset",
     "Description_JP": "2回路JKフリップフロップ（負論理エッジトリガ、セット・リセット付き）",
     "Rarity": "Rare",
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
     "PartNumber": "74x109",
@@ -284,11 +330,23 @@
   },
   {
     "PartNumber": "74x112",
-    "GottenItems_MN": ["SN74HC112N", "SN74LS112AN"],
+    "GottenItems_MN": ["74LS112N", "SN74HC112N", "SN74LS112AN", "HD74LS112P"],
     "Description": "Dual JK flip-flop, negative-edge triggered, preset and clear",
     "Description_JP": "2回路JKフリップフロップ（負論理エッジトリガ、プリセット・クリア付き）",
     "Rarity": "Rare",
-    "GetStartingECS_JP": ["共立エレショップ", "eBay(国際通販)"]
+    "GetStartingECS_JP": ["共立エレショップ", "eBay(国際通販)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(単品でも入手)"
+    ]
+  },
+  {
+    "PartNumber": "74x113",
+    "GottenItems_MN": ["SN74S113N"],
+    "Description": "Dual JK flip-flop, negative-edge triggered, set and reset",
+    "Description_JP": "2回路JKフリップフロップ（負論理エッジトリガ、セット・リセット付き）",
+    "Rarity": "Maniac(SR+)",
+    "GetStartingECS_JP": ["eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
     "PartNumber": "74x123",
@@ -299,16 +357,22 @@
     "GetStartingECS_JP": ["秋月電子", "マルツ電商/DigiKey"]
   },
   {
+    "PartNumber": "74x124",
+    "GottenItems_MN": ["SN74S124N"],
+    "Description": "Dual voltage-controlled oscillator",
+    "Description_JP": "2回路電圧制御発振器",
+    "Rarity": "VeryNerd(UR)",
+    "GetStartingECS_JP": ["eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
+  },
+  {
     "PartNumber": "74x125",
     "GottenItems_MN": ["74HC125P", "SN74HC125N"],
     "Description": "Quad bus buffer, tri-state outputs",
     "Description_JP": "4回路バスバッファ（3状態出力）",
     "Rarity": "Commons",
-    "GetStartingECS_JP": [
-      "秋月電子",
-      "共立エレショップ",
-      "74HCシリーズICキットなどから購入可能"
-    ]
+    "GetStartingECS_JP": ["秋月電子", "共立エレショップ", "Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x126",
@@ -316,7 +380,8 @@
     "Description": "Quad bus buffer, tri-state outputs",
     "Description_JP": "4回路バスバッファ（3状態出力）",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x132",
@@ -324,7 +389,8 @@
     "Description": "Quad 2-input NAND gate with Schmitt-trigger inputs",
     "Description_JP": "4回路2入力NANDゲート（シュミットトリガ入力）",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x136",
@@ -348,7 +414,8 @@
     "Description": "3-to-8 line decoder/demultiplexer",
     "Description_JP": "3入力8出力デコーダ/デマルチプレクサ",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x139",
@@ -356,7 +423,8 @@
     "Description": "Dual 2-to-4 line decoder/demultiplexer",
     "Description_JP": "2回路2入力4出力デコーダ/デマルチプレクサ",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["Mouser", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["Mouser", "Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x141",
@@ -364,11 +432,11 @@
     "Description": "BCD to decimal decoder/driver for cold-cathode indicator or Nixie tube",
     "Description_JP": "BCD-10進デコーダ/ドライバー（冷陰極表示器/ニキシー管用）",
     "Rarity": "Maniac(SR+)",
-    "GetStartingECS_JP": [
-      "eBay(国際通販)",
-      "Amazonの中華販売店より組み立て式ニキシー管時計キットに同梱"
-    ],
-    "Comments": ["キリル型番の互換品をeBayで入手可能"]
+    "GetStartingECS_JP": ["eBay(国際通販)", "Amazon"],
+    "Comments": [
+      "キリル型番の互換品をeBayで入手",
+      "中華販売店より組み立て式ニキシー管時計キットに同梱"
+    ]
   },
   {
     "PartNumber": "74x145",
@@ -392,11 +460,8 @@
     "Description": "8-to-3 line priority encoder",
     "Description_JP": "8入力3出力プライオリティエンコーダ",
     "Rarity": "Normal",
-    "GetStartingECS_JP": [
-      "秋月電子",
-      "マルツ電商/DigiKey",
-      "74HCシリーズICキットなどから購入可能"
-    ]
+    "GetStartingECS_JP": ["秋月電子", "マルツ電商/DigiKey", "Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x151",
@@ -408,11 +473,12 @@
   },
   {
     "PartNumber": "74x153",
-    "GottenItems_MN": ["74HC153AP"],
+    "GottenItems_MN": ["74HC153AP", "74LS153N", "HD74LS153P"],
     "Description": "Dual 4-input multiplexer",
     "Description_JP": "2回路4入力マルチプレクサ",
     "Rarity": "Normal",
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
     "PartNumber": "74x154",
@@ -420,7 +486,8 @@
     "Description": "4-to-16 line decoder/demultiplexer",
     "Description_JP": "4入力16出力デコーダ/デマルチプレクサ",
     "Rarity": "Normal+",
-    "GetStartingECS_JP": ["Amazonで単品購入"]
+    "GetStartingECS_JP": ["Amazon"],
+    "Comments": ["Amazonで単品購入"]
   },
   {
     "PartNumber": "74x155",
@@ -444,7 +511,8 @@
     "Description": "Quad 2-to-1 multiplexer",
     "Description_JP": "4回路2入力マルチプレクサ",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x158",
@@ -464,11 +532,15 @@
   },
   {
     "PartNumber": "74x163",
-    "GottenItems_MN": ["SN74HC163N"],
+    "GottenItems_MN": ["74LS163AN", "SN74HC163N"],
     "Description": "4-bit binary counter, synchronous, with clear and load",
     "Description_JP": "4ビットバイナリカウンタ（同期式、クリア・ロード付き）",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["Amazon", "eBay(国際通販)"],
+    "Comments": [
+      "Amazonの74HCシリーズICキットなどから入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"
+    ]
   },
   {
     "PartNumber": "74x164",
@@ -476,7 +548,8 @@
     "Description": "8-bit serial-in/parallel-out shift register",
     "Description_JP": "8ビットシリアル入力/パラレル出力シフトレジスタ",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["Mouser", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["Mouser", "Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x165",
@@ -484,7 +557,8 @@
     "Description": "8-bit parallel-in/serial-out shift register",
     "Description_JP": "8ビットパラレル入力/シリアル出力シフトレジスタ",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x166",
@@ -516,15 +590,17 @@
     "Description": "Hex D-type flip-flop",
     "Description_JP": "6回路D型フリップフロップ",
     "Rarity": "Normal",
-    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x175",
-    "GottenItems_MN": ["74HC175AP"],
+    "GottenItems_MN": ["74HC175AP", "HD74LS175P", "DM74175N"],
     "Description": "Quad D-type flip-flop",
     "Description_JP": "4回路D型フリップフロップ",
     "Rarity": "Normal",
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
     "PartNumber": "74x181",
@@ -585,11 +661,12 @@
   },
   {
     "PartNumber": "74x194",
-    "GottenItems_MN": ["CD74HC194E"],
+    "GottenItems_MN": ["74LS194N", "CD74HC194E"],
     "Description": "4-bit bidirectional universal shift register",
     "Description_JP": "4ビット双方向ユニバーサルシフトレジスタ",
     "Rarity": "Rare",
-    "GetStartingECS_JP": ["共立エレショップ"]
+    "GetStartingECS_JP": ["共立エレショップ", "eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
     "PartNumber": "74x221",
@@ -617,19 +694,21 @@
   },
   {
     "PartNumber": "74x240",
-    "GottenItems_MN": ["74HC240AP"],
+    "GottenItems_MN": ["74HC240AP", "SN74LS240N"],
     "Description": "Octal buffer/line driver, inverting, 3-state outputs",
     "Description_JP": "8回路バッファ/ラインドライバ（反転、3状態出力）",
     "Rarity": "Normal",
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
     "PartNumber": "74x241",
-    "GottenItems_MN": ["SN74HC241N"],
+    "GottenItems_MN": ["74LS241N", "SN74HC241N"],
     "Description": "Octal buffer/line driver, non-inverting, 3-state outputs",
     "Description_JP": "8回路バッファ/ラインドライバ（非反転、3状態出力）",
     "Rarity": "Normal",
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
     "PartNumber": "74x242",
@@ -653,7 +732,8 @@
     "Description": "Octal buffer/line driver, non-inverting, 3-state outputs",
     "Description_JP": "8回路バッファ/ラインドライバ（非反転、3状態出力）",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x245",
@@ -661,7 +741,8 @@
     "Description": "Octal bus transceiver, 3-state outputs",
     "Description_JP": "8ビットバストランシーバ（3状態出力）",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x247",
@@ -704,12 +785,22 @@
     "GetStartingECS_JP": ["秋月電子", "マルツ電商/DigiKey"]
   },
   {
+    "PartNumber": "74x265",
+    "GottenItems_MN": ["SN74265N"],
+    "Description": "Quad 2-input exclusive-NOR gate",
+    "Description_JP": "4回路2入力XNORゲート",
+    "Rarity": "Maniac(SR+)",
+    "GetStartingECS_JP": ["eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
+  },
+  {
     "PartNumber": "74x273",
     "GottenItems_MN": ["74HC273AP", "SN74HC273N"],
     "Description": "Octal D-type flip-flop with clear",
     "Description_JP": "8ビットD型フリップフロップ（クリア付き）",
     "Rarity": "Normal",
-    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x274",
@@ -732,7 +823,7 @@
     "GottenItems_MN": ["SN74S280N"],
     "Description": "9-bit parity generator/checker",
     "Description_JP": "9ビットパリティジェネレータ/チェッカ",
-    "Rarity": "Maniac(SR+)",
+    "Rarity": "ManiacRare(SSR)",
     "GetStartingECS_JP": ["eBay(国際通販)"]
   },
   {
@@ -750,6 +841,15 @@
     "Description_JP": "4ビットバイナリカウンタ（アップ/ダウン、独立クロック）",
     "Rarity": "Rare",
     "GetStartingECS_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x295",
+    "GottenItems_MN": ["SN74LS295BN"],
+    "Description": "Quad 2-bit bidirectional universal shift register",
+    "Description_JP": "4回路2ビット双方向ユニバーサルシフトレジスタ",
+    "Rarity": "Maniac(SR+)",
+    "GetStartingECS_JP": ["eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
     "PartNumber": "74x298",
@@ -793,11 +893,12 @@
   },
   {
     "PartNumber": "74x366",
-    "GottenItems_MN": ["CD74HC366E"],
+    "GottenItems_MN": ["CD74HC366E", "SN74366AN"],
     "Description": "Hex buffer/line driver, inverting, 3-state outputs",
     "Description_JP": "6回路バッファ/ラインドライバ（反転、3状態出力）",
     "Rarity": "Rare",
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
     "PartNumber": "74x367",
@@ -809,31 +910,52 @@
   },
   {
     "PartNumber": "74x368",
-    "GottenItems_MN": ["SN74368AN", "SN74HC368N"],
+    "GottenItems_MN": ["SN74368AN", "SN74HC368N", "DM74LS368AN"],
     "Description": "Hex buffer/line driver, inverting, 3-state outputs",
     "Description_JP": "6回路バッファ/ラインドライバ（反転、3状態出力）",
     "Rarity": "Normal",
-    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"]
+    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(単品でも入手)"
+    ]
   },
   {
     "PartNumber": "74x373",
-    "GottenItems_MN": ["74HC373AP", "SN74HC373N"],
+    "GottenItems_MN": ["74HC373AP", "SN74HC373N", "SN74S373N"],
     "Description": "Octal transparent latch, 3-state outputs",
     "Description_JP": "8ビットトランスペアレントラッチ（3状態出力）",
     "Rarity": "Commons",
     "GetStartingECS_JP": [
       "秋月電子",
       "マルツ電商/DigiKey",
-      "74HCシリーズICキットなどから購入可能"
+      "Amazon",
+      "eBay(国際通販)"
+    ],
+    "Comments": [
+      "Amazonの74HCシリーズICキットなどから入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"
     ]
   },
   {
     "PartNumber": "74x374",
-    "GottenItems_MN": ["SN74HC374N"],
+    "GottenItems_MN": ["74S374N", "SN74HC374N"],
     "Description": "Octal D-type flip-flop, 3-state outputs",
     "Description_JP": "8ビットD型フリップフロップ（3状態出力）",
     "Rarity": "Normal",
-    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["Amazon", "eBay(国際通販)"],
+    "Comments": [
+      "Amazonの74HCシリーズICキットなどから入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"
+    ]
+  },
+  {
+    "PartNumber": "74x375",
+    "GottenItems_MN": ["74LS375N"],
+    "Description": "Quad D-type latch",
+    "Description_JP": "4ビットD型ラッチ",
+    "Rarity": "Rare",
+    "GetStartingECS_JP": ["eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
     "PartNumber": "74x377",
@@ -875,6 +997,15 @@
     "Description_JP": "2回路4ビットバイナリカウンタ",
     "Rarity": "Normal",
     "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+  },
+  {
+    "PartNumber": "74x395",
+    "GottenItems_MN": ["74LS395"],
+    "Description": "4-bit cascadable shift register",
+    "Description_JP": "4ビットカスケードシフトレジスタ",
+    "Rarity": "ManiacRare(SSR)",
+    "GetStartingECS_JP": ["eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
     "PartNumber": "74x399",
@@ -930,7 +1061,8 @@
     "Description": "Octal transparent latch, 3-state outputs",
     "Description_JP": "8ビットトランスペアレントラッチ（3状態出力）",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x574",
@@ -938,7 +1070,8 @@
     "Description": "Octal D-type flip-flop, 3-state outputs",
     "Description_JP": "8ビットD型フリップフロップ（3状態出力）",
     "Rarity": "Normal",
-    "GetStartingECS_JP": ["74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x590",
@@ -954,7 +1087,8 @@
     "Description": "8-bit serial-in/serial or parallel-out shift register with output latches",
     "Description_JP": "8ビット出力ラッチ付きシフトレジスタ\n8ビットシリアル入力/シリアルまたはパラレル出力シフトレジスタ（出力ラッチ付き）",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["秋月電子", "74HCシリーズICキットなどから購入可能"]
+    "GetStartingECS_JP": ["秋月電子", "Amazon"],
+    "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x597",

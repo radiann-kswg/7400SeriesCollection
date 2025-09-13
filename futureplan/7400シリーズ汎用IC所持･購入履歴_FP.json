@@ -4,7 +4,7 @@
     "GottenItems_MN": [],
     "Description": "Quad 2-input NAND gate with open-collector outputs",
     "Description_JP": "4回路2入力NANDゲート（オープンコレクタ出力）",
-    "Rarity": "Normal",
+    "Rarity": "Normal+",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
@@ -64,18 +64,18 @@
   },
   {
     "PartNumber": "74x375",
-    "GottenItems_MN": [],
+    "GottenItems_MN": ["74LS375N"],
     "Description": "Quad D-type latch",
     "Description_JP": "4ビットD型ラッチ",
-    "Rarity": "Normal+",
-    "GetStartingECS_JP": ["Mouser"]
+    "Rarity": "Rare",
+    "GetStartingECS_JP": ["マルツ電商/DigiKey", "Mouser"]
   },
   {
     "PartNumber": "74x534",
     "GottenItems_MN": [],
     "Description": "Octal D-type transparent latch, 3-state outputs",
     "Description_JP": "8ビットD型トランスペアレントラッチ（3状態出力）",
-    "Rarity": "Normal+",
+    "Rarity": "Rare",
     "GetStartingECS_JP": ["Mouser"]
   },
   {
