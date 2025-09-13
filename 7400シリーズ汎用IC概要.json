@@ -1941,13 +1941,13 @@
     "PartNumber": "74x381",
     "Description": "4-bit arithmetic logic unit(ALU), generate and propagate outputs",
     "Description_JP": "4ビット算術論理演算装置（ALU、生成・伝播出力付き）",
-    "Rarity": "VeryNerd(UR)"
+    "Rarity": "ManiacRare(SSR)"
   },
   {
     "PartNumber": "74x382",
     "Description": "4-bit arithmetic logic unit(ALU), ripple carry and overflow outputs",
     "Description_JP": "4ビット算術論理演算装置（ALU、リップルキャリー・オーバーフロー出力付き）",
-    "Rarity": "VeryNerd(UR)"
+    "Rarity": "ManiacRare(SSR)"
   },
   {
     "PartNumber": "74x383",
