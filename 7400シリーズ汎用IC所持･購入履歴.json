@@ -21,7 +21,7 @@
     "PartNumber": "74x03",
     "Description": "Quad 2-input NAND gate with open-collector outputs",
     "Description_JP": "4回路2入力NANDゲート（オープンコレクタ出力）",
-    "Rarity": "Normal+",
+    "Rarity": "Normal",
     "GetStartingECS_JP": ["eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
@@ -137,7 +137,7 @@
     "GottenItems_MN": ["SN74LS26N", "HD74LS26P", "DM7426N"],
     "Description": "Quad 2-input NOR gate with open-collector outputs",
     "Description_JP": "4回路2入力NORゲート（オープンコレクタ出力）",
-    "Rarity": "Maniac(SR+)",
+    "Rarity": "Normal+",
     "GetStartingECS_JP": ["eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
@@ -485,7 +485,7 @@
     "GottenItems_MN": ["CD74HC154EN"],
     "Description": "4-to-16 line decoder/demultiplexer",
     "Description_JP": "4入力16出力デコーダ/デマルチプレクサ",
-    "Rarity": "Normal+",
+    "Rarity": "Abolition(R+)",
     "GetStartingECS_JP": ["Amazon"],
     "Comments": ["Amazonで単品購入"]
   },
@@ -532,7 +532,7 @@
   },
   {
     "PartNumber": "74x163",
-    "GottenItems_MN": ["74LS163AN", "SN74HC163N"],
+    "GottenItems_MN": ["74LS163AN", "SN74S163N", "SN74HC163N"],
     "Description": "4-bit binary counter, synchronous, with clear and load",
     "Description_JP": "4ビットバイナリカウンタ（同期式、クリア・ロード付き）",
     "Rarity": "Commons",
@@ -590,7 +590,7 @@
     "Description": "Hex D-type flip-flop",
     "Description_JP": "6回路D型フリップフロップ",
     "Rarity": "Normal",
-    "GetStartingECS_JP": ["Amazon"],
+    "GetStartingECS_JP": ["Mouser", "Amazon"],
     "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
@@ -847,7 +847,7 @@
     "GottenItems_MN": ["SN74LS295BN"],
     "Description": "Quad 2-bit bidirectional universal shift register",
     "Description_JP": "4回路2ビット双方向ユニバーサルシフトレジスタ",
-    "Rarity": "Maniac(SR+)",
+    "Rarity": "ManiacRare(SSR)",
     "GetStartingECS_JP": ["eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
@@ -942,7 +942,7 @@
     "Description": "Octal D-type flip-flop, 3-state outputs",
     "Description_JP": "8ビットD型フリップフロップ（3状態出力）",
     "Rarity": "Normal",
-    "GetStartingECS_JP": ["Amazon", "eBay(国際通販)"],
+    "GetStartingECS_JP": ["Mouser", "Amazon", "eBay(国際通販)"],
     "Comments": [
       "Amazonの74HCシリーズICキットなどから入手",
       "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"
@@ -954,7 +954,7 @@
     "Description": "Quad D-type latch",
     "Description_JP": "4ビットD型ラッチ",
     "Rarity": "Rare",
-    "GetStartingECS_JP": ["eBay(国際通販)"],
+    "GetStartingECS_JP": ["Mouser", "eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
@@ -1048,6 +1048,14 @@
     "GetStartingECS_JP": ["秋月電子", "マルツ電商/DigiKey"]
   },
   {
+    "PartNumber": "74x563",
+    "GottenItems_MN": [],
+    "Description": "octal D-type transparent latch, inverting outputs",
+    "Description_JP": "8ビットD型トランスペアレントラッチ（反転出力）",
+    "Rarity": "Normal+",
+    "GetStartingECS_JP": ["Mouser"]
+  },
+  {
     "PartNumber": "74x564",
     "GottenItems_MN": ["CD74HC564E"],
     "Description": "Octal D-type flip-flop, inverting, 3-state outputs",
@@ -1061,7 +1069,7 @@
     "Description": "Octal transparent latch, 3-state outputs",
     "Description_JP": "8ビットトランスペアレントラッチ（3状態出力）",
     "Rarity": "Commons",
-    "GetStartingECS_JP": ["Amazon"],
+    "GetStartingECS_JP": ["Mouser", "Amazon"],
     "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
@@ -1070,7 +1078,7 @@
     "Description": "Octal D-type flip-flop, 3-state outputs",
     "Description_JP": "8ビットD型フリップフロップ（3状態出力）",
     "Rarity": "Normal",
-    "GetStartingECS_JP": ["Amazon"],
+    "GetStartingECS_JP": ["Mouser", "Amazon"],
     "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
