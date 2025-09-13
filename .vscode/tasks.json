@@ -7,6 +7,27 @@
 			"command": "python3 scripts/merge_fp.py",
 			"isBackground": false,
 			"group": "build"
+		},
+		{
+			"label": "Refine Descriptions",
+			"type": "shell",
+			"command": "python3 scripts/refine_descriptions.py",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Regenerate ALL after refine",
+			"type": "shell",
+			"command": "python3 scripts/merge_fp.py",
+			"isBackground": false,
+			"group": "build"
+		},
+		{
+			"label": "Regenerate ALL after refine",
+			"type": "shell",
+			"command": "python3 scripts/merge_fp.py",
+			"isBackground": false,
+			"group": "build"
 		}
 	]
 }

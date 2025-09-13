@@ -1,0 +1,512 @@
+[
+  {
+    "PartNumber": "74x600",
+    "Description": "Dynamic memory refresh controller, transparent/burst modes, for 4K/16K DRAM",
+    "Description_JP": "DRAMリフレッシュコントローラ（透過/バースト動作、4K/16K向け）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x601",
+    "Description": "Dynamic memory refresh controller, transparent/burst modes, for 64K DRAM",
+    "Description_JP": "DRAMリフレッシュコントローラ（透過/バースト動作、64K向け）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x602",
+    "Description": "Dynamic memory refresh controller, cycle steal/burst, for 4K/16K DRAM",
+    "Description_JP": "DRAMリフレッシュコントローラ（サイクルスチール/バースト、4K/16K向け）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x603",
+    "Description": "Dynamic memory refresh controller, cycle steal/burst, for 64K DRAM",
+    "Description_JP": "DRAMリフレッシュコントローラ（サイクルスチール/バースト、64K向け）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x604",
+    "Description": "Octal 2-input multiplexer with latch, high-speed, three-state",
+    "Description_JP": "8ビット2入力MUX＋ラッチ（高速、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x605",
+    "Description": "Octal 2-input multiplexer with latch, high-speed, open-collector",
+    "Description_JP": "8ビット2入力MUX＋ラッチ（高速、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x606",
+    "Description": "Octal 2-input multiplexer with latch, glitch-free, three-state",
+    "Description_JP": "8ビット2入力MUX＋ラッチ（グリッチ低減、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x607",
+    "Description": "Octal 2-input multiplexer with latch, glitch-free, open-collector",
+    "Description_JP": "8ビット2入力MUX＋ラッチ（グリッチ低減、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x608",
+    "Description": "Memory cycle controller",
+    "Description_JP": "メモリ・サイクル・コントローラ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x610",
+    "Description": "Latched memory mapper, three-state",
+    "Description_JP": "メモリマッパ（ラッチ内蔵、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x611",
+    "Description": "Latched memory mapper, open-collector",
+    "Description_JP": "メモリマッパ（ラッチ内蔵、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x612",
+    "Description": "Memory mapper, three-state",
+    "Description_JP": "メモリマッパ（3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x613",
+    "Description": "Memory mapper, open-collector",
+    "Description_JP": "メモリマッパ（オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x614",
+    "Description": "Octal bus transceiver and register, inverting, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ＋レジスタ（反転、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x615",
+    "Description": "Octal bus transceiver and register, non-inverting, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ＋レジスタ（非反転、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x616",
+    "Description": "16-bit parallel error detection and correction (EDAC), three-state",
+    "Description_JP": "16ビット並列EDAC（誤り検出訂正、3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x617",
+    "Description": "16-bit parallel error detection and correction (EDAC), open-collector",
+    "Description_JP": "16ビット並列EDAC（誤り検出訂正、オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x621",
+    "Description": "Octal bus transceiver, non-inverting, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ（非反転、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x622",
+    "Description": "Octal bus transceiver, inverting, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ（反転、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x624",
+    "Description": "Voltage-controlled oscillator, enable/range control, two-phase outputs",
+    "Description_JP": "電圧制御発振器（有効/レンジ制御、2相出力）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x625",
+    "Description": "Dual voltage-controlled oscillator, two-phase outputs",
+    "Description_JP": "2回路VCO（2相出力）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x626",
+    "Description": "Dual voltage-controlled oscillator, enable control, two-phase outputs",
+    "Description_JP": "2回路VCO（イネーブル制御、2相出力）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x627",
+    "Description": "Dual voltage-controlled oscillator",
+    "Description_JP": "2回路VCO",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x628",
+    "Description": "Voltage-controlled oscillator with external temperature compensation",
+    "Description_JP": "電圧制御発振器（外付け温度補償対応）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x629",
+    "Description": "Dual voltage-controlled oscillator with range control",
+    "Description_JP": "2回路VCO（レンジ制御）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x630",
+    "Description": "16-bit error detection and correction (EDAC), three-state",
+    "Description_JP": "16ビットEDAC（3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x631",
+    "Description": "16-bit error detection and correction (EDAC), open-collector",
+    "Description_JP": "16ビットEDAC（オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x632",
+    "Description": "32-bit parallel EDAC with byte-write, three-state",
+    "Description_JP": "32ビット並列EDAC（バイト書込対応、3状態）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x633",
+    "Description": "32-bit parallel EDAC with byte-write, open-collector",
+    "Description_JP": "32ビット並列EDAC（バイト書込対応、オープンコレクタ）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x634",
+    "Description": "32-bit parallel EDAC, three-state",
+    "Description_JP": "32ビット並列EDAC（3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x635",
+    "Description": "32-bit parallel EDAC, open-collector",
+    "Description_JP": "32ビット並列EDAC（オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x636",
+    "Description": "8-bit parallel EDAC, three-state",
+    "Description_JP": "8ビット並列EDAC（3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x637",
+    "Description": "8-bit parallel EDAC, open-collector",
+    "Description_JP": "8ビット並列EDAC（オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x638",
+    "Description": "Octal bus transceiver, inverting outputs, three-state/open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ（反転出力、3状態/オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x639",
+    "Description": "Octal bus transceiver, non-inverting outputs, three-state/open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ（非反転出力、3状態/オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x641",
+    "Description": "Octal bus transceiver, non-inverting outputs, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ（非反転出力、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x642",
+    "Description": "Octal bus transceiver, inverting outputs, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ（反転出力、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x643",
+    "Description": "Octal bus transceiver, mixed inverting/non-inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ（反転/非反転混在、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x644",
+    "Description": "Octal bus transceiver, mixed inverting/non-inverting, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ（反転/非反転混在、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x646",
+    "Description": "Octal bus transceiver/latch/multiplexer, non-inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ/ラッチ/MUX（非反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x647",
+    "Description": "Octal bus transceiver/latch/multiplexer, non-inverting, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ/ラッチ/MUX（非反転、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x648",
+    "Description": "Octal bus transceiver/latch/multiplexer, inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ/ラッチ/MUX（反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x649",
+    "Description": "Octal bus transceiver/latch/multiplexer, inverting, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ/ラッチ/MUX（反転、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x651",
+    "Description": "Octal bus transceiver/register, inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ/レジスタ（反転、3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x652",
+    "Description": "Octal bus transceiver/register, non-inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ/レジスタ（非反転、3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x653",
+    "Description": "Octal bus transceiver/register, inverting, three-state/open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ/レジスタ（反転、3状態/オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x654",
+    "Description": "Octal bus transceiver/register, non-inverting, three-state/open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ/レジスタ（非反転、3状態/オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x655",
+    "Description": "Octal buffer/line driver with parity, inverting, three-state",
+    "Description_JP": "8ビット・バッファ/ラインドライバ（パリティ付、反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x656",
+    "Description": "Octal buffer/line driver with parity, non-inverting, three-state",
+    "Description_JP": "8ビット・バッファ/ラインドライバ（パリティ付、非反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x657",
+    "Description": "Octal bidirectional transceiver with 8-bit parity generator/checker, three-state",
+    "Description_JP": "8ビット双方向トランシーバ（8ビット・パリティ生成/検査、3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x658",
+    "Description": "Octal bus transceiver with parity, inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ（パリティ付、反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x659",
+    "Description": "Octal bus transceiver with parity, non-inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ（パリティ付、非反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x664",
+    "Description": "Octal bus transceiver with parity, inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ（パリティ付、反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x665",
+    "Description": "Octal bus transceiver with parity, non-inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ（パリティ付、非反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x666",
+    "Description": "8-bit D-type transparent read-back latch, non-inverting, three-state",
+    "Description_JP": "8ビットD型透過リードバック・ラッチ（非反転、3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x667",
+    "Description": "8-bit D-type transparent read-back latch, inverting, three-state",
+    "Description_JP": "8ビットD型透過リードバック・ラッチ（反転、3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x668",
+    "Description": "Synchronous 4-bit decade up/down counter",
+    "Description_JP": "同期式4ビット10進アップ/ダウン・カウンタ",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x669",
+    "Description": "Synchronous 4-bit binary up/down counter",
+    "Description_JP": "同期式4ビットバイナリ・アップ/ダウン・カウンタ",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x671",
+    "Description": "4-bit bidirectional shift register/latch/multiplexer, direct clear, three-state",
+    "Description_JP": "4ビット双方向シフトレジスタ/ラッチ/MUX（直接クリア、3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x672",
+    "Description": "4-bit bidirectional shift register/latch/multiplexer, synchronous clear, three-state",
+    "Description_JP": "4ビット双方向シフトレジスタ/ラッチ/MUX（同期クリア、3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x673",
+    "Description": "16-bit serial-in, serial/parallel-out shift register with output storage, three-state",
+    "Description_JP": "16ビットSISO/SIPOシフトレジスタ（出力ストレージ付、3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x674",
+    "Description": "16-bit parallel-in, serial-out shift register, three-state",
+    "Description_JP": "16ビットPISOシフトレジスタ（3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x675",
+    "Description": "16-bit serial-in, serial/parallel-out shift register",
+    "Description_JP": "16ビットSISO/SIPOシフトレジスタ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x676",
+    "Description": "16-bit serial/parallel-in, serial-out shift register",
+    "Description_JP": "16ビットS/PI, SOシフトレジスタ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x677",
+    "Description": "16-bit address comparator with enable",
+    "Description_JP": "16ビット・アドレス・コンパレータ（イネーブル付）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x678",
+    "Description": "16-bit address comparator with latch",
+    "Description_JP": "16ビット・アドレス・コンパレータ（ラッチ付）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x679",
+    "Description": "12-bit address comparator with latch",
+    "Description_JP": "12ビット・アドレス・コンパレータ（ラッチ付）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x680",
+    "Description": "12-bit address comparator with enable",
+    "Description_JP": "12ビット・アドレス・コンパレータ（イネーブル付）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x681",
+    "Description": "4-bit parallel binary accumulator, three-state",
+    "Description_JP": "4ビット並列バイナリ・アキュムレータ（3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x683",
+    "Description": "8-bit magnitude comparator, P>Q output, 20 kΩ pull-up, open-collector",
+    "Description_JP": "8ビット大小比較器（P>Q出力、20kΩプルアップ、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x684",
+    "Description": "8-bit magnitude comparator, P>Q output",
+    "Description_JP": "8ビット大小比較器（P>Q出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x685",
+    "Description": "8-bit magnitude comparator, P>Q output, open-collector",
+    "Description_JP": "8ビット大小比較器（P>Q出力、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x686",
+    "Description": "8-bit magnitude comparator, P>Q output, enable",
+    "Description_JP": "8ビット大小比較器（P>Q出力、イネーブル付）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x687",
+    "Description": "8-bit magnitude comparator, P>Q output, enable, open-collector",
+    "Description_JP": "8ビット大小比較器（P>Q出力、イネーブル付、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x689",
+    "Description": "8-bit magnitude comparator, enable, open-collector",
+    "Description_JP": "8ビット大小比較器（イネーブル付、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x690",
+    "Description": "4-bit decimal counter/latch/multiplexer, asynchronous clear, three-state",
+    "Description_JP": "4ビット10進カウンタ/ラッチ/MUX（非同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x691",
+    "Description": "4-bit binary counter/latch/multiplexer, asynchronous clear, three-state",
+    "Description_JP": "4ビットバイナリ・カウンタ/ラッチ/MUX（非同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x692",
+    "Description": "4-bit decimal counter/latch/multiplexer, synchronous clear, three-state",
+    "Description_JP": "4ビット10進カウンタ/ラッチ/MUX（同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x693",
+    "Description": "4-bit binary counter/latch/multiplexer, synchronous clear, three-state",
+    "Description_JP": "4ビットバイナリ・カウンタ/ラッチ/MUX（同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x694",
+    "Description": "4-bit decimal counter/latch/multiplexer, sync & async clears, three-state",
+    "Description_JP": "4ビット10進カウンタ/ラッチ/MUX（同期/非同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x695",
+    "Description": "4-bit binary counter/latch/multiplexer, sync & async clears, three-state",
+    "Description_JP": "4ビットバイナリ・カウンタ/ラッチ/MUX（同期/非同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x696",
+    "Description": "4-bit decimal counter/register/multiplexer, asynchronous clear, three-state",
+    "Description_JP": "4ビット10進カウンタ/レジスタ/MUX（非同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x697",
+    "Description": "4-bit binary counter/register/multiplexer, asynchronous clear, three-state",
+    "Description_JP": "4ビットバイナリ・カウンタ/レジスタ/MUX（非同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x698",
+    "Description": "4-bit decimal counter/register/multiplexer, synchronous clear, three-state",
+    "Description_JP": "4ビット10進カウンタ/レジスタ/MUX（同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x699",
+    "Description": "4-bit binary counter/register/multiplexer, synchronous clear, three-state",
+    "Description_JP": "4ビットバイナリ・カウンタ/レジスタ/MUX（同期クリア、3状態）",
+    "Rarity": "Normal+"
+  }
+]
