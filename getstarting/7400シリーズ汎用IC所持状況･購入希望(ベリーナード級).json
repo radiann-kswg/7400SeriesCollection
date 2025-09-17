@@ -2,16 +2,22 @@
   {
     "PartNumber": "74x284",
     "GottenItems_MN": [],
-    "GetStartingECS_JP": []
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x285",
     "GottenItems_MN": [],
-    "GetStartingECS_JP": []
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x516",
     "GottenItems_MN": [],
-    "GetStartingECS_JP": []
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
   }
 ]

@@ -1,37 +1,51 @@
 [
   {
     "PartNumber": "74x294",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": []
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x375",
-    "GottenItems_MN": ["74LS375N"],
-    "GetStartingECS_JP": ["マルツ電商"]
+    "GetStartingECS_JP": ["マルツ電商"],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["74LS375N"],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x380",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": []
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x508",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": []
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x533",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x534",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": ["Mouser"]
+    "GetStartingECS_JP": ["Mouser"],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x784",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": []
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
   }
 ]
