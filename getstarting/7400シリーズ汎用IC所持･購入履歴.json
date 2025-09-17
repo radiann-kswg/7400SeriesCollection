@@ -243,7 +243,9 @@
     "PartNumber": "74x124",
     "GottenItems_MN": ["SN74S124N"],
     "GetStartingECS_JP": ["eBay(国際通販)"],
-    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(単品でも入手)"
+    ]
   },
   {
     "PartNumber": "74x125",
