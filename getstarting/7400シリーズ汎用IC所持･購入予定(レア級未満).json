@@ -1,0 +1,322 @@
+[
+  {
+    "PartNumber": "74x01",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x03",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x10",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x12",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x13",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x15",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x16",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x17",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x18",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x19",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x25",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x26",
+    "GottenItems_MN": ["SN74LS26N"],
+    "GetStartingECS_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x27",
+    "GottenItems_MN": ["SN74HC27N", "CD74HC27E", "CD74HCT27E"],
+    "GetStartingECS_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x39",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x40",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x54",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x83",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x85",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x55",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x110",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x160",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x162",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x168",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x169",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x175",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x246",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x258",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x273",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x290",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x373",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x422",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x425",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x426",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x465",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x466",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x467",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x468",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x538",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x539",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x560",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x561",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x568",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x569",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x594",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x598",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x668",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x669",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x690",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x691",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x692",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x693",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x694",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x695",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x696",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x697",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x698",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x699",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x795",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x796",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x797",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x798",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x804",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x808",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": ["Mouser"]
+  },
+  {
+    "PartNumber": "74x832",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": ["Mouser"]
+  }
+]

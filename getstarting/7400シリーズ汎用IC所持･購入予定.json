@@ -1,78 +1,23 @@
 [
   {
-    "PartNumber": "74x03",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x10",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x25",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x26",
-    "GottenItems_MN": ["SN74LS26N"],
-    "GetStartingECS_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x27",
-    "GottenItems_MN": ["SN74HC27N", "CD74HC27E", "CD74HCT27E"],
-    "GetStartingECS_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x39",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x40",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x54",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x55",
+    "PartNumber": "74x294",
     "GottenItems_MN": [],
     "GetStartingECS_JP": []
-  },
-  {
-    "PartNumber": "74x110",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x175",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x246",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x273",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x373",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": ["Mouser"]
   },
   {
     "PartNumber": "74x375",
     "GottenItems_MN": ["74LS375N"],
     "GetStartingECS_JP": ["マルツ電商"]
+  },
+  {
+    "PartNumber": "74x380",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
+  {
+    "PartNumber": "74x508",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
   },
   {
     "PartNumber": "74x533",
@@ -85,18 +30,8 @@
     "GetStartingECS_JP": ["Mouser"]
   },
   {
-    "PartNumber": "74x804",
+    "PartNumber": "74x784",
     "GottenItems_MN": [],
-    "GetStartingECS_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x808",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": ["Mouser"]
-  },
-  {
-    "PartNumber": "74x832",
-    "GottenItems_MN": [],
-    "GetStartingECS_JP": ["Mouser"]
+    "GetStartingECS_JP": []
   }
 ]
