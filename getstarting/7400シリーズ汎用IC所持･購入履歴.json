@@ -48,7 +48,7 @@
   {
     "PartNumber": "74x07",
     "GottenItems_MN": ["74HC07AP"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x08",
@@ -65,7 +65,7 @@
   {
     "PartNumber": "74x11",
     "GottenItems_MN": ["SN74HC11N", "HD74LS11P"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
@@ -139,11 +139,7 @@
   {
     "PartNumber": "74x42",
     "GottenItems_MN": ["TC74HC42AP"],
-    "GetStartingECS_JP": [
-      "共立エレショップ",
-      "マルツ電商/DigiKey",
-      "eBay(国際通販)"
-    ]
+    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商", "eBay(国際通販)"]
   },
   {
     "PartNumber": "74x47",
@@ -170,7 +166,7 @@
   {
     "PartNumber": "74x73",
     "GottenItems_MN": ["CD74HC73E"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x74",
@@ -184,7 +180,7 @@
   {
     "PartNumber": "74x75",
     "GottenItems_MN": ["CD74HC75E"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x82",
@@ -194,7 +190,7 @@
   {
     "PartNumber": "74x86",
     "GottenItems_MN": ["SN74HC86N", "HD74LS86P"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
     "Comments": [
       "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(単品でも入手)"
     ]
@@ -212,7 +208,7 @@
   {
     "PartNumber": "74x107",
     "GottenItems_MN": ["CD74HC107E", "DM74LS107N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
@@ -237,7 +233,7 @@
   {
     "PartNumber": "74x123",
     "GottenItems_MN": ["74HC123AP"],
-    "GetStartingECS_JP": ["秋月電子", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["秋月電子", "マルツ電商"]
   },
   {
     "PartNumber": "74x124",
@@ -309,18 +305,18 @@
   {
     "PartNumber": "74x148",
     "GottenItems_MN": ["SN74HC148N"],
-    "GetStartingECS_JP": ["秋月電子", "マルツ電商/DigiKey", "Amazon"],
+    "GetStartingECS_JP": ["秋月電子", "マルツ電商", "Amazon"],
     "Comments": ["Amazonの74HCシリーズICキットなどから入手"]
   },
   {
     "PartNumber": "74x151",
     "GottenItems_MN": ["SN74HC151N", "TC74HC151AP"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x153",
     "GottenItems_MN": ["74HC153AP", "74LS153N", "HD74LS153P"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
@@ -348,12 +344,12 @@
   {
     "PartNumber": "74x158",
     "GottenItems_MN": ["SN74HC158N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x161",
     "GottenItems_MN": ["SN74HC161N"],
-    "GetStartingECS_JP": ["秋月電子", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["秋月電子", "マルツ電商"]
   },
   {
     "PartNumber": "74x163",
@@ -379,7 +375,7 @@
   {
     "PartNumber": "74x166",
     "GottenItems_MN": ["CD74HC166E"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x170",
@@ -389,7 +385,7 @@
   {
     "PartNumber": "74x173",
     "GottenItems_MN": ["SN74LS173AN", "TC74HC173AF"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey", "Mouser"]
+    "GetStartingECS_JP": ["マルツ電商", "Mouser"]
   },
   {
     "PartNumber": "74x174",
@@ -400,7 +396,7 @@
   {
     "PartNumber": "74x175",
     "GottenItems_MN": ["74HC175AP", "HD74LS175P", "DM74175N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
@@ -427,17 +423,17 @@
   {
     "PartNumber": "74x191",
     "GottenItems_MN": ["SN74HC191N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x192",
     "GottenItems_MN": ["CD74HC192E"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x193",
     "GottenItems_MN": ["SN74HC193N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x194",
@@ -448,28 +444,28 @@
   {
     "PartNumber": "74x221",
     "GottenItems_MN": ["CD74HC221E"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x237",
     "GottenItems_MN": ["CD74HC237E"],
-    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商"]
   },
   {
     "PartNumber": "74x238",
     "GottenItems_MN": ["CD74HC238E"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x240",
     "GottenItems_MN": ["74HC240AP", "SN74LS240N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
     "PartNumber": "74x241",
     "GottenItems_MN": ["74LS241N", "SN74HC241N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
@@ -512,12 +508,12 @@
   {
     "PartNumber": "74x257",
     "GottenItems_MN": ["SN74HC257N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x259",
     "GottenItems_MN": ["SN74HC259N"],
-    "GetStartingECS_JP": ["秋月電子", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["秋月電子", "マルツ電商"]
   },
   {
     "PartNumber": "74x265",
@@ -549,7 +545,7 @@
   {
     "PartNumber": "74x283",
     "GottenItems_MN": ["CD74HC283E"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x293",
@@ -575,33 +571,33 @@
   {
     "PartNumber": "74x354",
     "GottenItems_MN": ["CD74HC354E", "HD74HC354P"],
-    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商"]
   },
   {
     "PartNumber": "74x356",
     "GottenItems_MN": ["TC74HC356P", "CD74HCT356E"],
-    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商"]
   },
   {
     "PartNumber": "74x365",
     "GottenItems_MN": ["SN74HC365N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x366",
     "GottenItems_MN": ["CD74HC366E", "SN74366AN"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"]
   },
   {
     "PartNumber": "74x367",
     "GottenItems_MN": ["SN74HC367N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x368",
     "GottenItems_MN": ["SN74368AN", "SN74HC368N", "DM74LS368AN"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey", "eBay(国際通販)"],
+    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
     "Comments": [
       "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(単品でも入手)"
     ]
@@ -609,12 +605,7 @@
   {
     "PartNumber": "74x373",
     "GottenItems_MN": ["74HC373AP", "SN74HC373N", "SN74S373N"],
-    "GetStartingECS_JP": [
-      "秋月電子",
-      "マルツ電商/DigiKey",
-      "Amazon",
-      "eBay(国際通販)"
-    ],
+    "GetStartingECS_JP": ["秋月電子", "マルツ電商", "Amazon", "eBay(国際通販)"],
     "Comments": [
       "Amazonの74HCシリーズICキットなどから入手",
       "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"
@@ -638,7 +629,7 @@
   {
     "PartNumber": "74x377",
     "GottenItems_MN": ["SN74HC377N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x381",
@@ -654,12 +645,12 @@
   {
     "PartNumber": "74x390",
     "GottenItems_MN": ["CD74HC390E"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x393",
     "GottenItems_MN": ["SN74HC393N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x395",
@@ -680,17 +671,17 @@
   {
     "PartNumber": "74x533",
     "GottenItems_MN": ["CD74HC533E", "HD74HC533P"],
-    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商"]
   },
   {
     "PartNumber": "74x540",
     "GottenItems_MN": ["SN74HC540N", "CD74HC540E"],
-    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商"]
   },
   {
     "PartNumber": "74x541",
     "GottenItems_MN": ["74HC541AP", "SN74HC541N"],
-    "GetStartingECS_JP": ["秋月電子", "マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["秋月電子", "マルツ電商"]
   },
   {
     "PartNumber": "74x563",
@@ -700,7 +691,7 @@
   {
     "PartNumber": "74x564",
     "GottenItems_MN": ["CD74HC564E"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x573",
@@ -743,26 +734,26 @@
   {
     "PartNumber": "74x640",
     "GottenItems_MN": ["SN74HC640N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x645",
     "GottenItems_MN": ["SN74HC645N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x670",
     "GottenItems_MN": ["CD74HC670E"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x682",
     "GottenItems_MN": ["SN74HC682N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x688",
     "GottenItems_MN": ["SN74HC688N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   }
 ]

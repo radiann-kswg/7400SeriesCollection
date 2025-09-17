@@ -39,7 +39,11 @@
     "GottenItems_MN": [],
     "GetStartingECS_JP": ["Mouser"]
   },
-  { "PartNumber": "74x55", "GottenItems_MN": [], "Rarity": "Maniac(SR+)" },
+  {
+    "PartNumber": "74x55",
+    "GottenItems_MN": [],
+    "GetStartingECS_JP": []
+  },
   {
     "PartNumber": "74x110",
     "GottenItems_MN": [],
@@ -68,7 +72,7 @@
   {
     "PartNumber": "74x375",
     "GottenItems_MN": ["74LS375N"],
-    "GetStartingECS_JP": ["マルツ電商/DigiKey"]
+    "GetStartingECS_JP": ["マルツ電商"]
   },
   {
     "PartNumber": "74x533",
