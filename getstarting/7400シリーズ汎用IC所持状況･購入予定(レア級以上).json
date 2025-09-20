@@ -7,6 +7,13 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x295",
+    "GetStartingECS_JP": ["eBay(国際通販)"],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["SN74LS295BN"],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x375",
     "GetStartingECS_JP": ["マルツ電商"],
     "GottenItemsMN_CMOS": [],
