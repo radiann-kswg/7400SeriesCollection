@@ -1,17 +1,27 @@
 [
   {
     "PartNumber": "74x00",
-    "GetStartingECS_JP": ["秋月電子", "Amazon"],
-    "Comments": ["Amazonの74HCシリーズICキットなどから入手"],
-    "GottenItemsMN_CMOS": ["74HC00N", "74HC00AP", "SN74HC00N", "U74HC00L"],
-    "GottenItemsMN_TTL": [],
+    "GetStartingECS_JP": ["秋月電子", "Amazon", "eBay(国際通販)"],
+    "Comments": [
+      "Amazonの74HCシリーズICキットなどから入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"
+    ],
+    "GottenItemsMN_CMOS": [
+      "74HC00N",
+      "74HC00AP",
+      "SN74HC00N",
+      "HD74HC00F",
+      "TC74HC00AF",
+      "U74HC00L"
+    ],
+    "GottenItemsMN_TTL": ["SN74S00N"],
     "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x02",
     "GetStartingECS_JP": ["秋月電子", "Amazon"],
     "Comments": ["Amazonの74HCシリーズICキットなどから入手"],
-    "GottenItemsMN_CMOS": ["74HC02N", "SN74HC02N"],
+    "GottenItemsMN_CMOS": ["74HC02N", "SN74HC02N", "HD74HC02F", "TC74HC02AF"],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
   },
@@ -20,9 +30,8 @@
     "GetStartingECS_JP": ["eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": [],
-    "GottenItemsMN_Other": [],
-    "GottenItems_MN": []
+    "GottenItemsMN_TTL": ["HD74LS03P"],
+    "GottenItemsMN_Other": ["SN7403"]
   },
   {
     "PartNumber": "74x04",
@@ -48,7 +57,7 @@
       "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"
     ],
     "GottenItemsMN_CMOS": ["SN74HC05N"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["SN74LS05N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -465,9 +474,10 @@
   },
   {
     "PartNumber": "74x161",
-    "GetStartingECS_JP": ["秋月電子", "マルツ電商"],
+    "GetStartingECS_JP": ["秋月電子", "マルツ電商", "eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
     "GottenItemsMN_CMOS": ["SN74HC161N"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["SK74LS161"],
     "GottenItemsMN_Other": []
   },
   {
@@ -483,10 +493,13 @@
   },
   {
     "PartNumber": "74x164",
-    "GetStartingECS_JP": ["Mouser", "Amazon"],
-    "Comments": ["Amazonの74HCシリーズICキットなどから入手"],
+    "GetStartingECS_JP": ["Mouser", "Amazon", "eBay(国際通販)"],
+    "Comments": [
+      "Amazonの74HCシリーズICキットなどから入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"
+    ],
     "GottenItemsMN_CMOS": ["SN74HC164N"],
-    "GottenItemsMN_TTL": ["SN74LS164N"],
+    "GottenItemsMN_TTL": ["SN74LS164N", "HD74LS164P"],
     "GottenItemsMN_Other": []
   },
   {
@@ -591,7 +604,7 @@
     "GetStartingECS_JP": ["共立エレショップ", "eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
     "GottenItemsMN_CMOS": ["CD74HC194E"],
-    "GottenItemsMN_TTL": ["74LS194N"],
+    "GottenItemsMN_TTL": ["74LS194AN"],
     "GottenItemsMN_Other": []
   },
   {
@@ -669,6 +682,14 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x249",
+    "GetStartingECS_JP": ["eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["SK74LS249"],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x251",
     "GetStartingECS_JP": ["Mouser"],
     "GottenItemsMN_CMOS": ["SN74HC251N"],
@@ -684,9 +705,10 @@
   },
   {
     "PartNumber": "74x257",
-    "GetStartingECS_JP": ["マルツ電商"],
+    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
+    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
     "GottenItemsMN_CMOS": ["SN74HC257N"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["74LS257AN"],
     "GottenItemsMN_Other": []
   },
   {
