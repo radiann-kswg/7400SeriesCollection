@@ -22,9 +22,9 @@
   },
   {
     "PartNumber": "74x10",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": ["Mouser", "eBay(国際通販)"],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["74S10N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -102,6 +102,13 @@
     "GetStartingECS_JP": ["Mouser"],
     "GottenItemsMN_CMOS": ["SN74HC27N", "CD74HC27E", "CD74HCT27E"],
     "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x30",
+    "GetStartingECS_JP": ["eBay(国際通販)"],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["74S30"],
     "GottenItemsMN_Other": []
   },
   {
