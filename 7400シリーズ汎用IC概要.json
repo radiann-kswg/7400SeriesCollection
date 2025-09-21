@@ -1419,7 +1419,7 @@
     "PartNumber": "74x265",
     "Description": "Quad 2-input exclusive-NOR gate",
     "Description_JP": "4回路2入力XNORゲート",
-    "Rarity": "Maniac(SR+)"
+    "Rarity": "ManiacRare(SSR)"
   },
   {
     "PartNumber": "74x266",
@@ -1935,7 +1935,7 @@
     "PartNumber": "74x380",
     "Description": "8-bit multifunction register (combines features of x374, x377, x273, x534 ICs), three-state",
     "Description_JP": "8ビット多機能レジスタ（x374/x377/x273/x534の機能統合）、3状態",
-    "Rarity": "SuperRare"
+    "Rarity": "ManiacRare(SSR)"
   },
   {
     "PartNumber": "74x381",
@@ -2001,7 +2001,7 @@
     "PartNumber": "74x395",
     "Description": "4-bit cascadable shift register",
     "Description_JP": "4ビットカスケードシフトレジスタ",
-    "Rarity": "ManiacRare(SSR)"
+    "Rarity": "Maniac(SR+)"
   },
   {
     "PartNumber": "74x396",
@@ -2427,7 +2427,7 @@
     "PartNumber": "74x508",
     "Description": "8-bit multiplier/divider",
     "Description_JP": "8ビット乗算/除算器",
-    "Rarity": "ManiacRare(SSR)"
+    "Rarity": "VeryNerd(UR)"
   },
   {
     "PartNumber": "74x515",
