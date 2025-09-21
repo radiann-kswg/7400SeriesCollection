@@ -14,8 +14,22 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x05",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x10",
     "GetStartingECS_JP": ["Mouser"],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x11",
+    "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []

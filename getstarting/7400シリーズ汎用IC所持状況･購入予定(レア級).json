@@ -1,0 +1,23 @@
+[
+  {
+    "PartNumber": "74x375",
+    "GetStartingECS_JP": ["マルツ電商"],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["74LS375N"],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x533",
+    "GetStartingECS_JP": ["Mouser"],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x534",
+    "GetStartingECS_JP": ["Mouser"],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  }
+]

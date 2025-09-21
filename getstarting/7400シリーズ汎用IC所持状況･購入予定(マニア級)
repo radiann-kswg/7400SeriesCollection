@@ -1,0 +1,82 @@
+[
+  {
+    "PartNumber": "74x113",
+    "GetStartingECS_JP": [
+      "eBay(国際通販)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [
+      "SN74S113N"
+    ],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x249",
+    "GetStartingECS_JP": [
+      "eBay(国際通販)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [
+      "SN74LS249N",
+      "HD74LS249P"
+    ],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x265",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": [
+      "SN74265N"
+    ]
+  },
+  {
+    "PartNumber": "74x294",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x295",
+    "GetStartingECS_JP": [
+      "eBay(国際通販)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [
+      "SN74LS295BN"
+    ],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x380",
+    "GetStartingECS_JP": [
+      "セカイモン(国際通販)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [
+      "SN74LS380"
+    ],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x395",
+    "GetStartingECS_JP": [
+      "eBay(国際通販)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [
+      "74LS395AN",
+      "SN74LS395N"
+    ],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x508",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  }
+]
