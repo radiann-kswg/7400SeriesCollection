@@ -1,9 +1,30 @@
 [
   {
+    "PartNumber": "74x195",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x375",
     "GetStartingECS_JP": ["マルツ電商"],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": ["74LS375N"],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x379",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x521",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
   },
   {

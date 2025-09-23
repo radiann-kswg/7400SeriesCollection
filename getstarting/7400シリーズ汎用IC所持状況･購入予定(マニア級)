@@ -1,5 +1,12 @@
 [
   {
+    "PartNumber": "74x64",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x113",
     "GetStartingECS_JP": [
       "eBay(国際通販)"
@@ -70,6 +77,13 @@
       "74LS395AN",
       "SN74LS395N"
     ],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x543",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
   }
 ]
