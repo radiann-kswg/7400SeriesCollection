@@ -30,8 +30,8 @@
     "GetStartingECS_JP": ["eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": ["HD74LS03P"],
-    "GottenItemsMN_Other": ["SN7403"]
+    "GottenItemsMN_TTL": ["SN7403", "HD74LS03P"],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x04",
@@ -46,8 +46,8 @@
       "SN74HC04N",
       "MM74HC04N/MC74HC04N"
     ],
-    "GottenItemsMN_TTL": [],
-    "GottenItemsMN_Other": ["SN74H04N"]
+    "GottenItemsMN_TTL": ["SN74H04N"],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x05",
@@ -133,8 +133,8 @@
     "GetStartingECS_JP": ["eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": ["SN74LS26N", "HD74LS26P"],
-    "GottenItemsMN_Other": ["DM7426N"]
+    "GottenItemsMN_TTL": ["DM7426N", "SN74LS26N", "HD74LS26P"],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x27",
@@ -142,9 +142,9 @@
     "Comments": [
       "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(単品でも入手)"
     ],
-    "GottenItemsMN_CMOS": ["SN74HC27N"],
+    "GottenItemsMN_CMOS": ["SN7427N", "SN74HC27N"],
     "GottenItemsMN_TTL": [],
-    "GottenItemsMN_Other": ["SN7427N"]
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x30",
@@ -256,8 +256,8 @@
     "PartNumber": "74x82",
     "GetStartingECS_JP": ["eBay(国際通販)"],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": [],
-    "GottenItemsMN_Other": ["SN7482N"]
+    "GottenItemsMN_TTL": ["SN7482N"],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x86",
@@ -544,8 +544,8 @@
     "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
     "GottenItemsMN_CMOS": ["74HC175AP"],
-    "GottenItemsMN_TTL": ["HD74LS175P"],
-    "GottenItemsMN_Other": ["DM74175N"]
+    "GottenItemsMN_TTL": ["DM74175N", "HD74LS175P"],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x181",
@@ -723,8 +723,8 @@
     "GetStartingECS_JP": ["eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": [],
-    "GottenItemsMN_Other": ["SN74265N"]
+    "GottenItemsMN_TTL": ["SN74265N"],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x273",
@@ -817,8 +817,8 @@
     "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
     "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
     "GottenItemsMN_CMOS": ["CD74HC366E"],
-    "GottenItemsMN_TTL": [],
-    "GottenItemsMN_Other": ["SN74366AN"]
+    "GottenItemsMN_TTL": ["SN74366AN"],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x367",
@@ -834,8 +834,8 @@
       "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(単品でも入手)"
     ],
     "GottenItemsMN_CMOS": ["SN74HC368N"],
-    "GottenItemsMN_TTL": ["DM74LS368AN"],
-    "GottenItemsMN_Other": ["SN74368AN"]
+    "GottenItemsMN_TTL": ["SN74368AN", "DM74LS368AN"],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x373",
