@@ -30,9 +30,12 @@
   },
   {
     "PartNumber": "74x03",
-    "GetStartingECS_JP": ["eBay(国際通販)"],
-    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
-    "GottenItemsMN_CMOS": [],
+    "GetStartingECS_JP": ["eBay(国際通販)", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": ["MC74HC03AN"],
     "GottenItemsMN_TTL": ["SN7403", "HD74LS03P"],
     "GottenItemsMN_Other": []
   },
@@ -60,13 +63,14 @@
   },
   {
     "PartNumber": "74x05",
-    "GetStartingECS_JP": ["Amazon", "eBay(国際通販)"],
+    "GetStartingECS_JP": ["Amazon", "eBay(国際通販)", "JAMECO(海外)"],
     "Comments": [
       "Amazonの74HCシリーズICキットなどから入手",
-      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
     ],
     "GottenItemsMN_CMOS": ["SN74HC05N"],
-    "GottenItemsMN_TTL": ["SN74LS05N"],
+    "GottenItemsMN_TTL": ["SN74LS05N", "SN74ALS05N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -95,19 +99,35 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x09",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["SN74LS09N"],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x10",
-    "GetStartingECS_JP": ["Amazon"],
-    "Comments": ["Amazonの74HCシリーズICキットなどから入手"],
+    "GetStartingECS_JP": ["Amazon", "JAMECO(海外)"],
+    "Comments": [
+      "Amazonの74HCシリーズICキットなどから入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["SN74HC10N"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["SN74F10N"],
     "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x11",
-    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
-    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
+    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["SN74HC11N"],
-    "GottenItemsMN_TTL": ["HD74LS11P"],
+    "GottenItemsMN_TTL": ["HD74LS11P", "DM74AS11N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -116,6 +136,16 @@
     "Comments": ["Amazonの74HCシリーズICキットなどから入手"],
     "GottenItemsMN_CMOS": ["74HC14AP", "SN74HC14N"],
     "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x15",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["M74LS15P"],
     "GottenItemsMN_Other": []
   },
   {
@@ -159,12 +189,13 @@
   },
   {
     "PartNumber": "74x27",
-    "GetStartingECS_JP": ["共立エレショップ", "eBay(国際通販)"],
+    "GetStartingECS_JP": ["共立エレショップ", "eBay(国際通販)", "JAMECO(海外)"],
     "Comments": [
-      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(単品でも入手)"
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(単品でも入手)",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
     ],
-    "GottenItemsMN_CMOS": ["SN7427N", "SN74HC27N"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_CMOS": ["SN74HC27N"],
+    "GottenItemsMN_TTL": ["SN7427N", "SN74ALS27N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -184,6 +215,16 @@
     "Comments": ["Amazonの74HCシリーズICキットなどから入手"],
     "GottenItemsMN_CMOS": ["74HC32AP", "SN74HC32N"],
     "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x33",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["SN74ALS33AN"],
     "GottenItemsMN_Other": []
   },
   {
@@ -209,9 +250,22 @@
   },
   {
     "PartNumber": "74x38",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": ["Mouser", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": ["SN74LS38N"],
+    "GottenItemsMN_TTL": ["SN74LS38N", "MC74F38N"],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x40",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["74S40N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -237,12 +291,32 @@
     "GottenItemsMN_Other": ["K1LR551/К1ЛР551"]
   },
   {
+    "PartNumber": "74x51",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["DM74S51N"],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x53",
     "GetStartingECS_JP": ["eBay(国際通販)"],
     "Comments": ["キリル型番の互換品をeBayで入手"],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": ["K131LR3/К1311ЛР3"]
+  },
+  {
+    "PartNumber": "74x54",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["DM74LS54N"],
+    "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x60",
@@ -293,9 +367,12 @@
   },
   {
     "PartNumber": "74x75",
-    "GetStartingECS_JP": ["マルツ電商"],
+    "GetStartingECS_JP": ["マルツ電商", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["CD74HC75E"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["F7475PC"],
     "GottenItemsMN_Other": []
   },
   {
@@ -387,10 +464,18 @@
   },
   {
     "PartNumber": "74x125",
-    "GetStartingECS_JP": ["秋月電子", "共立エレショップ", "Amazon"],
-    "Comments": ["Amazonの74HCシリーズICキットなどから入手"],
+    "GetStartingECS_JP": [
+      "秋月電子",
+      "共立エレショップ",
+      "Amazon",
+      "JAMECO(海外)"
+    ],
+    "Comments": [
+      "Amazonの74HCシリーズICキットなどから入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["74HC125P", "SN74HC125N"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["SN74F125N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -403,17 +488,23 @@
   },
   {
     "PartNumber": "74x132",
-    "GetStartingECS_JP": ["秋月電子", "Amazon"],
-    "Comments": ["Amazonの74HCシリーズICキットなどから入手"],
+    "GetStartingECS_JP": ["秋月電子", "Amazon", "JAMECO(海外)"],
+    "Comments": [
+      "Amazonの74HCシリーズICキットなどから入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["SN74HC132N"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["74S132"],
     "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x136",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": ["Mouser", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": ["SN74LS136N"],
+    "GottenItemsMN_TTL": ["SN74LS136N", "HD74LS136P"],
     "GottenItemsMN_Other": []
   },
   {
@@ -474,17 +565,23 @@
   },
   {
     "PartNumber": "74x151",
-    "GetStartingECS_JP": ["マルツ電商"],
+    "GetStartingECS_JP": ["マルツ電商", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["SN74HC151N", "TC74HC151AP"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["74F151"],
     "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x153",
-    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
-    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
+    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["74HC153AP"],
-    "GottenItemsMN_TTL": ["74LS153N", "HD74LS153P"],
+    "GottenItemsMN_TTL": ["74LS153N", "74F153", "HD74LS153P"],
     "GottenItemsMN_Other": []
   },
   {
@@ -517,10 +614,13 @@
   },
   {
     "PartNumber": "74x157",
-    "GetStartingECS_JP": ["Amazon"],
-    "Comments": ["Amazonの74HCシリーズICキットなどから入手"],
+    "GetStartingECS_JP": ["Amazon", "JAMECO(海外)"],
+    "Comments": [
+      "Amazonの74HCシリーズICキットなどから入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["SN74HC157N"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["74S157", "74F157A", "DM74S157N", "MC74F157AN"],
     "GottenItemsMN_Other": []
   },
   {
@@ -550,15 +650,26 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x162",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["DM74LS162AN"],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x163",
-    "GetStartingECS_JP": ["Amazon", "eBay(国際通販)"],
+    "GetStartingECS_JP": ["Amazon", "eBay(国際通販)", "JAMECO(海外)"],
     "Comments": [
       "Amazonの74HCシリーズICキットなどから入手",
-      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
     ],
     "GottenItemsMN_CMOS": ["SN74HC163N"],
     "GottenItemsMN_TTL": ["74LS163AN", "SN74S163N"],
-    "GottenItemsMN_Other": []
+    "GottenItemsMN_Other": ["DM74163AN"]
   },
   {
     "PartNumber": "74x164",
@@ -585,9 +696,12 @@
   },
   {
     "PartNumber": "74x166",
-    "GetStartingECS_JP": ["マルツ電商"],
+    "GetStartingECS_JP": ["マルツ電商", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["CD74HC166E"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["74166N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -599,9 +713,12 @@
   },
   {
     "PartNumber": "74x173",
-    "GetStartingECS_JP": ["マルツ電商", "Mouser"],
+    "GetStartingECS_JP": ["マルツ電商", "Mouser", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["TC74HC173AF"],
-    "GottenItemsMN_TTL": ["SN74LS173AN"],
+    "GottenItemsMN_TTL": ["SN74LS173AN", "DM74173N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -617,10 +734,19 @@
   },
   {
     "PartNumber": "74x175",
-    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
-    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
+    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["74HC175AP"],
-    "GottenItemsMN_TTL": ["DM74175N", "HD74LS175P"],
+    "GottenItemsMN_TTL": [
+      "74F175",
+      "DM74175N",
+      "HD74175P",
+      "HD74LS175P",
+      "DM74AS175AN"
+    ],
     "GottenItemsMN_Other": []
   },
   {
@@ -747,9 +873,12 @@
   },
   {
     "PartNumber": "74x243",
-    "GetStartingECS_JP": ["共立エレショップ"],
+    "GetStartingECS_JP": ["共立エレショップ", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["74HC243AP"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["DM74S273N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -765,10 +894,13 @@
   },
   {
     "PartNumber": "74x245",
-    "GetStartingECS_JP": ["Amazon"],
-    "Comments": ["Amazonの74HCシリーズICキットなどから入手"],
+    "GetStartingECS_JP": ["Amazon", "JAMECO(海外)"],
+    "Comments": [
+      "Amazonの74HCシリーズICキットなどから入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["SN74HC245N"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["74FR245PC"],
     "GottenItemsMN_Other": []
   },
   {
@@ -805,10 +937,23 @@
   },
   {
     "PartNumber": "74x257",
-    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
-    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
+    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["SN74HC257N"],
-    "GottenItemsMN_TTL": ["74LS257AN"],
+    "GottenItemsMN_TTL": ["74LS257AN", "74F257AN", "SN74ALS257AN", "SN74F257N"],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x258",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["74F258APC", "DM74AS258N", "DM74LS258BN"],
     "GottenItemsMN_Other": []
   },
   {
@@ -842,10 +987,23 @@
     "GottenItemsMN_Other": []
   },
   {
-    "PartNumber": "74x279",
-    "GetStartingECS_JP": ["Mouser"],
+    "PartNumber": "74x276",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": ["SN74LS279AN"],
+    "GottenItemsMN_TTL": ["SN74276N"],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x279",
+    "GetStartingECS_JP": ["Mouser", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["SN74LS279AN", "DM74279N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -882,9 +1040,12 @@
   },
   {
     "PartNumber": "74x298",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": ["Mouser", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": ["SN74LS298N"],
+    "GottenItemsMN_TTL": ["SN74LS298N", "SN74298N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -910,24 +1071,33 @@
   },
   {
     "PartNumber": "74x365",
-    "GetStartingECS_JP": ["マルツ電商"],
+    "GetStartingECS_JP": ["マルツ電商", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["SN74HC365N"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["74LS365ANA"],
     "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x366",
-    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)"],
-    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
+    "GetStartingECS_JP": ["マルツ電商", "eBay(国際通販)", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["CD74HC366E"],
-    "GottenItemsMN_TTL": ["SN74366AN"],
+    "GottenItemsMN_TTL": ["SN74366AN", "DM74LS366AN"],
     "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x367",
-    "GetStartingECS_JP": ["マルツ電商"],
+    "GetStartingECS_JP": ["マルツ電商", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["SN74HC367N"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["74367AN"],
     "GottenItemsMN_Other": []
   },
   {
@@ -942,32 +1112,43 @@
   },
   {
     "PartNumber": "74x373",
-    "GetStartingECS_JP": ["秋月電子", "マルツ電商", "Amazon", "eBay(国際通販)"],
+    "GetStartingECS_JP": [
+      "秋月電子",
+      "マルツ電商",
+      "Amazon",
+      "eBay(国際通販)",
+      "JAMECO(海外)"
+    ],
     "Comments": [
       "Amazonの74HCシリーズICキットなどから入手",
-      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
     ],
     "GottenItemsMN_CMOS": ["74HC373AP", "SN74HC373N"],
-    "GottenItemsMN_TTL": ["SN74S373N"],
+    "GottenItemsMN_TTL": ["SN74S373N", "MC74F373N"],
     "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x374",
-    "GetStartingECS_JP": ["Mouser", "Amazon", "eBay(国際通販)"],
+    "GetStartingECS_JP": ["Mouser", "Amazon", "eBay(国際通販)", "JAMECO(海外)"],
     "Comments": [
       "Amazonの74HCシリーズICキットなどから入手",
-      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
     ],
     "GottenItemsMN_CMOS": ["SN74HC374N"],
-    "GottenItemsMN_TTL": ["74S374N"],
+    "GottenItemsMN_TTL": ["74S374N", "SN74ALS374AN"],
     "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x375",
-    "GetStartingECS_JP": ["Mouser", "eBay(国際通販)"],
-    "Comments": ["国際通販の74シリーズIC詰め合わせ卸売でランダムに入手"],
+    "GetStartingECS_JP": ["Mouser", "eBay(国際通販)", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": ["74LS375N"],
+    "GottenItemsMN_TTL": ["74LS375N", "M74LS375P"],
     "GottenItemsMN_Other": []
   },
   {
@@ -1003,10 +1184,30 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x386",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["M74LS386P"],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x390",
     "GetStartingECS_JP": ["マルツ電商"],
     "GottenItemsMN_CMOS": ["CD74HC390E"],
     "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x386",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["M74LS386P"],
     "GottenItemsMN_Other": []
   },
   {
@@ -1050,9 +1251,12 @@
   },
   {
     "PartNumber": "74x533",
-    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商"],
+    "GetStartingECS_JP": ["共立エレショップ", "マルツ電商", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["CD74HC533E", "HD74HC533P"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["DM74LS533N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -1106,10 +1310,13 @@
   },
   {
     "PartNumber": "74x574",
-    "GetStartingECS_JP": ["Mouser", "Amazon"],
-    "Comments": ["Amazonの74HCシリーズICキットなどから入手"],
+    "GetStartingECS_JP": ["Mouser", "Amazon", "JAMECO(海外)"],
+    "Comments": [
+      "Amazonの74HCシリーズICキットなどから入手",
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["SN74HC574N"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["74F574N", "SN74ABT574AN"],
     "GottenItemsMN_Other": []
   },
   {
@@ -1169,10 +1376,23 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x648",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["SN74ALS648NT"],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x670",
-    "GetStartingECS_JP": ["マルツ電商"],
+    "GetStartingECS_JP": ["マルツ電商", "JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
     "GottenItemsMN_CMOS": ["CD74HC670E"],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["HD74LS670N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -1193,6 +1413,26 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x725",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["74F725"],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x760",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["SN74AS760N", "SN74ALS760N"],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x804",
     "GetStartingECS_JP": ["JAMECO(海外)"],
     "Comments": [
@@ -1200,6 +1440,46 @@
     ],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": ["SN74ALS804BN"],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x825",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["74F825SPC"],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x841",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["SN74ALS841NT"],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x804",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["SN74ALS804BN"],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x845",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["74F845N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -1213,6 +1493,16 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x1002",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["SN74ALS1002AN"],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x1032",
     "GetStartingECS_JP": ["JAMECO(海外)"],
     "Comments": [
@@ -1220,6 +1510,36 @@
     ],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": ["SN74ALS1032AN"],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x1034",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["SN74AS1034AN"],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x1244",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["SN74ALS1244AN"],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x1804",
+    "GetStartingECS_JP": ["JAMECO(海外)"],
+    "Comments": [
+      "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": ["DM74AS1804N"],
     "GottenItemsMN_Other": []
   },
   {

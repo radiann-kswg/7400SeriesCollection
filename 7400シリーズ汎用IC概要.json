@@ -4270,5 +4270,11 @@
     "Description": "quad 2-input OR gate (driver series)",
     "Description_JP": "2入力OR×4（ドライバ・シリーズ）",
     "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x1244"
+  },
+  {
+    "PartNumber": "74x1804"
   }
 ]
