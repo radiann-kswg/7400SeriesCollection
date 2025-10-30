@@ -1136,7 +1136,7 @@
       "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手",
       "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
     ],
-    "GottenItemsMN_CMOS": ["SN74HC374N"],
+    "GottenItemsMN_CMOS": ["SN74HC374N", "SN74AHC374N", "CD74HC374N"],
     "GottenItemsMN_TTL": ["74S374N", "SN74ALS374AN"],
     "GottenItemsMN_Other": []
   },
@@ -1148,7 +1148,7 @@
       "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
     ],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": ["74LS375N", "M74LS375P"],
+    "GottenItemsMN_TTL": ["74LS375N", "SN74LS375N", "M74LS375P"],
     "GottenItemsMN_Other": []
   },
   {
@@ -1286,7 +1286,7 @@
   {
     "PartNumber": "74x563",
     "GetStartingECS_JP": ["Mouser"],
-    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_CMOS": ["CD74HC563E"],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
   },
@@ -1304,7 +1304,7 @@
       "Amazonの74HCシリーズICキットなどから入手",
       "国際通販の74シリーズIC詰め合わせ卸売でランダムに入手(出品店：JAMECO)"
     ],
-    "GottenItemsMN_CMOS": ["SN74HC573N"],
+    "GottenItemsMN_CMOS": ["SN74HC573N", "CD74ACT573E"],
     "GottenItemsMN_TTL": ["74F573N", "74F573PC", "DM74AS573N"],
     "GottenItemsMN_Other": []
   },
