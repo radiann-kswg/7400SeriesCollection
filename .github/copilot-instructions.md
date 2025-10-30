@@ -54,8 +54,8 @@
 #### 中古販売など一般流通は現在していないパーツ
 
 - `Abolition(R+)`: 廃止品系
-- `Maniac`: マニア向け
-- `ManiacRare`: マニア向けでレア
+- `Maniac(SR+)`: マニア向け
+- `ManiacRare(SSR)`: マニア向けでレア
 - `VeryNerd`: 超マニア向け
 
 ### メーカー型番接頭辞の理解
