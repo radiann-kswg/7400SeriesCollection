@@ -176,7 +176,7 @@
     "PartNumber": "74x23",
     "GetStartingECS_JP": ["eBay(国際通販)"],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["SN7423N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -231,14 +231,14 @@
     "PartNumber": "74x34",
     "GetStartingECS_JP": ["eBay(国際通販)"],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["SN74LS34N"],
     "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x36",
     "GetStartingECS_JP": ["eBay(国際通販)"],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["SN74LS36N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -306,7 +306,7 @@
     "Comments": ["キリル型番の互換品をeBayで入手"],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
-    "GottenItemsMN_Other": ["K131LR3/К1311ЛР3"]
+    "GottenItemsMN_Other": ["K131LR3/К131ЛР3"]
   },
   {
     "PartNumber": "74x54",
@@ -322,7 +322,7 @@
     "PartNumber": "74x60",
     "GetStartingECS_JP": ["eBay(国際通販)"],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["SN7460N"],
     "GottenItemsMN_Other": []
   },
   {
@@ -763,7 +763,7 @@
     "PartNumber": "74x182",
     "GetStartingECS_JP": ["eBay(国際通販)"],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_TTL": ["SN74S182N"],
     "GottenItemsMN_Other": []
   },
   {
