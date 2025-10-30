@@ -4272,9 +4272,21 @@
     "Rarity": "ManiacRare(SSR)"
   },
   {
-    "PartNumber": "74x1244"
+    "PartNumber": "74x1244",
+    "Description": "octal buffer / driver, non-inverting (lower-power version of 74x244)",
+    "Description_JP": "8回路バッファ/ドライバ（非反転、74x244の低消費電力版）",
+    "Rarity": "Rare+"
   },
   {
-    "PartNumber": "74x1804"
+    "PartNumber": "74x1804",
+    "Description": "hex 2-input NAND",
+    "Description_JP": "6回路2入力NANDゲート",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x5074",
+    "Description": "dual positive edge-triggered D-type flip-flop (metastable immune)",
+    "Description_JP": "2回路正エッジトリガDフリップフロップ（メタステーブル耐性）",
+    "Rarity": "VeryNerd(UR)"
   }
 ]

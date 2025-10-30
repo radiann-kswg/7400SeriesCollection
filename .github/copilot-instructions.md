@@ -56,7 +56,7 @@
 - `Abolition(R+)`: 廃止品系
 - `Maniac(SR+)`: マニア向け
 - `ManiacRare(SSR)`: マニア向けでレア
-- `VeryNerd`: 超マニア向け
+- `VeryNerd(UR)`: 超マニア向けで極めて入手困難
 
 ### メーカー型番接頭辞の理解
 
@@ -69,6 +69,10 @@
 - `74HC*` (接頭辞なし): PHILIPS (NXP Semiconductors)
 
 ## コーディング支援ガイドライン
+
+### パーツ概要引用 URL
+
+- https://en.wikipedia.org/wiki/List_of_7400-series_integrated_circuits (英語版 Wikipedia)
 
 ### JSON 編集時の注意点
 
