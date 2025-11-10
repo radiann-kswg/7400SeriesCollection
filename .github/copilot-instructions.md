@@ -5,9 +5,111 @@
 このリポジトリは 7400 シリーズ汎用 IC の収集状況、購入履歴、データシート収集状況を管理する JSON データベースです。
 コレクション管理、在庫追跡、及び購入計画の支援を目的としています。
 
+## ディレクトリ構造
+
+プロジェクトのディレクトリ構造は以下の通りです：
+
+```
+7400SeriesCollection/
+├── .github/
+│   └── copilot-instructions.md          # このファイル：GitHub Copilot 向け指示書
+├── 7400シリーズ汎用IC概要.json           # マスターデータ：全IC情報
+├── datasheets/
+│   └── 7400シリーズ汎用ICデータシート収集状況.json
+│                                         # データシート収集管理
+├── getstarting/
+│   ├── 7400シリーズ汎用IC所持状況･入手履歴.json
+│   │                                     # 実入手済みIC履歴
+│   ├── 7400シリーズ汎用IC所持状況･購入予定(ノーマル級以下).json
+│   ├── 7400シリーズ汎用IC所持状況･購入予定(レア級).json
+│   ├── 7400シリーズ汎用IC所持状況･購入予定(マニア級).json
+│   └── 7400シリーズ汎用IC所持状況･購入希望(ベリーナード級).json
+│                                         # レア度別購入計画リスト
+├── scripts/
+│   ├── autofill_gottenitems.py          # 入手履歴からデータシート情報を自動同期
+│   ├── merge_fp.py                      # データ統合処理スクリプト
+│   ├── refine_descriptions.py           # 説明文洗練化スクリプト
+│   └── sort_datasheet_by_partnumber.py  # データシートソート処理
+└── usage/
+    └── *.md                              # 7400シリーズICを用いた回路設計情報
+                                          # （Markdown形式で追加予定）
+```
+
+### ディレクトリ別の役割
+
+#### ルートディレクトリ (`/`)
+
+- **`7400シリーズ汎用IC概要.json`**: 全 7400 シリーズ IC のマスターデータベース
+  - すべてのパーツ情報の基準となるファイル
+  - 型番、説明（英語/日本語）、レア度を管理
+
+#### `.github/`
+
+- GitHub 関連の設定・ドキュメント格納
+- **`copilot-instructions.md`**: GitHub Copilot への開発ガイドライン
+
+#### `datasheets/`
+
+- データシート収集状況の管理
+- **`7400シリーズ汎用ICデータシート収集状況.json`**:
+  - 各パーツのデータシート入手状況
+  - 収集予定メーカー・型番の記録
+
+#### `getstarting/`
+
+- IC の入手・購入管理に関するデータ
+- **入手履歴 JSON**: 実際に入手した IC の記録（購入先、コメント含む）
+- **購入予定 JSON（レア度別）**:
+  - `ノーマル級以下`: Commons, Normal, Normal+ クラス
+  - `レア級`: Rare, Rare+ クラス
+  - `マニア級`: SuperRare, Abolition(R+), Maniac(SR+) クラス
+  - `ベリーナード級`: ManiacRare(SSR), VeryNerd(UR) クラス
+
+#### `scripts/`
+
+- データ管理・自動化スクリプト
+- Python3 で実行される処理スクリプト群
+- VS Code タスクから実行可能
+
+#### `usage/`
+
+- **7400 シリーズ IC を実際に使用した回路設計の実例・ナレッジベース**
+- Markdown 形式で記述
+- 回路図、設計ノート、アプリケーション例などを格納予定
+
+### ファイルパス指定の規則
+
+**重要**: Markdown ファイル内や Python スクリプト内でファイルパスを指定する際は、**リポジトリルートからの相対パス**を使用してください。
+
+#### 正しいパス指定例
+
+```markdown
+<!-- usage/内のMarkdownファイルから参照する場合 -->
+
+詳細は [7400 シリーズ汎用 IC 概要.json](../7400シリーズ汎用IC概要.json) を参照。
+入手履歴は [こちら](../getstarting/7400シリーズ汎用IC所持状況･入手履歴.json) 。
+```
+
+```python
+# scripts/内のPythonスクリプトからファイルを読み込む場合
+import os
+import json
+
+# リポジトリルートを基準とした相対パス
+base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+overview_path = os.path.join(base_dir, '7400シリーズ汎用IC概要.json')
+history_path = os.path.join(base_dir, 'getstarting', '7400シリーズ汎用IC所持状況･入手履歴.json')
+```
+
+#### 避けるべきパス指定
+
+- ❌ 絶対パス（`/Users/username/...`, `C:\Users\...`）
+- ❌ ホームディレクトリ起点（`~/...`）
+- ❌ 環境依存のパス
+
 ## ファイル構造とデータスキーマ
 
-### メインデータファイル
+### メインデータファイル概要
 
 - `7400シリーズ汎用IC概要.json`: 全 7400 シリーズ IC の基本情報（型番、説明、レア度）
 - `getstarting/7400シリーズ汎用IC所持状況･入手履歴.json`: 実際に入手した IC の履歴
