@@ -13,10 +13,28 @@
 7400SeriesCollection/
 ├── .github/
 │   └── copilot-instructions.md          # このファイル：GitHub Copilot 向け指示書
+├── .gitignore                            # Git管理外ファイル指定
 ├── 7400シリーズ汎用IC概要.json           # マスターデータ：全IC情報
 ├── datasheets/
-│   └── 7400シリーズ汎用ICデータシート収集状況.json
-│                                         # データシート収集管理
+│   ├── 7400シリーズ汎用ICデータシート収集状況.json
+│   │                                     # データシート収集管理
+│   └── _download/                        # ダウンロード済みデータシート保管場所
+│       ├── FAIRCHILD(FairchildSemiconductor)/
+│       │   └── *.PDF                     # Fairchild製データシート
+│       ├── PHILIPS(NXPSemiconductors)製/
+│       │   └── *.PDF                     # NXP Semiconductors製データシート
+│       ├── RENESAS製/
+│       │   └── *.PDF                     # RENESAS製データシート
+│       ├── TI(TexasInstruments)製/
+│       │   ├── CD74HC/                   # CD74HCシリーズ
+│       │   ├── SN74HC/                   # SN74HCシリーズ
+│       │   ├── SN74LS/                   # SN74LSシリーズ
+│       │   │   └── _cache/               # ダウンロードキャッシュ
+│       │   └── *.PDF                     # その他TI製データシート
+│       ├── TOSHIBA製/
+│       │   └── *.PDF                     # TOSHIBA製データシート
+│       └── UTC(UnisonicTechnologies)製/
+│           └── *.PDF                     # UTC製データシート
 ├── getstarting/
 │   ├── 7400シリーズ汎用IC所持状況･入手履歴.json
 │   │                                     # 実入手済みIC履歴
@@ -174,19 +192,54 @@
 }
 ```
 
-#### `.github/`
+### `.github/`
 
 - GitHub 関連の設定・ドキュメント格納
-- **`copilot-instructions.md`**(このファイル): GitHub Copilot への開発ガイドライン
+- **`copilot-instructions.md`**（このファイル）: GitHub Copilot への開発ガイドライン
 
-#### `datasheets/`
+### `datasheets/`
 
-- データシート収集状況の管理
+- データシート収集状況の管理ディレクトリ
 - **`7400シリーズ汎用ICデータシート収集状況.json`**:
   - 各パーツのデータシート入手状況
   - 収集予定メーカー・型番の記録
+- **`_download/`**: ダウンロード済みデータシートの保管場所
+  - メーカー別にサブディレクトリで整理
+  - PDFファイル形式で保管
+  - ファイル命名規則: 型番.PDFまたは複数型番を含む場合は型番1,型番2.PDF
 
-##### データスキーマの理解
+#### データシート保管構造
+
+```
+_download/
+├── FAIRCHILD(FairchildSemiconductor)/
+│   └── MM74HC04.PDF など
+├── PHILIPS(NXPSemiconductors)製/
+│   └── 74HC02.PDF, 74HC125.PDF など
+├── RENESAS製/
+│   └── HD74HC354.PDF など
+├── TI(TexasInstruments)製/
+│   ├── CD74HC/                    # CD74HCシリーズ専用
+│   ├── SN74HC/                    # SN74HCシリーズ専用
+│   │   └── SN74HC00.PDF など
+│   ├── SN74LS/                    # SN74LSシリーズ専用
+│   │   ├── SN74LS06.PDF など
+│   │   └── _cache/                # ダウンロード一時キャッシュ
+│   └── SN7427.PDF など            # シリーズ分類外のファイル
+├── TOSHIBA製/
+│   └── TC74HC00AF.PDF など
+└── UTC(UnisonicTechnologies)製/
+    └── U74HC00.PDF など
+```
+
+**データシート管理ルール:**
+
+1. メーカー名ディレクトリは統一表記を使用（例：`TI(TexasInstruments)製`）
+2. 大量のファイルを持つシリーズは、型番プレフィックスでサブディレクトリ化
+3. 複数型番を含むデータシートは、カンマ区切りで型番を列挙（例：`SN74HC257,SN74HC258.PDF`）
+4. `_cache/`ディレクトリは一時ファイル用（`.gitignore`で除外を推奨）
+
+#### データシート収集状況JSONのスキーマ
 
 ```json
 {
@@ -209,7 +262,7 @@
     - `"(収集予定:メーカー名)"`: 未入手、収集予定
     - `"(保留)"`: 収集保留（廃止品、入手困難など）
 
-#### `getstarting/`
+### `getstarting/`
 
 - IC の入手・購入管理に関するデータ
 - **入手履歴 JSON**: 実際に入手した IC の記録（購入先、コメント含む）
@@ -219,7 +272,7 @@
   - `マニア級`: SuperRare, Abolition(R+), Maniac(SR+) クラス
   - `ベリーナード級`: ManiacRare(SSR), VeryNerd(UR) クラス
 
-##### データスキーマの理解
+#### データスキーマの理解
 
 ```json
 {
@@ -232,13 +285,13 @@
 }
 ```
 
-#### `scripts/`
+### `scripts/`
 
 - データ管理・自動化スクリプト
 - Python3 で実行される処理スクリプト群
 - VS Code タスクから実行可能
 
-#### `usage/`
+### `usage/`
 
 **役割**: 7400 シリーズ IC を実際に使用した回路設計の実例・ナレッジベース。
 
