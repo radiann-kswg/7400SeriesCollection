@@ -14,34 +14,34 @@
 ├── .github/
 │   └── copilot-instructions.md          # このファイル：GitHub Copilot 向け指示書
 ├── .gitignore                            # Git管理外ファイル指定
-├── 7400シリーズ汎用IC概要.json           # マスターデータ：全IC情報
+├── 7400_series_ic_overview.json          # マスターデータ：全IC情報
 ├── datasheets/
-│   ├── 7400シリーズ汎用ICデータシート収集状況.json
+│   ├── 7400_series_ic_datasheet_collection_status.json
 │   │                                     # データシート収集管理
 │   └── _download/                        # ダウンロード済みデータシート保管場所
 │       ├── FAIRCHILD(FairchildSemiconductor)/
 │       │   └── *.PDF                     # Fairchild製データシート
-│       ├── PHILIPS(NXPSemiconductors)製/
+│       ├── PHILIPS(NXPSemiconductors)/
 │       │   └── *.PDF                     # NXP Semiconductors製データシート
-│       ├── RENESAS製/
+│       ├── RENESAS/
 │       │   └── *.PDF                     # RENESAS製データシート
-│       ├── TI(TexasInstruments)製/
+│       ├── TI(TexasInstruments)/
 │       │   ├── CD74HC/                   # CD74HCシリーズ
 │       │   ├── SN74HC/                   # SN74HCシリーズ
 │       │   ├── SN74LS/                   # SN74LSシリーズ
 │       │   │   └── _cache/               # ダウンロードキャッシュ
 │       │   └── *.PDF                     # その他TI製データシート
-│       ├── TOSHIBA製/
+│       ├── TOSHIBA/
 │       │   └── *.PDF                     # TOSHIBA製データシート
-│       └── UTC(UnisonicTechnologies)製/
+│       └── UTC(UnisonicTechnologies)/
 │           └── *.PDF                     # UTC製データシート
 ├── getstarting/
-│   ├── 7400シリーズ汎用IC所持状況･入手履歴.json
+│   ├── 7400_series_ic_collection_acquisition_history.json
 │   │                                     # 実入手済みIC履歴
-│   ├── 7400シリーズ汎用IC所持状況･購入予定(ノーマル級以下).json
-│   ├── 7400シリーズ汎用IC所持状況･購入予定(レア級).json
-│   ├── 7400シリーズ汎用IC所持状況･購入予定(マニア級).json
-│   └── 7400シリーズ汎用IC所持状況･購入希望(ベリーナード級).json
+│   ├── 7400_series_ic_purchase_plan_normal_or_lower.json
+│   ├── 7400_series_ic_purchase_plan_rare.json
+│   ├── 7400_series_ic_purchase_plan_maniac.json
+│   └── 7400_series_ic_purchase_wishlist_very_nerd.json
 │                                         # レア度別購入計画リスト
 ├── scripts/
 │   ├── autofill_gottenitems.py          # 入手履歴からデータシート情報を自動同期
@@ -59,7 +59,7 @@
 
 ### ルートディレクトリのデータ構造
 
-#### `7400シリーズ汎用IC概要.json`
+#### `7400_series_ic_overview.json`
 
 **役割**: 全 7400 シリーズ IC のマスターデータベース。すべてのパーツ情報の基準となるファイル。
 
@@ -83,7 +83,7 @@
 
 ### `datasheets/` のデータ構造
 
-#### `7400シリーズ汎用ICデータシート収集状況.json`
+#### `7400_series_ic_datasheet_collection_status.json`
 
 **役割**: 各パーツのデータシート入手状況と収集予定の管理。
 
@@ -112,7 +112,7 @@
 
 ### `getstarting/` のデータ構造
 
-#### `7400シリーズ汎用IC所持状況･入手履歴.json`
+#### `7400_series_ic_collection_acquisition_history.json`
 
 **役割**: 実際に入手した IC の記録（購入先、コメント含む）。
 
@@ -142,12 +142,12 @@
 
 **役割**: レア度別の購入計画リスト。
 
-- `7400シリーズ汎用IC所持状況･購入予定(ノーマル級以下).json`: Commons, Normal, Normal+ クラス
-- `7400シリーズ汎用IC所持状況･購入予定(レア級).json`: Rare, Rare+ クラス
-- `7400シリーズ汎用IC所持状況･購入予定(マニア級).json`: SuperRare, Abolition(R+), Maniac(SR+) クラス
-- `7400シリーズ汎用IC所持状況･購入希望(ベリーナード級).json`: ManiacRare(SSR), VeryNerd(UR) クラス
+- `7400_series_ic_purchase_plan_normal_or_lower.json`: Commons, Normal, Normal+ クラス
+- `7400_series_ic_purchase_plan_rare.json`: Rare, Rare+ クラス
+- `7400_series_ic_purchase_plan_maniac.json`: SuperRare, Abolition(R+), Maniac(SR+) クラス
+- `7400_series_ic_purchase_wishlist_very_nerd.json`: ManiacRare(SSR), VeryNerd(UR) クラス
 
-**データスキーマ**: `7400シリーズ汎用IC概要.json` から該当レア度のパーツをフィルタリングしたサブセット。
+**データスキーマ**: `7400_series_ic_overview.json` から該当レア度のパーツをフィルタリングしたサブセット。
 
 ---
 
@@ -177,7 +177,7 @@
 
 #### ルートディレクトリ (`/`)
 
-- **`7400シリーズ汎用IC概要.json`**: 全 7400 シリーズ IC のマスターデータベース
+- **`7400_series_ic_overview.json`**: 全 7400 シリーズ IC のマスターデータベース
   - すべてのパーツ情報の基準となるファイル
   - 型番、説明（英語/日本語）、レア度を管理
 
@@ -200,13 +200,13 @@
 ### `datasheets/`
 
 - データシート収集状況の管理ディレクトリ
-- **`7400シリーズ汎用ICデータシート収集状況.json`**:
+- **`7400_series_ic_datasheet_collection_status.json`**:
   - 各パーツのデータシート入手状況
   - 収集予定メーカー・型番の記録
 - **`_download/`**: ダウンロード済みデータシートの保管場所
   - メーカー別にサブディレクトリで整理
-  - PDFファイル形式で保管
-  - ファイル命名規則: 型番.PDFまたは複数型番を含む場合は型番1,型番2.PDF
+  - PDF ファイル形式で保管
+  - ファイル命名規則: 型番.PDF または複数型番を含む場合は型番 1,型番 2.PDF
 
 #### データシート保管構造
 
@@ -214,11 +214,11 @@
 _download/
 ├── FAIRCHILD(FairchildSemiconductor)/
 │   └── MM74HC04.PDF など
-├── PHILIPS(NXPSemiconductors)製/
+├── PHILIPS(NXPSemiconductors)/
 │   └── 74HC02.PDF, 74HC125.PDF など
-├── RENESAS製/
+├── RENESAS/
 │   └── HD74HC354.PDF など
-├── TI(TexasInstruments)製/
+├── TI(TexasInstruments)/
 │   ├── CD74HC/                    # CD74HCシリーズ専用
 │   ├── SN74HC/                    # SN74HCシリーズ専用
 │   │   └── SN74HC00.PDF など
@@ -226,20 +226,20 @@ _download/
 │   │   ├── SN74LS06.PDF など
 │   │   └── _cache/                # ダウンロード一時キャッシュ
 │   └── SN7427.PDF など            # シリーズ分類外のファイル
-├── TOSHIBA製/
+├── TOSHIBA/
 │   └── TC74HC00AF.PDF など
-└── UTC(UnisonicTechnologies)製/
+└── UTC(UnisonicTechnologies)/
     └── U74HC00.PDF など
 ```
 
 **データシート管理ルール:**
 
-1. メーカー名ディレクトリは統一表記を使用（例：`TI(TexasInstruments)製`）
+1. メーカー名ディレクトリは統一表記を使用（例：`TI(TexasInstruments)`）
 2. 大量のファイルを持つシリーズは、型番プレフィックスでサブディレクトリ化
 3. 複数型番を含むデータシートは、カンマ区切りで型番を列挙（例：`SN74HC257,SN74HC258.PDF`）
 4. `_cache/`ディレクトリは一時ファイル用（`.gitignore`で除外を推奨）
 
-#### データシート収集状況JSONのスキーマ
+#### データシート収集状況 JSON のスキーマ
 
 ```json
 {
@@ -335,7 +335,7 @@ _download/
 - 使用する全ての 7400 シリーズ IC（型番・数量）
 - その他の電子部品（抵抗、コンデンサ、スイッチ等）
 - **制約**: 所持している IC のみを使用すること
-  - 参照: `../getstarting/7400シリーズ汎用IC所持状況･入手履歴.json`
+  - 参照: `../getstarting/7400_series_ic_collection_acquisition_history.json`
 
 #### 5. 配線の注意事項
 
@@ -387,8 +387,8 @@ _download/
 ```markdown
 <!-- usage/内のMarkdownファイルから参照する場合 -->
 
-詳細は [7400 シリーズ汎用 IC 概要.json](../7400シリーズ汎用IC概要.json) を参照。
-入手履歴は [こちら](../getstarting/7400シリーズ汎用IC所持状況･入手履歴.json) 。
+詳細は [7400_series_ic_overview.json](../7400_series_ic_overview.json) を参照。
+入手履歴は [こちら](../getstarting/7400_series_ic_collection_acquisition_history.json) 。
 ```
 
 #### Python スクリプト内
@@ -400,8 +400,8 @@ import json
 
 # リポジトリルートを基準とした相対パス
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-overview_path = os.path.join(base_dir, '7400シリーズ汎用IC概要.json')
-history_path = os.path.join(base_dir, 'getstarting', '7400シリーズ汎用IC所持状況･入手履歴.json')
+overview_path = os.path.join(base_dir, '7400_series_ic_overview.json')
+history_path = os.path.join(base_dir, 'getstarting', '7400_series_ic_collection_acquisition_history.json')
 ```
 
 ### 避けるべきパス指定

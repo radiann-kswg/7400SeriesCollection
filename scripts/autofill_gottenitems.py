@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 自動補完スクリプト: getstarting側の `GottenItemsMN_**` にある型番を、
-`datasheets/7400シリーズ汎用ICデータシート収集状況.json` の
+`datasheets/7400_series_ic_datasheet_collection_status.json` の
 `GottenItems_MakerOfDataSheet` に不足分として追記する。
 
 追加時の値ルール:
@@ -99,9 +99,9 @@ def main() -> int:
     base_dir = os.path.dirname(os.path.dirname(
         os.path.abspath(__file__)))  # repo root
     default_datasheets = os.path.join(
-        base_dir, "datasheets", "7400シリーズ汎用ICデータシート収集状況.json")
+        base_dir, "datasheets", "7400_series_ic_datasheet_collection_status.json")
     default_getstarting = os.path.join(
-        base_dir, "getstarting", "7400シリーズ汎用IC所持状況･入手履歴.json")
+        base_dir, "getstarting", "7400_series_ic_collection_acquisition_history.json")
 
     parser.add_argument(
         "--datasheets", default=default_datasheets, help="データシート側JSONのパス")

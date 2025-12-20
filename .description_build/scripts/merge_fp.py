@@ -9,21 +9,21 @@ import sys
 from typing import Any, Dict, List, Set
 
 WORKSPACE_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-BASE_JSON = os.path.join(WORKSPACE_ROOT, "7400シリーズ汎用IC概要.json")
+BASE_JSON = os.path.join(WORKSPACE_ROOT, "7400_series_ic_overview.json")
 DATAS_DIR = os.path.join(WORKSPACE_ROOT, "datas")
 RANGE_FILES = [
-    "7400シリーズ汎用IC_未記載_00-99.json",
-    "7400シリーズ汎用IC_未記載_100-199.json",
-    "7400シリーズ汎用IC_未記載_200-299.json",
-    "7400シリーズ汎用IC_未記載_300-399.json",
-    "7400シリーズ汎用IC_未記載_400-499.json",
-    "7400シリーズ汎用IC_未記載_500-599.json",
-    "7400シリーズ汎用IC_未記載_600-699.json",
-    "7400シリーズ汎用IC_未記載_700-832.json",
+    "7400_series_ic_missing_description_00-99.json",
+    "7400_series_ic_missing_description_100-199.json",
+    "7400_series_ic_missing_description_200-299.json",
+    "7400_series_ic_missing_description_300-399.json",
+    "7400_series_ic_missing_description_400-499.json",
+    "7400_series_ic_missing_description_500-599.json",
+    "7400_series_ic_missing_description_600-699.json",
+    "7400_series_ic_missing_description_700-832.json",
 ]
 
-OUTPUT_FP = os.path.join(WORKSPACE_ROOT, "7400シリーズ汎用IC概要_FP.json")
-OUTPUT_ALL = os.path.join(WORKSPACE_ROOT, "7400シリーズ汎用IC概要_ALL.json")
+OUTPUT_FP = os.path.join(WORKSPACE_ROOT, "7400_series_ic_overview_fp.json")
+OUTPUT_ALL = os.path.join(WORKSPACE_ROOT, "7400_series_ic_overview_all.json")
 
 REQUIRED_KEYS = {"PartNumber", "Description", "Description_JP", "Rarity"}
 ALLOWED_RARITY = {

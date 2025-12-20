@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-7400シリーズ汎用ICデータシート収集状況.json ファイルの配列要素を
+7400_series_ic_datasheet_collection_status.json ファイルの配列要素を
 PartNumber の 74x 以下の番号順に並び替えるスクリプト
 """
 
@@ -25,7 +25,7 @@ def sort_datasheet_json():
     データシート収集状況JSONファイルをPartNumber順に並び替え
     """
     # ファイルパス
-    datasheet_file = "/Users/snine9801/VSCodeUserFiles/7400SeriesCollection/datasheets/7400シリーズ汎用ICデータシート収集状況.json"
+    datasheet_file = "./datasheets/7400_series_ic_datasheet_collection_status.json"
 
     # JSONファイルを読み込み
     print(f"読み込み中: {datasheet_file}")

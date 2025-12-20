@@ -16,25 +16,25 @@
 
 ```
 7400SeriesCollection/
-├── 7400シリーズ汎用IC概要.json           # マスターデータ：全IC情報
+├── 7400_series_ic_overview.json          # マスターデータ：全IC情報
 ├── datasheets/                           # データシート管理
-│   ├── 7400シリーズ汎用ICデータシート収集状況.json
+│   ├── 7400_series_ic_datasheet_collection_status.json
 │   └── _download/                        # ダウンロード済みPDF保管
 │       ├── FAIRCHILD(FairchildSemiconductor)/
-│       ├── PHILIPS(NXPSemiconductors)製/
-│       ├── RENESAS製/
-│       ├── TI(TexasInstruments)製/
+│       ├── PHILIPS(NXPSemiconductors)/
+│       ├── RENESAS/
+│       ├── TI(TexasInstruments)/
 │       │   ├── CD74HC/
 │       │   ├── SN74HC/
 │       │   └── SN74LS/
-│       ├── TOSHIBA製/
-│       └── UTC(UnisonicTechnologies)製/
+│       ├── TOSHIBA/
+│       └── UTC(UnisonicTechnologies)/
 ├── getstarting/                          # 入手・購入管理
-│   ├── 7400シリーズ汎用IC所持状況･入手履歴.json
-│   ├── 7400シリーズ汎用IC所持状況･購入予定(ノーマル級以下).json
-│   ├── 7400シリーズ汎用IC所持状況･購入予定(レア級).json
-│   ├── 7400シリーズ汎用IC所持状況･購入予定(マニア級).json
-│   └── 7400シリーズ汎用IC所持状況･購入希望(ベリーナード級).json
+│   ├── 7400_series_ic_collection_acquisition_history.json
+│   ├── 7400_series_ic_purchase_plan_normal_or_lower.json
+│   ├── 7400_series_ic_purchase_plan_rare.json
+│   ├── 7400_series_ic_purchase_plan_maniac.json
+│   └── 7400_series_ic_purchase_wishlist_very_nerd.json
 ├── scripts/                              # 自動化スクリプト
 │   ├── autofill_gottenitems.py          # データシート情報自動同期
 │   ├── merge_fp.py                      # データ統合処理
@@ -49,7 +49,7 @@
 
 ### マスターデータ
 
-#### `7400シリーズ汎用IC概要.json`
+#### `7400_series_ic_overview.json`
 
 全 7400 シリーズ IC の基本情報を格納するマスターデータベース。
 
@@ -69,7 +69,7 @@
 
 ### 入手管理データ
 
-#### `getstarting/7400シリーズ汎用IC所持状況･入手履歴.json`
+#### `getstarting/7400_series_ic_collection_acquisition_history.json`
 
 実際に入手した IC の記録（購入先、コメント含む）。
 
@@ -86,7 +86,7 @@
 
 ### データシート管理
 
-#### `datasheets/7400シリーズ汎用ICデータシート収集状況.json`
+#### `datasheets/7400_series_ic_datasheet_collection_status.json`
 
 各パーツのデータシート入手状況を追跡。
 
