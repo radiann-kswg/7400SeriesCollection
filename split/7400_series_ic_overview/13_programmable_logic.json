@@ -1,0 +1,38 @@
+[
+  {
+    "PartNumber": "74x330",
+    "Description": "PLA (12 inputs, 50 terms, 6 outputs), three-state outputs",
+    "Description_JP": "PLA（12入力・50項・6出力）、3状態出力",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x331",
+    "Description": "PLA (12 inputs, 50 terms, 6 outputs), open-collector with 2.5 kΩ pull-up",
+    "Description_JP": "PLA（12入力・50項・6出力）、オープンコレクタ（2.5kΩプルアップ）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x333",
+    "Description": "PLA (12 inputs, 32 terms, 6 outputs, 4 state registers), three-state",
+    "Description_JP": "PLA（12入力・32項・6出力・4状態レジスタ）、3状態",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x334",
+    "Description": "PLA (12 inputs, 32 terms, 6 outputs), three-state",
+    "Description_JP": "PLA（12入力・32項・6出力）、3状態",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x335",
+    "Description": "PLA (12 inputs, 32 terms, 6 outputs, 4 state registers), open-collector",
+    "Description_JP": "PLA（12入力・32項・6出力・4状態レジスタ）、オープンコレクタ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x336",
+    "Description": "PLA (12 inputs, 32 terms, 6 outputs), open-collector",
+    "Description_JP": "PLA（12入力・32項・6出力）、オープンコレクタ",
+    "Rarity": "VeryNerd(UR)"
+  }
+]

@@ -1,0 +1,710 @@
+[
+  {
+    "PartNumber": "74x54",
+    "Description": "Octal D-type flip-flop",
+    "Description_JP": "8ビットD型フリップフロップ",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x67",
+    "Description": "AND-gated J-K master-slave flip-flop, asynchronous preset and clear",
+    "Description_JP": "ANDゲート入力付きJKマスタスレーブ・フリップフロップ（非同期プリセット・クリア）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x70",
+    "Description": "AND-gated positive-edge-triggered J-K flip-flop, asynchronous preset and clear",
+    "Description_JP": "ANDゲート入力付き正エッジトリガJKフリップフロップ（非同期プリセット・クリア）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x71",
+    "Description": "AND-OR-gated J-K master-slave flip-flop, preset",
+    "Description_JP": "AND/ORゲート入力付きJKマスタスレーブ・フリップフロップ（プリセット）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x72",
+    "Description": "AND-gated J-K master-slave flip-flop, asynchronous preset and clear",
+    "Description_JP": "ANDゲート入力付きJKマスタスレーブ・フリップフロップ（非同期プリセット・クリア）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x73",
+    "Description": "Dual JK flip-flop, negative-edge-triggered, clear",
+    "Description_JP": "2回路JKフリップフロップ（負論理エッジトリガ、クリア付き）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x74",
+    "Description": "Dual D flip-flop, positive-edge-triggered, set and reset",
+    "Description_JP": "2回路D型フリップフロップ（正論理エッジトリガ、セット・リセット付き）",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x75",
+    "Description": "4-bit bistable latch",
+    "Description_JP": "4ビットバイスタブルラッチ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x76",
+    "Description": "Dual J-K flip-flop, asynchronous preset and clear",
+    "Description_JP": "2回路JKフリップフロップ（非同期プリセット・クリア）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x77",
+    "Description": "4-bit bistable latch",
+    "Description_JP": "4ビットバイスタブルラッチ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x78",
+    "Description": "Dual negative-edge-triggered J-K flip-flop, preset, shared clock and clear",
+    "Description_JP": "2回路負エッジトリガJKフリップフロップ（プリセット、共有クロック・クリア）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x79",
+    "Description": "Dual D positive-edge-triggered flip-flop, asynchronous preset and clear",
+    "Description_JP": "2回路D型正エッジトリガ・フリップフロップ（非同期プリセット・クリア）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x100",
+    "Description": "Dual 4-bit bistable latch",
+    "Description_JP": "2回路4ビットバイスタブルラッチ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x101",
+    "Description": "AND-OR-gated JK negative-edge-triggered flip-flop, preset",
+    "Description_JP": "AND-ORゲート付きJK負エッジトリガFF（プリセット）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x102",
+    "Description": "AND-gated JK negative-edge-triggered flip-flop, preset and clear",
+    "Description_JP": "ANDゲート付きJK負エッジトリガFF（プリセット・クリア）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x103",
+    "Description": "Dual JK negative-edge-triggered flip-flop, clear",
+    "Description_JP": "2回路JK負エッジトリガFF（クリア）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x104",
+    "Description": "JK master-slave flip-flop",
+    "Description_JP": "JKマスタ・スレーブフリップフロップ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x105",
+    "Description": "JK master-slave flip-flop, J2 and K2 inverted",
+    "Description_JP": "JKマスタ・スレーブFF（J2/K2反転）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x106",
+    "Description": "Dual JK negative-edge-triggered flip-flop, preset and clear",
+    "Description_JP": "2回路JK負エッジトリガFF（プリセット・クリア）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x107",
+    "Description": "Dual JK flip-flop, negative-edge-triggered, set and reset",
+    "Description_JP": "2回路JKフリップフロップ（負論理エッジトリガ、セット・リセット付き）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x108",
+    "Description": "Dual JK negative-edge-triggered flip-flop, preset, shared clock and clear",
+    "Description_JP": "2回路JK負エッジトリガFF（プリセット、共有クロック・クリア）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x109",
+    "Description": "Dual JK flip-flop, positive-edge-triggered, set and reset",
+    "Description_JP": "2回路JKフリップフロップ（正論理エッジトリガ、セット・リセット付き）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x111",
+    "Description": "Dual JK master-slave flip-flop, data lockout, reset and set",
+    "Description_JP": "2回路JKマスタ・スレーブFF（データロックアウト、リセット/セット）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x112",
+    "Description": "Dual JK flip-flop, negative-edge-triggered, preset and clear",
+    "Description_JP": "2回路JKフリップフロップ（負論理エッジトリガ、プリセット・クリア付き）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x113",
+    "Description": "Dual JK flip-flop, negative-edge-triggered, set and reset",
+    "Description_JP": "2回路JKフリップフロップ（負論理エッジトリガ、セット・リセット付き）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x114",
+    "Description": "Dual JK negative-edge-triggered flip-flop, preset, shared clock and clear",
+    "Description_JP": "2回路JK負エッジトリガFF（プリセット、共有クロック・クリア）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x115",
+    "Description": "Dual JK master-slave flip-flop, data lockout, reset",
+    "Description_JP": "2回路JKマスタ・スレーブFF（データロックアウト、リセット）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x116",
+    "Description": "Dual 4-bit latch, clear",
+    "Description_JP": "2回路4ビットラッチ（クリア）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x117",
+    "Description": "AND-gated JK flip-flop, one J and K input inverted",
+    "Description_JP": "ANDゲート付きJKフリップフロップ（片側J/K反転）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x118",
+    "Description": "Hex set/reset latch, shared reset",
+    "Description_JP": "6回路セット/リセットラッチ（共有リセット）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x119",
+    "Description": "Hex set/reset latch",
+    "Description_JP": "6回路セット/リセットラッチ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x171",
+    "Description": "Quad D flip-flops, shared clock and clear",
+    "Description_JP": "4回路D型フリップフロップ（共有クロック/クリア）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x174",
+    "Description": "Hex D-type flip-flop",
+    "Description_JP": "6回路D型フリップフロップ",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x175",
+    "Description": "Quad D-type flip-flop",
+    "Description_JP": "4回路D型フリップフロップ",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x176",
+    "Description": "Presettable decade (bi-quinary) counter/latch",
+    "Description_JP": "プリセット可能10進（バイクイナリ）カウンタ/ラッチ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x177",
+    "Description": "Presettable binary counter/latch",
+    "Description_JP": "プリセット可能バイナリカウンタ/ラッチ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x196",
+    "Description": "Presettable 4-bit decade counter/latch",
+    "Description_JP": "プリセット可能4ビット10進カウンタ/ラッチ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x197",
+    "Description": "Presettable 4-bit binary counter/latch",
+    "Description_JP": "プリセット可能4ビットバイナリカウンタ/ラッチ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x211",
+    "Description": "144-bit RAM (16x9) with output latch",
+    "Description_JP": "144ビットRAM（16×9、出力ラッチ付）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x226",
+    "Description": "4-bit parallel latched bus transceiver",
+    "Description_JP": "4ビット平行ラッチ付バストランシーバ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x256",
+    "Description": "Dual 4-bit addressable latch",
+    "Description_JP": "2回路4ビットアドレサブルラッチ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x259",
+    "Description": "8-bit addressable latch",
+    "Description_JP": "8ビットアドレサブルラッチ",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x268",
+    "Description": "Hex D-type latches, shared enable and output control",
+    "Description_JP": "6回路D型ラッチ（共通イネーブル・出力制御）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x273",
+    "Description": "Octal D-type flip-flop with clear",
+    "Description_JP": "8ビットD型フリップフロップ（クリア付き）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x274",
+    "Description": "Octal D-type flip-flop",
+    "Description_JP": "8ビットD型フリップフロップ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x279",
+    "Description": "Quad SR latch",
+    "Description_JP": "4回路SRラッチ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x311",
+    "Description": "144-bit RAM (16x9) with output latch, open-collector outputs",
+    "Description_JP": "144ビットRAM (16x9)、出力ラッチ付、オープンコレクタ出力",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x363",
+    "Description": "octal transparent latch, three-state",
+    "Description_JP": "8ビット・トランスペアレントラッチ、3状態",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x373",
+    "Description": "Octal transparent latch, 3-state outputs",
+    "Description_JP": "8ビットトランスペアレントラッチ（3状態出力）",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x374",
+    "Description": "Octal D-type flip-flop, 3-state outputs",
+    "Description_JP": "8ビットD型フリップフロップ（3状態出力）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x375",
+    "Description": "Quad D-type latch",
+    "Description_JP": "4ビットD型ラッチ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x376",
+    "Description": "quad J-NotK flip-flop, shared clock and clear",
+    "Description_JP": "4回路J-NotKフリップフロップ（共通クロック/クリア）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x377",
+    "Description": "Octal D-type flip-flop",
+    "Description_JP": "8ビットD型フリップフロップ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x412",
+    "Description": "Multi-mode buffered 8-bit latches (Intel 3212/8212 equivalent)",
+    "Description_JP": "多モードバッファ付き8ビットラッチ（Intel 3212/8212相当）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x432",
+    "Description": "8-bit multi-mode buffered latch",
+    "Description_JP": "8ビット多モードバッファ付きラッチ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x531",
+    "Description": "Octal transparent latch, three-state outputs",
+    "Description_JP": "8ビット透過ラッチ（3状態出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x533",
+    "Description": "Octal D-type transparent latch, inverting, 3-state outputs",
+    "Description_JP": "8ビットD型トランスペアレントラッチ（反転、3状態出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x534",
+    "Description": "Octal D-type transparent latch, 3-state outputs",
+    "Description_JP": "8ビットD型トランスペアレントラッチ（3状態出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x535",
+    "Description": "Octal transparent latch, inverting outputs, three-state",
+    "Description_JP": "8ビット透過ラッチ（反転出力、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x547",
+    "Description": "8-bit bidirectional latched transceiver, non-inverting, three-state",
+    "Description_JP": "8ビット双方向ラッチ付きトランシーバ（非反転、3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x549",
+    "Description": "8-bit two-stage pipelined latch, three-state",
+    "Description_JP": "8ビット2段パイプライン・ラッチ（3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x563",
+    "Description": "octal D-type transparent latch, inverting outputs",
+    "Description_JP": "8ビットD型トランスペアレントラッチ（反転出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x564",
+    "Description": "Octal D-type flip-flop, inverting, 3-state outputs",
+    "Description_JP": "8ビットD型フリップフロップ（反転、3状態出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x567",
+    "Description": "8-bit bidirectional latched transceiver, inverting, three-state",
+    "Description_JP": "8ビット双方向ラッチ付きトランシーバ（反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x573",
+    "Description": "Octal transparent latch, 3-state outputs",
+    "Description_JP": "8ビットトランスペアレントラッチ（3状態出力）",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x574",
+    "Description": "Octal D-type flip-flop, 3-state outputs",
+    "Description_JP": "8ビットD型フリップフロップ（3状態出力）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x575",
+    "Description": "Octal D-type edge-triggered flip-flop, synchronous clear, three-state",
+    "Description_JP": "8ビットD型エッジトリガFF（同期クリア、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x576",
+    "Description": "Octal D-type edge-triggered flip-flop, inverting outputs, three-state",
+    "Description_JP": "8ビットD型エッジトリガFF（反転出力、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x577",
+    "Description": "Octal D-type edge-triggered flip-flop, synchronous clear, inverting outputs, three-state",
+    "Description_JP": "8ビットD型エッジトリガFF（同期クリア、反転出力、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x580",
+    "Description": "Octal D-type transparent latch, inverting outputs, three-state",
+    "Description_JP": "8ビットD型透過ラッチ（反転出力、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x589",
+    "Description": "8-bit shift register with input latch, three-state",
+    "Description_JP": "8ビットシフトレジスタ（入力ラッチ付き、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x594",
+    "Description": "8-bit shift registers, serial-in, parallel-out, output latches, buffered",
+    "Description_JP": "8ビットシフトレジスタ（シリアル入力/パラレル出力、出力ラッチ、バッファ付き）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x595",
+    "Description": "8-bit serial-in/serial or parallel-out shift register with output latches",
+    "Description_JP": "8ビット出力ラッチ付きシフトレジスタ / 8ビットシリアル入力/シリアルまたはパラレル出力シフトレジスタ（出力ラッチ付き）",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x596",
+    "Description": "8-bit shift registers, serial-in, parallel-out, output latches, open-collector",
+    "Description_JP": "8ビットシフトレジスタ（シリアル入力/パラレル出力、出力ラッチ、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x598",
+    "Description": "8-bit shift register, selectable parallel-in/out, input latches, three-state",
+    "Description_JP": "8ビットシフトレジスタ（選択可能な並列入出力、入力ラッチ、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x599",
+    "Description": "8-bit shift registers, serial-in, parallel-out, output latches, open-collector",
+    "Description_JP": "8ビットシフトレジスタ（シリアル入力/パラレル出力、出力ラッチ、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x610",
+    "Description": "Latched memory mapper, three-state",
+    "Description_JP": "メモリマッパ（ラッチ内蔵、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x611",
+    "Description": "Latched memory mapper, open-collector",
+    "Description_JP": "メモリマッパ（ラッチ内蔵、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x666",
+    "Description": "8-bit D-type transparent read-back latch, non-inverting, three-state",
+    "Description_JP": "8ビットD型透過リードバック・ラッチ（非反転、3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x667",
+    "Description": "8-bit D-type transparent read-back latch, inverting, three-state",
+    "Description_JP": "8ビットD型透過リードバック・ラッチ（反転、3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x678",
+    "Description": "16-bit address comparator with latch",
+    "Description_JP": "16ビット・アドレス・コンパレータ（ラッチ付）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x679",
+    "Description": "12-bit address comparator with latch",
+    "Description_JP": "12ビット・アドレス・コンパレータ（ラッチ付）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x765",
+    "Description": "Dual-port dRAM controller with address latch",
+    "Description_JP": "デュアルポートDRAMコントローラ（アドレスラッチ付）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x776",
+    "Description": "8-bit latched transceiver for FutureBus",
+    "Description_JP": "FutureBus向け 8ビット ラッチ付きトランシーバ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x777",
+    "Description": "Triple latched transceiver",
+    "Description_JP": "3回路 ラッチ付きトランシーバ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x793",
+    "Description": "8-bit latch with readback",
+    "Description_JP": "8ビット ラッチ（リードバック機能）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x803",
+    "Description": "Quad D flip-flops with matched propagation delays",
+    "Description_JP": "4回路D型フリップフロップ（遅延整合）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x821",
+    "Description": "10-bit bus interface flip-flops",
+    "Description_JP": "10ビット バスインタフェース用フリップフロップ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x822",
+    "Description": "10-bit bus interface flip-flops, inverting inputs",
+    "Description_JP": "10ビット バスインタフェース用フリップフロップ（反転入力）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x823",
+    "Description": "9-bit D-type flip-flops with clear and clock enable",
+    "Description_JP": "9ビット D型フリップフロップ（クリア・クロックイネーブル付）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x824",
+    "Description": "9-bit D-type flip-flops with clear and clock enable, inverting inputs",
+    "Description_JP": "9ビット D型フリップフロップ（クリア・クロックイネーブル付、反転入力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x825",
+    "Description": "8-bit D-type flip-flops with clear and clock enable",
+    "Description_JP": "8ビット D型フリップフロップ（クリア・クロックイネーブル付）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x826",
+    "Description": "8-bit D-type flip-flops with clear and clock enable, inverting inputs",
+    "Description_JP": "8ビット D型フリップフロップ（クリア・クロックイネーブル付、反転入力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x841",
+    "Description": "10-bit D-type flip-flop",
+    "Description_JP": "10ビットD型フリップフロップ",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x842",
+    "Description": "10-bit D-type flip-flop, inverting inputs",
+    "Description_JP": "10ビットD型フリップフロップ（反転入力）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x843",
+    "Description": "9-bit D flip-flops, clear and set inputs",
+    "Description_JP": "9ビットD型フリップフロップ（CLR/SET入力付）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x844",
+    "Description": "9-bit D flip-flops, clear and set inputs, inverting inputs",
+    "Description_JP": "9ビットD型フリップフロップ（CLR/SET入力、反転入力）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x845",
+    "Description": "8-bit D flip-flops, clear and set inputs",
+    "Description_JP": "8ビットD型フリップフロップ（CLR/SET入力付）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x846",
+    "Description": "8-bit D flip-flops, clear and set inputs, inverting inputs",
+    "Description_JP": "8ビットD型フリップフロップ（CLR/SET入力、反転入力）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x853",
+    "Description": "8-bit to 9-bit bus transceiver with parity latch, non-inverting",
+    "Description_JP": "8ビット→9ビット パリティラッチ付バス・トランシーバ（非反転）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x854",
+    "Description": "8-bit to 9-bit bus transceiver with parity latch, inverting",
+    "Description_JP": "8ビット→9ビット パリティラッチ付バス・トランシーバ（反転）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x866",
+    "Description": "8-bit magnitude comparator with latches",
+    "Description_JP": "8ビット 大小比較器（ラッチ付）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x873",
+    "Description": "dual 4-bit transparent latch with clear",
+    "Description_JP": "4ビット透過ラッチ×2（クリア付）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x874",
+    "Description": "dual 4-bit edge-triggered D flip-flops with clear",
+    "Description_JP": "エッジトリガD-FF×2（クリア付）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x876",
+    "Description": "dual 4-bit edge-triggered D flip-flops with set, inverting outputs",
+    "Description_JP": "エッジトリガD-FF×2（セット付、反転出力）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x878",
+    "Description": "dual 4-bit D-type flip-flop, synchronous clear, non-inverting outputs",
+    "Description_JP": "D型FF×2（同期クリア、非反転出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x879",
+    "Description": "dual 4-bit D-type flip-flop, synchronous clear, inverting outputs",
+    "Description_JP": "D型FF×2（同期クリア、反転出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x880",
+    "Description": "dual 4-bit transparent latch with clear, inverting outputs",
+    "Description_JP": "透過ラッチ×2（クリア付、反転出力）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x899",
+    "Description": "9-bit latchable transceiver with parity generator/checker",
+    "Description_JP": "9ビット ラッチ付トランシーバ（パリティ生成/検出器付）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x978",
+    "Description": "octal flip-flop with serial scanner",
+    "Description_JP": "シリアルスキャナ付 8ビット フリップフロップ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x990",
+    "Description": "8-bit D-type transparent read-back latch, non-inverting",
+    "Description_JP": "8ビット 透過型リードバック・ラッチ（非反転）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x991",
+    "Description": "8-bit D-type transparent read-back latch, inverting",
+    "Description_JP": "8ビット 透過型リードバック・ラッチ（反転）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x992",
+    "Description": "9-bit D-type transparent read-back latch, non-inverting",
+    "Description_JP": "9ビット 透過型リードバック・ラッチ（非反転）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x993",
+    "Description": "9-bit D-type transparent read-back latch, inverting",
+    "Description_JP": "9ビット 透過型リードバック・ラッチ（反転）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x994",
+    "Description": "10-bit D-type transparent read-back latch, non-inverting",
+    "Description_JP": "10ビット 透過型リードバック・ラッチ（非反転）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x995",
+    "Description": "10-bit D-type transparent read-back latch, inverting",
+    "Description_JP": "10ビット 透過型リードバック・ラッチ（反転）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x996",
+    "Description": "8-bit D-type edge-triggered read-back latch",
+    "Description_JP": "8ビット エッジトリガ リードバック・ラッチ",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x5074",
+    "Description": "dual positive-edge-triggered D-type flip-flop (metastable immune)",
+    "Description_JP": "2回路正エッジトリガDフリップフロップ（メタステーブル耐性）",
+    "Rarity": "VeryNerd(UR)"
+  }
+]

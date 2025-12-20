@@ -1,0 +1,230 @@
+[
+  {
+    "PartNumber": "74x85",
+    "Description": "4-bit magnitude comparator",
+    "Description_JP": "4ビットマグニチュードコンパレータ",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x123",
+    "Description": "Dual retriggerable monostable multivibrator",
+    "Description_JP": "2回路リトリガ可能単安定マルチバイブレータ",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x124",
+    "Description": "Dual voltage-controlled oscillator",
+    "Description_JP": "2回路電圧制御発振器",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x130",
+    "Description": "Retriggerable monostable multivibrator",
+    "Description_JP": "リトリガ可能単安定マルチバイブレータ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x221",
+    "Description": "Dual monostable multivibrator",
+    "Description_JP": "2回路単安定マルチバイブレータ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x297",
+    "Description": "Digital PLL filter",
+    "Description_JP": "ディジタルPLLフィルタ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x320",
+    "Description": "crystal-controlled oscillator",
+    "Description_JP": "水晶制御発振器",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x324",
+    "Description": "voltage-controlled oscillator (or crystal controlled), enable, complementary outputs (analog)",
+    "Description_JP": "電圧制御（または水晶制御）発振器、イネーブル付、補完出力（アナログ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x325",
+    "Description": "dual voltage-controlled oscillator (or crystal controlled), complementary outputs (analog)",
+    "Description_JP": "デュアル電圧制御（または水晶制御）発振器、補完出力（アナログ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x326",
+    "Description": "dual voltage-controlled oscillator (or crystal controlled), enable, complementary outputs (analog)",
+    "Description_JP": "デュアル電圧制御（または水晶制御）発振器、イネーブル付、補完出力（アナログ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x327",
+    "Description": "dual voltage-controlled oscillator (or crystal controlled) (analog)",
+    "Description_JP": "デュアル電圧制御（または水晶制御）発振器（アナログ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x422",
+    "Description": "Retriggerable monostable multivibrators, two inputs",
+    "Description_JP": "リトリガ可能単安定マルチバイブレータ（2入力）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x423",
+    "Description": "Dual retriggerable monostable multivibrator",
+    "Description_JP": "2回路リトリガ可能単安定マルチバイブレータ",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x500",
+    "Description": "6-bit flash analog-to-digital converter (ADC)",
+    "Description_JP": "6ビット・フラッシュA/Dコンバータ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x505",
+    "Description": "8-bit successive approximation ADC",
+    "Description_JP": "8ビット逐次比較A/Dコンバータ",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x518",
+    "Description": "8-bit comparator, inverting output, 20 kΩ pull-up, open-collector",
+    "Description_JP": "8ビットコンパレータ（反転出力、20kΩプルアップ、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x519",
+    "Description": "8-bit comparator, open-collector",
+    "Description_JP": "8ビットコンパレータ（オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x520",
+    "Description": "8-bit comparator, inverting output, 20 kΩ pull-up",
+    "Description_JP": "8ビットコンパレータ（反転出力、20kΩプルアップ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x521",
+    "Description": "8-bit comparator, inverting output",
+    "Description_JP": "8ビットコンパレータ（反転出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x522",
+    "Description": "8-bit comparator, inverting output, 20 kΩ pull-up, open-collector",
+    "Description_JP": "8ビットコンパレータ（反転出力、20kΩプルアップ、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x627",
+    "Description": "Dual voltage-controlled oscillator",
+    "Description_JP": "2回路VCO",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x628",
+    "Description": "Voltage-controlled oscillator with external temperature compensation",
+    "Description_JP": "電圧制御発振器（外付け温度補償対応）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x629",
+    "Description": "Dual voltage-controlled oscillator with range control",
+    "Description_JP": "2回路VCO（レンジ制御）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x677",
+    "Description": "16-bit address comparator with enable",
+    "Description_JP": "16ビット・アドレス・コンパレータ（イネーブル付）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x680",
+    "Description": "12-bit address comparator with enable",
+    "Description_JP": "12ビット・アドレス・コンパレータ（イネーブル付）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x682",
+    "Description": "8-bit magnitude comparator",
+    "Description_JP": "8ビットマグニチュードコンパレータ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x683",
+    "Description": "8-bit magnitude comparator, P>Q output, 20 kΩ pull-up, open-collector",
+    "Description_JP": "8ビット大小比較器（P>Q出力、20kΩプルアップ、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x684",
+    "Description": "8-bit magnitude comparator, P>Q output",
+    "Description_JP": "8ビット大小比較器（P>Q出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x685",
+    "Description": "8-bit magnitude comparator, P>Q output, open-collector",
+    "Description_JP": "8ビット大小比較器（P>Q出力、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x686",
+    "Description": "8-bit magnitude comparator, P>Q output, enable",
+    "Description_JP": "8ビット大小比較器（P>Q出力、イネーブル付）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x687",
+    "Description": "8-bit magnitude comparator, P>Q output, enable, open-collector",
+    "Description_JP": "8ビット大小比較器（P>Q出力、イネーブル付、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x688",
+    "Description": "8-bit magnitude comparator, equality",
+    "Description_JP": "8ビットマグニチュードコンパレータ（等価判定）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x689",
+    "Description": "8-bit magnitude comparator, enable, open-collector",
+    "Description_JP": "8ビット大小比較器（イネーブル付、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x724",
+    "Description": "Voltage-controlled multivibrator",
+    "Description_JP": "電圧制御マルチバイブレータ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x885",
+    "Description": "8-bit magnitude comparator",
+    "Description_JP": "8ビット 大小比較器",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x909",
+    "Description": "quad voltage comparator",
+    "Description_JP": "4回路 電圧コンパレータ",
+    "Rarity": "Abolition(R+)"
+  },
+  {
+    "PartNumber": "74x933",
+    "Description": "7-bit address bus comparator",
+    "Description_JP": "7ビット アドレスバス・コンパレータ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x937",
+    "Description": "ADC for 3.5-digit digital voltmeters, multiplexed BCD outputs",
+    "Description_JP": "3.5桁デジタル電圧計用ADC（多重BCD出力）",
+    "Rarity": "SuperRare"
+  }
+]

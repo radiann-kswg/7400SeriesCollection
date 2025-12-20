@@ -1,0 +1,62 @@
+[
+  {
+    "PartNumber": "74x60",
+    "Description": "dual 4-input expander for 74x23, 74x50, 74x53, 74x55",
+    "Description_JP": "2回路4入力拡張器（74x23、74x50、74x53、74x55用）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x61",
+    "Description": "Triple 3-input expander for 74x52",
+    "Description_JP": "74x52用3入力エキスパンダ（3回路）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x63",
+    "Description": "Hex current sensing interface gates",
+    "Description_JP": "6回路電流検出インタフェースゲート",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x182",
+    "Description": "Lookahead carry generator",
+    "Description_JP": "ルック・アヘッド・キャリー・ジェネレータ",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x264",
+    "Description": "Look-ahead carry generator",
+    "Description_JP": "ルックアヘッドキャリー・ジェネレータ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x282",
+    "Description": "Look-ahead carry generator, selectable carry inputs",
+    "Description_JP": "ルックアヘッドキャリー・ジェネレータ（選択キャリー入力）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x482",
+    "Description": "4-bit slice expandable control elements",
+    "Description_JP": "4ビットスライス型拡張制御要素",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x705",
+    "Description": "Arithmetic logic unit for DSP applications",
+    "Description_JP": "DSP用途向けALU",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x881",
+    "Description": "4-bit arithmetic logic unit",
+    "Description_JP": "4ビットALU",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x882",
+    "Description": "32-bit lookahead carry generator",
+    "Description_JP": "32ビット 先行キャリ生成器",
+    "Rarity": "VeryNerd(UR)"
+  }
+]

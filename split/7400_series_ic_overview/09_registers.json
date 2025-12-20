@@ -1,0 +1,602 @@
+[
+  {
+    "PartNumber": "74x91",
+    "Description": "8-bit shift register, serial in/out, gated input",
+    "Description_JP": "8ビットシフトレジスタ（シリアル入出力、ゲート付き入力）",
+    "Rarity": "Abolition(R+)"
+  },
+  {
+    "PartNumber": "74x95",
+    "Description": "4-bit shift register, parallel in/parallel out, serial input",
+    "Description_JP": "4ビットシフトレジスタ（パラレル入出力、シリアル入力）",
+    "Rarity": "Abolition(R+)"
+  },
+  {
+    "PartNumber": "74x99",
+    "Description": "4-bit bidirectional universal shift register",
+    "Description_JP": "4ビット双方向ユニバーサルシフトレジスタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x164",
+    "Description": "8-bit serial-in/parallel-out shift register",
+    "Description_JP": "8ビットシリアル入力/パラレル出力シフトレジスタ",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x165",
+    "Description": "8-bit parallel-in/serial-out shift register",
+    "Description_JP": "8ビットパラレル入力/シリアル出力シフトレジスタ",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x166",
+    "Description": "8-bit parallel-in/serial-out shift register",
+    "Description_JP": "8ビットパラレル入力/シリアル出力シフトレジスタ",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x173",
+    "Description": "4-bit D-type register with 3-state outputs",
+    "Description_JP": "4ビットD型レジスタ（3状態出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x178",
+    "Description": "4-bit parallel-access shift register",
+    "Description_JP": "4ビット並列アクセスシフトレジスタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x194",
+    "Description": "4-bit bidirectional universal shift register",
+    "Description_JP": "4ビット双方向ユニバーサルシフトレジスタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x195",
+    "Description": "4-bit parallel-access shift register",
+    "Description_JP": "4ビット並列アクセスシフトレジスタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x198",
+    "Description": "8-bit bidirectional universal shift register",
+    "Description_JP": "8ビット双方向ユニバーサルシフトレジスタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x199",
+    "Description": "8-bit universal shift register, J-/K serial inputs",
+    "Description_JP": "8ビットユニバーサルシフトレジスタ（J/NotKシリアル入力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x242",
+    "Description": "Quad bus transceiver, inverting outputs",
+    "Description_JP": "4回路バストランシーバ（反転出力）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x243",
+    "Description": "quad bus transceiver, non-inverting outputs",
+    "Description_JP": "4回路バストランシーバ（非反転出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x245",
+    "Description": "Octal bus transceiver, 3-state outputs",
+    "Description_JP": "8ビットバストランシーバ（3状態出力）",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x246",
+    "Description": "Octal bus transceiver, inverting, 3-state outputs",
+    "Description_JP": "8ビットバストランシーバ（反転、3状態出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x286",
+    "Description": "9-bit parity generator/checker, bus driver parity I/O",
+    "Description_JP": "9ビットパリティ・ジェネレータ/チェッカ（バスドライバ・パリティI/O）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x295",
+    "Description": "Quad 2-bit bidirectional universal shift register",
+    "Description_JP": "4回路2ビット双方向ユニバーサルシフトレジスタ",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x299",
+    "Description": "8-bit universal shift/storage register",
+    "Description_JP": "8ビットユニバーサルシフト/ストレージレジスタ",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x322",
+    "Description": "8-bit shift register, sign extend, three-state",
+    "Description_JP": "8ビットシフトレジスタ（符号拡張）、3状態",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x364",
+    "Description": "octal edge-triggered D-type register, three-state",
+    "Description_JP": "8ビット・エッジトリガD型レジスタ、3状態",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x378",
+    "Description": "6-bit register, clock enable",
+    "Description_JP": "6ビットレジスタ（クロックイネーブル）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x379",
+    "Description": "4-bit register, clock enable and complementary outputs",
+    "Description_JP": "4ビットレジスタ（クロックイネーブル、補完出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x380",
+    "Description": "8-bit multifunction register (combines features of x374, x377, x273, x534 ICs), three-state",
+    "Description_JP": "8ビット多機能レジスタ（x374/x377/x273/x534の機能統合）、3状態",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x383",
+    "Description": "8-bit register, open-collector outputs",
+    "Description_JP": "8ビットレジスタ、オープンコレクタ出力",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x388",
+    "Description": "4-bit D-type register, three-state and standard outputs",
+    "Description_JP": "4ビットD型レジスタ、3状態/標準出力",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x395",
+    "Description": "4-bit cascadable shift register",
+    "Description_JP": "4ビットカスケードシフトレジスタ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x396",
+    "Description": "octal storage registers, parallel access",
+    "Description_JP": "8ビットストレージレジスタ（パラレルアクセス）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x407",
+    "Description": "Data access register",
+    "Description_JP": "データアクセスレジスタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x440",
+    "Description": "Quad tridirectional bus transceiver, non-inverting, open-collector",
+    "Description_JP": "4回路三方向バストランシーバ（非反転、オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x441",
+    "Description": "Quad tridirectional bus transceiver, inverting, open-collector",
+    "Description_JP": "4回路三方向バストランシーバ（反転、オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x442",
+    "Description": "Quad tridirectional bus transceiver, non-inverting, three-state",
+    "Description_JP": "4回路三方向バストランシーバ（非反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x443",
+    "Description": "Quad tridirectional bus transceiver, inverting, three-state",
+    "Description_JP": "4回路三方向バストランシーバ（反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x444",
+    "Description": "Quad tridirectional bus transceiver, inverting and non-inverting, three-state",
+    "Description_JP": "4回路三方向バストランシーバ（反転/非反転混在、3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x446",
+    "Description": "Quad bus transceivers, direction controls, inverting outputs",
+    "Description_JP": "4回路バストランシーバ（方向制御、反転出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x448",
+    "Description": "Quad tridirectional bus transceiver, inverting and non-inverting, open-collector",
+    "Description_JP": "4回路三方向バストランシーバ（反転/非反転混在、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x449",
+    "Description": "Quad bus transceivers, direction controls, non-inverting outputs",
+    "Description_JP": "4回路バストランシーバ（方向制御、非反転出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x498",
+    "Description": "8-bit bidirectional shift register with parallel inputs",
+    "Description_JP": "8ビット双方向シフトレジスタ（パラレル入力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x502",
+    "Description": "8-bit successive approximation register",
+    "Description_JP": "8ビット逐次比較レジスタ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x503",
+    "Description": "8-bit successive approximation register with expansion control",
+    "Description_JP": "拡張制御付き8ビット逐次比較レジスタ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x504",
+    "Description": "12-bit successive approximation register with expansion control",
+    "Description_JP": "拡張制御付き12ビット逐次比較レジスタ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x524",
+    "Description": "8-bit registered comparator, open-collector",
+    "Description_JP": "8ビットレジスタ付きコンパレータ（オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x532",
+    "Description": "Octal register, three-state outputs",
+    "Description_JP": "8ビットレジスタ（3状態出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x536",
+    "Description": "Octal register, inverting outputs, three-state",
+    "Description_JP": "8ビットレジスタ（反転出力、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x543",
+    "Description": "Octal registered transceiver, non-inverting, three-state",
+    "Description_JP": "8ビットレジスタ付きトランシーバ（非反転、3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x544",
+    "Description": "Octal registered transceiver, inverting, three-state",
+    "Description_JP": "8ビットレジスタ付きトランシーバ（反転、3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x545",
+    "Description": "Octal bidirectional transceiver, non-inverting, three-state",
+    "Description_JP": "8ビット双方向トランシーバ（非反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x546",
+    "Description": "8-bit bidirectional registered transceiver, non-inverting, three-state",
+    "Description_JP": "8ビット双方向レジスタ付きトランシーバ（非反転、3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x548",
+    "Description": "8-bit two-stage pipelined register, three-state",
+    "Description_JP": "8ビット2段パイプライン・レジスタ（3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x550",
+    "Description": "Octal registered transceiver with status flags, non-inverting, three-state",
+    "Description_JP": "ステータスフラグ付き8ビットレジスタ・トランシーバ（非反転、3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x551",
+    "Description": "Octal registered transceiver with status flags, inverting, three-state",
+    "Description_JP": "ステータスフラグ付き8ビットレジスタ・トランシーバ（反転、3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x552",
+    "Description": "Octal registered transceiver with parity and flags, three-state",
+    "Description_JP": "パリティ/フラグ付き8ビットレジスタ・トランシーバ（3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x566",
+    "Description": "8-bit bidirectional registered transceiver, inverting, three-state",
+    "Description_JP": "8ビット双方向レジスタ付きトランシーバ（反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x590",
+    "Description": "8-bit binary counter with output register",
+    "Description_JP": "8ビットバイナリカウンタ（出力レジスタ付き）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x591",
+    "Description": "8-bit binary counter with output registers, open-collector",
+    "Description_JP": "8ビットバイナリカウンタ（出力レジスタ付き、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x592",
+    "Description": "8-bit binary counter with input registers",
+    "Description_JP": "8ビットバイナリカウンタ（入力レジスタ付き）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x593",
+    "Description": "8-bit binary counter with input registers, three-state",
+    "Description_JP": "8ビットバイナリカウンタ（入力レジスタ付き、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x597",
+    "Description": "8-bit parallel-in/serial-out shift register",
+    "Description_JP": "8ビットパラレル入力/シリアル出力シフトレジスタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x614",
+    "Description": "Octal bus transceiver and register, inverting, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ＋レジスタ（反転、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x615",
+    "Description": "Octal bus transceiver and register, non-inverting, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ＋レジスタ（非反転、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x620",
+    "Description": "Octal bus transceiver, inverting, 3-state outputs",
+    "Description_JP": "8ビットバストランシーバ（反転、3状態出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x621",
+    "Description": "Octal bus transceiver, non-inverting, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ（非反転、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x622",
+    "Description": "Octal bus transceiver, inverting, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ（反転、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x623",
+    "Description": "Octal bus transceiver, non-inverting, 3-state outputs",
+    "Description_JP": "8ビットバストランシーバ（非反転、3状態出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x638",
+    "Description": "Octal bus transceiver, inverting outputs, three-state/open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ（反転出力、3状態/オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x639",
+    "Description": "Octal bus transceiver, non-inverting outputs, three-state/open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ（非反転出力、3状態/オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x640",
+    "Description": "Octal bus transceiver, inverting, 3-state outputs",
+    "Description_JP": "8ビットバストランシーバ（反転、3状態出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x641",
+    "Description": "Octal bus transceiver, non-inverting outputs, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ（非反転出力、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x642",
+    "Description": "Octal bus transceiver, inverting outputs, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ（反転出力、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x643",
+    "Description": "Octal bus transceiver, mixed inverting/non-inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ（反転/非反転混在、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x644",
+    "Description": "Octal bus transceiver, mixed inverting/non-inverting, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ（反転/非反転混在、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x645",
+    "Description": "Octal bus transceiver, non-inverting, 3-state outputs",
+    "Description_JP": "8ビットバストランシーバ（非反転、3状態出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x651",
+    "Description": "Octal bus transceiver/register, inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ/レジスタ（反転、3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x652",
+    "Description": "Octal bus transceiver/register, non-inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ/レジスタ（非反転、3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x653",
+    "Description": "Octal bus transceiver/register, inverting, three-state/open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ/レジスタ（反転、3状態/オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x654",
+    "Description": "Octal bus transceiver/register, non-inverting, three-state/open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ/レジスタ（非反転、3状態/オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x657",
+    "Description": "Octal bidirectional transceiver with 8-bit parity generator/checker, three-state",
+    "Description_JP": "8ビット双方向トランシーバ（8ビット・パリティ生成/検査、3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x658",
+    "Description": "Octal bus transceiver with parity, inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ（パリティ付、反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x659",
+    "Description": "Octal bus transceiver with parity, non-inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ（パリティ付、非反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x664",
+    "Description": "Octal bus transceiver with parity, inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ（パリティ付、反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x665",
+    "Description": "Octal bus transceiver with parity, non-inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ（パリティ付、非反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x673",
+    "Description": "16-bit serial-in, serial/parallel-out shift register with output storage, three-state",
+    "Description_JP": "16ビットSISO/SIPOシフトレジスタ（出力ストレージ付、3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x674",
+    "Description": "16-bit parallel-in, serial-out shift register, three-state",
+    "Description_JP": "16ビットPISOシフトレジスタ（3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x675",
+    "Description": "16-bit serial-in, serial/parallel-out shift register",
+    "Description_JP": "16ビットSISO/SIPOシフトレジスタ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x676",
+    "Description": "16-bit serial/parallel-in, serial-out shift register",
+    "Description_JP": "16ビットS/PI, SOシフトレジスタ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x701",
+    "Description": "8-bit register/counter/comparator",
+    "Description_JP": "8ビット レジスタ/カウンタ/コンパレータ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x702",
+    "Description": "8-bit registered read-back transceiver",
+    "Description_JP": "8ビット 登録型リードバック トランシーバ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x759",
+    "Description": "Quadruple bus transceivers, non-inverting outputs, open-collector",
+    "Description_JP": "4回路バス・トランシーバ（非反転出力、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x794",
+    "Description": "8-bit register with readback",
+    "Description_JP": "8ビット レジスタ（リードバック機能）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x808",
+    "Description": "Bidirectional 8-bit bus driver, 3-state outputs",
+    "Description_JP": "双方向8ビットバスドライバ（3状態出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x818",
+    "Description": "8-bit diagnostic register",
+    "Description_JP": "8ビット 診断レジスタ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x819",
+    "Description": "8-bit diagnostic/pipeline register",
+    "Description_JP": "8ビット 診断/パイプライン レジスタ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x832",
+    "Description": "Octal bus driver, 3-state outputs",
+    "Description_JP": "8ビットバスドライバ（3状態出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x833",
+    "Description": "8-bit to 9-bit bus transceiver with parity register, non-inverting",
+    "Description_JP": "8ビット→9ビット パリティレジスタ付バス・トランシーバ（非反転）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x834",
+    "Description": "8-bit to 9-bit bus transceiver with parity register, inverting",
+    "Description_JP": "8ビット→9ビット パリティレジスタ付バス・トランシーバ（反転）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x861",
+    "Description": "10-bit bus transceiver, non-inverting",
+    "Description_JP": "10ビット バス・トランシーバ（非反転）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x862",
+    "Description": "10-bit bus transceiver, inverting",
+    "Description_JP": "10ビット バス・トランシーバ（反転）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x863",
+    "Description": "9-bit bus transceiver, non-inverting",
+    "Description_JP": "9ビット バス・トランシーバ（非反転）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x864",
+    "Description": "9-bit bus transceiver, inverting",
+    "Description_JP": "9ビット バス・トランシーバ（反転）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x905",
+    "Description": "12-bit successive approximation register",
+    "Description_JP": "12ビット 逐次比較型レジスタ",
+    "Rarity": "Abolition(R+)"
+  }
+]

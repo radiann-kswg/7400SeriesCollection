@@ -1,0 +1,224 @@
+[
+  {
+    "PartNumber": "74x94",
+    "Description": "4-bit shift register, dual asynchronous presets",
+    "Description_JP": "4ビットシフトレジスタ（非同期プリセット×2）",
+    "Rarity": "Abolition(R+)"
+  },
+  {
+    "PartNumber": "74x96",
+    "Description": "5-bit parallel-in/parallel-out shift register, asynchronous preset",
+    "Description_JP": "5ビットPIPOシフトレジスタ（非同期プリセット）",
+    "Rarity": "Abolition(R+)"
+  },
+  {
+    "PartNumber": "74x97",
+    "Description": "Synchronous 6-bit binary rate multiplier",
+    "Description_JP": "同期式6ビットバイナリ・レート・マルチプライヤ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x160",
+    "Description": "Synchronous presettable 4-bit decade counter, asynchronous clear",
+    "Description_JP": "同期式プリセット可能4ビット10進カウンタ（非同期クリア）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x161",
+    "Description": "4-bit binary counter, synchronous, with clear and load",
+    "Description_JP": "4ビットバイナリカウンタ（同期式、クリア・ロード付き）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x162",
+    "Description": "Synchronous presettable 4-bit decade counter, synchronous clear",
+    "Description_JP": "同期式プリセット可能4ビット10進カウンタ（同期クリア）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x163",
+    "Description": "4-bit binary counter, synchronous, with clear and load",
+    "Description_JP": "4ビットバイナリカウンタ（同期式、クリア・ロード付き）",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x167",
+    "Description": "Synchronous decade rate multiplier",
+    "Description_JP": "同期式10進レートマルチプライヤ",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x168",
+    "Description": "Synchronous presettable 4-bit up/down decade counter",
+    "Description_JP": "同期式プリセット可能4ビットアップ/ダウン10進カウンタ",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x169",
+    "Description": "Synchronous presettable 4-bit up/down binary counter",
+    "Description_JP": "同期式プリセット可能4ビットアップ/ダウンバイナリカウンタ",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x179",
+    "Description": "4-bit parallel-access shift register with asynchronous clear, complementary Qd output",
+    "Description_JP": "4ビット並列アクセスシフトレジスタ（非同期クリア、補助Qd出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x190",
+    "Description": "Synchronous up/down decade counter",
+    "Description_JP": "同期式アップ/ダウン10進カウンタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x191",
+    "Description": "Synchronous up/down binary counter",
+    "Description_JP": "同期式アップ/ダウンバイナリカウンタ",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x192",
+    "Description": "Synchronous up/down decade counter",
+    "Description_JP": "同期式アップ/ダウン10進カウンタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x193",
+    "Description": "Synchronous up/down binary counter",
+    "Description_JP": "同期式アップ/ダウンバイナリカウンタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x323",
+    "Description": "8-bit bidirectional universal shift/storage register, synchronous clear, three-state",
+    "Description_JP": "8ビット双方向ユニバーサルシフト/ストレージレジスタ（同期クリア、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x362",
+    "Description": "four-phase clock generator/driver for Texas Instruments TMS9900",
+    "Description_JP": "TI TMS9900用4相クロックジェネレータ/ドライバ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x414",
+    "Description": "Interrupt priority controller for Intel 8080 (8214 equivalent)",
+    "Description_JP": "Intel 8080用割込み優先度コントローラ（8214相当）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x428",
+    "Description": "System controller for Intel 8080A (8228 equivalent)",
+    "Description_JP": "Intel 8080A用システムコントローラ（8228相当）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x438",
+    "Description": "System controller for Intel 8080A (8238 equivalent)",
+    "Description_JP": "Intel 8080A用システムコントローラ（8238相当）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x469",
+    "Description": "8-bit synchronous up/down counter, with parallel load and hold",
+    "Description_JP": "8ビット同期式アップ/ダウンカウンタ（パラレルロード/ホールド）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x561",
+    "Description": "Synchronous 4-bit binary counter, three-state",
+    "Description_JP": "同期式4ビットバイナリカウンタ（3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x624",
+    "Description": "Voltage-controlled oscillator, enable/range control, two-phase outputs",
+    "Description_JP": "電圧制御発振器（有効/レンジ制御、2相出力）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x625",
+    "Description": "Dual voltage-controlled oscillator, two-phase outputs",
+    "Description_JP": "2回路VCO（2相出力）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x626",
+    "Description": "Dual voltage-controlled oscillator, enable control, two-phase outputs",
+    "Description_JP": "2回路VCO（イネーブル制御、2相出力）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x668",
+    "Description": "Synchronous 4-bit decade up/down counter",
+    "Description_JP": "同期式4ビット10進アップ/ダウン・カウンタ",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x669",
+    "Description": "Synchronous 4-bit binary up/down counter",
+    "Description_JP": "同期式4ビットバイナリ・アップ/ダウン・カウンタ",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x786",
+    "Description": "4-input asynchronous bus arbiter",
+    "Description_JP": "4入力 非同期バスアービタ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x852",
+    "Description": "8-bit universal transceiver port controller",
+    "Description_JP": "8ビット ユニバーサル・トランシーバ・ポートコントローラ",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x856",
+    "Description": "8-bit universal transceiver port controller",
+    "Description_JP": "8ビット ユニバーサル・トランシーバ・ポートコントローラ",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x867",
+    "Description": "synchronous 8-bit up/down counter, asynchronous clear",
+    "Description_JP": "同期式 8ビット アップ/ダウン・カウンタ（非同期クリア）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x869",
+    "Description": "synchronous 8-bit up/down counter, synchronous clear",
+    "Description_JP": "同期式 8ビット アップ/ダウン・カウンタ（同期クリア）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x877",
+    "Description": "8-bit universal transceiver port controller",
+    "Description_JP": "8ビット ユニバーサル・トランシーバ・ポートコントローラ",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x890",
+    "Description": "microoperation sequencer",
+    "Description_JP": "マイクロオペレーション・シーケンサ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x891",
+    "Description": "microoperation sequencer",
+    "Description_JP": "マイクロオペレーション・シーケンサ（派生）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x932",
+    "Description": "phase comparator",
+    "Description_JP": "位相比較器",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x964",
+    "Description": "dual rank 8-bit shift register, synchronous and asynchronous clear",
+    "Description_JP": "8ビット 2段シフトレジスタ（同期/非同期クリア）",
+    "Rarity": "SuperRare"
+  }
+]

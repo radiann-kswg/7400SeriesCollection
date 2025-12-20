@@ -1,0 +1,674 @@
+[
+  {
+    "PartNumber": "74x81",
+    "Description": "16-bit RAM",
+    "Description_JP": "16ビットRAM",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x84",
+    "Description": "16-bit RAM",
+    "Description_JP": "16ビットRAM",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x88",
+    "Description": "256-bit ROM (32x8), open-collector outputs",
+    "Description_JP": "256ビットROM（32×8、オープンコレクタ出力）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x89",
+    "Description": "64-bit RAM (16x4), inverted data outputs, open-collector",
+    "Description_JP": "64ビットRAM（16×4、反転データ出力、オープンコレクタ）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x170",
+    "Description": "16-bit register file (4x4)",
+    "Description_JP": "16ビットレジスタファイル（4×4）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x172",
+    "Description": "16-bit multiple-port register file (8x2), tri-state outputs",
+    "Description_JP": "16ビットマルチポートレジスタファイル（8×2、3状態出力）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x186",
+    "Description": "512-bit ROM (64x8), open-collector outputs",
+    "Description_JP": "512ビットROM（64×8、オープンコレクタ出力）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x187",
+    "Description": "1024-bit ROM (256x4), open-collector outputs",
+    "Description_JP": "1024ビットROM（256×4、オープンコレクタ出力）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x188",
+    "Description": "256-bit PROM (32x8), open-collector outputs",
+    "Description_JP": "256ビットPROM（32×8、オープンコレクタ出力）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x189",
+    "Description": "64-bit random access memory (RAM)",
+    "Description_JP": "64ビットランダムアクセスメモリ（RAM）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x200",
+    "Description": "256-bit RAM (256x1)",
+    "Description_JP": "256ビットRAM（256×1）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x201",
+    "Description": "256-bit RAM (256x1)",
+    "Description_JP": "256ビットRAM（256×1）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x202",
+    "Description": "256-bit RAM (256x1) with power down",
+    "Description_JP": "256ビットRAM（256×1、パワーダウン機能付）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x206",
+    "Description": "256-bit RAM (256x1)",
+    "Description_JP": "256ビットRAM（256×1）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x207",
+    "Description": "1024-bit RAM (256x4)",
+    "Description_JP": "1024ビットRAM（256×4）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x208",
+    "Description": "1024-bit RAM (256x4), separate data in/out",
+    "Description_JP": "1024ビットRAM（256×4、入出力分離）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x209",
+    "Description": "1024-bit RAM (1024x1)",
+    "Description_JP": "1024ビットRAM（1024×1）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x212",
+    "Description": "144-bit RAM (16x9)",
+    "Description_JP": "144ビットRAM（16×9）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x213",
+    "Description": "192-bit RAM (16x12)",
+    "Description_JP": "192ビットRAM（16×12）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x214",
+    "Description": "1024-bit RAM (1024x1)",
+    "Description_JP": "1024ビットRAM（1024×1）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x215",
+    "Description": "1024-bit RAM (1024x1) with power-down",
+    "Description_JP": "1024ビットRAM（1024×1、パワーダウン付）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x216",
+    "Description": "256-bit RAM (64x4), common I/O",
+    "Description_JP": "256ビットRAM（64×4、共用I/O）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x217",
+    "Description": "256-bit RAM (64x4)",
+    "Description_JP": "256ビットRAM（64×4）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x218",
+    "Description": "256-bit RAM (32x8)",
+    "Description_JP": "256ビットRAM（32×8）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x219",
+    "Description": "64-bit RAM (16x4), non-inverting outputs",
+    "Description_JP": "64ビットRAM（16×4、非反転出力）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x222",
+    "Description": "64-bit FIFO memory (16x4), sync, I/O ready",
+    "Description_JP": "64ビットFIFO（16×4、同期、I/Oレディ）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x224",
+    "Description": "64-bit FIFO memory (16x4), synchronous",
+    "Description_JP": "64ビットFIFO（16×4、同期）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x225",
+    "Description": "80-bit FIFO memory (16x5), asynchronous",
+    "Description_JP": "80ビットFIFO（16×5、非同期）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x227",
+    "Description": "64-bit FIFO memory (16x4), sync, I/O ready (open-collector)",
+    "Description_JP": "64ビットFIFO（16×4、同期、I/Oレディ、オープンコレクタ）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x228",
+    "Description": "64-bit FIFO memory (16x4), synchronous (open-collector)",
+    "Description_JP": "64ビットFIFO（16×4、同期、オープンコレクタ）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x229",
+    "Description": "80-bit FIFO memory (16x5), asynchronous",
+    "Description_JP": "80ビットFIFO（16×5、非同期）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x232",
+    "Description": "64-bit FIFO memory (16x4), asynchronous",
+    "Description_JP": "64ビットFIFO（16×4、非同期）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x233",
+    "Description": "80-bit FIFO memory (16x5), asynchronous",
+    "Description_JP": "80ビットFIFO（16×5、非同期）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x234",
+    "Description": "256-bit FIFO memory (64x4), asynchronous",
+    "Description_JP": "256ビットFIFO（64×4、非同期）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x235",
+    "Description": "320-bit FIFO memory (64x5), asynchronous",
+    "Description_JP": "320ビットFIFO（64×5、非同期）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x236",
+    "Description": "256-bit FIFO memory (64x4), asynchronous",
+    "Description_JP": "256ビットFIFO（64×4、非同期）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x262",
+    "Description": "5760-bit ROM (Teletext charset)",
+    "Description_JP": "5760ビットROM（テレテキスト文字セット）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x289",
+    "Description": "64-bit RAM (16x4), inverted outputs (open-collector)",
+    "Description_JP": "64ビットRAM（16×4、反転出力、オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x292",
+    "Description": "Programmable frequency divider/digital timer",
+    "Description_JP": "プログラマブル周波数分周器/デジタルタイマ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x294",
+    "Description": "Programmable frequency divider/digital timer",
+    "Description_JP": "プログラマブル周波数分周器/デジタルタイマ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x300",
+    "Description": "256-bit RAM (256x1), open-collector outputs",
+    "Description_JP": "256ビットRAM (256x1)、オープンコレクタ出力",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x301",
+    "Description": "256-bit RAM (256x1), open-collector outputs",
+    "Description_JP": "256ビットRAM (256x1)、オープンコレクタ出力",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x302",
+    "Description": "256-bit RAM (256x1), open-collector outputs",
+    "Description_JP": "256ビットRAM (256x1)、オープンコレクタ出力",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x309",
+    "Description": "1024-bit RAM (1024x1), open-collector outputs",
+    "Description_JP": "1024ビットRAM (1024x1)、オープンコレクタ出力",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x312",
+    "Description": "144-bit RAM (16x9), open-collector outputs",
+    "Description_JP": "144ビットRAM (16x9)、オープンコレクタ出力",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x313",
+    "Description": "192-bit RAM (16x12), open-collector outputs",
+    "Description_JP": "192ビットRAM (16x12)、オープンコレクタ出力",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x314",
+    "Description": "1024-bit RAM (1024x1), open-collector outputs",
+    "Description_JP": "1024ビットRAM (1024x1)、オープンコレクタ出力",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x315",
+    "Description": "1024-bit RAM (1024x1) with power-down mode, open-collector outputs",
+    "Description_JP": "1024ビットRAM (1024x1)、省電力モード付、オープンコレクタ出力",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x316",
+    "Description": "256-bit RAM (64x4), common I/O, open-collector outputs",
+    "Description_JP": "256ビットRAM (64x4)、共用I/O、オープンコレクタ出力",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x317",
+    "Description": "256-bit RAM (64x4), open-collector outputs",
+    "Description_JP": "256ビットRAM (64x4)、オープンコレクタ出力",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x318",
+    "Description": "256-bit RAM (32x8), open-collector outputs",
+    "Description_JP": "256ビットRAM (32x8)、オープンコレクタ出力",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x319",
+    "Description": "64-bit RAM (16x4), open-collector outputs",
+    "Description_JP": "64ビットRAM (16x4)、オープンコレクタ出力",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x361",
+    "Description": "bubble memory function timing generator",
+    "Description_JP": "バブルメモリ機能タイミングジェネレータ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x370",
+    "Description": "2048-bit ROM (512x4), three-state",
+    "Description_JP": "2048ビットROM (512x4)、3状態",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x371",
+    "Description": "2048-bit ROM (256x8), three-state",
+    "Description_JP": "2048ビットROM (256x8)、3状態",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x387",
+    "Description": "1024-bit PROM (256x4), open-collector",
+    "Description_JP": "1024ビットPROM (256x4)、オープンコレクタ",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x403",
+    "Description": "64-bit FIFO memory (16x4)",
+    "Description_JP": "64ビットFIFOメモリ（16×4）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x409",
+    "Description": "Controller/driver for 16k/64k/256k DRAM",
+    "Description_JP": "16k/64k/256k DRAM用コントローラ/ドライバ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x410",
+    "Description": "64-bit RAM (16x4) with output register",
+    "Description_JP": "64ビットRAM（16×4、出力レジスタ付き）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x411",
+    "Description": "FIFO RAM controller",
+    "Description_JP": "FIFO RAMコントローラ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x413",
+    "Description": "256-bit FIFO memory (64x4)",
+    "Description_JP": "256ビットFIFOメモリ（64×4）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x420",
+    "Description": "32-bit check/syndrome bit generator",
+    "Description_JP": "32ビットチェック/シンドロームビットジェネレータ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x429",
+    "Description": "FIFO RAM controller",
+    "Description_JP": "FIFO RAMコントローラ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x433",
+    "Description": "256-bit FIFO memory (64x4)",
+    "Description_JP": "256ビットFIFOメモリ（64×4）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x436",
+    "Description": "MOS memory interface line/memory driver (damping resistor)",
+    "Description_JP": "MOSメモリIF用ライン/メモリドライバ（ダンピング抵抗）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x437",
+    "Description": "MOS memory interface line/memory driver",
+    "Description_JP": "MOSメモリIF用ライン/メモリドライバ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x470",
+    "Description": "2048-bit PROM (256x8), open-collector",
+    "Description_JP": "2048ビットPROM（256×8、オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x471",
+    "Description": "2048-bit PROM (256x8), three-state",
+    "Description_JP": "2048ビットPROM（256×8、3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x472",
+    "Description": "4096-bit PROM (512x8), three-state",
+    "Description_JP": "4096ビットPROM（512×8、3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x473",
+    "Description": "4096-bit PROM (512x8), open-collector",
+    "Description_JP": "4096ビットPROM（512×8、オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x474",
+    "Description": "4096-bit PROM (512x8), three-state",
+    "Description_JP": "4096ビットPROM（512×8、3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x475",
+    "Description": "4096-bit PROM (512x8), open-collector",
+    "Description_JP": "4096ビットPROM（512×8、オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x476",
+    "Description": "4096-bit PROM (1024x4), three-state",
+    "Description_JP": "4096ビットPROM（1024×4、3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x477",
+    "Description": "4096-bit PROM (1024x4), open-collector",
+    "Description_JP": "4096ビットPROM（1024×4、オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x478",
+    "Description": "8192-bit PROM (1024x8), three-state",
+    "Description_JP": "8192ビットPROM（1024×8、3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x479",
+    "Description": "8192-bit PROM (1024x8), open-collector",
+    "Description_JP": "8192ビットPROM（1024×8、オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x525",
+    "Description": "16-bit programmable counter",
+    "Description_JP": "16ビットプログラマブル・カウンタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x526",
+    "Description": "Fuse programmable identity comparator, 16-bit",
+    "Description_JP": "ヒューズ・プログラマブル同一性コンパレータ（16ビット）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x527",
+    "Description": "Fuse programmable identity comparator, 8-bit + 4-bit conventional",
+    "Description_JP": "ヒューズ・プログラマブル同一性コンパレータ（8ビット＋通常4ビット）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x528",
+    "Description": "Fuse programmable identity comparator, 12-bit",
+    "Description_JP": "ヒューズ・プログラマブル同一性コンパレータ（12ビット）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x570",
+    "Description": "2048-bit PROM (512x4), open-collector",
+    "Description_JP": "2048ビットPROM（512×4）（オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x571",
+    "Description": "2048-bit PROM (512x4), three-state",
+    "Description_JP": "2048ビットPROM（512×4）（3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x572",
+    "Description": "4096-bit PROM (1024x4), open-collector",
+    "Description_JP": "4096ビットPROM（1024×4）（オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x600",
+    "Description": "Dynamic memory refresh controller, transparent/burst modes, for 4K/16K DRAM",
+    "Description_JP": "DRAMリフレッシュコントローラ（透過/バースト動作、4K/16K向け）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x601",
+    "Description": "Dynamic memory refresh controller, transparent/burst modes, for 64K DRAM",
+    "Description_JP": "DRAMリフレッシュコントローラ（透過/バースト動作、64K向け）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x602",
+    "Description": "Dynamic memory refresh controller, cycle steal/burst, for 4K/16K DRAM",
+    "Description_JP": "DRAMリフレッシュコントローラ（サイクルスチール/バースト、4K/16K向け）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x603",
+    "Description": "Dynamic memory refresh controller, cycle steal/burst, for 64K DRAM",
+    "Description_JP": "DRAMリフレッシュコントローラ（サイクルスチール/バースト、64K向け）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x608",
+    "Description": "Memory cycle controller",
+    "Description_JP": "メモリ・サイクル・コントローラ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x612",
+    "Description": "Memory mapper, three-state",
+    "Description_JP": "メモリマッパ（3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x613",
+    "Description": "Memory mapper, open-collector",
+    "Description_JP": "メモリマッパ（オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x670",
+    "Description": "4 x 4 register file",
+    "Description_JP": "4×4レジスタファイル",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x700",
+    "Description": "Octal dRAM driver, inverting",
+    "Description_JP": "8ビットDRAMドライバ（反転）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x708",
+    "Description": "576-bit FIFO memory (64×9)",
+    "Description_JP": "576ビットFIFOメモリ（64×9）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x715",
+    "Description": "Programmable video sync generator",
+    "Description_JP": "プログラマブル映像同期ジェネレータ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x716",
+    "Description": "Programmable decade counter",
+    "Description_JP": "プログラマブル10進カウンタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x718",
+    "Description": "Programmable binary counter",
+    "Description_JP": "プログラマブル2進カウンタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x723",
+    "Description": "576-bit FIFO memory (64×9)",
+    "Description_JP": "576ビットFIFOメモリ（64×9）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x725",
+    "Description": "4608-bit FIFO memory (512×9)",
+    "Description_JP": "4608ビットFIFOメモリ（512×9）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x730",
+    "Description": "Octal dRAM driver, inverting",
+    "Description_JP": "8ビットDRAMドライバ（反転）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x731",
+    "Description": "Octal dRAM driver, non-inverting",
+    "Description_JP": "8ビットDRAMドライバ（非反転）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x734",
+    "Description": "Octal dRAM driver, non-inverting",
+    "Description_JP": "8ビットDRAMドライバ（非反転）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x764",
+    "Description": "Dual-port dRAM controller",
+    "Description_JP": "デュアルポートDRAMコントローラ",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x839",
+    "Description": "field-programmable logic array 14x32x6",
+    "Description_JP": "フィールド・プログラマブル論理アレイ（14×32×6）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x840",
+    "Description": "field-programmable logic array 14x32x6, open-collector outputs",
+    "Description_JP": "フィールド・プログラマブル論理アレイ（14×32×6、オープンコレクタ出力）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x870",
+    "Description": "dual 16x4 register files",
+    "Description_JP": "16×4 レジスタファイル×2",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x871",
+    "Description": "dual 16x4 register files",
+    "Description_JP": "16×4 レジスタファイル×2",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x895",
+    "Description": "8-bit memory address generator",
+    "Description_JP": "8ビット メモリアドレス・ジェネレータ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x910",
+    "Description": "256-bit RAM (64x4)",
+    "Description_JP": "256ビットRAM（64×4）",
+    "Rarity": "Abolition(R+)"
+  },
+  {
+    "PartNumber": "74x920",
+    "Description": "1024-bit RAM (256x4), separate data inputs and outputs",
+    "Description_JP": "1024ビットRAM（256×4、入出力分離）",
+    "Rarity": "Abolition(R+)"
+  },
+  {
+    "PartNumber": "74x921",
+    "Description": "1024-bit RAM (256x4)",
+    "Description_JP": "1024ビットRAM（256×4）",
+    "Rarity": "Abolition(R+)"
+  },
+  {
+    "PartNumber": "74x968",
+    "Description": "controller/driver for 16k/64k/256k/1M dRAM",
+    "Description_JP": "16k/64k/256k/1M dRAM コントローラ/ドライバ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x989",
+    "Description": "64-bit RAM (16x4), inverting output",
+    "Description_JP": "64ビットRAM（16×4、反転出力）",
+    "Rarity": "Abolition(R+)"
+  }
+]

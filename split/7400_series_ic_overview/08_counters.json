@@ -1,0 +1,158 @@
+[
+  {
+    "PartNumber": "74x56",
+    "Description": "50:1 frequency divider",
+    "Description_JP": "50:1 周波数分周器",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x57",
+    "Description": "60:1 frequency divider",
+    "Description_JP": "60:1 周波数分周器",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x68",
+    "Description": "Dual 4-bit decade counters",
+    "Description_JP": "2回路4ビット10進カウンタ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x69",
+    "Description": "Dual 4-bit binary counters",
+    "Description_JP": "2回路4ビットバイナリカウンタ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x90",
+    "Description": "Decade counter (4-bit, divide-by-10 and divide-by-2 sections)",
+    "Description_JP": "10進カウンタ（4ビット、10分周・2分周セクション）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x92",
+    "Description": "Divide-by-12 counter (separate divide-by-2 and divide-by-6 sections)",
+    "Description_JP": "12分周カウンタ（2分周・6分周セクションで構成）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x93",
+    "Description": "4-bit binary counter (separate divide-by-2 and divide-by-8 sections); different pinout for 74L93",
+    "Description_JP": "4ビットバイナリカウンタ（2剰余と8剰余でセクションを区切る）；74L93はピン配置が異なる",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x269",
+    "Description": "8-bit bidirectional binary counter",
+    "Description_JP": "8ビット双方向バイナリカウンタ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x290",
+    "Description": "Decade counter (divide-by-2 and divide-by-5)",
+    "Description_JP": "10進カウンタ（2分周・5分周セクション）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x293",
+    "Description": "4-bit binary counter, up/down, separate clocks",
+    "Description_JP": "4ビットバイナリカウンタ（アップ/ダウン、独立クロック）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x321",
+    "Description": "crystal-controlled oscillators with F/2 and F/4 count-down outputs",
+    "Description_JP": "水晶制御発振器（F/2・F/4の分周出力付）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x390",
+    "Description": "Dual 4-bit decade counter",
+    "Description_JP": "2回路4ビット10進カウンタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x393",
+    "Description": "Dual 4-bit binary counter",
+    "Description_JP": "2回路4ビットバイナリカウンタ",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x399",
+    "Description": "Dual 4-bit binary counter",
+    "Description_JP": "2回路4ビットバイナリカウンタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x417",
+    "Description": "Modulo-2 and modulo-5 counters, shared preload and clear",
+    "Description_JP": "モジュロ2/5カウンタ（プリロード・クリア共用）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x461",
+    "Description": "8-bit presettable binary counter",
+    "Description_JP": "8ビットプリセット可能バイナリカウンタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x490",
+    "Description": "Dual decade counter",
+    "Description_JP": "2回路10進カウンタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x491",
+    "Description": "10-bit binary up/down counter, limited preset, three-state outputs",
+    "Description_JP": "10ビットバイナリアップ/ダウンカウンタ（限定プリセット、3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x508",
+    "Description": "8-bit multiplier/divider",
+    "Description_JP": "8ビット乗算/除算器",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x516",
+    "Description": "16-bit multiplier/divider",
+    "Description_JP": "16ビット乗算/除算器",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x559",
+    "Description": "8-bit expandable two's complement multiplier/divider, three-state",
+    "Description_JP": "拡張可能8ビット2の補数 乗算/除算器（3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x560",
+    "Description": "4-bit decade counter, three-state",
+    "Description_JP": "4ビット10進カウンタ（3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x568",
+    "Description": "Decade up/down counter, three-state",
+    "Description_JP": "10進アップ/ダウンカウンタ（3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x569",
+    "Description": "Binary up/down counter, three-state",
+    "Description_JP": "バイナリアップ/ダウンカウンタ（3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x579",
+    "Description": "8-bit bidirectional binary counter, three-state",
+    "Description_JP": "8ビット双方向バイナリカウンタ（3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x779",
+    "Description": "8-bit bidirectional binary counter",
+    "Description_JP": "8ビット 双方向バイナリカウンタ",
+    "Rarity": "Rare"
+  }
+]

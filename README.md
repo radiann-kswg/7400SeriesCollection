@@ -17,6 +17,8 @@
 ```
 7400SeriesCollection/
 ├── 7400_series_ic_overview.json          # マスターデータ：全IC情報
+├── split/                                # 分割データ（元JSON単位で格納）
+│   └── 7400_series_ic_overview/          # 7400_series_ic_overview.json を分類別に分割
 ├── datasheets/                           # データシート管理
 │   ├── 7400_series_ic_datasheet_collection_status.json
 │   └── _download/                        # ダウンロード済みPDF保管
@@ -39,6 +41,7 @@
 │   ├── autofill_gottenitems.py          # データシート情報自動同期
 │   ├── merge_fp.py                      # データ統合処理
 │   ├── refine_descriptions.py           # 説明文洗練化
+│   ├── split_overview_by_logic_category.py # overviewを論理分類で分割
 │   └── sort_datasheet_by_partnumber.py  # データシートソート
 └── usage/                                # 回路設計実例
     ├── 74x141/                           # ニキシー管ドライバ回路例
@@ -125,6 +128,36 @@ python3 scripts/autofill_gottenitems.py
 python3 scripts/merge_fp.py
 ```
 
+### マスターデータの論理分類分割
+
+Wikipedia の 7400 シリーズ機能分類を参考に、`7400_series_ic_overview.json` を分類別 JSON に分割して `split/7400_series_ic_overview/` に出力します。
+
+```bash
+python3 scripts/split_overview_by_logic_category.py
+```
+
+出力される分類ファイル（例）:
+
+- `01_buffers_inverters.json`
+- `02_nand_and_gates.json`
+- `03_nor_or_gates.json`
+- `04_xor_xnor_gates.json`
+- `05_flipflops_latches.json`
+- `06_encoders_decoders.json`
+- `07_data_selectors_mux_demux.json`
+- `08_counters.json`
+- `09_registers.json`
+- `10_arithmetic.json`
+- `11_error_detection_correction.json`
+- `12_memory_storage.json`
+- `13_programmable_logic.json`
+- `14_system_controllers_timing.json`
+- `15_interfaces_links.json`
+- `16_analog_mixed_signal.json`
+- `99_other.json`
+
+```
+
 ### VS Code タスク
 
 VS Code から実行可能なタスク：
@@ -132,6 +165,8 @@ VS Code から実行可能なタスク：
 - **Generate FP/ALL JSONs**: データ統合処理
 - **Refine Descriptions**: 説明文洗練化
 - **Regenerate ALL after refine**: 洗練後の再生成
+
+※ これらのタスクは `scripts/merge_fp.py` / `scripts/refine_descriptions.py` を実行します。
 
 ## 📝 メーカー型番接頭辞
 
@@ -156,11 +191,13 @@ VS Code から実行可能なタスク：
 ### ディレクトリ命名規則
 
 ```
+
 usage/
 └── 74x{型番}/
-    ├── 01_回路名.md
-    ├── 02_回路名.md
-    └── ...
+├── 01*回路名.md
+├── 02*回路名.md
+└── ...
+
 ```
 
 複数 IC 連携時は `74x181,182/` のようにカンマ区切り。
@@ -204,3 +241,4 @@ usage/
 
 **管理者**: radiann-kswg
 **最終更新**: 2025 年 11 月 20 日
+```

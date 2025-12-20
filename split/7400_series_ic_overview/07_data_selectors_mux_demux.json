@@ -1,0 +1,308 @@
+[
+  {
+    "PartNumber": "74x98",
+    "Description": "4-bit data selector/storage register",
+    "Description_JP": "4ビットデータセレクタ/ストレージレジスタ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x151",
+    "Description": "8-input multiplexer",
+    "Description_JP": "8入力マルチプレクサ",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x153",
+    "Description": "Dual 4-input multiplexer",
+    "Description_JP": "2回路4入力マルチプレクサ",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x157",
+    "Description": "Quad 2-to-1 multiplexer",
+    "Description_JP": "4回路2入力マルチプレクサ",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x158",
+    "Description": "Quad 2-to-1 multiplexer, inverting outputs",
+    "Description_JP": "4回路2入力マルチプレクサ（反転出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x250",
+    "Description": "1-of-16 data selector/multiplexer",
+    "Description_JP": "16選1データセレクタ/マルチプレクサ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x251",
+    "Description": "8-input multiplexer, 3-state outputs",
+    "Description_JP": "8入力マルチプレクサ（3状態出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x253",
+    "Description": "Dual 4-to-1 multiplexer with 3-state outputs",
+    "Description_JP": "2回路4入力マルチプレクサ（3状態出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x257",
+    "Description": "Quad 2-to-1 multiplexer with 3-state outputs",
+    "Description_JP": "4回路2入力マルチプレクサ（3状態出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x258",
+    "Description": "Quad 2-to-1 multiplexer, inverting, tri-state",
+    "Description_JP": "4回路2入力マルチプレクサ（反転、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x298",
+    "Description": "Quad 2-input multiplexer/quad 2-bit bidirectional universal shift register",
+    "Description_JP": "4回路2入力マルチプレクサ/4回路2ビット双方向ユニバーサルシフトレジスタ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x351",
+    "Description": "dual 8-line to 1-line data selectors/multiplexers, 4 common data inputs, three-state",
+    "Description_JP": "デュアル8入力1出力データセレクタ/マルチプレクサ（4共通データ入力、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x352",
+    "Description": "dual 4-line to 1-line data selectors/multiplexers, inverting outputs",
+    "Description_JP": "デュアル4入力1出力データセレクタ/マルチプレクサ（反転出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x353",
+    "Description": "dual 4-line to 1-line data selectors/multiplexers, inverting outputs, three-state",
+    "Description_JP": "デュアル4入力1出力データセレクタ/マルチプレクサ（反転出力、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x354",
+    "Description": "8-to-1 data selector/multiplexer, transparent registers",
+    "Description_JP": "8入力1出力マルチプレクサ（透過レジスタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x355",
+    "Description": "8-line to 1-line data selector/multiplexer, transparent registers, open-collector",
+    "Description_JP": "8入力1出力データセレクタ/マルチプレクサ（透過レジスタ、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x356",
+    "Description": "8-to-1 data selector/multiplexer, edge-triggered registers",
+    "Description_JP": "8入力1出力マルチプレクサ（エッジトリガ型レジスタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x357",
+    "Description": "8-line to 1-line data selector/multiplexer, edge-triggered registers, open-collector",
+    "Description_JP": "8入力1出力データセレクタ/マルチプレクサ（エッジトリガレジスタ、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x398",
+    "Description": "quad 2-input multiplexers, storage and complementary outputs",
+    "Description_JP": "4回路2入力マルチプレクサ（ストレージ/補完出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x604",
+    "Description": "Octal 2-input multiplexer with latch, high-speed, three-state",
+    "Description_JP": "8ビット2入力MUX＋ラッチ（高速、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x605",
+    "Description": "Octal 2-input multiplexer with latch, high-speed, open-collector",
+    "Description_JP": "8ビット2入力MUX＋ラッチ（高速、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x606",
+    "Description": "Octal 2-input multiplexer with latch, glitch-free, three-state",
+    "Description_JP": "8ビット2入力MUX＋ラッチ（グリッチ低減、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x607",
+    "Description": "Octal 2-input multiplexer with latch, glitch-free, open-collector",
+    "Description_JP": "8ビット2入力MUX＋ラッチ（グリッチ低減、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x646",
+    "Description": "Octal bus transceiver/latch/multiplexer, non-inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ/ラッチ/MUX（非反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x647",
+    "Description": "Octal bus transceiver/latch/multiplexer, non-inverting, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ/ラッチ/MUX（非反転、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x648",
+    "Description": "Octal bus transceiver/latch/multiplexer, inverting, three-state",
+    "Description_JP": "8ビット・バス・トランシーバ/ラッチ/MUX（反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x649",
+    "Description": "Octal bus transceiver/latch/multiplexer, inverting, open-collector",
+    "Description_JP": "8ビット・バス・トランシーバ/ラッチ/MUX（反転、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x671",
+    "Description": "4-bit bidirectional shift register/latch/multiplexer, direct clear, three-state",
+    "Description_JP": "4ビット双方向シフトレジスタ/ラッチ/MUX（直接クリア、3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x672",
+    "Description": "4-bit bidirectional shift register/latch/multiplexer, synchronous clear, three-state",
+    "Description_JP": "4ビット双方向シフトレジスタ/ラッチ/MUX（同期クリア、3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x690",
+    "Description": "4-bit decimal counter/latch/multiplexer, asynchronous clear, three-state",
+    "Description_JP": "4ビット10進カウンタ/ラッチ/MUX（非同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x691",
+    "Description": "4-bit binary counter/latch/multiplexer, asynchronous clear, three-state",
+    "Description_JP": "4ビットバイナリ・カウンタ/ラッチ/MUX（非同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x692",
+    "Description": "4-bit decimal counter/latch/multiplexer, synchronous clear, three-state",
+    "Description_JP": "4ビット10進カウンタ/ラッチ/MUX（同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x693",
+    "Description": "4-bit binary counter/latch/multiplexer, synchronous clear, three-state",
+    "Description_JP": "4ビットバイナリ・カウンタ/ラッチ/MUX（同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x694",
+    "Description": "4-bit decimal counter/latch/multiplexer, sync & async clears, three-state",
+    "Description_JP": "4ビット10進カウンタ/ラッチ/MUX（同期/非同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x695",
+    "Description": "4-bit binary counter/latch/multiplexer, sync & async clears, three-state",
+    "Description_JP": "4ビットバイナリ・カウンタ/ラッチ/MUX（同期/非同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x696",
+    "Description": "4-bit decimal counter/register/multiplexer, asynchronous clear, three-state",
+    "Description_JP": "4ビット10進カウンタ/レジスタ/MUX（非同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x697",
+    "Description": "4-bit binary counter/register/multiplexer, asynchronous clear, three-state",
+    "Description_JP": "4ビットバイナリ・カウンタ/レジスタ/MUX（非同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x698",
+    "Description": "4-bit decimal counter/register/multiplexer, synchronous clear, three-state",
+    "Description_JP": "4ビット10進カウンタ/レジスタ/MUX（同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x699",
+    "Description": "4-bit binary counter/register/multiplexer, synchronous clear, three-state",
+    "Description_JP": "4ビットバイナリ・カウンタ/レジスタ/MUX（同期クリア、3状態）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x711",
+    "Description": "Quint 2-to-1 multiplexers",
+    "Description_JP": "5回路 2:1 マルチプレクサ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x712",
+    "Description": "Quint 3-to-1 multiplexers",
+    "Description_JP": "5回路 3:1 マルチプレクサ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x732",
+    "Description": "4-bit 3-bus multiplexer, inverting",
+    "Description_JP": "4ビット 3バス マルチプレクサ（反転）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x733",
+    "Description": "4-bit 3-bus multiplexer, non-inverting",
+    "Description_JP": "4ビット 3バス マルチプレクサ（非反転）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x783",
+    "Description": "Synchronous address multiplexer for display systems",
+    "Description_JP": "表示システム向け 同期アドレスマルチプレクサ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x785",
+    "Description": "Display address multiplexer with 256-column refresh",
+    "Description_JP": "表示システム向け アドレスマルチプレクサ（256列リフレッシュ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x835",
+    "Description": "8-bit shift register with 2:1 input multiplexers, one input latched, serial output",
+    "Description_JP": "2:1入力MUX内蔵 8ビットシフトレジスタ（片方入力ラッチ、シリアル出力）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x850",
+    "Description": "1 of 16 data selector/multiplexer, clocked select",
+    "Description_JP": "16選1データセレクタ/マルチプレクサ（クロック選択）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x851",
+    "Description": "1 of 16 data selector/multiplexer",
+    "Description_JP": "16選1データセレクタ/マルチプレクサ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x857",
+    "Description": "hex 2-line to 1-line multiplexer",
+    "Description_JP": "6回路 2選1 マルチプレクサ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x948",
+    "Description": "8-bit ADC with 16-channel analog multiplexer",
+    "Description_JP": "8ビットADC（16チャネル・アナログMUX内蔵）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x949",
+    "Description": "8-bit ADC with 8-channel analog multiplexer",
+    "Description_JP": "8ビットADC（8チャネル・アナログMUX内蔵）",
+    "Rarity": "SuperRare"
+  }
+]

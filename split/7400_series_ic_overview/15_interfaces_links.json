@@ -1,0 +1,56 @@
+[
+  {
+    "PartNumber": "74x306",
+    "Description": "8-bit LV-TTL to GTL+ bus transceiver, three-state and open-collector",
+    "Description_JP": "8ビットLV-TTL⇔GTL+バストランシーバ、3状態/オープンコレクタ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x462",
+    "Description": "Fiber-optic data-link transmitter",
+    "Description_JP": "ファイバ・データリンク送信器",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x463",
+    "Description": "Fiber-optic data-link receiver",
+    "Description_JP": "ファイバ・データリンク受信器",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x488",
+    "Description": "IEEE-488 bus interface",
+    "Description_JP": "IEEE-488（GPIB）バスインタフェース",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x588",
+    "Description": "Octal bidirectional transceiver with IEEE-488 termination resistors, three-state",
+    "Description_JP": "IEEE-488終端抵抗付き8ビット双方向トランシーバ（3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x707",
+    "Description": "8-bit TTL–ECL shift register",
+    "Description_JP": "8ビット TTL–ECL 変換シフトレジスタ",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x710",
+    "Description": "8-bit single-supply TTL–ECL shift register",
+    "Description_JP": "8ビット 単電源TTL–ECLシフトレジスタ",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x979",
+    "Description": "9-bit registered transceiver with parity generator/checker for FutureBus",
+    "Description_JP": "FutureBus向け 9ビット 登録型トランシーバ（パリティ生成/検出器付）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x1018",
+    "Description": "18-bit Schottky diode R-C bus termination array",
+    "Description_JP": "18ビット ショットキーダイオードRCバス終端アレイ",
+    "Rarity": "Maniac(SR+)"
+  }
+]

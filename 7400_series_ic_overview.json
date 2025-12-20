@@ -26,13 +26,13 @@
   {
     "PartNumber": "74x04",
     "Description": "Hex inverter",
-    "Description_JP": "6回路NOTゲート\n6回路インバータ",
+    "Description_JP": "6回路NOTゲート / 6回路インバータ",
     "Rarity": "Commons"
   },
   {
     "PartNumber": "74x05",
     "Description": "Hex inverter with open-collector outputs",
-    "Description_JP": "6回路NOTゲート（オープンコレクタ出力）\n6回路インバータ（オープンコレクタ出力）",
+    "Description_JP": "6回路NOTゲート（オープンコレクタ出力） / 6回路インバータ（オープンコレクタ出力）",
     "Rarity": "Normal"
   },
   {
@@ -379,13 +379,13 @@
   },
   {
     "PartNumber": "74x73",
-    "Description": "Dual JK flip-flop, negative-edge triggered, clear",
+    "Description": "Dual JK flip-flop, negative-edge-triggered, clear",
     "Description_JP": "2回路JKフリップフロップ（負論理エッジトリガ、クリア付き）",
     "Rarity": "Rare"
   },
   {
     "PartNumber": "74x74",
-    "Description": "Dual D flip-flop, positive-edge triggered, set and reset",
+    "Description": "Dual D flip-flop, positive-edge-triggered, set and reset",
     "Description_JP": "2回路D型フリップフロップ（正論理エッジトリガ、セット・リセット付き）",
     "Rarity": "Commons"
   },
@@ -583,7 +583,7 @@
   },
   {
     "PartNumber": "74x107",
-    "Description": "Dual JK flip-flop, negative-edge triggered, set and reset",
+    "Description": "Dual JK flip-flop, negative-edge-triggered, set and reset",
     "Description_JP": "2回路JKフリップフロップ（負論理エッジトリガ、セット・リセット付き）",
     "Rarity": "Rare"
   },
@@ -595,7 +595,7 @@
   },
   {
     "PartNumber": "74x109",
-    "Description": "Dual JK flip-flop, positive-edge triggered, set and reset",
+    "Description": "Dual JK flip-flop, positive-edge-triggered, set and reset",
     "Description_JP": "2回路JKフリップフロップ（正論理エッジトリガ、セット・リセット付き）",
     "Rarity": "Rare"
   },
@@ -613,13 +613,13 @@
   },
   {
     "PartNumber": "74x112",
-    "Description": "Dual JK flip-flop, negative-edge triggered, preset and clear",
+    "Description": "Dual JK flip-flop, negative-edge-triggered, preset and clear",
     "Description_JP": "2回路JKフリップフロップ（負論理エッジトリガ、プリセット・クリア付き）",
     "Rarity": "Rare"
   },
   {
     "PartNumber": "74x113",
-    "Description": "Dual JK flip-flop, negative-edge triggered, set and reset",
+    "Description": "Dual JK flip-flop, negative-edge-triggered, set and reset",
     "Description_JP": "2回路JKフリップフロップ（負論理エッジトリガ、セット・リセット付き）",
     "Rarity": "Maniac(SR+)"
   },
@@ -1603,7 +1603,7 @@
   },
   {
     "PartNumber": "74x310",
-    "Description": "octal buffer, inverting outputs, Schmitt trigger inputs, three-state",
+    "Description": "octal buffer, inverting outputs, Schmitt-trigger inputs, three-state",
     "Description_JP": "8ビットバッファ（反転出力、シュミットトリガ入力、3状態）",
     "Rarity": "Rare"
   },
@@ -1753,19 +1753,19 @@
   },
   {
     "PartNumber": "74x340",
-    "Description": "octal buffer, inverting outputs, Schmitt trigger inputs, three-state",
+    "Description": "octal buffer, inverting outputs, Schmitt-trigger inputs, three-state",
     "Description_JP": "8ビットバッファ（反転出力、シュミットトリガ入力、3状態）",
     "Rarity": "Rare"
   },
   {
     "PartNumber": "74x341",
-    "Description": "octal buffer, non-inverting outputs, Schmitt trigger inputs, three-state",
+    "Description": "octal buffer, non-inverting outputs, Schmitt-trigger inputs, three-state",
     "Description_JP": "8ビットバッファ（非反転出力、シュミットトリガ入力、3状態）",
     "Rarity": "Rare"
   },
   {
     "PartNumber": "74x344",
-    "Description": "octal buffer, non-inverting outputs, Schmitt trigger inputs, three-state",
+    "Description": "octal buffer, non-inverting outputs, Schmitt-trigger inputs, three-state",
     "Description_JP": "8ビットバッファ（非反転出力、シュミットトリガ入力、3状態）",
     "Rarity": "Rare"
   },
@@ -2816,7 +2816,7 @@
   {
     "PartNumber": "74x595",
     "Description": "8-bit serial-in/serial or parallel-out shift register with output latches",
-    "Description_JP": "8ビット出力ラッチ付きシフトレジスタ\n8ビットシリアル入力/シリアルまたはパラレル出力シフトレジスタ（出力ラッチ付き）",
+    "Description_JP": "8ビット出力ラッチ付きシフトレジスタ / 8ビットシリアル入力/シリアルまたはパラレル出力シフトレジスタ（出力ラッチ付き）",
     "Rarity": "Commons"
   },
   {
@@ -4285,7 +4285,7 @@
   },
   {
     "PartNumber": "74x5074",
-    "Description": "dual positive edge-triggered D-type flip-flop (metastable immune)",
+    "Description": "dual positive-edge-triggered D-type flip-flop (metastable immune)",
     "Description_JP": "2回路正エッジトリガDフリップフロップ（メタステーブル耐性）",
     "Rarity": "VeryNerd(UR)"
   }

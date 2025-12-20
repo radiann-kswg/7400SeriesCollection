@@ -15,6 +15,8 @@
 │   └── copilot-instructions.md          # このファイル：GitHub Copilot 向け指示書
 ├── .gitignore                            # Git管理外ファイル指定
 ├── 7400_series_ic_overview.json          # マスターデータ：全IC情報
+├── split/
+│   └── 7400_series_ic_overview/          # 上記マスターデータを論理分類ごとに分割したJSON群
 ├── datasheets/
 │   ├── 7400_series_ic_datasheet_collection_status.json
 │   │                                     # データシート収集管理
@@ -47,6 +49,7 @@
 │   ├── autofill_gottenitems.py          # 入手履歴からデータシート情報を自動同期
 │   ├── merge_fp.py                      # データ統合処理スクリプト
 │   ├── refine_descriptions.py           # 説明文洗練化スクリプト
+│   ├── split_overview_by_logic_category.py # マスターデータを論理分類で分割
 │   └── sort_datasheet_by_partnumber.py  # データシートソート処理
 └── usage/
     └── 74x*/*.md                         # 7400シリーズICを用いた回路設計情報
@@ -62,6 +65,13 @@
 #### `7400_series_ic_overview.json`
 
 **役割**: 全 7400 シリーズ IC のマスターデータベース。すべてのパーツ情報の基準となるファイル。
+
+#### `split/7400_series_ic_overview/`
+
+**役割**: `7400_series_ic_overview.json` を「論理の分類」ごとに分割したJSON群。
+同一元JSONから分割したもの同士が、このフォルダにまとまります。
+
+**補足**: Wikipedia の見出しに加えて、実用上まとまりが良いように「メモリ/ストレージ」「誤り検出・訂正」「システム制御・タイミング」「インタフェース/リンク」「アナログ/混載」などのカテゴリも追加しています。
 
 **データスキーマ:**
 

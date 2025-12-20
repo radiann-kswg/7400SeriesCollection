@@ -1,0 +1,50 @@
+[
+  {
+    "PartNumber": "74x02",
+    "Description": "Quad 2-input NOR gate",
+    "Description_JP": "4回路2入力NORゲート",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x23",
+    "Description": "dual 4-input NOR gate with strobe, one gate expandable with 74x60",
+    "Description_JP": "2回路4入力ストローブ付きNORゲート（1ゲートは74x60で拡張可能）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x25",
+    "Description": "Dual 4-input NOR gate",
+    "Description_JP": "2回路4入力NORゲート",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x26",
+    "Description": "Quad 2-input NOR gate with open-collector outputs",
+    "Description_JP": "4回路2入力NORゲート（オープンコレクタ出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x27",
+    "Description": "Triple 3-input NOR gate",
+    "Description_JP": "3回路3入力NORゲート",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x32",
+    "Description": "Quad 2-input OR gate",
+    "Description_JP": "4回路2入力ORゲート",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x36",
+    "Description": "quad 2-input NOR gate (different pinout than 74x02)",
+    "Description_JP": "4回路2入力NORゲート(74x02と異なるピン配置)",
+    "Rarity": "Abolition(R+)"
+  },
+  {
+    "PartNumber": "74x260",
+    "Description": "Dual 5-input NOR gate",
+    "Description_JP": "2回路5入力NORゲート",
+    "Rarity": "Maniac(SR+)"
+  }
+]

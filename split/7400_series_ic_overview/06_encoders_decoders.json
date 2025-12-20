@@ -1,0 +1,272 @@
+[
+  {
+    "PartNumber": "74x42",
+    "Description": "BCD to decimal decoder",
+    "Description_JP": "BCD-10進デコーダ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x44",
+    "Description": "Gray code to decimal decoder",
+    "Description_JP": "グレイコード-10進デコーダ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x45",
+    "Description": "BCD to decimal decoder/driver, open-collector (30 V / 80 mA)",
+    "Description_JP": "BCD-10進デコーダ/ドライバ（オープンコレクタ、30V/80mA）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x46",
+    "Description": "BCD to 7-segment decoder/driver, open-collector (30 V)",
+    "Description_JP": "BCD-7セグメントデコーダ/ドライバ（オープンコレクタ、30V）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x47",
+    "Description": "BCD to 7-segment decoder/driver (open-collector outputs)",
+    "Description_JP": "BCD-7セグメントデコーダ/ドライバ（オープンコレクタ出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x48",
+    "Description": "BCD to 7-segment decoder/driver, open-collector with 2 kΩ pull-up",
+    "Description_JP": "BCD-7セグメントデコーダ/ドライバ（オープンコレクタ、2kΩプルアップ内蔵）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x49",
+    "Description": "BCD to 7-segment decoder/driver, open-collector",
+    "Description_JP": "BCD-7セグメントデコーダ/ドライバ（オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x137",
+    "Description": "3-to-8 line decoder/demultiplexer with address latches",
+    "Description_JP": "3入力8出力デコーダ/デマルチプレクサ（アドレスラッチ付き）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x138",
+    "Description": "3-to-8 line decoder/demultiplexer",
+    "Description_JP": "3入力8出力デコーダ/デマルチプレクサ",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x139",
+    "Description": "Dual 2-to-4 line decoder/demultiplexer",
+    "Description_JP": "2回路2入力4出力デコーダ/デマルチプレクサ",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x141",
+    "Description": "BCD to decimal decoder/driver for cold-cathode indicator or Nixie tube",
+    "Description_JP": "BCD-10進デコーダ/ドライバー（冷陰極表示器/ニキシー管用）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x143",
+    "Description": "Decade counter/latch/decoder/7-segment driver, constant-current outputs",
+    "Description_JP": "10進カウンタ/ラッチ/デコーダ/7セグドライバ（定電流）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x144",
+    "Description": "Decade counter/latch/decoder/7-segment driver, open-collector outputs",
+    "Description_JP": "10進カウンタ/ラッチ/デコーダ/7セグドライバ（オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x145",
+    "Description": "BCD to decimal decoder",
+    "Description_JP": "BCD-10進デコーダ",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x146",
+    "Description": "3-to-8 line decoder",
+    "Description_JP": "3入力8出力デコーダ",
+    "Rarity": "Abolition(R+)"
+  },
+  {
+    "PartNumber": "74x147",
+    "Description": "10-to-4 line priority encoder",
+    "Description_JP": "10入力4出力プライオリティエンコーダ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x148",
+    "Description": "8-to-3 line priority encoder",
+    "Description_JP": "8入力3出力プライオリティエンコーダ",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x154",
+    "Description": "4-to-16 line decoder/demultiplexer",
+    "Description_JP": "4入力16出力デコーダ/デマルチプレクサ",
+    "Rarity": "Abolition(R+)"
+  },
+  {
+    "PartNumber": "74x155",
+    "Description": "dual 2-to-4 line decoder/demultiplexer, inverting outputs",
+    "Description_JP": "2回路2入力4出力デコーダ/デマルチプレクサ（反転出力）",
+    "Rarity": "Abolition(R+)"
+  },
+  {
+    "PartNumber": "74x156",
+    "Description": "BCD to decimal decoder with open-collector outputs",
+    "Description_JP": "BCD-10進デコーダ（オープンコレクタ出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x159",
+    "Description": "4-to-16 line decoder/demultiplexer, open-collector outputs",
+    "Description_JP": "4入力16出力デコーダ/デマルチプレクサ（オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x237",
+    "Description": "3-to-8 line decoder/demultiplexer with address latches",
+    "Description_JP": "3入力8出力デコーダ/デマルチプレクサ（アドレスラッチ付き）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x238",
+    "Description": "3-to-8 line decoder/demultiplexer",
+    "Description_JP": "3入力8出力デコーダ/デマルチプレクサ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x239",
+    "Description": "Dual 2-to-4 decoder/demultiplexer, active-high outputs",
+    "Description_JP": "2回路2入力4出力デコーダ/デマルチ（アクティブHigh出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x247",
+    "Description": "BCD to 7-segment decoder/driver (open-collector outputs)",
+    "Description_JP": "BCD-7セグメントデコーダ/ドライバ（オープンコレクタ出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x249",
+    "Description": "BCD to 7-seg decoder/driver (open-collector)",
+    "Description_JP": "BCD-7セグデコーダ/ドライバ（オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x255",
+    "Description": "Dual 2-to-4 decoder/demux, inverting outputs, tri-state",
+    "Description_JP": "2回路2入力4出力デコーダ/デマルチ（反転出力、3状態）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x347",
+    "Description": "BCD to 7-segment decoders/drivers, low voltage version of 7447, open-collector",
+    "Description_JP": "BCD-7セグメントデコーダ/ドライバ（7447の低電圧版、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x348",
+    "Description": "8 to 3-line priority encoder, three-state",
+    "Description_JP": "8入力3出力プライオリティエンコーダ、3状態",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x405",
+    "Description": "3-to-8 line decoder (equivalent to Intel 8205)",
+    "Description_JP": "3入力8出力デコーダ（Intel 8205相当）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x445",
+    "Description": "BCD to decimal decoders/drivers (80 mA driver)",
+    "Description_JP": "BCD-10進デコーダ/ドライバ（80mAドライバ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x447",
+    "Description": "BCD to 7-segment decoders/drivers (low voltage version of 74247)",
+    "Description_JP": "BCD-7セグメントデコーダ/ドライバ（74247の低電圧版）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x515",
+    "Description": "Programmable mapping decoder (2-to-4 line decoder with 9 programmable enable inputs)",
+    "Description_JP": "プログラマブルマッピングデコーダ（2→4デコーダ、9本のプログラマブル・イネーブル）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x537",
+    "Description": "BCD to decimal decoder, three-state outputs",
+    "Description_JP": "BCD-10進デコーダ（3状態出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x538",
+    "Description": "3-to-8 line decoder/demultiplexer, three-state outputs",
+    "Description_JP": "3入力8出力デコーダ/デマルチプレクサ（3状態出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x539",
+    "Description": "Dual 2-to-4 line decoder/demultiplexer, three-state outputs",
+    "Description_JP": "2回路2入力4出力デコーダ/デマルチプレクサ（3状態出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x848",
+    "Description": "8 to 3-line priority encoder (glitch-less)",
+    "Description_JP": "8→3ライン優先エンコーダ（グリッチレス）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x922",
+    "Description": "16-key encoder",
+    "Description_JP": "16キー・エンコーダ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x923",
+    "Description": "20-key encoder",
+    "Description_JP": "20キー・エンコーダ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x925",
+    "Description": "4-digit counter/display driver",
+    "Description_JP": "4桁 カウンタ/表示ドライバ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x935",
+    "Description": "ADC for 3.5-digit digital voltmeters, multiplexed 7-segment display outputs",
+    "Description_JP": "3.5桁デジタル電圧計用ADC（7セグ表示多重出力）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x936",
+    "Description": "ADC for 3.75-digit digital voltmeters, multiplexed 7-segment display outputs",
+    "Description_JP": "3.75桁デジタル電圧計用ADC（7セグ表示多重出力）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x945",
+    "Description": "4-digit up/down counter, decoder and LCD driver, output latch",
+    "Description_JP": "4桁アップ/ダウン・カウンタ＋デコーダ＋LCDドライバ（出力ラッチ付）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x946",
+    "Description": "4.5-digit counter, decoder and LCD driver, leading zero blanking",
+    "Description_JP": "4.5桁 カウンタ＋デコーダ＋LCDドライバ（先頭ゼロ消去）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x947",
+    "Description": "4-digit up/down counter, decoder and LCD driver, leading zero blanking",
+    "Description_JP": "4桁 アップ/ダウン・カウンタ＋デコーダ＋LCDドライバ（先頭ゼロ消去）",
+    "Rarity": "SuperRare"
+  }
+]

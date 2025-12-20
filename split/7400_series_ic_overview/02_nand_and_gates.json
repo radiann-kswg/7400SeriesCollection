@@ -1,0 +1,182 @@
+[
+  {
+    "PartNumber": "74x00",
+    "Description": "Quad 2-input NAND gate",
+    "Description_JP": "4回路2入力NANDゲート",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x01",
+    "Description": "Quad 2-input NAND gate, open-collector outputs",
+    "Description_JP": "4回路2入力NANDゲート（オープンコレクタ出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x03",
+    "Description": "Quad 2-input NAND gate with open-collector outputs",
+    "Description_JP": "4回路2入力NANDゲート（オープンコレクタ出力）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x08",
+    "Description": "Quad 2-input AND gate",
+    "Description_JP": "4回路2入力ANDゲート",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x09",
+    "Description": "Quad 2-input AND gate, open-collector outputs",
+    "Description_JP": "4回路2入力ANDゲート（オープンコレクタ出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x10",
+    "Description": "Triple 3-input NAND gate",
+    "Description_JP": "3回路3入力NANDゲート",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x11",
+    "Description": "Triple 3-input AND gate",
+    "Description_JP": "3回路3入力ANDゲート",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x12",
+    "Description": "Triple 3-input NAND gate, open-collector outputs",
+    "Description_JP": "3回路3入力NANDゲート（オープンコレクタ出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x13",
+    "Description": "Dual 4-input NAND gate with Schmitt-trigger inputs",
+    "Description_JP": "2回路4入力NANDゲート（シュミットトリガ入力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x15",
+    "Description": "Triple 3-input AND gate, open-collector outputs",
+    "Description_JP": "3回路3入力ANDゲート（オープンコレクタ出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x18",
+    "Description": "Dual 4-input NAND gate with Schmitt-trigger inputs",
+    "Description_JP": "2回路4入力NANDゲート（シュミットトリガ入力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x20",
+    "Description": "Dual 4-input NAND gate",
+    "Description_JP": "2回路4入力NANDゲート",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x21",
+    "Description": "Dual 4-input AND gate",
+    "Description_JP": "2回路4入力ANDゲート",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x30",
+    "Description": "8-input NAND gate",
+    "Description_JP": "8入力NANDゲート",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x50",
+    "Description": "Dual 2-2-input AND-OR-Invert gate, one gate expandable",
+    "Description_JP": "2回路2入力AND-OR-インバートゲート（1つのゲートは拡張可能）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x51",
+    "Description": "Dual AND-OR-Invert gate (configuration depends on logic family)",
+    "Description_JP": "2回路AND-OR-インバートゲート（構成はロジックファミリに依存）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x52",
+    "Description": "3-2-2-2-input AND-OR gate, expandable with 74x61",
+    "Description_JP": "3-2-2-2入力AND-ORゲート（74x61で拡張可能）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x53",
+    "Description": "2-2-2-2-input AND-OR-Invert gate, expandable",
+    "Description_JP": "2回路2入力AND-OR-インバートゲート（拡張可能）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x55",
+    "Description": "4-4-input AND-OR-Invert gate, 74H55 is expandable",
+    "Description_JP": "4回路4入力AND-OR-インバートゲート（74H55は拡張可能）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x58",
+    "Description": "3-3-input AND-OR gate and 2-2-input AND-OR gate",
+    "Description_JP": "3入力×2のAND-ORゲートと2入力×2のAND-ORゲートの組み合わせ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x59",
+    "Description": "Dual 3-2-input AND-OR-Invert gate",
+    "Description_JP": "2回路3-2入力AND-OR-インバートゲート",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x62",
+    "Description": "3-3-2-2-input AND-OR expander for 74x50/74x53/74x55",
+    "Description_JP": "74x50/74x53/74x55用 3-3-2-2入力AND-ORエキスパンダ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x64",
+    "Description": "4-3-2-2-input AND-OR-Invert gate",
+    "Description_JP": "4-3-2-2入力AND-OR-インバートゲート",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x65",
+    "Description": "4-3-2-2-input AND-OR-Invert gate, open-collector outputs",
+    "Description_JP": "4-3-2-2入力AND-OR-インバートゲート（オープンコレクタ出力）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x110",
+    "Description": "Dual 4-input NAND gate",
+    "Description_JP": "2回路4入力NANDゲート",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x131",
+    "Description": "Quad 2-input AND gate, open-collector 15V",
+    "Description_JP": "4回路2入力ANDゲート（オープンコレクタ15V）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x132",
+    "Description": "Quad 2-input NAND gate with Schmitt-trigger inputs",
+    "Description_JP": "4回路2入力NANDゲート（シュミットトリガ入力）",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x133",
+    "Description": "13-input NAND gate",
+    "Description_JP": "13入力NANDゲート",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x134",
+    "Description": "12-input NAND gate, tri-state outputs",
+    "Description_JP": "12入力NANDゲート（3状態出力）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x1804",
+    "Description": "hex 2-input NAND",
+    "Description_JP": "6回路2入力NANDゲート",
+    "Rarity": "ManiacRare(SSR)"
+  }
+]

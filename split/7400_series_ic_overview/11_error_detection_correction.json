@@ -1,0 +1,116 @@
+[
+  {
+    "PartNumber": "74x180",
+    "Description": "9-bit odd/even parity generator/checker",
+    "Description_JP": "9ビット奇偶パリティジェネレータ/チェッカ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x280",
+    "Description": "9-bit parity generator/checker",
+    "Description_JP": "9ビットパリティジェネレータ/チェッカ",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x401",
+    "Description": "CRC generator/checker",
+    "Description_JP": "CRCジェネレータ/チェッカ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x402",
+    "Description": "Serial data polynomial generator/checker",
+    "Description_JP": "シリアルデータ多項式ジェネレータ/チェッカ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x430",
+    "Description": "Cyclic redundancy checker/corrector",
+    "Description_JP": "CRC生成/検出・訂正回路",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x480",
+    "Description": "Single burst error recovery circuit",
+    "Description_JP": "バースト誤り回復回路（単発）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x616",
+    "Description": "16-bit parallel error detection and correction (EDAC), three-state",
+    "Description_JP": "16ビット並列EDAC（誤り検出訂正、3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x617",
+    "Description": "16-bit parallel error detection and correction (EDAC), open-collector",
+    "Description_JP": "16ビット並列EDAC（誤り検出訂正、オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x630",
+    "Description": "16-bit error detection and correction (EDAC), three-state",
+    "Description_JP": "16ビットEDAC（3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x631",
+    "Description": "16-bit error detection and correction (EDAC), open-collector",
+    "Description_JP": "16ビットEDAC（オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x632",
+    "Description": "32-bit parallel EDAC with byte-write, three-state",
+    "Description_JP": "32ビット並列EDAC（バイト書込対応、3状態）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x633",
+    "Description": "32-bit parallel EDAC with byte-write, open-collector",
+    "Description_JP": "32ビット並列EDAC（バイト書込対応、オープンコレクタ）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x634",
+    "Description": "32-bit parallel EDAC, three-state",
+    "Description_JP": "32ビット並列EDAC（3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x635",
+    "Description": "32-bit parallel EDAC, open-collector",
+    "Description_JP": "32ビット並列EDAC（オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x636",
+    "Description": "8-bit parallel EDAC, three-state",
+    "Description_JP": "8ビット並列EDAC（3状態）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x637",
+    "Description": "8-bit parallel EDAC, open-collector",
+    "Description_JP": "8ビット並列EDAC（オープンコレクタ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x655",
+    "Description": "Octal buffer/line driver with parity, inverting, three-state",
+    "Description_JP": "8ビット・バッファ/ラインドライバ（パリティ付、反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x656",
+    "Description": "Octal buffer/line driver with parity, non-inverting, three-state",
+    "Description_JP": "8ビット・バッファ/ラインドライバ（パリティ付、非反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x790",
+    "Description": "Error detection and correction (EDAC)",
+    "Description_JP": "エラー検出・訂正（EDAC）",
+    "Rarity": "VeryNerd(UR)"
+  }
+]

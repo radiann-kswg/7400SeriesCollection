@@ -1,0 +1,206 @@
+[
+  {
+    "PartNumber": "74x80",
+    "Description": "Gated full adder",
+    "Description_JP": "ゲート付き全加算器",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x82",
+    "Description": "4-bit parallel adder",
+    "Description_JP": "4ビットパラレル加算器",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x83",
+    "Description": "4-bit binary full adder",
+    "Description_JP": "4ビットバイナリ全加算器",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x87",
+    "Description": "4-bit true/complement/zero/one element",
+    "Description_JP": "4ビット真/補数/ゼロ/ワン要素",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x181",
+    "Description": "4-bit arithmetic logic unit (ALU)",
+    "Description_JP": "4ビット算術論理演算装置（ALU）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x183",
+    "Description": "Dual carry-save full adder",
+    "Description_JP": "2回路キャリーセーブ全加算器",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x184",
+    "Description": "BCD to binary converter, open-collector outputs",
+    "Description_JP": "BCD-バイナリ変換器（オープンコレクタ出力）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x185",
+    "Description": "6-bit binary to BCD converter, open-collector outputs",
+    "Description_JP": "6ビットバイナリ-BCD変換器（オープンコレクタ出力）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x261",
+    "Description": "2-bit by 4-bit parallel binary multiplier",
+    "Description_JP": "2ビット×4ビット並列バイナリ乗算器",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x281",
+    "Description": "4-bit parallel binary accumulator",
+    "Description_JP": "4ビット並列バイナリアキュムレータ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x283",
+    "Description": "4-bit binary full adder",
+    "Description_JP": "4ビットバイナリ全加算器",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x284",
+    "Description": "4x4 parallel binary multiplier (high 4 bits)",
+    "Description_JP": "4×4並列バイナリ乗算器（積の上位4ビット）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x285",
+    "Description": "4x4 parallel binary multiplier (low 4 bits)",
+    "Description_JP": "4×4並列バイナリ乗算器（積の下位4ビット）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x350",
+    "Description": "4-bit shifter, three-state",
+    "Description_JP": "4ビットシフタ、3状態",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x381",
+    "Description": "4-bit arithmetic logic unit(ALU), generate and propagate outputs",
+    "Description_JP": "4ビット算術論理演算装置（ALU、生成・伝播出力付き）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x382",
+    "Description": "4-bit arithmetic logic unit(ALU), ripple carry and overflow outputs",
+    "Description_JP": "4ビット算術論理演算装置（ALU、リップルキャリー・オーバーフロー出力付き）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x384",
+    "Description": "8-bit by 1-bit two's complement multipliers",
+    "Description_JP": "8ビット×1ビット 2の補数乗算器",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x385",
+    "Description": "quad serial adder/subtractor",
+    "Description_JP": "4回路シリアル加算/減算器",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x481",
+    "Description": "4-bit slice cascadable processor elements",
+    "Description_JP": "4ビットスライス型カスケード可能プロセッサ要素",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x484",
+    "Description": "BCD-to-binary converter",
+    "Description_JP": "BCD→2進変換器",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x485",
+    "Description": "Binary-to-BCD converter",
+    "Description_JP": "2進→BCD変換器",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x556",
+    "Description": "16x16-bit multiplier slice, three-state",
+    "Description_JP": "16×16ビット乗算器スライス（3状態）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x557",
+    "Description": "8-bit by 8-bit multiplier, three-state",
+    "Description_JP": "8×8ビット乗算器（3状態）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x558",
+    "Description": "8-bit by 8-bit multiplier, three-state",
+    "Description_JP": "8×8ビット乗算器（3状態）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x582",
+    "Description": "4-bit BCD arithmetic logic unit (ALU)",
+    "Description_JP": "4ビットBCD算術論理演算器（ALU）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x583",
+    "Description": "4-bit BCD adder",
+    "Description_JP": "4ビットBCD加算器",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x681",
+    "Description": "4-bit parallel binary accumulator, three-state",
+    "Description_JP": "4ビット並列バイナリ・アキュムレータ（3状態）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x784",
+    "Description": "8-bit serial/parallel multiplier with adder/subtractor",
+    "Description_JP": "8ビット 直列/並列 乗算器（加算/減算器内蔵）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x887",
+    "Description": "8-bit processor element (non-cascadable version of 74x888)",
+    "Description_JP": "8ビット プロセッサ要素（74x888の非カスケード版）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x888",
+    "Description": "8-bit processor slice",
+    "Description_JP": "8ビット プロセッサ・スライス",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x889",
+    "Description": "8-bit processor slice",
+    "Description_JP": "8ビット プロセッサ・スライス（派生）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x897",
+    "Description": "16-bit parallel/serial barrel shifter",
+    "Description_JP": "16ビット パラレル/シリアル バレルシフタ",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x1016",
+    "Description": "16x16-bit multiplier",
+    "Description_JP": "16×16ビット 乗算器",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x1017",
+    "Description": "16x16-bit parallel multiplier",
+    "Description_JP": "16×16ビット 並列乗算器",
+    "Rarity": "ManiacRare(SSR)"
+  }
+]

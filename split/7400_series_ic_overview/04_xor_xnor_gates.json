@@ -1,0 +1,38 @@
+[
+  {
+    "PartNumber": "74x86",
+    "Description": "Quad 2-input XOR gate",
+    "Description_JP": "4回路2入力XORゲート",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x135",
+    "Description": "Quad XOR/XNOR gate with selectable logic function",
+    "Description_JP": "4回路XOR/XNORゲート（論理選択可）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x136",
+    "Description": "Quad 2-input XOR gate with open-collector outputs",
+    "Description_JP": "4回路2入力XORゲート（オープンコレクタ出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x265",
+    "Description": "Quad 2-input exclusive-NOR gate",
+    "Description_JP": "4回路2入力XNORゲート",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x266",
+    "Description": "Quad 2-input XNOR gate (open-collector)",
+    "Description_JP": "4回路2入力XNORゲート（オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x386",
+    "Description": "quad 2-input XOR gate",
+    "Description_JP": "4回路2入力XORゲート",
+    "Rarity": "Rare"
+  }
+]

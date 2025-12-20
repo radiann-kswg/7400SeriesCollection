@@ -1,0 +1,398 @@
+[
+  {
+    "PartNumber": "74x04",
+    "Description": "Hex inverter",
+    "Description_JP": "6回路NOTゲート / 6回路インバータ",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x05",
+    "Description": "Hex inverter with open-collector outputs",
+    "Description_JP": "6回路NOTゲート（オープンコレクタ出力） / 6回路インバータ（オープンコレクタ出力）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x06",
+    "Description": "Hex inverter buffer/driver with open-collector outputs",
+    "Description_JP": "6回路インバータバッファ/ドライバ（オープンコレクタ出力）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x07",
+    "Description": "Hex buffer/drivers with open-collector outputs",
+    "Description_JP": "6回路バッファ/ドライバ（オープンコレクタ出力）",
+    "Rarity": "Abolition(R+)"
+  },
+  {
+    "PartNumber": "74x14",
+    "Description": "Hex Schmitt-trigger inverter",
+    "Description_JP": "6回路シュミットトリガインバータ",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x16",
+    "Description": "Hex inverter, open-collector (15 V / 40 mA)",
+    "Description_JP": "6回路インバータ（オープンコレクタ、15V/40mA）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x17",
+    "Description": "Hex buffer, open-collector (15 V / 40 mA)",
+    "Description_JP": "6回路バッファ（オープンコレクタ、15V/40mA）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x19",
+    "Description": "Hex inverter with Schmitt-trigger inputs",
+    "Description_JP": "6回路インバータ（シュミットトリガ入力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x34",
+    "Description": "hex buffer gate",
+    "Description_JP": "6回路バッファゲート",
+    "Rarity": "Abolition(R+)"
+  },
+  {
+    "PartNumber": "74x37",
+    "Description": "Quad 2-input NAND buffer/driver with open-collector outputs",
+    "Description_JP": "4回路2入力NANDバッファ/ドライバ（オープンコレクタ出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x38",
+    "Description": "Quad 2-input NAND buffer/driver with open-collector outputs",
+    "Description_JP": "4回路2入力NANDバッファ/ドライバ（オープンコレクタ出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x39",
+    "Description": "Quad 2-input AND buffer/driver with open-collector outputs",
+    "Description_JP": "4回路2入力ANDバッファ/ドライバ（オープンコレクタ出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x40",
+    "Description": "Hex inverter buffer/driver with open-collector outputs",
+    "Description_JP": "6回路インバータバッファ/ドライバ（オープンコレクタ出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x125",
+    "Description": "Quad bus buffer, tri-state outputs",
+    "Description_JP": "4回路バスバッファ（3状態出力）",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x126",
+    "Description": "Quad bus buffer, tri-state outputs",
+    "Description_JP": "4回路バスバッファ（3状態出力）",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x128",
+    "Description": "Quad 2-input NOR gate, 50Ω driver outputs",
+    "Description_JP": "4回路2入力NORゲート（50Ωドライバ）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x210",
+    "Description": "Octal buffer, inverting, three-state",
+    "Description_JP": "8回路バッファ（反転、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x230",
+    "Description": "Dual 4-bit buffer/driver (one inverted, one non-inverted), neg enable",
+    "Description_JP": "2回路4ビットバッファ/ドライバ（1つ反転・1つ非反転）、負論理イネーブル",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x231",
+    "Description": "Dual 4-bit buffer/driver (both inverted), pos/neg enable",
+    "Description_JP": "2回路4ビットバッファ/ドライバ（両方反転）、正/負イネーブル",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x240",
+    "Description": "Octal buffer/line driver, inverting, 3-state outputs",
+    "Description_JP": "8回路バッファ/ラインドライバ（反転、3状態出力）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x241",
+    "Description": "Octal buffer/line driver, non-inverting, 3-state outputs",
+    "Description_JP": "8回路バッファ/ラインドライバ（非反転、3状態出力）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x244",
+    "Description": "Octal buffer/line driver, non-inverting, 3-state outputs",
+    "Description_JP": "8回路バッファ/ラインドライバ（非反転、3状態出力）",
+    "Rarity": "Commons"
+  },
+  {
+    "PartNumber": "74x303",
+    "Description": "octal divide-by-2 clock driver, 2 outputs inverted",
+    "Description_JP": "8ビット÷2クロックドライバ（2出力は反転）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x304",
+    "Description": "octal divide-by-2 clock driver",
+    "Description_JP": "8ビット÷2クロックドライバ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x305",
+    "Description": "octal divide-by-2 clock driver, 4 outputs inverted",
+    "Description_JP": "8ビット÷2クロックドライバ（4出力は反転）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x310",
+    "Description": "octal buffer, inverting outputs, Schmitt-trigger inputs, three-state",
+    "Description_JP": "8ビットバッファ（反転出力、シュミットトリガ入力、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x337",
+    "Description": "clock driver, three-state",
+    "Description_JP": "クロックドライバ、3状態",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x340",
+    "Description": "octal buffer, inverting outputs, Schmitt-trigger inputs, three-state",
+    "Description_JP": "8ビットバッファ（反転出力、シュミットトリガ入力、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x341",
+    "Description": "octal buffer, non-inverting outputs, Schmitt-trigger inputs, three-state",
+    "Description_JP": "8ビットバッファ（非反転出力、シュミットトリガ入力、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x344",
+    "Description": "octal buffer, non-inverting outputs, Schmitt-trigger inputs, three-state",
+    "Description_JP": "8ビットバッファ（非反転出力、シュミットトリガ入力、3状態）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x365",
+    "Description": "Hex buffer/line driver, 3-state outputs",
+    "Description_JP": "6回路バッファ/ラインドライバ（3状態出力）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x366",
+    "Description": "Hex buffer/line driver, inverting, 3-state outputs",
+    "Description_JP": "6回路バッファ/ラインドライバ（反転、3状態出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x367",
+    "Description": "Hex buffer/line driver, non-inverting, 3-state outputs",
+    "Description_JP": "6回路バッファ/ラインドライバ（非反転、3状態出力）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x368",
+    "Description": "Hex buffer/line driver, inverting, 3-state outputs",
+    "Description_JP": "6回路バッファ/ラインドライバ（反転、3状態出力）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x425",
+    "Description": "Quad bus buffers, active-low enables",
+    "Description_JP": "4回路バスバッファ（低アクティブイネーブル）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x426",
+    "Description": "Quad bus buffers, active-high enables",
+    "Description_JP": "4回路バスバッファ（高アクティブイネーブル）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x465",
+    "Description": "Octal buffer/line driver, non-inverting, three-state",
+    "Description_JP": "8回路バッファ/ラインドライバ（非反転、3状態）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x466",
+    "Description": "Octal buffer/line driver, inverting, three-state",
+    "Description_JP": "8回路バッファ/ラインドライバ（反転、3状態）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x467",
+    "Description": "Octal buffers/line drivers, non-inverting, three-state",
+    "Description_JP": "8回路バッファ/ラインドライバ（非反転、3状態）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x468",
+    "Description": "Octal buffers/line drivers, inverting, three-state",
+    "Description_JP": "8回路バッファ/ラインドライバ（反転、3状態）",
+    "Rarity": "Normal"
+  },
+  {
+    "PartNumber": "74x540",
+    "Description": "Octal buffer/line driver, inverting, 3-state outputs",
+    "Description_JP": "8回路バッファ/ラインドライバ（反転、3状態出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x541",
+    "Description": "Octal buffer/line driver, non-inverting, 3-state outputs",
+    "Description_JP": "8回路バッファ/ラインドライバ（非反転、3状態出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x740",
+    "Description": "Dual 4-bit line driver, inverting",
+    "Description_JP": "2回路4ビット ラインドライバ（反転）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x760",
+    "Description": "Octal buffer/line driver, non-inverting, open-collector",
+    "Description_JP": "8ビット バッファ/ラインドライバ（非反転、オープンコレクタ）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x762",
+    "Description": "Octal buffer/line driver, inverting and non-inverting outputs, open-collector",
+    "Description_JP": "8ビット バッファ/ラインドライバ（反転/非反転出力、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x763",
+    "Description": "Octal buffer/line driver, inverting outputs, complementary enables, open-collector",
+    "Description_JP": "8ビット バッファ/ラインドライバ（反転出力、相補イネーブル、オープンコレクタ）",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x795",
+    "Description": "Octal buffer, non-inverting, shared enable",
+    "Description_JP": "8ビット バッファ（非反転、共有イネーブル）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x796",
+    "Description": "Octal buffer, inverting, shared enable",
+    "Description_JP": "8ビット バッファ（反転、共有イネーブル）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x797",
+    "Description": "Octal buffer, non-inverting, grouped enables",
+    "Description_JP": "8ビット バッファ（非反転、4ビット毎イネーブル）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x798",
+    "Description": "Octal buffer, inverting, grouped enables",
+    "Description_JP": "8ビット バッファ（反転、4ビット毎イネーブル）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x800",
+    "Description": "Triple 4-input AND/NAND drivers",
+    "Description_JP": "3回路4入力 AND/NANDドライバ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x802",
+    "Description": "Triple 4-input OR/NOR drivers",
+    "Description_JP": "3回路4入力 OR/NORドライバ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x804",
+    "Description": "Octal buffer/line driver, 3-state outputs",
+    "Description_JP": "8ビットバッファ/ラインドライバ（3状態出力）",
+    "Rarity": "Normal+"
+  },
+  {
+    "PartNumber": "74x827",
+    "Description": "10-bit buffer, non-inverting",
+    "Description_JP": "10ビット バッファ（非反転）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x828",
+    "Description": "10-bit buffer, inverting",
+    "Description_JP": "10ビット バッファ（反転）",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x906",
+    "Description": "hex open drain n-channel buffers",
+    "Description_JP": "6回路 オープンドレインNチャネル・バッファ",
+    "Rarity": "Rare"
+  },
+  {
+    "PartNumber": "74x907",
+    "Description": "hex open drain p-channel buffers",
+    "Description_JP": "6回路 オープンドレインPチャネル・バッファ",
+    "Rarity": "SuperRare"
+  },
+  {
+    "PartNumber": "74x908",
+    "Description": "dual 2-input NAND 30 V / 250 mA relay driver",
+    "Description_JP": "2入力NAND×2（30V/250mA）リレードライバ",
+    "Rarity": "Abolition(R+)"
+  },
+  {
+    "PartNumber": "74x918",
+    "Description": "dual 2-input NAND 30 V / 250 mA relay driver",
+    "Description_JP": "2入力NAND×2（30V/250mA）リレードライバ",
+    "Rarity": "Abolition(R+)"
+  },
+  {
+    "PartNumber": "74x1000",
+    "Description": "quad 2-input NAND gate (driver series)",
+    "Description_JP": "2入力NAND×4（ドライバ・シリーズ）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x1002",
+    "Description": "quad 2-input NOR gate (driver series)",
+    "Description_JP": "2入力NOR×4（ドライバ・シリーズ）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x1003",
+    "Description": "quad 2-input NAND gate, open-collector driver",
+    "Description_JP": "2入力NAND×4（オープンコレクタ・ドライバ）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x1004",
+    "Description": "hex inverting buffer (driver series)",
+    "Description_JP": "反転バッファ×6（ドライバ・シリーズ）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x1020",
+    "Description": "dual 4-input NAND gate (driver series)",
+    "Description_JP": "4入力NAND×2（ドライバ・シリーズ）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x1032",
+    "Description": "quad 2-input OR gate (driver series)",
+    "Description_JP": "2入力OR×4（ドライバ・シリーズ）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x1244",
+    "Description": "octal buffer / driver, non-inverting (lower-power version of 74x244)",
+    "Description_JP": "8回路バッファ/ドライバ（非反転、74x244の低消費電力版）",
+    "Rarity": "Rare+"
+  }
+]
