@@ -63,6 +63,8 @@ CATEGORIES: List[Category] = [
     Category("system_controllers_timing", "14_system_controllers_timing.json"),
     Category("interfaces_links", "15_interfaces_links.json"),
     Category("analog_mixed_signal", "16_analog_mixed_signal.json"),
+    Category("expanders", "17_expanders.json"),
+    Category("carry_generators", "18_carry_generators.json"),
     Category("other", "99_other.json"),
 ]
 
@@ -230,6 +232,36 @@ def classify(desc_en: str, desc_jp: str) -> str:
     ) or has_any(jp, ["A/D", "ADC", "アナログ", "電圧", "発振", "VCO", "マルチバイブレータ", "単安定", "位相比較"]):
         return "analog_mixed_signal"
 
+    # エキスパンダ類
+    # NOTE: gateカテゴリの "expandable" に引っ張られないよう、
+    # "expander" もしくは明確な "expandable control element" などに限定して判定。
+    if matches_any_regex(en, [r"\bexpander\b"]) or has_any(
+        jp, ["エキスパンダ", "拡張器"]
+    ) or has_any(en, ["expandable control element", "expandable control elements"]):
+        return "expanders"
+
+    # キャリー・ジェネレータ類
+    # NOTE: "carry" は ALU/adder 等にも頻出するため、"carry generator" 系の表現に限定。
+    if has_any(
+        en,
+        [
+            "carry generator",
+            "lookahead carry",
+            "look-ahead carry",
+            "look ahead carry",
+        ],
+    ) or has_any(
+        jp,
+        [
+            "キャリー・ジェネレータ",
+            "キャリージェネレータ",
+            "先行キャリ",
+            "キャリー生成",
+            "キャリ生成",
+        ],
+    ):
+        return "carry_generators"
+
     # 誤り検出/訂正
     if has_any(
         en,
@@ -252,6 +284,7 @@ def classify(desc_en: str, desc_jp: str) -> str:
         en,
         [
             "alu",
+            "arithmetic logic unit",
             "adder",
             "subtractor",
             "multiplier",
@@ -345,7 +378,10 @@ def main() -> int:
         cat = classify(desc, desc_jp)
         if cat not in buckets:
             cat = "other"
-        buckets[cat].append(obj)
+        # overview には Category を持たせるが、categories/*.json はスキーマ上不要なので除去する。
+        clean_obj = dict(obj)
+        clean_obj.pop("Category", None)
+        buckets[cat].append(clean_obj)
 
     for c in CATEGORIES:
         arr = buckets[c.key]

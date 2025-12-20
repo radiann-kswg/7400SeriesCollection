@@ -126,12 +126,6 @@
     "Rarity": "Maniac(SR+)"
   },
   {
-    "PartNumber": "74x62",
-    "Description": "3-3-2-2-input AND-OR expander for 74x50/74x53/74x55",
-    "Description_JP": "74x50/74x53/74x55用 3-3-2-2入力AND-ORエキスパンダ",
-    "Rarity": "Maniac(SR+)"
-  },
-  {
     "PartNumber": "74x64",
     "Description": "4-3-2-2-input AND-OR-Invert gate",
     "Description_JP": "4-3-2-2入力AND-OR-インバートゲート",

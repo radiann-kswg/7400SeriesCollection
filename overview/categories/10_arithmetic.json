@@ -162,9 +162,21 @@
     "Rarity": "SuperRare"
   },
   {
+    "PartNumber": "74x705",
+    "Description": "Arithmetic logic unit for DSP applications",
+    "Description_JP": "DSP用途向けALU",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
     "PartNumber": "74x784",
     "Description": "8-bit serial/parallel multiplier with adder/subtractor",
     "Description_JP": "8ビット 直列/並列 乗算器（加算/減算器内蔵）",
+    "Rarity": "VeryNerd(UR)"
+  },
+  {
+    "PartNumber": "74x881",
+    "Description": "4-bit arithmetic logic unit",
+    "Description_JP": "4ビットALU",
     "Rarity": "VeryNerd(UR)"
   },
   {

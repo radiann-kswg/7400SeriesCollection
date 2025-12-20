@@ -26,9 +26,18 @@ def save_json_array(path: str, data: List[Dict[str, Any]]) -> None:
 _PART_NUMBER_LINE_RE = re.compile(
     r'^(\s*)"PartNumber"\s*:\s*"([^"]+)"\s*,\s*$')
 _CATEGORY_LINE_RE = re.compile(r'^\s*"Category"\s*:\s*"[^"]*"\s*,?\s*$')
+_CATEGORY_VALUE_RE = re.compile(r'^\s*"Category"\s*:\s*"([^"]*)"')
 
 
-def _insert_category_after_partnumber(
+def _line_ending(line: str) -> str:
+    if line.endswith("\r\n"):
+        return "\r\n"
+    if line.endswith("\n"):
+        return "\n"
+    return ""
+
+
+def _upsert_category_after_partnumber(
     text: str, pn_to_category: Dict[str, str], *, strict: bool
 ) -> str:
     lines = text.splitlines(keepends=True)
@@ -36,26 +45,50 @@ def _insert_category_after_partnumber(
     out: List[str] = []
     missing: List[str] = []
 
-    for idx, line in enumerate(lines):
+    idx = 0
+    while idx < len(lines):
+        line = lines[idx]
         match = _PART_NUMBER_LINE_RE.match(line)
         if not match:
             out.append(line)
+            idx += 1
             continue
 
         indent, pn = match.group(1), match.group(2)
         out.append(line)
 
-        next_line = lines[idx + 1] if idx + 1 < len(lines) else ""
-        if _CATEGORY_LINE_RE.match(next_line):
-            continue
-
         category = pn_to_category.get(pn)
         if not isinstance(category, str) or not category:
             missing.append(pn)
+            idx += 1
             continue
 
-        newline = "\n" if line.endswith("\n") else ""
+        next_line = lines[idx + 1] if idx + 1 < len(lines) else ""
+        if _CATEGORY_LINE_RE.match(next_line):
+            # Consume one or more consecutive Category lines.
+            cat_start = idx + 1
+            cat_end = cat_start
+            while cat_end < len(lines) and _CATEGORY_LINE_RE.match(lines[cat_end]):
+                cat_end += 1
+
+            first_cat_line = lines[cat_start]
+            existing_match = _CATEGORY_VALUE_RE.match(first_cat_line)
+            existing = existing_match.group(1) if existing_match else ""
+            if existing == category:
+                out.append(first_cat_line)
+            else:
+                indent2 = re.match(r"^(\s*)", first_cat_line).group(1)
+                newline = _line_ending(first_cat_line)
+                comma = "," if first_cat_line.strip().endswith(",") else ""
+                out.append(
+                    f'{indent2}"Category": "{category}"{comma}{newline}')
+
+            idx = cat_end
+            continue
+
+        newline = _line_ending(line)
         out.append(f'{indent}"Category": "{category}",{newline}')
+        idx += 1
 
     if missing and strict:
         uniq = sorted(set(missing))
@@ -74,7 +107,7 @@ def update_file_inplace_with_category(
     with open(path, "r", encoding="utf-8") as f:
         original = f.read()
 
-    updated = _insert_category_after_partnumber(
+    updated = _upsert_category_after_partnumber(
         original, pn_to_category, strict=strict)
     if updated == original:
         return False

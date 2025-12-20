@@ -1,0 +1,26 @@
+[
+  {
+    "PartNumber": "74x60",
+    "Description": "dual 4-input expander for 74x23, 74x50, 74x53, 74x55",
+    "Description_JP": "2回路4入力拡張器（74x23、74x50、74x53、74x55用）",
+    "Rarity": "ManiacRare(SSR)"
+  },
+  {
+    "PartNumber": "74x61",
+    "Description": "Triple 3-input expander for 74x52",
+    "Description_JP": "74x52用3入力エキスパンダ（3回路）",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x62",
+    "Description": "3-3-2-2-input AND-OR expander for 74x50/74x53/74x55",
+    "Description_JP": "74x50/74x53/74x55用 3-3-2-2入力AND-ORエキスパンダ",
+    "Rarity": "Maniac(SR+)"
+  },
+  {
+    "PartNumber": "74x482",
+    "Description": "4-bit slice expandable control elements",
+    "Description_JP": "4ビットスライス型拡張制御要素",
+    "Rarity": "VeryNerd(UR)"
+  }
+]
