@@ -1,6 +1,7 @@
 [
   {
     "PartNumber": "74x195",
+    "Category": "09_registers",
     "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
@@ -8,6 +9,7 @@
   },
   {
     "PartNumber": "74x375",
+    "Category": "05_flipflops_latches",
     "GetStartingECS_JP": ["マルツ電商"],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": ["74LS375N"],
@@ -15,6 +17,7 @@
   },
   {
     "PartNumber": "74x379",
+    "Category": "09_registers",
     "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
@@ -22,6 +25,7 @@
   },
   {
     "PartNumber": "74x521",
+    "Category": "16_analog_mixed_signal",
     "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
@@ -29,6 +33,7 @@
   },
   {
     "PartNumber": "74x533",
+    "Category": "05_flipflops_latches",
     "GetStartingECS_JP": ["Mouser"],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
@@ -36,6 +41,7 @@
   },
   {
     "PartNumber": "74x534",
+    "Category": "05_flipflops_latches",
     "GetStartingECS_JP": ["Mouser"],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],

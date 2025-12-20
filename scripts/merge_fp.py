@@ -27,6 +27,42 @@ def save_json_array(path: str, data: List[Dict[str, Any]]) -> None:
         f.write("\n")
 
 
+def iter_category_files(categories_dir: str) -> Iterable[str]:
+    for name in sorted(os.listdir(categories_dir)):
+        if not name.endswith(".json"):
+            continue
+        if name.startswith("."):
+            continue
+        yield os.path.join(categories_dir, name)
+
+
+def build_category_map_from_categories(categories_dir: str) -> Dict[str, str]:
+    if not os.path.isdir(categories_dir):
+        raise FileNotFoundError(f"categories dir not found: {categories_dir}")
+
+    mapping: Dict[str, str] = {}
+    duplicates: Dict[str, List[str]] = {}
+
+    for path in iter_category_files(categories_dir):
+        category = os.path.splitext(os.path.basename(path))[0]
+        for obj in load_json_array(path):
+            pn = obj.get("PartNumber")
+            if not isinstance(pn, str) or not pn:
+                continue
+            if pn in mapping and mapping[pn] != category:
+                duplicates.setdefault(pn, [mapping[pn]]).append(category)
+                continue
+            mapping[pn] = category
+
+    if duplicates:
+        items = ", ".join(
+            f"{pn}=>{sorted(set(cats))}" for pn, cats in sorted(duplicates.items())
+        )
+        raise ValueError(f"PartNumber appears in multiple categories: {items}")
+
+    return mapping
+
+
 def pn_sort_key(pn: str) -> Tuple[int, str]:
     # "74x" 以降の数値でソート（失敗時は文字列）
     digits: List[str] = []
@@ -59,11 +95,26 @@ def choose_bucket(rarity: str, specs: List[Tuple[str, OutputSpec]]) -> Optional[
 def make_skeleton_entry(part_number: str) -> Dict[str, Any]:
     return {
         "PartNumber": part_number,
+        "Category": "",
         "GetStartingECS_JP": [],
         "GottenItemsMN_CMOS": [],
         "GottenItemsMN_TTL": [],
         "GottenItemsMN_Other": [],
     }
+
+
+def ordered_with_category(obj: Dict[str, Any], category: str) -> Dict[str, Any]:
+    # 先頭に PartNumber / Category を置き、それ以外は元の順序を維持
+    out: Dict[str, Any] = {}
+    pn = obj.get("PartNumber")
+    if isinstance(pn, str):
+        out["PartNumber"] = pn
+    out["Category"] = category
+    for k, v in obj.items():
+        if k in ("PartNumber", "Category"):
+            continue
+        out[k] = v
+    return out
 
 
 def main() -> int:
@@ -116,6 +167,23 @@ def main() -> int:
 
     overview_items = load_json_array(overview_path)
 
+    # PartNumber -> Category（overview が持っていればそれを優先。なければ overview/categories を参照）
+    pn_to_category: Dict[str, str] = {}
+    overview_has_category = True
+    for obj in overview_items:
+        pn = obj.get("PartNumber")
+        cat = obj.get("Category")
+        if not isinstance(pn, str) or not pn:
+            continue
+        if not isinstance(cat, str) or not cat:
+            overview_has_category = False
+            break
+        pn_to_category[pn] = cat
+
+    if not overview_has_category:
+        categories_dir = os.path.join(repo_root, "overview", "categories")
+        pn_to_category = build_category_map_from_categories(categories_dir)
+
     # 既存ファイルの全エントリを集約して、PartNumber単位で保持（重複は警告）
     existing_by_pn: Dict[str, Dict[str, Any]] = {}
     existing_origin: Dict[str, str] = {}
@@ -151,10 +219,15 @@ def main() -> int:
         pn_list = sorted(set(pn_by_bucket[bucket_name]), key=pn_sort_key)
         out: List[Dict[str, Any]] = []
         for pn in pn_list:
+            category = pn_to_category.get(pn)
+            if not isinstance(category, str) or not category:
+                raise ValueError(f"Category not found for PartNumber={pn}")
+
             if pn in existing_by_pn:
-                out.append(existing_by_pn[pn])
+                out.append(ordered_with_category(existing_by_pn[pn], category))
             else:
-                out.append(make_skeleton_entry(pn))
+                out.append(ordered_with_category(
+                    make_skeleton_entry(pn), category))
         save_json_array(spec.path, out)
         print(f"[INFO] Wrote {bucket_name}: {spec.path} ({len(out)} items)")
 

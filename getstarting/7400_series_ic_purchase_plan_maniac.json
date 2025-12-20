@@ -1,6 +1,7 @@
 [
   {
     "PartNumber": "74x64",
+    "Category": "02_nand_and_gates",
     "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
@@ -8,6 +9,7 @@
   },
   {
     "PartNumber": "74x113",
+    "Category": "05_flipflops_latches",
     "GetStartingECS_JP": [
       "eBay(国際通販)"
     ],
@@ -19,6 +21,7 @@
   },
   {
     "PartNumber": "74x249",
+    "Category": "06_encoders_decoders",
     "GetStartingECS_JP": [
       "eBay(国際通販)"
     ],
@@ -31,6 +34,7 @@
   },
   {
     "PartNumber": "74x265",
+    "Category": "04_xor_xnor_gates",
     "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
@@ -40,6 +44,7 @@
   },
   {
     "PartNumber": "74x294",
+    "Category": "12_memory_storage",
     "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
@@ -47,6 +52,7 @@
   },
   {
     "PartNumber": "74x295",
+    "Category": "09_registers",
     "GetStartingECS_JP": [
       "eBay(国際通販)"
     ],
@@ -58,6 +64,7 @@
   },
   {
     "PartNumber": "74x380",
+    "Category": "09_registers",
     "GetStartingECS_JP": [
       "セカイモン(国際通販)"
     ],
@@ -69,6 +76,7 @@
   },
   {
     "PartNumber": "74x395",
+    "Category": "09_registers",
     "GetStartingECS_JP": [
       "eBay(国際通販)"
     ],
@@ -81,6 +89,7 @@
   },
   {
     "PartNumber": "74x543",
+    "Category": "09_registers",
     "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],

@@ -1,6 +1,7 @@
 [
   {
     "PartNumber": "74x284",
+    "Category": "10_arithmetic",
     "GottenItems_MN": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
@@ -8,6 +9,7 @@
   },
   {
     "PartNumber": "74x285",
+    "Category": "10_arithmetic",
     "GottenItems_MN": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
@@ -15,6 +17,7 @@
   },
   {
     "PartNumber": "74x508",
+    "Category": "08_counters",
     "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
@@ -22,6 +25,7 @@
   },
   {
     "PartNumber": "74x516",
+    "Category": "08_counters",
     "GottenItems_MN": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
@@ -29,6 +33,7 @@
   },
   {
     "PartNumber": "74x784",
+    "Category": "10_arithmetic",
     "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
