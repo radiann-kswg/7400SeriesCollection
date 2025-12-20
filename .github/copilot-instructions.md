@@ -14,9 +14,9 @@
 ├── .github/
 │   └── copilot-instructions.md          # このファイル：GitHub Copilot 向け指示書
 ├── .gitignore                            # Git管理外ファイル指定
-├── 7400_series_ic_overview.json          # マスターデータ：全IC情報
-├── split/
-│   └── 7400_series_ic_overview/          # 上記マスターデータを論理分類ごとに分割したJSON群
+├── overview/
+│   ├── 7400_series_ic_overview.json          # マスターデータ：全IC情報
+│   └── categories/                           # 上記マスターデータを論理分類ごとに分割したJSON群
 ├── datasheets/
 │   ├── 7400_series_ic_datasheet_collection_status.json
 │   │                                     # データシート収集管理
@@ -62,14 +62,14 @@
 
 ### ルートディレクトリのデータ構造
 
-#### `7400_series_ic_overview.json`
+#### `overview/7400_series_ic_overview.json`
 
 **役割**: 全 7400 シリーズ IC のマスターデータベース。すべてのパーツ情報の基準となるファイル。
 
-#### `split/7400_series_ic_overview/`
+#### `overview/categories/`
 
-**役割**: `7400_series_ic_overview.json` を「論理の分類」ごとに分割したJSON群。
-同一元JSONから分割したもの同士が、このフォルダにまとまります。
+**役割**: `overview/7400_series_ic_overview.json` を「論理の分類」ごとに分割した JSON 群。
+同一元 JSON から分割したもの同士が、このフォルダにまとまります。
 
 **補足**: Wikipedia の見出しに加えて、実用上まとまりが良いように「メモリ/ストレージ」「誤り検出・訂正」「システム制御・タイミング」「インタフェース/リンク」「アナログ/混載」などのカテゴリも追加しています。
 
@@ -157,7 +157,7 @@
 - `7400_series_ic_purchase_plan_maniac.json`: SuperRare, Abolition(R+), Maniac(SR+) クラス
 - `7400_series_ic_purchase_wishlist_very_nerd.json`: ManiacRare(SSR), VeryNerd(UR) クラス
 
-**データスキーマ**: `7400_series_ic_overview.json` から該当レア度のパーツをフィルタリングしたサブセット。
+**データスキーマ**: `overview/7400_series_ic_overview.json` から該当レア度のパーツをフィルタリングしたサブセット。
 
 ---
 
@@ -187,7 +187,7 @@
 
 #### ルートディレクトリ (`/`)
 
-- **`7400_series_ic_overview.json`**: 全 7400 シリーズ IC のマスターデータベース
+- **`overview/7400_series_ic_overview.json`**: 全 7400 シリーズ IC のマスターデータベース
   - すべてのパーツ情報の基準となるファイル
   - 型番、説明（英語/日本語）、レア度を管理
 
@@ -397,7 +397,7 @@ _download/
 ```markdown
 <!-- usage/内のMarkdownファイルから参照する場合 -->
 
-詳細は [7400_series_ic_overview.json](../7400_series_ic_overview.json) を参照。
+詳細は [overview/7400_series_ic_overview.json](../overview/7400_series_ic_overview.json) を参照。
 入手履歴は [こちら](../getstarting/7400_series_ic_collection_acquisition_history.json) 。
 ```
 
@@ -410,7 +410,7 @@ import json
 
 # リポジトリルートを基準とした相対パス
 base_dir = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
-overview_path = os.path.join(base_dir, '7400_series_ic_overview.json')
+overview_path = os.path.join(base_dir, 'overview', '7400_series_ic_overview.json')
 history_path = os.path.join(base_dir, 'getstarting', '7400_series_ic_collection_acquisition_history.json')
 ```
 

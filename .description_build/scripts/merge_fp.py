@@ -9,7 +9,8 @@ import sys
 from typing import Any, Dict, List, Set
 
 WORKSPACE_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-BASE_JSON = os.path.join(WORKSPACE_ROOT, "7400_series_ic_overview.json")
+BASE_JSON = os.path.join(WORKSPACE_ROOT, "overview",
+                         "7400_series_ic_overview.json")
 DATAS_DIR = os.path.join(WORKSPACE_ROOT, "datas")
 RANGE_FILES = [
     "7400_series_ic_missing_description_00-99.json",

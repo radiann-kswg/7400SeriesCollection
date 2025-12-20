@@ -69,7 +69,8 @@ def make_skeleton_entry(part_number: str) -> Dict[str, Any]:
 def main() -> int:
     repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
 
-    overview_path = os.path.join(repo_root, "7400_series_ic_overview.json")
+    overview_path = os.path.join(
+        repo_root, "overview", "7400_series_ic_overview.json")
     getstarting_dir = os.path.join(repo_root, "getstarting")
 
     outputs: List[Tuple[str, OutputSpec]] = [

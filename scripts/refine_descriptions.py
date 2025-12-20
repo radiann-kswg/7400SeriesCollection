@@ -93,7 +93,8 @@ def refine(items: List[Dict[str, Any]]) -> None:
 
 def main() -> int:
     repo_root = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-    overview_path = os.path.join(repo_root, "7400_series_ic_overview.json")
+    overview_path = os.path.join(
+        repo_root, "overview", "7400_series_ic_overview.json")
 
     items = load_array(overview_path)
     refine(items)

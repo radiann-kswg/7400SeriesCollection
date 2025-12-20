@@ -5,7 +5,7 @@
 Description/Description_JP の表記ゆれを自動で正規化するスクリプト。
 
 対象:
-- 7400_series_ic_overview.json（ベース、Rarity不変更）
+- overview/7400_series_ic_overview.json（ベース、Rarity不変更）
 - 7400_series_ic_overview_fp.json（Rarity不変更）
 
 処理:
@@ -27,7 +27,8 @@ import re
 from typing import Any, Dict, List
 
 WORKSPACE_ROOT = os.path.abspath(os.path.join(os.path.dirname(__file__), ".."))
-BASE_JSON = os.path.join(WORKSPACE_ROOT, "7400_series_ic_overview.json")
+BASE_JSON = os.path.join(WORKSPACE_ROOT, "overview",
+                         "7400_series_ic_overview.json")
 FP_JSON = os.path.join(WORKSPACE_ROOT, "7400_series_ic_overview_fp.json")
 
 

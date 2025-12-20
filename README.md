@@ -16,9 +16,9 @@
 
 ```
 7400SeriesCollection/
-├── 7400_series_ic_overview.json          # マスターデータ：全IC情報
-├── split/                                # 分割データ（元JSON単位で格納）
-│   └── 7400_series_ic_overview/          # 7400_series_ic_overview.json を分類別に分割
+├── overview/                             # overview系データ
+│   ├── 7400_series_ic_overview.json      # マスターデータ：全IC情報
+│   └── categories/                       # 上記マスタを論理分類で分割したJSON群
 ├── datasheets/                           # データシート管理
 │   ├── 7400_series_ic_datasheet_collection_status.json
 │   └── _download/                        # ダウンロード済みPDF保管
@@ -52,7 +52,7 @@
 
 ### マスターデータ
 
-#### `7400_series_ic_overview.json`
+#### `overview/7400_series_ic_overview.json`
 
 全 7400 シリーズ IC の基本情報を格納するマスターデータベース。
 
@@ -130,7 +130,7 @@ python3 scripts/merge_fp.py
 
 ### マスターデータの論理分類分割
 
-Wikipedia の 7400 シリーズ機能分類を参考に、`7400_series_ic_overview.json` を分類別 JSON に分割して `split/7400_series_ic_overview/` に出力します。
+Wikipedia の 7400 シリーズ機能分類を参考に、`overview/7400_series_ic_overview.json` を分類別 JSON に分割して `overview/categories/` に出力します。
 
 ```bash
 python3 scripts/split_overview_by_logic_category.py
