@@ -578,7 +578,11 @@ history_path = os.path.join(base_dir, 'getstarting', '7400_series_ic_collection_
 
 関連スクリプト:
 
-- `scripts/check_datasheet_sources.py`: `datasheets/datasheet_sources.json` のURLチェック/任意DL
+- `scripts/check_datasheet_sources.py`: `datasheets/datasheet_sources.json` のURLチェック/任意DL/sha256算出/レポート出力
+  - 例（URL未入力の雛形が混ざる場合）: `python3 scripts/check_datasheet_sources.py --skip-empty`
+  - 例（レポートJSON出力）: `python3 scripts/check_datasheet_sources.py --skip-empty --report .temp/datasheet_fetch/report.json`
+  - 例（任意DL+sha256、同一資料保証の足場）: `python3 scripts/check_datasheet_sources.py --download --report .temp/datasheet_fetch/report.json`
+  - 例（取得メタ情報をsourcesへ反映）: `python3 scripts/check_datasheet_sources.py --skip-empty --download --update`
 
 ### VS Code タスク
 

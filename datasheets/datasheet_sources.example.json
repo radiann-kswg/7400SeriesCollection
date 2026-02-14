@@ -9,7 +9,14 @@
         "Revision": "(例) Rev. S",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74hc00.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "一次資料のURL/文書番号/改訂を記録（本文の転載は避ける）"
+        "Notes": "一次資料のURL/文書番号/改訂を記録（本文の転載は避ける）",
+
+        "FinalUrl": "(例) https://www.ti.com/lit/ds/symlink/sn74hc00.pdf",
+        "ContentType": "(例) application/pdf",
+        "ContentLength": "(例) 123456",
+        "CheckedAt": "(例) 2026-02-14T00:00:00+00:00",
+        "Bytes": 123456,
+        "Sha256": "(example)"
       }
     ]
   }
