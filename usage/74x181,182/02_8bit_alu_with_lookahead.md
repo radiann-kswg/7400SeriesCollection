@@ -328,3 +328,23 @@ A=11110000, B=10101010
 **設計日**: 2025 年 11 月 10 日
 **使用 IC**: SN74S181NC×2, SN74S182N×1
 **レア度**: ManiacRare(SSR)
+
+
+---
+
+<!-- DATASHEET_FACTCHECK_FOOTER -->
+
+## 一次資料（参照情報と検証）
+
+- 参照情報: [../../datasheets/datasheet_sources.json](../../datasheets/datasheet_sources.json)
+- 検証スクリプト: [../../scripts/check_datasheet_sources.py](../../scripts/check_datasheet_sources.py)
+
+リポジトリルートで以下を実行:
+
+```bash
+python3 scripts/check_datasheet_sources.py --skip-empty --report .temp/datasheet_fetch/report.json
+# （必要ならDL+sha256）
+python3 scripts/check_datasheet_sources.py --skip-empty --download --report .temp/datasheet_fetch/report.json
+```
+
+<!-- /DATASHEET_FACTCHECK_FOOTER -->

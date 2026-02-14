@@ -318,3 +318,23 @@ O0 ---- 74x141(1の位) A (pin 15)
 - FPGA で変換回路を実装する
 
 などの方法が一般的です。
+
+
+---
+
+<!-- DATASHEET_FACTCHECK_FOOTER -->
+
+## 一次資料（参照情報と検証）
+
+- 参照情報: [../../datasheets/datasheet_sources.json](../../datasheets/datasheet_sources.json)
+- 検証スクリプト: [../../scripts/check_datasheet_sources.py](../../scripts/check_datasheet_sources.py)
+
+リポジトリルートで以下を実行:
+
+```bash
+python3 scripts/check_datasheet_sources.py --skip-empty --report .temp/datasheet_fetch/report.json
+# （必要ならDL+sha256）
+python3 scripts/check_datasheet_sources.py --skip-empty --download --report .temp/datasheet_fetch/report.json
+```
+
+<!-- /DATASHEET_FACTCHECK_FOOTER -->

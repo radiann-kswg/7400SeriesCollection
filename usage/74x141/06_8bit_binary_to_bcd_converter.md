@@ -526,3 +526,23 @@ BCD: 0101 (5) に+3 → 1000 (8)
 - **実用性**: 8 ビット ADC やカウンタ出力の表示に使用可能
 
 初心者は、まず 4 ビット版（[03_binary_to_bcd_converter.md](./03_binary_to_bcd_converter.md)）で基本を理解してから、本回路に挑戦することを強く推奨します。
+
+
+---
+
+<!-- DATASHEET_FACTCHECK_FOOTER -->
+
+## 一次資料（参照情報と検証）
+
+- 参照情報: [../../datasheets/datasheet_sources.json](../../datasheets/datasheet_sources.json)
+- 検証スクリプト: [../../scripts/check_datasheet_sources.py](../../scripts/check_datasheet_sources.py)
+
+リポジトリルートで以下を実行:
+
+```bash
+python3 scripts/check_datasheet_sources.py --skip-empty --report .temp/datasheet_fetch/report.json
+# （必要ならDL+sha256）
+python3 scripts/check_datasheet_sources.py --skip-empty --download --report .temp/datasheet_fetch/report.json
+```
+
+<!-- /DATASHEET_FACTCHECK_FOOTER -->

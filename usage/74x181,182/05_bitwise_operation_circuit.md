@@ -403,3 +403,23 @@
 **使用 IC**: SN74S181NC, SN74HC574N×3, 74HC86
 **レア度**: ManiacRare(SSR) + Commons
 **用途**: ビット演算、デジタル信号処理、論理演算実験
+
+
+---
+
+<!-- DATASHEET_FACTCHECK_FOOTER -->
+
+## 一次資料（参照情報と検証）
+
+- 参照情報: [../../datasheets/datasheet_sources.json](../../datasheets/datasheet_sources.json)
+- 検証スクリプト: [../../scripts/check_datasheet_sources.py](../../scripts/check_datasheet_sources.py)
+
+リポジトリルートで以下を実行:
+
+```bash
+python3 scripts/check_datasheet_sources.py --skip-empty --report .temp/datasheet_fetch/report.json
+# （必要ならDL+sha256）
+python3 scripts/check_datasheet_sources.py --skip-empty --download --report .temp/datasheet_fetch/report.json
+```
+
+<!-- /DATASHEET_FACTCHECK_FOOTER -->

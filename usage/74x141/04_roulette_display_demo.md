@@ -315,3 +315,23 @@ NE555 pin 3 (OUTPUT) ---+--- 74x08 (AND, イネーブル制御経由)
 - 高速モード: 50 ～ 200Hz 程度が視覚効果として最適
 - 低速モード: 1 ～ 5Hz 程度が動作確認に適切
 - ストップ時のスローダウン演出を加えると臨場感が増す
+
+
+---
+
+<!-- DATASHEET_FACTCHECK_FOOTER -->
+
+## 一次資料（参照情報と検証）
+
+- 参照情報: [../../datasheets/datasheet_sources.json](../../datasheets/datasheet_sources.json)
+- 検証スクリプト: [../../scripts/check_datasheet_sources.py](../../scripts/check_datasheet_sources.py)
+
+リポジトリルートで以下を実行:
+
+```bash
+python3 scripts/check_datasheet_sources.py --skip-empty --report .temp/datasheet_fetch/report.json
+# （必要ならDL+sha256）
+python3 scripts/check_datasheet_sources.py --skip-empty --download --report .temp/datasheet_fetch/report.json
+```
+
+<!-- /DATASHEET_FACTCHECK_FOOTER -->

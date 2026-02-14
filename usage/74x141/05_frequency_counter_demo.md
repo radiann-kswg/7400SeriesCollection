@@ -375,3 +375,23 @@ Q1 (pin 13) ---|
 ### 実用的な測定範囲
 
 本回路（1 桁、0 ～ 9Hz）は教育用デモやオーディオ周波数帯の超低域測定に適しています。実用的な周波数カウンタとしては、少なくとも 3 桁（0 ～ 999Hz）以上を推奨します。
+
+
+---
+
+<!-- DATASHEET_FACTCHECK_FOOTER -->
+
+## 一次資料（参照情報と検証）
+
+- 参照情報: [../../datasheets/datasheet_sources.json](../../datasheets/datasheet_sources.json)
+- 検証スクリプト: [../../scripts/check_datasheet_sources.py](../../scripts/check_datasheet_sources.py)
+
+リポジトリルートで以下を実行:
+
+```bash
+python3 scripts/check_datasheet_sources.py --skip-empty --report .temp/datasheet_fetch/report.json
+# （必要ならDL+sha256）
+python3 scripts/check_datasheet_sources.py --skip-empty --download --report .temp/datasheet_fetch/report.json
+```
+
+<!-- /DATASHEET_FACTCHECK_FOOTER -->

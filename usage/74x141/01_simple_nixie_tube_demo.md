@@ -264,3 +264,23 @@ BCD 入力を順次変更し、対応する数字が表示されることを確�
 
 - [datasheets/datasheet_sources.example.json](../../datasheets/datasheet_sources.example.json)
 - [datasheets/7400_series_ic_datasheet_collection_status.json](../../datasheets/7400_series_ic_datasheet_collection_status.json)
+
+
+---
+
+<!-- DATASHEET_FACTCHECK_FOOTER -->
+
+## 一次資料（参照情報と検証）
+
+- 参照情報: [../../datasheets/datasheet_sources.json](../../datasheets/datasheet_sources.json)
+- 検証スクリプト: [../../scripts/check_datasheet_sources.py](../../scripts/check_datasheet_sources.py)
+
+リポジトリルートで以下を実行:
+
+```bash
+python3 scripts/check_datasheet_sources.py --skip-empty --report .temp/datasheet_fetch/report.json
+# （必要ならDL+sha256）
+python3 scripts/check_datasheet_sources.py --skip-empty --download --report .temp/datasheet_fetch/report.json
+```
+
+<!-- /DATASHEET_FACTCHECK_FOOTER -->
