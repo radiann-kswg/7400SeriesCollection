@@ -132,7 +132,7 @@ def infer_generic_part_number(exact: str, *, context_part_numbers: Optional[List
 
     # K155ID1 は 74x141 文書でのみ確実に使うなど、文脈から推定
     if context_part_numbers:
-        # usage/74x141 配下なら、K155系は 74x141 に寄せる
+        # usage/{category}/74x141/ 配下なら、K155系は 74x141 に寄せる
         if (exact.startswith("K155") or exact.startswith("К155")) and any(pn == "74x141" for pn in context_part_numbers):
             return "74x141"
 
@@ -181,12 +181,29 @@ def extract_from_usage() -> List[Tuple[str, List[str]]]:
     """Return list of (exact_part, context_part_numbers_from_path)."""
 
     out: List[Tuple[str, List[str]]] = []
-    for md in sorted(USAGE_DIR.glob("74x**/*.md")):
+    # New layout: usage/{category}/{74xNN}/**.md
+    for md in sorted(USAGE_DIR.glob("**/*.md")):
         if not md.is_file():
             continue
 
-        context = md.parent.name  # e.g. "74x141" or "74x181,182"
-        context_pns = [p.strip() for p in context.split(",") if p.strip()]
+        rel = md.relative_to(USAGE_DIR)
+        if not rel.parts:
+            continue
+
+        # Skip templates and index pages
+        if rel.parts[0].startswith("_"):
+            continue
+        if md.name.lower() == "index.md":
+            continue
+        if len(rel.parts) < 2:
+            # e.g. usage/index.md
+            continue
+
+        part_dir = rel.parts[1]  # e.g. "74x141" or "74x181,182"
+        if not part_dir.startswith("74x"):
+            continue
+
+        context_pns = [p.strip() for p in part_dir.split(",") if p.strip()]
 
         text = md.read_text(encoding="utf-8")
         for exact in extract_exact_parts_from_text(text):

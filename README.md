@@ -45,10 +45,12 @@
 │   ├── split_overview_by_logic_category.py # overviewを論理分類で分割
 │   └── sort_datasheet_by_partnumber.py  # データシートソート
 └── usage/                                # 回路設計実例
-    ├── 74x141/                           # ニキシー管ドライバ回路例
-    └── 74x181,182/                       # ALU回路例
-
-※ `usage/cheatsheets/` に汎用型番（`74xNN`）チートシートを追加します（自動生成）。
+  ├── 06_encoders_decoders/             # カテゴリ
+  │   └── 74x141/                       # パーツ番号
+  │       ├── 74x141.md                 # チートシート（自動生成）
+  │       └── 01_simple_nixie_tube_demo.md  # 実回路例（手書き）
+  └── 10_arithmetic/
+    └── 74x181,182/                   # 複数IC連携時はカンマ区切り
 ```
 
 ## 📊 データファイル説明
@@ -196,14 +198,16 @@ VS Code から実行可能なタスク：
 ```
 
 usage/
+└── {カテゴリ名}/
 └── 74x{型番}/
+├── 74x{型番}.md # チートシート（自動生成）
 ├── 01*回路名.md
 ├── 02*回路名.md
 └── ...
 
-```
+````
 
-## 🧾 汎用型番チートシート（usage/cheatsheets）
+## 🧾 汎用型番チートシート（usage/{カテゴリ}/{74xNN}/）
 
 `overview/7400_series_ic_overview.json` を元に、汎用型番（`74xNN`）ごとのチートシートを生成します。
 
@@ -212,7 +216,7 @@ usage/
 
 ```bash
 python3 scripts/generate_usage_cheatsheets.py
-```
+````
 
 方針: ピン配置/真理値表/電気特性などの断定は一次資料が必要なため、未検証のまま書かない（リンクとチェックリスト中心）。
 

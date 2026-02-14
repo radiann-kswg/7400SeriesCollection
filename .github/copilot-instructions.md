@@ -496,12 +496,27 @@ history_path = os.path.join(base_dir, 'getstarting', '7400_series_ic_collection_
 - 74x 系は互換に見えても、ファミリ/メーカー/パッケージで差異があり得ます。
 - 「よくあるピン配置」等の一般知識だけで確定記述しないでください。
 
-2. **一次資料は「ローカルで入手できるPDF（Git管理外になり得る）」を最優先**
+2. **一次資料の“正（優先順位）”**
 
-- `datasheets/_download/` 配下に対象メーカーの PDF がある場合は、それを優先して確認します。
-- ただし本リポジトリは将来的に **PDF を `.gitignore` で除外**し、MITライセンスで公開可能にする想定です。
-  - 公開状態でも検証可能性を担保するため、一次資料の **URL / Document ID / Revision / 参照日** を必ず残します（本文の転載は避け、要約＋リンク中心）。
-  - 参考テンプレ: `datasheets/datasheet_sources.example.json`
+一次資料の参照は、原則として次の優先順位で扱います。
+
+1. **Web自動取得PDF（`datasheets/datasheet_sources.json` のURLを `scripts/check_datasheet_sources.py --download` で取得できるもの）**
+
+- URL到達性や sha256 を機械的に記録でき、検証の再現性が高い
+
+2. **`datasheets/_download/` の手動入手PDF（整合確認用）**
+
+- 既に手元にある資料を使って“正しそうか”を確認する用途（ただし公開リポでの再現性は URL/DocID/Rev/参照日 で担保する）
+
+3. **Web検索 + 手動確認情報（URL/DocID/Rev/参照日）**
+
+- 1. 2. が用意できない場合の補助（一次資料と矛盾する情報があれば一次資料を優先し、矛盾点を明示してユーザー確認）
+
+補足:
+
+- 本リポジトリは将来的に **PDF を `.gitignore` で除外**し、MITライセンスで公開可能にする想定です。
+- 公開状態でも検証可能性を担保するため、一次資料の **URL / Document ID / Revision / 参照日** を必ず残します（本文の転載は避け、要約＋リンク中心）。
+- 参考テンプレ: `datasheets/datasheet_sources.example.json`
 
 3. **PDF がGit管理外（手元にしか無い）場合の“参照の残し方”**
 
@@ -536,16 +551,21 @@ history_path = os.path.join(base_dir, 'getstarting', '7400_series_ic_collection_
 
 ---
 
-### 追加: usage/cheatsheets（汎用型番チートシート）
+### 追加: usage/（回路例 + 汎用型番チートシート）
 
-`usage/cheatsheets/` は、`overview/7400_series_ic_overview.json` を元にした **汎用型番（74xNN）単位**のチートシート置き場です。
+`usage/` 配下は、**カテゴリ単位**で整理し、さらに **汎用型番（74xNN）単位**でサブディレクトリを切って管理します。
 
-- 生成スクリプト: `scripts/generate_usage_cheatsheets.py`
+- ディレクトリ構造: `usage/{カテゴリ名}/{パーツ番号}/**.md`
+  - 例: `usage/07_data_selectors_mux_demux/74x153/74x153.md`
 - 方針: 断定が必要な仕様（ピン配置・真理値表・電気特性など）は一次資料が必要なので、未検証のまま書かない
-- 書いてよい内容（例）:
-  - overview由来の説明（機能/カテゴリ/レア度）
-  - 一般的な配線注意（入力フローティング禁止、デカップリング、ファミリ差など）
-  - 一次資料確認のチェックリストと参照導線（URL/Doc ID/Rev/参照日）
+- 生成スクリプト（チートシート）: `scripts/generate_usage_cheatsheets.py`
+- 既存の回路例（手書きMarkdown）も、同じ `{カテゴリ名}/{パーツ番号}` 配下へ統合して置く
+
+チートシートに書いてよい内容（例）:
+
+- overview由来の説明（機能/カテゴリ/レア度）
+- 一般的な配線注意（入力フローティング禁止、デカップリング、ファミリ差など）
+- 一次資料確認のチェックリストと参照導線（URL/Doc ID/Rev/参照日）
 
 ### パーツ情報の参照元
 

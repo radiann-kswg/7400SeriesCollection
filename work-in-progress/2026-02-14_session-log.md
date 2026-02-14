@@ -10,7 +10,7 @@
 
 ## この会話で行った主な作業（時系列要約）
 
-- `overview/7400_series_ic_overview.json` を元に、汎用型番(74xNN)ごとのチートシートを `usage/cheatsheets/` 配下へ生成する仕組みを追加。
+- `overview/7400_series_ic_overview.json` を元に、汎用型番(74xNN)ごとのチートシートを `usage/{category}/{74xNN}/{74xNN}.md` へ生成する仕組みを追加。
 - `usage/` ドキュメントに「一次資料参照（URL/DocID/Rev/参照日）を残し、本文転載はしない」方針を明文化。
 - MIT 公開前提で、`datasheets/` 配下のPDFをGit管理外にする運用へ寄せた。
 - `datasheets/datasheet_sources.json` を「一次資料URLの正本レジストリ」として拡充し、チェック/更新の自動化を追加。

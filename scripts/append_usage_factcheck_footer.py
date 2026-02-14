@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-"""usage/74x**/*.md の末尾へ一次資料参照/検証コマンドの定型フッターを追記する。
+"""usage/{category}/{74xNN}/**.md の末尾へ一次資料参照/検証コマンドの定型フッターを追記する。
 
 - 追記は冪等（マーカーがあればスキップ）
 - Markdown内のリンクは「各ドキュメントから見た相対パス」で生成
@@ -25,15 +25,37 @@ MARKER_END = "<!-- /DATASHEET_FACTCHECK_FOOTER -->"
 
 
 def iter_usage_markdown_files() -> Iterable[Path]:
-    # 要件: usage/74x**/ 配下
-    for path in sorted(USAGE_DIR.glob("74x**/*.md")):
-        if path.is_file():
-            yield path
+    # New layout: usage/{category}/{74xNN}/**.md
+    for path in sorted(USAGE_DIR.glob("**/*.md")):
+        if not path.is_file():
+            continue
+
+        rel = path.relative_to(USAGE_DIR)
+        if not rel.parts:
+            continue
+
+        # Skip templates and index pages
+        if rel.parts[0].startswith("_"):
+            continue
+        if path.name.lower() == "index.md":
+            continue
+        if len(rel.parts) < 2:
+            continue
+
+        part_dir = rel.parts[1]
+        if not part_dir.startswith("74x"):
+            continue
+
+        # Skip auto-generated cheatsheet page: usage/{category}/{74xNN}/{74xNN}.md
+        if path.name == f"{part_dir}.md":
+            continue
+
+        yield path
 
 
 def build_footer_for(doc_path: Path) -> str:
     rel = doc_path.relative_to(REPO_ROOT)
-    depth = len(rel.parent.parts)  # e.g. usage/74x141 => 2
+    depth = len(rel.parent.parts)  # e.g. usage/06_encoders_decoders/74x141 => 3
     prefix = "../" * depth
 
     datasheet_sources_link = f"{prefix}datasheets/datasheet_sources.json"
@@ -65,7 +87,7 @@ def ensure_trailing_newline(text: str) -> str:
 
 
 def main() -> int:
-    parser = argparse.ArgumentParser(description="Append fact-check footer to usage/74x**/*.md")
+    parser = argparse.ArgumentParser(description="Append fact-check footer to usage/{category}/{74xNN}/**.md")
     parser.add_argument("--apply", action="store_true", help="Actually write changes")
     args = parser.parse_args()
 

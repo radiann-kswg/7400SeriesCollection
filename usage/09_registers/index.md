@@ -1,0 +1,108 @@
+# 09_registers
+
+このカテゴリ配下の汎用型番チートシート一覧です。
+
+- [74x164](./74x164/74x164.md) — 8-bit serial-in/parallel-out shift register
+- [74x165](./74x165/74x165.md) — 8-bit parallel-in/serial-out shift register
+- [74x166](./74x166/74x166.md) — 8-bit parallel-in/serial-out shift register
+- [74x173](./74x173/74x173.md) — 4-bit D-type register with 3-state outputs
+- [74x178](./74x178/74x178.md) — 4-bit parallel-access shift register
+- [74x194](./74x194/74x194.md) — 4-bit bidirectional universal shift register
+- [74x195](./74x195/74x195.md) — 4-bit parallel-access shift register
+- [74x198](./74x198/74x198.md) — 8-bit bidirectional universal shift register
+- [74x199](./74x199/74x199.md) — 8-bit universal shift register, J-/K serial inputs
+- [74x242](./74x242/74x242.md) — Quad bus transceiver, inverting outputs
+- [74x243](./74x243/74x243.md) — quad bus transceiver, non-inverting outputs
+- [74x245](./74x245/74x245.md) — Octal bus transceiver, 3-state outputs
+- [74x246](./74x246/74x246.md) — Octal bus transceiver, inverting, 3-state outputs
+- [74x286](./74x286/74x286.md) — 9-bit parity generator/checker, bus driver parity I/O
+- [74x295](./74x295/74x295.md) — Quad 2-bit bidirectional universal shift register
+- [74x299](./74x299/74x299.md) — 8-bit universal shift/storage register
+- [74x322](./74x322/74x322.md) — 8-bit shift register, sign extend, three-state
+- [74x364](./74x364/74x364.md) — octal edge-triggered D-type register, three-state
+- [74x378](./74x378/74x378.md) — 6-bit register, clock enable
+- [74x379](./74x379/74x379.md) — 4-bit register, clock enable and complementary outputs
+- [74x380](./74x380/74x380.md) — 8-bit multifunction register (combines features of x374, x377, x273, x534 ICs), three-state
+- [74x383](./74x383/74x383.md) — 8-bit register, open-collector outputs
+- [74x388](./74x388/74x388.md) — 4-bit D-type register, three-state and standard outputs
+- [74x395](./74x395/74x395.md) — 4-bit cascadable shift register
+- [74x396](./74x396/74x396.md) — octal storage registers, parallel access
+- [74x407](./74x407/74x407.md) — Data access register
+- [74x440](./74x440/74x440.md) — Quad tridirectional bus transceiver, non-inverting, open-collector
+- [74x441](./74x441/74x441.md) — Quad tridirectional bus transceiver, inverting, open-collector
+- [74x442](./74x442/74x442.md) — Quad tridirectional bus transceiver, non-inverting, three-state
+- [74x443](./74x443/74x443.md) — Quad tridirectional bus transceiver, inverting, three-state
+- [74x444](./74x444/74x444.md) — Quad tridirectional bus transceiver, inverting and non-inverting, three-state
+- [74x446](./74x446/74x446.md) — Quad bus transceivers, direction controls, inverting outputs
+- [74x448](./74x448/74x448.md) — Quad tridirectional bus transceiver, inverting and non-inverting, open-collector
+- [74x449](./74x449/74x449.md) — Quad bus transceivers, direction controls, non-inverting outputs
+- [74x498](./74x498/74x498.md) — 8-bit bidirectional shift register with parallel inputs
+- [74x502](./74x502/74x502.md) — 8-bit successive approximation register
+- [74x503](./74x503/74x503.md) — 8-bit successive approximation register with expansion control
+- [74x504](./74x504/74x504.md) — 12-bit successive approximation register with expansion control
+- [74x524](./74x524/74x524.md) — 8-bit registered comparator, open-collector
+- [74x532](./74x532/74x532.md) — Octal register, three-state outputs
+- [74x536](./74x536/74x536.md) — Octal register, inverting outputs, three-state
+- [74x543](./74x543/74x543.md) — Octal registered transceiver, non-inverting, three-state
+- [74x544](./74x544/74x544.md) — Octal registered transceiver, inverting, three-state
+- [74x545](./74x545/74x545.md) — Octal bidirectional transceiver, non-inverting, three-state
+- [74x546](./74x546/74x546.md) — 8-bit bidirectional registered transceiver, non-inverting, three-state
+- [74x548](./74x548/74x548.md) — 8-bit two-stage pipelined register, three-state
+- [74x550](./74x550/74x550.md) — Octal registered transceiver with status flags, non-inverting, three-state
+- [74x551](./74x551/74x551.md) — Octal registered transceiver with status flags, inverting, three-state
+- [74x552](./74x552/74x552.md) — Octal registered transceiver with parity and flags, three-state
+- [74x566](./74x566/74x566.md) — 8-bit bidirectional registered transceiver, inverting, three-state
+- [74x590](./74x590/74x590.md) — 8-bit binary counter with output register
+- [74x591](./74x591/74x591.md) — 8-bit binary counter with output registers, open-collector
+- [74x592](./74x592/74x592.md) — 8-bit binary counter with input registers
+- [74x593](./74x593/74x593.md) — 8-bit binary counter with input registers, three-state
+- [74x597](./74x597/74x597.md) — 8-bit parallel-in/serial-out shift register
+- [74x614](./74x614/74x614.md) — Octal bus transceiver and register, inverting, open-collector
+- [74x615](./74x615/74x615.md) — Octal bus transceiver and register, non-inverting, open-collector
+- [74x620](./74x620/74x620.md) — Octal bus transceiver, inverting, 3-state outputs
+- [74x621](./74x621/74x621.md) — Octal bus transceiver, non-inverting, open-collector
+- [74x622](./74x622/74x622.md) — Octal bus transceiver, inverting, open-collector
+- [74x623](./74x623/74x623.md) — Octal bus transceiver, non-inverting, 3-state outputs
+- [74x638](./74x638/74x638.md) — Octal bus transceiver, inverting outputs, three-state/open-collector
+- [74x639](./74x639/74x639.md) — Octal bus transceiver, non-inverting outputs, three-state/open-collector
+- [74x640](./74x640/74x640.md) — Octal bus transceiver, inverting, 3-state outputs
+- [74x641](./74x641/74x641.md) — Octal bus transceiver, non-inverting outputs, open-collector
+- [74x642](./74x642/74x642.md) — Octal bus transceiver, inverting outputs, open-collector
+- [74x643](./74x643/74x643.md) — Octal bus transceiver, mixed inverting/non-inverting, three-state
+- [74x644](./74x644/74x644.md) — Octal bus transceiver, mixed inverting/non-inverting, open-collector
+- [74x645](./74x645/74x645.md) — Octal bus transceiver, non-inverting, 3-state outputs
+- [74x651](./74x651/74x651.md) — Octal bus transceiver/register, inverting, three-state
+- [74x652](./74x652/74x652.md) — Octal bus transceiver/register, non-inverting, three-state
+- [74x653](./74x653/74x653.md) — Octal bus transceiver/register, inverting, three-state/open-collector
+- [74x654](./74x654/74x654.md) — Octal bus transceiver/register, non-inverting, three-state/open-collector
+- [74x657](./74x657/74x657.md) — Octal bidirectional transceiver with 8-bit parity generator/checker, three-state
+- [74x658](./74x658/74x658.md) — Octal bus transceiver with parity, inverting, three-state
+- [74x659](./74x659/74x659.md) — Octal bus transceiver with parity, non-inverting, three-state
+- [74x664](./74x664/74x664.md) — Octal bus transceiver with parity, inverting, three-state
+- [74x665](./74x665/74x665.md) — Octal bus transceiver with parity, non-inverting, three-state
+- [74x673](./74x673/74x673.md) — 16-bit serial-in, serial/parallel-out shift register with output storage, three-state
+- [74x674](./74x674/74x674.md) — 16-bit parallel-in, serial-out shift register, three-state
+- [74x675](./74x675/74x675.md) — 16-bit serial-in, serial/parallel-out shift register
+- [74x676](./74x676/74x676.md) — 16-bit serial/parallel-in, serial-out shift register
+- [74x701](./74x701/74x701.md) — 8-bit register/counter/comparator
+- [74x702](./74x702/74x702.md) — 8-bit registered read-back transceiver
+- [74x759](./74x759/74x759.md) — Quadruple bus transceivers, non-inverting outputs, open-collector
+- [74x794](./74x794/74x794.md) — 8-bit register with readback
+- [74x808](./74x808/74x808.md) — Bidirectional 8-bit bus driver, 3-state outputs
+- [74x818](./74x818/74x818.md) — 8-bit diagnostic register
+- [74x819](./74x819/74x819.md) — 8-bit diagnostic/pipeline register
+- [74x832](./74x832/74x832.md) — Octal bus driver, 3-state outputs
+- [74x833](./74x833/74x833.md) — 8-bit to 9-bit bus transceiver with parity register, non-inverting
+- [74x834](./74x834/74x834.md) — 8-bit to 9-bit bus transceiver with parity register, inverting
+- [74x861](./74x861/74x861.md) — 10-bit bus transceiver, non-inverting
+- [74x862](./74x862/74x862.md) — 10-bit bus transceiver, inverting
+- [74x863](./74x863/74x863.md) — 9-bit bus transceiver, non-inverting
+- [74x864](./74x864/74x864.md) — 9-bit bus transceiver, inverting
+- [74x905](./74x905/74x905.md) — 12-bit successive approximation register
+- [74x91](./74x91/74x91.md) — 8-bit shift register, serial in/out, gated input
+- [74x95](./74x95/74x95.md) — 4-bit shift register, parallel in/parallel out, serial input
+- [74x99](./74x99/74x99.md) — 4-bit bidirectional universal shift register
+
+---
+
+生成日時: 2026-02-14

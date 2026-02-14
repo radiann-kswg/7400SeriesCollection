@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate per-part cheat sheets under usage/cheatsheets/ from overview data.
+"""Generate per-part cheat sheets under usage/{category}/{part}/ from overview data.
 
 Design goals:
 - Idempotent by default: does not overwrite existing part pages.
@@ -24,7 +24,7 @@ from typing import Any, Iterable
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 OVERVIEW_JSON_PATH = REPO_ROOT / "overview" / "7400_series_ic_overview.json"
-DEFAULT_OUTPUT_DIR = REPO_ROOT / "usage" / "cheatsheets"
+DEFAULT_OUTPUT_DIR = REPO_ROOT / "usage"
 TEMPLATES_DIR = REPO_ROOT / "usage" / "_templates"
 
 
@@ -127,9 +127,9 @@ def _render_part_page(part: Part) -> str:
 
 ### 参照候補（このリポ内）
 
-- overview: [overview/7400_series_ic_overview.json](../../overview/7400_series_ic_overview.json)
-- datasheet収集状況: [datasheets/7400_series_ic_datasheet_collection_status.json](../../datasheets/7400_series_ic_datasheet_collection_status.json)
-- 入手履歴: [getstarting/7400_series_ic_collection_acquisition_history.json](../../getstarting/7400_series_ic_collection_acquisition_history.json)
+- overview: [overview/7400_series_ic_overview.json](../../../overview/7400_series_ic_overview.json)
+- datasheet収集状況: [datasheets/7400_series_ic_datasheet_collection_status.json](../../../datasheets/7400_series_ic_datasheet_collection_status.json)
+- 入手履歴: [getstarting/7400_series_ic_collection_acquisition_history.json](../../../getstarting/7400_series_ic_collection_acquisition_history.json)
 
 ## 参考リンク（外部）
 
@@ -150,7 +150,7 @@ def _render_cheatsheets_index(parts: Iterable[Part]) -> str:
     lines: list[str] = []
     lines.append("# 7400シリーズ 汎用型番チートシート (Index)")
     lines.append("")
-    lines.append("このディレクトリは `overview/7400_series_ic_overview.json` から自動生成する **汎用型番（74xNN）単位**のチートシート集です。")
+    lines.append("このディレクトリ（`usage/`）配下に `usage/{カテゴリ}/{74xNN}/{74xNN}.md` として自動生成する **汎用型番（74xNN）単位**のチートシート集です。")
     lines.append("")
     lines.append("- 1パーツ = 1ファイル")
     lines.append("- 仕様断定（ピン配置/電気特性/真理値表など）は一次資料が必要なので、未検証のまま書かない方針")
@@ -177,7 +177,7 @@ def _render_category_index(category: str, parts: list[Part]) -> str:
 
     for part in sorted(parts, key=lambda p: p.part_number):
         pn = _normalize_part_number(part.part_number)
-        lines.append(f"- [{pn}](./{pn}.md) — {part.description}")
+        lines.append(f"- [{pn}](./{pn}/{pn}.md) — {part.description}")
 
     lines.append("")
     lines.append("---")
@@ -224,6 +224,11 @@ def main() -> int:
     parser.add_argument("--overview", type=Path, default=OVERVIEW_JSON_PATH)
     parser.add_argument("--output", type=Path, default=DEFAULT_OUTPUT_DIR)
     parser.add_argument("--force", action="store_true", help="Overwrite existing markdown files")
+    parser.add_argument(
+        "--write-root-index",
+        action="store_true",
+        help="Also (re)generate usage/index.md. Off by default to avoid overwriting manual navigation.",
+    )
 
     args = parser.parse_args()
 
@@ -234,8 +239,9 @@ def main() -> int:
 
     # Part pages
     for part in parts:
-        category_dir = args.output / part.category
-        filename = f"{_normalize_part_number(part.part_number)}.md"
+        pn = _normalize_part_number(part.part_number)
+        category_dir = args.output / part.category / pn
+        filename = f"{pn}.md"
         out_path = category_dir / filename
         if _write_text(out_path, _render_part_page(part), force=args.force):
             written_part_pages += 1
@@ -243,7 +249,8 @@ def main() -> int:
             skipped_part_pages += 1
 
     # Indexes
-    _write_text(args.output / "index.md", _render_cheatsheets_index(parts), force=True)
+    if args.write_root_index:
+        _write_text(args.output / "index.md", _render_cheatsheets_index(parts), force=True)
 
     category_to_parts: dict[str, list[Part]] = {}
     for part in parts:
@@ -298,6 +305,7 @@ def main() -> int:
     print(f"parts:    {len(parts)}")
     print(f"written:  {written_part_pages}")
     print(f"skipped:  {skipped_part_pages}")
+    print(f"root_index:{'written' if args.write_root_index else 'skipped'}")
 
     return 0
 
