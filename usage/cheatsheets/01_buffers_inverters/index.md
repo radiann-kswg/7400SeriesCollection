@@ -1,0 +1,74 @@
+# 01_buffers_inverters
+
+このカテゴリ配下の汎用型番チートシート一覧です。
+
+- [74x04](./74x04.md) — Hex inverter
+- [74x05](./74x05.md) — Hex inverter with open-collector outputs
+- [74x06](./74x06.md) — Hex inverter buffer/driver with open-collector outputs
+- [74x07](./74x07.md) — Hex buffer/drivers with open-collector outputs
+- [74x1000](./74x1000.md) — quad 2-input NAND gate (driver series)
+- [74x1002](./74x1002.md) — quad 2-input NOR gate (driver series)
+- [74x1003](./74x1003.md) — quad 2-input NAND gate, open-collector driver
+- [74x1004](./74x1004.md) — hex inverting buffer (driver series)
+- [74x1020](./74x1020.md) — dual 4-input NAND gate (driver series)
+- [74x1032](./74x1032.md) — quad 2-input OR gate (driver series)
+- [74x1244](./74x1244.md) — octal buffer / driver, non-inverting (lower-power version of 74x244)
+- [74x125](./74x125.md) — Quad bus buffer, tri-state outputs
+- [74x126](./74x126.md) — Quad bus buffer, tri-state outputs
+- [74x128](./74x128.md) — Quad 2-input NOR gate, 50Ω driver outputs
+- [74x14](./74x14.md) — Hex Schmitt-trigger inverter
+- [74x16](./74x16.md) — Hex inverter, open-collector (15 V / 40 mA)
+- [74x17](./74x17.md) — Hex buffer, open-collector (15 V / 40 mA)
+- [74x19](./74x19.md) — Hex inverter with Schmitt-trigger inputs
+- [74x210](./74x210.md) — Octal buffer, inverting, three-state
+- [74x230](./74x230.md) — Dual 4-bit buffer/driver (one inverted, one non-inverted), neg enable
+- [74x231](./74x231.md) — Dual 4-bit buffer/driver (both inverted), pos/neg enable
+- [74x240](./74x240.md) — Octal buffer/line driver, inverting, 3-state outputs
+- [74x241](./74x241.md) — Octal buffer/line driver, non-inverting, 3-state outputs
+- [74x244](./74x244.md) — Octal buffer/line driver, non-inverting, 3-state outputs
+- [74x303](./74x303.md) — octal divide-by-2 clock driver, 2 outputs inverted
+- [74x304](./74x304.md) — octal divide-by-2 clock driver
+- [74x305](./74x305.md) — octal divide-by-2 clock driver, 4 outputs inverted
+- [74x310](./74x310.md) — octal buffer, inverting outputs, Schmitt-trigger inputs, three-state
+- [74x337](./74x337.md) — clock driver, three-state
+- [74x34](./74x34.md) — hex buffer gate
+- [74x340](./74x340.md) — octal buffer, inverting outputs, Schmitt-trigger inputs, three-state
+- [74x341](./74x341.md) — octal buffer, non-inverting outputs, Schmitt-trigger inputs, three-state
+- [74x344](./74x344.md) — octal buffer, non-inverting outputs, Schmitt-trigger inputs, three-state
+- [74x365](./74x365.md) — Hex buffer/line driver, 3-state outputs
+- [74x366](./74x366.md) — Hex buffer/line driver, inverting, 3-state outputs
+- [74x367](./74x367.md) — Hex buffer/line driver, non-inverting, 3-state outputs
+- [74x368](./74x368.md) — Hex buffer/line driver, inverting, 3-state outputs
+- [74x37](./74x37.md) — Quad 2-input NAND buffer/driver with open-collector outputs
+- [74x38](./74x38.md) — Quad 2-input NAND buffer/driver with open-collector outputs
+- [74x39](./74x39.md) — Quad 2-input AND buffer/driver with open-collector outputs
+- [74x40](./74x40.md) — Hex inverter buffer/driver with open-collector outputs
+- [74x425](./74x425.md) — Quad bus buffers, active-low enables
+- [74x426](./74x426.md) — Quad bus buffers, active-high enables
+- [74x465](./74x465.md) — Octal buffer/line driver, non-inverting, three-state
+- [74x466](./74x466.md) — Octal buffer/line driver, inverting, three-state
+- [74x467](./74x467.md) — Octal buffers/line drivers, non-inverting, three-state
+- [74x468](./74x468.md) — Octal buffers/line drivers, inverting, three-state
+- [74x540](./74x540.md) — Octal buffer/line driver, inverting, 3-state outputs
+- [74x541](./74x541.md) — Octal buffer/line driver, non-inverting, 3-state outputs
+- [74x740](./74x740.md) — Dual 4-bit line driver, inverting
+- [74x760](./74x760.md) — Octal buffer/line driver, non-inverting, open-collector
+- [74x762](./74x762.md) — Octal buffer/line driver, inverting and non-inverting outputs, open-collector
+- [74x763](./74x763.md) — Octal buffer/line driver, inverting outputs, complementary enables, open-collector
+- [74x795](./74x795.md) — Octal buffer, non-inverting, shared enable
+- [74x796](./74x796.md) — Octal buffer, inverting, shared enable
+- [74x797](./74x797.md) — Octal buffer, non-inverting, grouped enables
+- [74x798](./74x798.md) — Octal buffer, inverting, grouped enables
+- [74x800](./74x800.md) — Triple 4-input AND/NAND drivers
+- [74x802](./74x802.md) — Triple 4-input OR/NOR drivers
+- [74x804](./74x804.md) — Octal buffer/line driver, 3-state outputs
+- [74x827](./74x827.md) — 10-bit buffer, non-inverting
+- [74x828](./74x828.md) — 10-bit buffer, inverting
+- [74x906](./74x906.md) — hex open drain n-channel buffers
+- [74x907](./74x907.md) — hex open drain p-channel buffers
+- [74x908](./74x908.md) — dual 2-input NAND 30 V / 250 mA relay driver
+- [74x918](./74x918.md) — dual 2-input NAND 30 V / 250 mA relay driver
+
+---
+
+生成日時: 2026-02-14

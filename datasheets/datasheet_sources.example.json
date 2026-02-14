@@ -1,0 +1,16 @@
+[
+  {
+    "PartNumber": "74x00",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74HC00N",
+        "Manufacturer": "TI(Texas Instruments)",
+        "DocumentId": "(例) SCLS041",
+        "Revision": "(例) Rev. S",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc00.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "一次資料のURL/文書番号/改訂を記録（本文の転載は避ける）"
+      }
+    ]
+  }
+]

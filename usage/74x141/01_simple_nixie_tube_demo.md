@@ -249,3 +249,18 @@ BCD 入力を順次変更し、対応する数字が表示されることを確�
 - K155ID1/К155ИД1 は 74x141 のソビエト版互換品
 - ニキシー管の寿命は通常 20,000 ～ 30,000 時間
 - 陰極焼付き（カソード・ポイズニング）防止のため、定期的に全桁を表示させることを推奨
+
+## 一次資料 / ファクトチェック
+
+> 本文中の「ピン配置・耐圧・許容電流」など実配線に直結する事項は、**対象の実型番/メーカー/パッケージを特定した一次資料**で確認した上で運用してください。
+> （`datasheets/_download/` のPDFは将来的にGit管理外になる想定です）
+
+- [ ] 対象の実型番（例: `K155ID1/К155ИД1`）とパッケージを明記
+- [ ] ピン配置（Pin configuration / Terminal functions）を一次資料で確認
+- [ ] 出力形式/耐圧/許容電流（ニキシー管高電圧駆動の要件）を一次資料で確認
+- [ ] 参照URL / Document ID / Revision / 参照日 を記録（転載は避け、リンク中心）
+
+参照テンプレ/管理データ:
+
+- [datasheets/datasheet_sources.example.json](../../datasheets/datasheet_sources.example.json)
+- [datasheets/7400_series_ic_datasheet_collection_status.json](../../datasheets/7400_series_ic_datasheet_collection_status.json)

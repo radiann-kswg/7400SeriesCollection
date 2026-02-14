@@ -2,5 +2,11 @@
 .[tT]emp/
 .[dD]ocuments/
 
+# Local datasheets (PDFs will be gitignored for public release)
+datasheets/_download/
+datasheets/_download/**
+**/*.pdf
+**/*.PDF
+
 *_temp.json
 .DS_Store

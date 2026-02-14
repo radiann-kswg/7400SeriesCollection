@@ -11,6 +11,7 @@
 - **購入計画支援**: レア度別の購入予定リスト
 - **データシート管理**: メーカー別データシートの収集状況追跡
 - **回路設計ナレッジベース**: 実際の使用例・回路設計情報の蓄積
+- **汎用型番チートシート**: `74xNN` ごとの要点・注意点・一次資料確認の導線
 
 ## 🗂️ ディレクトリ構造
 
@@ -46,6 +47,8 @@
 └── usage/                                # 回路設計実例
     ├── 74x141/                           # ニキシー管ドライバ回路例
     └── 74x181,182/                       # ALU回路例
+
+※ `usage/cheatsheets/` に汎用型番（`74xNN`）チートシートを追加します（自動生成）。
 ```
 
 ## 📊 データファイル説明
@@ -197,6 +200,21 @@ usage/
 ├── 01*回路名.md
 ├── 02*回路名.md
 └── ...
+
+```
+
+## 🧾 汎用型番チートシート（usage/cheatsheets）
+
+`overview/7400_series_ic_overview.json` を元に、汎用型番（`74xNN`）ごとのチートシートを生成します。
+
+- 入口: [usage/index.md](usage/index.md)
+- 生成スクリプト: [scripts/generate_usage_cheatsheets.py](scripts/generate_usage_cheatsheets.py)
+
+```bash
+python3 scripts/generate_usage_cheatsheets.py
+```
+
+方針: ピン配置/真理値表/電気特性などの断定は一次資料が必要なため、未検証のまま書かない（リンクとチェックリスト中心）。
 
 ```
 

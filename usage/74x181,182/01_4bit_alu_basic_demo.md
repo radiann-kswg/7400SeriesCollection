@@ -254,3 +254,18 @@ A=1100, B=1010
 **設計日**: 2025 年 11 月 10 日
 **使用 IC**: SN74S181NC
 **レア度**: ManiacRare(SSR)
+
+## 一次資料 / ファクトチェック
+
+> 本文中の「ピン配置・論理表・タイミング」など実配線に直結する事項は、**対象の実型番/メーカー/パッケージを特定した一次資料**で確認した上で運用してください。
+> （`datasheets/_download/` のPDFは将来的にGit管理外になる想定です）
+
+- [ ] 対象の実型番（例: `SN74S181NC`）とパッケージを明記
+- [ ] ピン配置（Pin configuration）/機能表（演算選択、極性）を一次資料で確認
+- [ ] 伝搬遅延/負荷条件（ファンアウト、IOL/IOH）を一次資料で確認
+- [ ] 参照URL / Document ID / Revision / 参照日 を記録（転載は避け、リンク中心）
+
+参照テンプレ/管理データ:
+
+- [datasheets/datasheet_sources.example.json](../../datasheets/datasheet_sources.example.json)
+- [datasheets/7400_series_ic_datasheet_collection_status.json](../../datasheets/7400_series_ic_datasheet_collection_status.json)
