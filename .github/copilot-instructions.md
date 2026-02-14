@@ -57,8 +57,8 @@
 │   ├── split_overview_by_logic_category.py # マスターデータを論理分類で分割
 │   └── sort_datasheet_by_partnumber.py  # データシートソート処理
 └── usage/
-    └── 74x*/*.md                         # 7400シリーズICを用いた回路設計情報
-                                          # （Markdown形式で追加予定）
+  └── {カテゴリ名}/{パーツ番号}/**.md     # 回路設計情報 + 汎用型番チートシート（統合構造）
+                       # 例: usage/06_encoders_decoders/74x141/74x141.md
 ```
 
 ---

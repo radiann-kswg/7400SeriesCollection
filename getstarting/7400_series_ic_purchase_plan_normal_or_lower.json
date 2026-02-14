@@ -1,5 +1,13 @@
 [
   {
+    "PartNumber": "74x00",
+    "Category": "02_nand_and_gates",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x01",
     "Category": "02_nand_and_gates",
     "GetStartingECS_JP": [],
@@ -8,9 +16,27 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x02",
+    "Category": "03_nor_or_gates",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x03",
     "Category": "02_nand_and_gates",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": [
+      "Mouser"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x04",
+    "Category": "01_buffers_inverters",
+    "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
@@ -24,11 +50,40 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x06",
+    "Category": "01_buffers_inverters",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x08",
+    "Category": "02_nand_and_gates",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x09",
+    "Category": "02_nand_and_gates",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x10",
     "Category": "02_nand_and_gates",
-    "GetStartingECS_JP": ["Mouser", "eBay(国際通販)"],
+    "GetStartingECS_JP": [
+      "Mouser",
+      "eBay(国際通販)"
+    ],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": ["74S10N"],
+    "GottenItemsMN_TTL": [
+      "74S10N"
+    ],
     "GottenItemsMN_Other": []
   },
   {
@@ -50,6 +105,14 @@
   {
     "PartNumber": "74x13",
     "Category": "02_nand_and_gates",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x14",
+    "Category": "01_buffers_inverters",
     "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
@@ -96,9 +159,27 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x20",
+    "Category": "02_nand_and_gates",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x21",
+    "Category": "02_nand_and_gates",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x25",
     "Category": "03_nor_or_gates",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": [
+      "Mouser"
+    ],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
@@ -106,31 +187,71 @@
   {
     "PartNumber": "74x26",
     "Category": "03_nor_or_gates",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": [
+      "Mouser"
+    ],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": ["SN74LS26N"],
+    "GottenItemsMN_TTL": [
+      "SN74LS26N"
+    ],
     "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x27",
     "Category": "03_nor_or_gates",
-    "GetStartingECS_JP": ["Mouser"],
-    "GottenItemsMN_CMOS": ["SN74HC27N", "CD74HC27E", "CD74HCT27E"],
+    "GetStartingECS_JP": [
+      "Mouser"
+    ],
+    "GottenItemsMN_CMOS": [
+      "SN74HC27N",
+      "CD74HC27E",
+      "CD74HCT27E"
+    ],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x30",
     "Category": "02_nand_and_gates",
-    "GetStartingECS_JP": ["eBay(国際通販)"],
+    "GetStartingECS_JP": [
+      "eBay(国際通販)"
+    ],
     "GottenItemsMN_CMOS": [],
-    "GottenItemsMN_TTL": ["74S30"],
+    "GottenItemsMN_TTL": [
+      "74S30"
+    ],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x32",
+    "Category": "03_nor_or_gates",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x37",
+    "Category": "01_buffers_inverters",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x38",
+    "Category": "01_buffers_inverters",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x39",
     "Category": "01_buffers_inverters",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": [
+      "Mouser"
+    ],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
@@ -138,7 +259,17 @@
   {
     "PartNumber": "74x40",
     "Category": "01_buffers_inverters",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": [
+      "Mouser"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x47",
+    "Category": "06_encoders_decoders",
+    "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
@@ -146,14 +277,16 @@
   {
     "PartNumber": "74x54",
     "Category": "05_flipflops_latches",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": [
+      "Mouser"
+    ],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
   },
   {
-    "PartNumber": "74x55",
-    "Category": "02_nand_and_gates",
+    "PartNumber": "74x74",
+    "Category": "05_flipflops_latches",
     "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
@@ -176,9 +309,147 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x86",
+    "Category": "04_xor_xnor_gates",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x90",
+    "Category": "08_counters",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x110",
     "Category": "02_nand_and_gates",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": [
+      "Mouser"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x123",
+    "Category": "16_analog_mixed_signal",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x125",
+    "Category": "01_buffers_inverters",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x126",
+    "Category": "01_buffers_inverters",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x132",
+    "Category": "02_nand_and_gates",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x136",
+    "Category": "04_xor_xnor_gates",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x137",
+    "Category": "06_encoders_decoders",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x138",
+    "Category": "06_encoders_decoders",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x139",
+    "Category": "06_encoders_decoders",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x145",
+    "Category": "06_encoders_decoders",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x148",
+    "Category": "06_encoders_decoders",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x151",
+    "Category": "07_data_selectors_mux_demux",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x153",
+    "Category": "07_data_selectors_mux_demux",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x156",
+    "Category": "06_encoders_decoders",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x157",
+    "Category": "07_data_selectors_mux_demux",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x158",
+    "Category": "07_data_selectors_mux_demux",
+    "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
@@ -192,8 +463,48 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x161",
+    "Category": "14_system_controllers_timing",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x162",
     "Category": "14_system_controllers_timing",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x163",
+    "Category": "14_system_controllers_timing",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x164",
+    "Category": "09_registers",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x165",
+    "Category": "09_registers",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x166",
+    "Category": "09_registers",
     "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
@@ -216,9 +527,67 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x173",
+    "Category": "09_registers",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x174",
+    "Category": "05_flipflops_latches",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x175",
     "Category": "05_flipflops_latches",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": [
+      "Mouser"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x191",
+    "Category": "14_system_controllers_timing",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x240",
+    "Category": "01_buffers_inverters",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x241",
+    "Category": "01_buffers_inverters",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x244",
+    "Category": "01_buffers_inverters",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x245",
+    "Category": "09_registers",
+    "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
@@ -226,7 +595,41 @@
   {
     "PartNumber": "74x246",
     "Category": "09_registers",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": [
+      "Mouser"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x247",
+    "Category": "06_encoders_decoders",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x251",
+    "Category": "07_data_selectors_mux_demux",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x253",
+    "Category": "07_data_selectors_mux_demux",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x257",
+    "Category": "07_data_selectors_mux_demux",
+    "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
@@ -240,9 +643,27 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x259",
+    "Category": "05_flipflops_latches",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x273",
     "Category": "05_flipflops_latches",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": [
+      "Mouser"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x283",
+    "Category": "10_arithmetic",
+    "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
@@ -256,15 +677,65 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x299",
+    "Category": "09_registers",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x365",
+    "Category": "01_buffers_inverters",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x368",
+    "Category": "01_buffers_inverters",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x373",
     "Category": "05_flipflops_latches",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": [
+      "Mouser"
+    ],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x374",
+    "Category": "05_flipflops_latches",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x393",
+    "Category": "08_counters",
+    "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
   },
   {
     "PartNumber": "74x422",
+    "Category": "16_analog_mixed_signal",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x423",
     "Category": "16_analog_mixed_signal",
     "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
@@ -336,6 +807,22 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x540",
+    "Category": "01_buffers_inverters",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x541",
+    "Category": "01_buffers_inverters",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x560",
     "Category": "08_counters",
     "GetStartingECS_JP": [],
@@ -346,6 +833,22 @@
   {
     "PartNumber": "74x561",
     "Category": "14_system_controllers_timing",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x563",
+    "Category": "05_flipflops_latches",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x564",
+    "Category": "05_flipflops_latches",
     "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
@@ -368,7 +871,39 @@
     "GottenItemsMN_Other": []
   },
   {
+    "PartNumber": "74x573",
+    "Category": "05_flipflops_latches",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x574",
+    "Category": "05_flipflops_latches",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x590",
+    "Category": "09_registers",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
     "PartNumber": "74x594",
+    "Category": "05_flipflops_latches",
+    "GetStartingECS_JP": [],
+    "GottenItemsMN_CMOS": [],
+    "GottenItemsMN_TTL": [],
+    "GottenItemsMN_Other": []
+  },
+  {
+    "PartNumber": "74x595",
     "Category": "05_flipflops_latches",
     "GetStartingECS_JP": [],
     "GottenItemsMN_CMOS": [],
@@ -514,7 +1049,9 @@
   {
     "PartNumber": "74x804",
     "Category": "01_buffers_inverters",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": [
+      "Mouser"
+    ],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
@@ -522,7 +1059,9 @@
   {
     "PartNumber": "74x808",
     "Category": "09_registers",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": [
+      "Mouser"
+    ],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
@@ -530,7 +1069,9 @@
   {
     "PartNumber": "74x832",
     "Category": "09_registers",
-    "GetStartingECS_JP": ["Mouser"],
+    "GetStartingECS_JP": [
+      "Mouser"
+    ],
     "GottenItemsMN_CMOS": [],
     "GottenItemsMN_TTL": [],
     "GottenItemsMN_Other": []
