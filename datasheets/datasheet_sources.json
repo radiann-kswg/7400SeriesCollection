@@ -49,7 +49,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74s00.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1749181",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "TC74HC00AF",
@@ -112,7 +112,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f02.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1270654",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74HC02N",
@@ -125,7 +125,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc02.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2497596",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "TC74HC02AF",
@@ -205,9 +205,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74als04.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als04b.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als04b.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1452406",
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74AS04N",
@@ -220,7 +224,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74as04.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1452406",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74F04N",
@@ -233,16 +237,20 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f04.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1269385",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74H04N",
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74h04.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn7404.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn7404.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1542673",
+        "CheckedAt": "2026-02-14T06:47:21+00:00"
       },
       {
         "ExactPartNumber": "SN74HC04N",
@@ -255,7 +263,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2153599",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -267,9 +275,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74als05.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als05a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als05a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1271767",
+        "CheckedAt": "2026-02-14T06:47:21+00:00"
       },
       {
         "ExactPartNumber": "SN74HC05N",
@@ -282,7 +294,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc05.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2335723",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74LS05N",
@@ -295,7 +307,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls05.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1491956",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -313,7 +325,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls06.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1549857",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -372,7 +384,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als08.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1312700",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74AS08N",
@@ -385,7 +397,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74as08.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1312700",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74HC08N",
@@ -398,7 +410,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2047658",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -416,7 +428,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls09.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1440774",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -434,7 +446,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f10.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1268320",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74HC10N",
@@ -447,7 +459,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc10.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1989161",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -483,7 +495,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc11.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1971992",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -519,7 +531,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc14.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2078952",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -596,7 +608,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls20.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1454645",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -623,7 +635,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc21.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1929720",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -673,7 +685,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls26.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "740322",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -694,9 +706,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74als27.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als27a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als27a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1306104",
+        "CheckedAt": "2026-02-14T06:47:21+00:00"
       },
       {
         "ExactPartNumber": "SN74HC27N",
@@ -709,7 +725,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc27.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1965498",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -768,7 +784,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc32.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2124322",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -780,9 +796,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74als33.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn54als33a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn54als33a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "360838",
+        "CheckedAt": "2026-02-14T06:47:21+00:00"
       }
     ]
   },
@@ -828,7 +848,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls37.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1443640",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -855,7 +875,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls38.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1586733",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -910,7 +930,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls47.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1863827",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -993,7 +1013,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc73.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1210761",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1032,18 +1052,26 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74als74.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als74a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als74a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1329027",
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74AS74N",
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74as74.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74as74a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74as74a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1329027",
+        "CheckedAt": "2026-02-14T06:47:21+00:00"
       },
       {
         "ExactPartNumber": "SN74F74N",
@@ -1056,7 +1084,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f74.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1288808",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74HC74N",
@@ -1069,7 +1097,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc74.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2255847",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1087,7 +1115,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc75.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "549613",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "F7475PC",
@@ -1128,7 +1156,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc85.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1351081",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1173,7 +1201,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2434487",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1191,7 +1219,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls90.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1143972",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1235,9 +1263,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74als100.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn54als1002a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn54als1002a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "338718",
+        "CheckedAt": "2026-02-14T06:47:21+00:00"
       }
     ]
   },
@@ -1258,9 +1290,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74as103.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74as1034a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74as1034a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1278901",
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1287,7 +1323,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc107.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "658912",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "DM74LS107N",
@@ -1332,7 +1368,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f109.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "961318",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74HC109N",
@@ -1345,16 +1381,20 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc109.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1702885",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74LS109AN",
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls109.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls109a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls109a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "422480",
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1390,16 +1430,20 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc112.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1498388",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74LS112AN",
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls112.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls112a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls112a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1706709",
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1454,7 +1498,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74s124.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "705932",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1481,7 +1525,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f125.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "537040",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74HC125N",
@@ -1494,7 +1538,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc125.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2109740",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1512,7 +1556,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc126.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2109098",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1539,7 +1583,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc132.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2526348",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1566,7 +1610,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls136.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "831238",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1584,7 +1628,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc137.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1165885",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1620,7 +1664,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc138.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1988928",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1647,16 +1691,20 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc139.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1929574",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74LS139AN",
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls139.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls139a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls139a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1310151",
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1715,7 +1763,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls145.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1259714",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1742,7 +1790,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc147.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1064256",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1760,7 +1808,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc148.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1607857",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1787,7 +1835,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc151.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1796894",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "TC74HC151AP",
@@ -1855,7 +1903,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc154.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "268557",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1894,9 +1942,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls155.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls155a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls155a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "936556",
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1923,7 +1975,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als156.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "371555",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74LS156N",
@@ -1936,7 +1988,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls156.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "936556",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -1999,7 +2051,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc157.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2002804",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74HC157N",
@@ -2012,7 +2064,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc157.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2002804",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2039,7 +2091,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc158.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "730615",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2069,9 +2121,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74f161.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74f161a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f161a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "580111",
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74HC161N",
@@ -2084,7 +2140,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc161.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1426049",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2134,7 +2190,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc163.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1395498",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74S163N",
@@ -2147,7 +2203,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74s163.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1895226",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2183,7 +2239,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc164.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1553593",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74LS164N",
@@ -2196,7 +2252,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls164.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1444669",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2241,7 +2297,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc165.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1570269",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2268,7 +2324,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc166.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "997125",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2303,9 +2359,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls173.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls173a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls173a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1024425",
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "TC74HC173AF",
@@ -2341,7 +2401,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc174.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1958893",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2471,9 +2531,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74s181.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn54s181.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn54s181.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "616754",
+        "CheckedAt": "2026-02-14T06:47:21+00:00"
       }
     ]
   },
@@ -2494,9 +2558,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74s182.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn54s182.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn54s182.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "922993",
+        "CheckedAt": "2026-02-14T06:47:21+00:00"
       }
     ]
   },
@@ -2528,7 +2596,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc190.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1005926",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2546,7 +2614,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc191.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1203998",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2564,7 +2632,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc192.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "748588",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2582,7 +2650,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc193.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "830191",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2609,7 +2677,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc194.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "536395",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2650,7 +2718,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc221.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "755161",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2668,7 +2736,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc237.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1165885",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2695,7 +2763,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc238.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1292146",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2734,9 +2802,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74als240.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als240a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als240a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1506753",
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74LS240N",
@@ -2749,7 +2821,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls240.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1864968",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2785,7 +2857,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc241.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1947619",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74LS241N",
@@ -2798,7 +2870,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls241.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1864968",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2847,9 +2919,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74as244.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74as244a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74as244a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1505807",
+        "CheckedAt": "2026-02-14T06:47:21+00:00"
       },
       {
         "ExactPartNumber": "SN74HC244N",
@@ -2862,7 +2938,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc244.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2195410",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2898,7 +2974,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc245.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2942326",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2916,7 +2992,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls247.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "847950",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2948,7 +3024,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc251.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1996345",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74LS251N",
@@ -2961,7 +3037,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls251.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1414707",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -2979,7 +3055,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc253.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "313525",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "DM74ALS253N",
@@ -3018,9 +3094,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74als257.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als257a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als257a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1197723",
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74F257N",
@@ -3033,7 +3113,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f257.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "522568",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74HC257N",
@@ -3046,7 +3126,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc257.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1807913",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3096,7 +3176,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc259.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2218319",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3164,7 +3244,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc273.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2179592",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74HC273N",
@@ -3177,7 +3257,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc273.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2179592",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3226,9 +3306,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls279.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls279a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls279a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1258739",
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3258,9 +3342,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74s280.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn54s280.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn54s280.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "951517",
+        "CheckedAt": "2026-02-14T06:47:21+00:00"
       }
     ]
   },
@@ -3278,7 +3366,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc283.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "946454",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3296,7 +3384,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls293.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "838687",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3337,7 +3425,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls298.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "320027",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3355,7 +3443,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls299.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1468477",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3373,7 +3461,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc354.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "359401",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "HD74HC354P",
@@ -3400,7 +3488,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hct356.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "276673",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "TC74HC356P",
@@ -3436,7 +3524,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc365.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1226891",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3454,7 +3542,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc366.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "971331",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "DM74LS366AN",
@@ -3499,7 +3587,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc367.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1221273",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3535,7 +3623,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc368.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1749016",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3571,7 +3659,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc373.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2165526",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74S373N",
@@ -3584,7 +3672,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74s373.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1638767",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3620,7 +3708,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc374.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1483583",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74AHC374N",
@@ -3633,16 +3721,20 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ahc374.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2983074",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74ALS374AN",
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74als374.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als374a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als374a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1372782",
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74HC374N",
@@ -3655,7 +3747,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc374.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2051650",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3691,7 +3783,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls375.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "439958",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3718,7 +3810,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc377.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1733082",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3778,7 +3870,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc390.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "950379",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3796,7 +3888,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc393.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2549805",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3828,7 +3920,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls399.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "428901",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3883,7 +3975,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als521.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1346646",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3901,7 +3993,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc533.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "660302",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "DM74LS533N",
@@ -3937,7 +4029,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc540.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1467030",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74HC540N",
@@ -3950,7 +4042,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc540.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1449307",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -3977,7 +4069,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc541.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2110199",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -4009,7 +4101,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc563.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "660302",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -4027,7 +4119,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc564.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1325810",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -4063,7 +4155,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74act573.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "883405",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "DM74AS573N",
@@ -4079,9 +4171,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc573.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc573a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc573a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2070315",
+        "CheckedAt": "2026-02-14T06:47:21+00:00"
       }
     ]
   },
@@ -4111,9 +4207,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74abt574.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74abt574a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74abt574a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1626989",
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74HC574N",
@@ -4126,7 +4226,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc574.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2052276",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -4167,7 +4267,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc595.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2710529",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74HC595N",
@@ -4180,7 +4280,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc595.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "2710529",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "U74HC595AC",
@@ -4207,7 +4307,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc597.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "601418",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -4242,9 +4342,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74als623.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als623a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als623a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "792066",
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -4262,7 +4366,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc640.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1373421",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -4289,7 +4393,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc645.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1232371",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -4301,9 +4405,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74als648.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als648a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als648a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "508173",
+        "CheckedAt": "2026-02-14T06:47:21+00:00"
       }
     ]
   },
@@ -4321,7 +4429,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc670.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "313575",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "HD74LS670N",
@@ -4348,7 +4456,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc682.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1175658",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74LS682N",
@@ -4361,7 +4469,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls682.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1669653",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -4379,7 +4487,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc688.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1880399",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -4425,7 +4533,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als760.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1297864",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       },
       {
         "ExactPartNumber": "SN74AS760N",
@@ -4438,7 +4546,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74as760.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1297864",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
@@ -4450,9 +4558,13 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74als804.pdf",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als804a.pdf",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als804a.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1238652",
+        "CheckedAt": "2026-02-14T06:47:21+00:00"
       }
     ]
   },
@@ -4484,7 +4596,7 @@
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als841.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "265075",
-        "CheckedAt": "2026-02-14T05:12:21+00:00"
+        "CheckedAt": "2026-02-14T05:59:43+00:00"
       }
     ]
   },
