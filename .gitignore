@@ -5,8 +5,8 @@
 # Local datasheets (PDFs will be gitignored for public release)
 datasheets/_download/
 datasheets/_download/**
-**/*.pdf
-**/*.PDF
+datasheets/**/*.pdf
+datasheets/**/*.PDF
 
 *_temp.json
 .DS_Store
