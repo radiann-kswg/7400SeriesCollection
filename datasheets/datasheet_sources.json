@@ -3,6 +3,33 @@
     "PartNumber": "74x00",
     "Sources": [
       {
+        "ExactPartNumber": "74HC00AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "74HC00N",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "HD74HC00F",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
         "ExactPartNumber": "SN74HC00N",
         "Manufacturer": "TI(Texas Instruments)",
         "DocumentId": "",
@@ -10,6 +37,4468 @@
         "Url": "",
         "LastAccessed": "",
         "Notes": "TODO: メーカー公式URL/DocID/Rev/参照日を記録（転載は避ける）"
+      },
+      {
+        "ExactPartNumber": "SN74S00N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74s00.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74s00.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1749181",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "TC74HC00AF",
+        "Manufacturer": "TOSHIBA",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "U74HC00L",
+        "Manufacturer": "UTC(UnisonicTechnologies)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x02",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC02N",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "74S02N",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "HD74HC02F",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74F02N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74f02.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f02.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1270654",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74HC02N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc02.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc02.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2497596",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "TC74HC02AF",
+        "Manufacturer": "TOSHIBA",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x03",
+    "Sources": [
+      {
+        "ExactPartNumber": "HD74LS03P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "MC74HC03AN",
+        "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN7403",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x04",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC04AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "74HCU04AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "MM74HC04N/MC74HC04N",
+        "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74ALS04BN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als04.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "SN74AS04N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74as04.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74as04.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1452406",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74F04N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74f04.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f04.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1269385",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74H04N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74h04.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "SN74HC04N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2153599",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x05",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74ALS05N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als05.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "SN74HC05N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc05.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc05.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2335723",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74LS05N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls05.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls05.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1491956",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x06",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS06N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls06.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls06.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1549857",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x07",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC07AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x08",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC08AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "74S08DC",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "MC74F08N",
+        "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74ALS08N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als08.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als08.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1312700",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74AS08N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74as08.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74as08.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1312700",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74HC08N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2047658",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x09",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS09N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls09.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls09.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1440774",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x10",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74F10N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74f10.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f10.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1268320",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74HC10N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc10.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc10.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1989161",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x11",
+    "Sources": [
+      {
+        "ExactPartNumber": "DM74AS11N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "HD74LS11P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC11N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc11.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc11.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1971992",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x14",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC14",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "74HC14AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74HC14N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc14.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc14.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2078952",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x15",
+    "Sources": [
+      {
+        "ExactPartNumber": "M74LS15P",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x20",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F20N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "74HC20AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "DM74LS20N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "DM74S20N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "MC74F20N",
+        "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74LS20N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls20.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls20.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1454645",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x21",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC21AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74HC21N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc21.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc21.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1929720",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x23",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN7423N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x26",
+    "Sources": [
+      {
+        "ExactPartNumber": "DM7426N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "HD74LS26P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74LS26N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls26.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls26.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "740322",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x27",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN7427N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74ALS27N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als27.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "SN74HC27N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc27.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc27.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1965498",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x30",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F30PC",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74H30N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74h30.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "SN74HC30N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc30.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x32",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC32AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74HC32N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc32.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc32.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2124322",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x33",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74ALS33AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als33.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x34",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS34N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls34.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x36",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS36N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls36.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x37",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS37N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls37.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls37.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1443640",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x38",
+    "Sources": [
+      {
+        "ExactPartNumber": "MC74F38N",
+        "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74LS38N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls38.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls38.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1586733",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x40",
+    "Sources": [
+      {
+        "ExactPartNumber": "74S40N",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x42",
+    "Sources": [
+      {
+        "ExactPartNumber": "TC74HC42AP",
+        "Manufacturer": "TOSHIBA",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x47",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC47",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74LS47N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls47.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls47.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1863827",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x51",
+    "Sources": [
+      {
+        "ExactPartNumber": "DM74S51N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x54",
+    "Sources": [
+      {
+        "ExactPartNumber": "DM74LS54N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x60",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN7460N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x64",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F64N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "MC74F64N",
+        "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x73",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC73E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc73.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc73.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1210761",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x74",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F74PC0R",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "74HC74AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "74S74N",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74ALS74AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als74.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "SN74AS74N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74as74.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "SN74F74N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74f74.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f74.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1288808",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74HC74N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc74.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc74.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2255847",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x75",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC75E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc75.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc75.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "549613",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "F7475PC",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x82",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN7482N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x85",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC85E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc85.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc85.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1351081",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x86",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F86",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage"
+      },
+      {
+        "ExactPartNumber": "74HC86",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "HD74LS86P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC86N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc86.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2434487",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x90",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS90N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls90.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls90.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1143972",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x93",
+    "Sources": [
+      {
+        "ExactPartNumber": "DM74LS93N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x100",
+    "Sources": [
+      {
+        "ExactPartNumber": "M74ALS1000P",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74ALS1000AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als100.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "SN74ALS1002AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als100.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x103",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74ALS1032AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als103.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "SN74AS1034AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74as103.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x107",
+    "Sources": [
+      {
+        "ExactPartNumber": "74107PC",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "CD74HC107E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc107.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc107.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "658912",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "DM74LS107N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74107N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x109",
+    "Sources": [
+      {
+        "ExactPartNumber": "MC74F109N",
+        "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74F109N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74f109.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f109.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "961318",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74HC109N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc109.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc109.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1702885",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74LS109AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls109.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x112",
+    "Sources": [
+      {
+        "ExactPartNumber": "74LS112N",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "HD74LS112P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC112N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc112.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc112.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1498388",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74LS112AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls112.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x113",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74S113N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74s113.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x123",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC123AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x124",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74ALS1244AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als124.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "SN74S124N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74s124.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74s124.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "705932",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x125",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC125P",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74F125N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74f125.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f125.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "537040",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74HC125N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc125.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc125.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2109740",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x126",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74HC126N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc126.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc126.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2109098",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x132",
+    "Sources": [
+      {
+        "ExactPartNumber": "74S132",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74HC132N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc132.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc132.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2526348",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x136",
+    "Sources": [
+      {
+        "ExactPartNumber": "HD74LS136P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74LS136N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls136.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls136.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "831238",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x137",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC137E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc137.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc137.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1165885",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x138",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC138",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "74HC138AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74HC138N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc138.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc138.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1988928",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x139",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC139",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74HC139N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc139.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc139.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1929574",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74LS139AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls139.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x141",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC141",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "K155ID1",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage"
+      },
+      {
+        "ExactPartNumber": "К155ИД1",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x145",
+    "Sources": [
+      {
+        "ExactPartNumber": "74LS145",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74LS145N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls145.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls145.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1259714",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x147",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC147",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "CD74HC147E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc147.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc147.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1064256",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x148",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74HC148N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc148.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc148.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1607857",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x151",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F151",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC151N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc151.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc151.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1796894",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "TC74HC151AP",
+        "Manufacturer": "TOSHIBA",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x153",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F153",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "74HC153AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "74LS153N",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "HD74LS153P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x154",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC154EN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc154.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc154.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "268557",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x155",
+    "Sources": [
+      {
+        "ExactPartNumber": "74155N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "74155_DC",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "DM74155N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74LS155AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls155.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x156",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74156N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74ALS156N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als156.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als156.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "371555",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74LS156N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls156.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls156.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "936556",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x157",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F157A",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "74HC157",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "74S157",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "DM74S157N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "MC74F157AN",
+        "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC157",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc157.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc157.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2002804",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74HC157N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc157.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc157.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2002804",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x158",
+    "Sources": [
+      {
+        "ExactPartNumber": "MC74F158N",
+        "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC158N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc158.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc158.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "730615",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x161",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC161",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SK74LS161",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74F161AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74f161.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "SN74HC161N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc161.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc161.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1426049",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x162",
+    "Sources": [
+      {
+        "ExactPartNumber": "DM74LS162AN",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x163",
+    "Sources": [
+      {
+        "ExactPartNumber": "74LS163AN",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "DM74163AN",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC163N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc163.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc163.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1395498",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74S163N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74s163.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74s163.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1895226",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x164",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F164N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "HD74LS164P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC164N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc164.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc164.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1553593",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74LS164N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls164.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls164.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1444669",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x165",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC165",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "74HC165AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74165N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC165N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc165.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc165.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1570269",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x166",
+    "Sources": [
+      {
+        "ExactPartNumber": "74166N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "CD74HC166E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc166.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc166.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "997125",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x170",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS170N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls170.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x173",
+    "Sources": [
+      {
+        "ExactPartNumber": "DM74173N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74LS173AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls173.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "TC74HC173AF",
+        "Manufacturer": "TOSHIBA",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x174",
+    "Sources": [
+      {
+        "ExactPartNumber": "DM74174N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC174N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc174.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc174.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1958893",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x175",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F175",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "74HC175AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "DM74175N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "DM74AS175AN",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "HD74175P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "HD74LS175P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x180",
+    "Sources": [
+      {
+        "ExactPartNumber": "DM74AS1804N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x181",
+    "Sources": [
+      {
+        "ExactPartNumber": "74AS181",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage"
+      },
+      {
+        "ExactPartNumber": "74F181",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage"
+      },
+      {
+        "ExactPartNumber": "74HC181",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "74LS181",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "74S181",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74S181NC",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74s181.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x182",
+    "Sources": [
+      {
+        "ExactPartNumber": "74S182",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74S182N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74s182.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x189",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS189AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls189.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x190",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC190E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc190.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc190.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1005926",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x191",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74HC191N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc191.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc191.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1203998",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x192",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC192E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc192.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc192.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "748588",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x193",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74HC193N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc193.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc193.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "830191",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x194",
+    "Sources": [
+      {
+        "ExactPartNumber": "74LS194AN",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "CD74HC194E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc194.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc194.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "536395",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x195",
+    "Sources": [
+      {
+        "ExactPartNumber": "74S195N",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74195N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x221",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC221E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc221.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc221.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "755161",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x237",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC237E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc237.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc237.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1165885",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x238",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC238",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "CD74HC238E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc238.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc238.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1292146",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x240",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F240PC",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "74HC240AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "MC74F240N",
+        "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74ALS240AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als240.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "SN74LS240N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls240.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls240.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1864968",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x241",
+    "Sources": [
+      {
+        "ExactPartNumber": "74LS241N",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "MC74HC241N",
+        "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC241N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc241.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc241.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1947619",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74LS241N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls241.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls241.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1864968",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x242",
+    "Sources": [
+      {
+        "ExactPartNumber": "TC74HC242P",
+        "Manufacturer": "TOSHIBA",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x243",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC243AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x244",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC244",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74AS244N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74as244.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "SN74HC244N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc244.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc244.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2195410",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x245",
+    "Sources": [
+      {
+        "ExactPartNumber": "74FR245PC",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "74HC245",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74HC245N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc245.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc245.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2942326",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x247",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS247N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls247.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls247.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "847950",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x249",
+    "Sources": [
+      {
+        "ExactPartNumber": "SK74LS249",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x251",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74HC251N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc251.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc251.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1996345",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74LS251N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls251.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls251.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1414707",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x253",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC253E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc253.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc253.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "313525",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "DM74ALS253N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x257",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F257AN",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "74LS257AN",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74ALS257AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als257.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "SN74F257N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74f257.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f257.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "522568",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74HC257N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc257.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc257.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1807913",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x258",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F258APC",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "DM74AS258N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "DM74LS258BN",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x259",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74HC259N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc259.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc259.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2218319",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x265",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74265N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x273",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC273",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "74HC273AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "74LS273",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "DM74S273N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC273",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc273.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc273.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2179592",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74HC273N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc273.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc273.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2179592",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x274",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS274N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls274.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x276",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74276N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x279",
+    "Sources": [
+      {
+        "ExactPartNumber": "DM74279N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74LS279AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls279.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x280",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F280BN",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "MC74F280N",
+        "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74S280N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74s280.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x283",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC283E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc283.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc283.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "946454",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x293",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS293N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls293.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls293.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "838687",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x295",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS295BN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls295.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x298",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74298N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74LS298N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls298.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls298.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "320027",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x299",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS299N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls299.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls299.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1468477",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x354",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC354E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc354.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc354.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "359401",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "HD74HC354P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x356",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HCT356E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hct356.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hct356.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "276673",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "TC74HC356P",
+        "Manufacturer": "TOSHIBA",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x365",
+    "Sources": [
+      {
+        "ExactPartNumber": "74LS365ANA",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74HC365N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc365.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc365.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1226891",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x366",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC366E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc366.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc366.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "971331",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "DM74LS366AN",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74366AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x367",
+    "Sources": [
+      {
+        "ExactPartNumber": "74367AN",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC367N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc367.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc367.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1221273",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x368",
+    "Sources": [
+      {
+        "ExactPartNumber": "DM74LS368AN",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74368AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC368N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc368.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc368.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1749016",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x373",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC373AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "MC74F373N",
+        "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC373N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc373.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc373.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2165526",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74S373N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74s373.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74s373.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1638767",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x374",
+    "Sources": [
+      {
+        "ExactPartNumber": "74LS374",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "74S374N",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "CD74HC374N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc374.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc374.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1483583",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74AHC374N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ahc374.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ahc374.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2983074",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74ALS374AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als374.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "SN74HC374N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc374.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc374.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2051650",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x375",
+    "Sources": [
+      {
+        "ExactPartNumber": "74LS375N",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "M74LS375P",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74LS375N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls375.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls375.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "439958",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x377",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC377",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74HC377N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc377.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc377.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1733082",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x379",
+    "Sources": [
+      {
+        "ExactPartNumber": "MC74F379N",
+        "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x381",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS381AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls381.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x386",
+    "Sources": [
+      {
+        "ExactPartNumber": "M74LS386P",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x390",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC390E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc390.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc390.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "950379",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x393",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74HC393N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc393.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc393.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2549805",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x395",
+    "Sources": [
+      {
+        "ExactPartNumber": "74LS395",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x399",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS399N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls399.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls399.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "428901",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x423",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC423AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x507",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F5074N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x521",
+    "Sources": [
+      {
+        "ExactPartNumber": "MC74F521N",
+        "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74ALS521N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als521.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als521.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1346646",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x533",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC533E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc533.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc533.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "660302",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "DM74LS533N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "HD74HC533P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x540",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC540E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc540.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc540.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1467030",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74HC540N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc540.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc540.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1449307",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x541",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC541AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74HC541N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc541.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc541.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2110199",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x543",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F543N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x563",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC563E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc563.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc563.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "660302",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x564",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC564E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc564.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc564.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1325810",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x573",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F573N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "74F573PC",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "CD74ACT573E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74act573.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74act573.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "883405",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "DM74AS573N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC573N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc573.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x574",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F574N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "74HC574",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74ABT574AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74abt574.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      },
+      {
+        "ExactPartNumber": "SN74HC574N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc574.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc574.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2052276",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x590",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC590AP",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x595",
+    "Sources": [
+      {
+        "ExactPartNumber": "74HC595",
+        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from usage; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74HC595",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc595.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc595.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2710529",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74HC595N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc595.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc595.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "2710529",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "U74HC595AC",
+        "Manufacturer": "UTC(UnisonicTechnologies)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x597",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC597E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc597.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc597.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "601418",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x620",
+    "Sources": [
+      {
+        "ExactPartNumber": "HD74HC620P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x623",
+    "Sources": [
+      {
+        "ExactPartNumber": "HD74HC623P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74ALS623AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als623.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x640",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74HC640N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc640.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc640.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1373421",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x645",
+    "Sources": [
+      {
+        "ExactPartNumber": "DM74AS645N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "SN74HC645N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc645.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc645.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1232371",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x648",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74ALS648NT",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als648.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x670",
+    "Sources": [
+      {
+        "ExactPartNumber": "CD74HC670E",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/cd74hc670.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc670.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "313575",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "HD74LS670N",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x682",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74HC682N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc682.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc682.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1175658",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74LS682N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls682.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls682.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1669653",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x688",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74HC688N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc688.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc688.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1880399",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x714",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74ALS714N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als714.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x725",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F725",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x760",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74ALS760N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als760.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als760.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1297864",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74AS760N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74as760.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74as760.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1297864",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x804",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74ALS804BN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als804.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x825",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F825SPC",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x841",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74ALS841NT",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als841.pdf",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als841.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "265075",
+        "CheckedAt": "2026-02-14T05:12:21+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x845",
+    "Sources": [
+      {
+        "ExactPartNumber": "74F845N",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-02-14",
+        "Notes": "AUTO: from history"
       }
     ]
   }

@@ -39,6 +39,9 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_SOURCES_PATH = REPO_ROOT / "datasheets" / "datasheet_sources.json"
 
 
+_TI_SYMLINK_PREFIX = "https://www.ti.com/lit/ds/symlink/"
+
+
 def _now_iso_utc() -> str:
     return datetime.now(timezone.utc).replace(microsecond=0).isoformat()
 
@@ -144,6 +147,47 @@ def _probe(url: str, *, timeout_s: float) -> urllib.response.addinfourl:
         raise
 
 
+def _is_ti_symlink_url(url: str) -> bool:
+    return url.startswith(_TI_SYMLINK_PREFIX)
+
+
+def _ti_symlink_fallback_urls(url: str, *, max_strips: int = 6) -> list[str]:
+    """Generate fallback TI symlink URLs by stripping trailing alpha suffixes.
+
+    TI's /lit/ds/symlink/ URLs often omit package/temperature suffixes that appear
+    in orderable part numbers (e.g. SN74HC30N -> sn74hc30.pdf).
+
+    This keeps the approach conservative: we only try nearby variants of the same
+    stem without scraping or crawling.
+    """
+    if not _is_ti_symlink_url(url) or not url.lower().endswith(".pdf"):
+        return [url]
+
+    stem = url.rsplit("/", 1)[-1]
+    if not stem.lower().endswith(".pdf"):
+        return [url]
+
+    base = stem[:-4]  # drop .pdf
+    variants: list[str] = []
+
+    def add(st: str) -> None:
+        u = f"{_TI_SYMLINK_PREFIX}{st}.pdf"
+        if u not in variants:
+            variants.append(u)
+
+    add(base)
+
+    cur = base
+    strips = 0
+    while strips < max_strips and cur and cur[-1].isalpha():
+        cur = cur[:-1]
+        strips += 1
+        if cur:
+            add(cur)
+
+    return variants
+
+
 def _write_json(path: Path, obj: Any) -> None:
     path.parent.mkdir(parents=True, exist_ok=True)
     with path.open("w", encoding="utf-8", newline="\n") as f:
@@ -177,6 +221,31 @@ def main() -> int:
         action="store_true",
         help="Fail if Content-Type is present and does not look like PDF",
     )
+    parser.add_argument(
+        "--max-items",
+        type=int,
+        default=0,
+        help="Process at most N source records (0 = no limit). Useful for batching.",
+    )
+    parser.add_argument(
+        "--only-ti-symlink",
+        action="store_true",
+        help="Only check URLs under https://www.ti.com/lit/ds/symlink/ (safe default while bootstrapping).",
+    )
+    parser.add_argument(
+        "--heal-ti-symlink-url",
+        action="store_true",
+        help=(
+            "If a TI symlink Url returns 404 but a nearby variant works (e.g. strip trailing package suffix), "
+            "and --update is enabled, rewrite Url to the working variant."
+        ),
+    )
+    parser.add_argument(
+        "--write-report-every",
+        type=int,
+        default=25,
+        help="Write intermediate report JSON every N processed records (0 = only write at end).",
+    )
 
     args = parser.parse_args()
 
@@ -187,6 +256,12 @@ def main() -> int:
 
     raw = _read_json(args.sources)
     sources = list(_iter_sources(raw))
+
+    # Reduce work early when caller is intentionally narrowing scope.
+    if args.skip_empty:
+        sources = [s for s in sources if s.url]
+    if args.only_ti_symlink:
+        sources = [s for s in sources if _is_ti_symlink_url(s.url)]
 
     if not sources:
         print(f"No sources found in {args.sources}")
@@ -210,23 +285,85 @@ def main() -> int:
     raw_for_update = raw if isinstance(raw, list) else None
     now_iso = _now_iso_utc()
 
+    def write_report(*, processed: int) -> None:
+        report_obj = {
+            "CheckedAt": now_iso,
+            "SourcesFile": str(args.sources.relative_to(REPO_ROOT) if args.sources.is_absolute() else args.sources),
+            "Count": len(report_items),
+            "Processed": processed,
+            "Total": len(sources),
+            "Download": args.download,
+            "Items": report_items,
+            "Warnings": warnings,
+            "Failures": failures,
+        }
+        _write_json(args.report, report_obj)
+
+    processed = 0
+    checked = 0
+
+    # Write an initial report so callers can see progress even if interrupted.
+    write_report(processed=processed)
+
     for src in sources:
+        if args.max_items and checked >= args.max_items:
+            break
+
         label = f"{src.part_number} / {src.exact_part_number}"
         if not src.url:
             if args.skip_empty:
                 warnings.append(f"{label}: skipped (empty Url)")
+                processed += 1
+                if args.write_report_every and processed % args.write_report_every == 0:
+                    write_report(processed=processed)
                 continue
             failures.append(f"{label}: invalid Url ''")
+            processed += 1
+            if args.write_report_every and processed % args.write_report_every == 0:
+                write_report(processed=processed)
             continue
 
         if not src.url.startswith("http"):
             failures.append(f"{label}: invalid Url '{src.url}'")
+            processed += 1
+            if args.write_report_every and processed % args.write_report_every == 0:
+                write_report(processed=processed)
+            continue
+
+        if args.only_ti_symlink and (not _is_ti_symlink_url(src.url)):
+            warnings.append(f"{label}: skipped (only-ti-symlink)")
+            processed += 1
+            if args.write_report_every and processed % args.write_report_every == 0:
+                write_report(processed=processed)
             continue
 
         try:
-            resp = _probe(src.url, timeout_s=args.timeout)
+            probed_url = src.url
 
-            final_url = getattr(resp, "url", src.url)
+            try:
+                resp = _probe(probed_url, timeout_s=args.timeout)
+            except urllib.error.HTTPError as e:
+                # Best-effort healing for TI symlink URLs seeded from orderable part numbers.
+                if e.code == 404 and _is_ti_symlink_url(src.url):
+                    healed = False
+                    for alt in _ti_symlink_fallback_urls(src.url)[1:]:
+                        try:
+                            resp = _probe(alt, timeout_s=args.timeout)
+                            probed_url = alt
+                            healed = True
+                            break
+                        except urllib.error.HTTPError as e2:
+                            if e2.code == 404:
+                                continue
+                            raise
+                    if healed:
+                        warnings.append(f"{label}: TI symlink healed (ProbedUrl={probed_url})")
+                    else:
+                        raise
+                else:
+                    raise
+
+            final_url = getattr(resp, "url", probed_url)
             content_type = resp.headers.get("Content-Type", "")
             content_length = resp.headers.get("Content-Length", "")
 
@@ -254,6 +391,7 @@ def main() -> int:
                 "DocumentId": src.document_id,
                 "Revision": src.revision,
                 "Url": src.url,
+                "ProbedUrl": probed_url,
                 "FinalUrl": final_url,
                 "ContentType": content_type,
                 "ContentLength": content_length,
@@ -287,6 +425,11 @@ def main() -> int:
                 )
 
             report_items.append(item)
+            processed += 1
+            checked += 1
+
+            if args.write_report_every and processed % args.write_report_every == 0:
+                write_report(processed=processed)
 
             if args.update and raw_for_update is not None:
                 # Patch the matching entry in-place.
@@ -301,6 +444,9 @@ def main() -> int:
                             continue
                         if str(s.get("ExactPartNumber", "")).strip() != src.exact_part_number:
                             continue
+
+                        if args.heal_ti_symlink_url and probed_url != src.url and _is_ti_symlink_url(src.url):
+                            s["Url"] = probed_url
 
                         s["FinalUrl"] = final_url
                         if content_type:
@@ -321,18 +467,13 @@ def main() -> int:
 
         except Exception as e:  # noqa: BLE001
             failures.append(f"{label}: {type(e).__name__}: {e}")
+            processed += 1
+            checked += 1
 
-    report_obj = {
-        "CheckedAt": now_iso,
-        "SourcesFile": str(args.sources.relative_to(REPO_ROOT) if args.sources.is_absolute() else args.sources),
-        "Count": len(report_items),
-        "Download": args.download,
-        "Items": report_items,
-        "Warnings": warnings,
-        "Failures": failures,
-    }
+            if args.write_report_every and processed % args.write_report_every == 0:
+                write_report(processed=processed)
 
-    _write_json(args.report, report_obj)
+    write_report(processed=processed)
 
     if args.update and raw_for_update is not None:
         _write_json(args.sources, raw_for_update)
