@@ -557,6 +557,9 @@ history_path = os.path.join(base_dir, 'getstarting', '7400_series_ic_collection_
 
 - ディレクトリ構造: `usage/{カテゴリ名}/{パーツ番号}/**.md`
   - 例: `usage/07_data_selectors_mux_demux/74x153/74x153.md`
+- **例外（複数 IC 連携のシリーズ）**: 複数の汎用型番をまたいで構成する「組み合わせサンプル回路」は、カテゴリ配下ではなく `usage/A_combinated_samples/` にまとめる
+  - 例: `usage/A_combinated_samples/74x181,182/01_4bit_alu_basic_demo.md`
+  - ディレクトリ名は `74x181,182/` のように **カンマ区切り**を許可（`74x` の重複は省略可）
 - 方針: 断定が必要な仕様（ピン配置・真理値表・電気特性など）は一次資料が必要なので、未検証のまま書かない
 - 生成スクリプト（チートシート）: `scripts/generate_usage_cheatsheets.py`
 - 既存の回路例（手書きMarkdown）も、同じ `{カテゴリ名}/{パーツ番号}` 配下へ統合して置く

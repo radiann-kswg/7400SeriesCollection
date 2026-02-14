@@ -39,4 +39,4 @@
 ## 実回路例（例）
 
 - [06_encoders_decoders/74x141/](./06_encoders_decoders/74x141/)
-- [10_arithmetic/74x181,182/](./10_arithmetic/74x181,182/)
+- [A_combinated_samples/74x181,182/](./A_combinated_samples/74x181,182/)

@@ -49,8 +49,8 @@
   │   └── 74x141/                       # パーツ番号
   │       ├── 74x141.md                 # チートシート（自動生成）
   │       └── 01_simple_nixie_tube_demo.md  # 実回路例（手書き）
-  └── 10_arithmetic/
-    └── 74x181,182/                   # 複数IC連携時はカンマ区切り
+  └── A_combinated_samples/
+    └── 74x181,182/                   # 複数IC連携サンプル（カンマ区切り）
 ```
 
 ## 📊 データファイル説明
@@ -161,7 +161,7 @@ python3 scripts/split_overview_by_logic_category.py
 - `16_analog_mixed_signal.json`
 - `99_other.json`
 
-```
+````
 
 ### VS Code タスク
 
@@ -203,7 +203,7 @@ usage/
     ├── 01_*回路名.md
     ├── 02_*回路名.md
     └── ...
-```
+````
 
 ## 🧾 汎用型番チートシート（usage/{カテゴリ名}/{74xNN}/{74xNN}.md）
 
@@ -218,7 +218,7 @@ python3 scripts/generate_usage_cheatsheets.py
 
 方針: ピン配置/真理値表/電気特性などの断定は一次資料が必要なため、未検証のまま書かない（リンクとチェックリスト中心）。
 
-複数 IC 連携時は `74x181,182/` のようにカンマ区切り。
+複数 IC 連携のシリーズは `usage/A_combinated_samples/74x181,182/` のようにカンマ区切りでまとめる。
 
 ### 必須記載項目
 
@@ -258,5 +258,8 @@ python3 scripts/generate_usage_cheatsheets.py
 ---
 
 **管理者**: radiann-kswg
-**最終更新**: 2025 年 11 月 20 日
+**最終更新**: 2026 年 2 月 14 日
+
+```
+
 ```

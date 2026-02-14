@@ -177,6 +177,55 @@ def extract_exact_parts_from_text(text: str) -> Set[str]:
     return parts
 
 
+def parse_generic_part_numbers_from_part_dir(part_dir: str) -> List[str]:
+    """Parse a usage part directory name into generic PartNumber list.
+
+    Examples:
+    - "74x141" -> ["74x141"]
+    - "74x181,182" -> ["74x181", "74x182"]
+    - "74x08,09" -> ["74x08", "74x09"]
+
+    Notes:
+    - Allows omitting the repeated "74x" prefix after the first element.
+    - Keeps only well-formed generic names (74x + 2-3 digits).
+    """
+
+    raw_tokens = [t.strip() for t in part_dir.split(",") if t.strip()]
+    if not raw_tokens:
+        return []
+
+    out: List[str] = []
+
+    def normalize_token(token: str) -> Optional[str]:
+        if token.startswith("74x"):
+            m = re.fullmatch(r"74x(\d{2,3})", token)
+            if not m:
+                return None
+            digits = int(m.group(1))
+            return f"74x{digits:02d}" if digits < 100 else f"74x{digits}"
+
+        if re.fullmatch(r"\d{2,3}", token):
+            digits = int(token)
+            return f"74x{digits:02d}" if digits < 100 else f"74x{digits}"
+
+        return None
+
+    for tok in raw_tokens:
+        pn = normalize_token(tok)
+        if pn:
+            out.append(pn)
+
+    # De-dup while preserving order
+    uniq: List[str] = []
+    seen: Set[str] = set()
+    for pn in out:
+        if pn in seen:
+            continue
+        seen.add(pn)
+        uniq.append(pn)
+    return uniq
+
+
 def extract_from_usage() -> List[Tuple[str, List[str]]]:
     """Return list of (exact_part, context_part_numbers_from_path)."""
 
@@ -203,7 +252,7 @@ def extract_from_usage() -> List[Tuple[str, List[str]]]:
         if not part_dir.startswith("74x"):
             continue
 
-        context_pns = [p.strip() for p in part_dir.split(",") if p.strip()]
+        context_pns = parse_generic_part_numbers_from_part_dir(part_dir)
 
         text = md.read_text(encoding="utf-8")
         for exact in extract_exact_parts_from_text(text):

@@ -6,6 +6,9 @@
 Target layout:
   usage/{カテゴリ名}/{パーツ番号}/**.md
 
+Special-case layout:
+    usage/A_combinated_samples/{パーツ番号}/**.md  (複数IC連携サンプル: 例 74x181,182)
+
 This script migrates:
 - old cheatsheet tree under usage/: cheatsheets/{category}/{74xNN}.md -> usage/{category}/{74xNN}/{74xNN}.md
 - old cheatsheet category index under usage/: cheatsheets/{category}/index.md   -> usage/{category}/index.md
@@ -149,9 +152,13 @@ def plan_moves(part_to_category: Dict[str, str]) -> List[MoveAction]:
 
     # Manual circuit example directories (old layout: usage/ directly contained 74x* dirs)
     for src_dir in iter_old_manual_part_dirs():
-        generic = first_generic_part_from_dirname(src_dir.name)
-        category = part_to_category.get(generic or "", "99_other")
-        dst_dir = USAGE_DIR / category / src_dir.name
+        # If the folder name suggests multi-part series (comma-separated), put it under A_combinated_samples.
+        if "," in src_dir.name:
+            dst_dir = USAGE_DIR / "A_combinated_samples" / src_dir.name
+        else:
+            generic = first_generic_part_from_dirname(src_dir.name)
+            category = part_to_category.get(generic or "", "99_other")
+            dst_dir = USAGE_DIR / category / src_dir.name
         actions.append(MoveAction(src=src_dir, dst=dst_dir, kind="dir"))
 
     return actions
