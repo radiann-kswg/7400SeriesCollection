@@ -286,10 +286,16 @@ def main() -> int:
     now_iso = _now_iso_utc()
 
     def write_report(*, processed: int) -> None:
+        ok_count = sum(1 for it in report_items if it.get("Result") == "OK")
+        fail_count = sum(1 for it in report_items if it.get("Result") == "FAIL")
+        skip_count = sum(1 for it in report_items if it.get("Result") == "SKIP")
         report_obj = {
             "CheckedAt": now_iso,
             "SourcesFile": str(args.sources.relative_to(REPO_ROOT) if args.sources.is_absolute() else args.sources),
             "Count": len(report_items),
+            "OkCount": ok_count,
+            "FailCount": fail_count,
+            "SkipCount": skip_count,
             "Processed": processed,
             "Total": len(sources),
             "Download": args.download,
@@ -310,14 +316,28 @@ def main() -> int:
             break
 
         label = f"{src.part_number} / {src.exact_part_number}"
+
+        base_item: dict[str, Any] = {
+            "PartNumber": src.part_number,
+            "ExactPartNumber": src.exact_part_number,
+            "Manufacturer": src.manufacturer,
+            "DocumentId": src.document_id,
+            "Revision": src.revision,
+            "Url": src.url,
+            "CheckedAt": now_iso,
+            "Downloaded": False,
+        }
+
         if not src.url:
             if args.skip_empty:
                 warnings.append(f"{label}: skipped (empty Url)")
+                report_items.append({**base_item, "Result": "SKIP", "SkipReason": "empty Url"})
                 processed += 1
                 if args.write_report_every and processed % args.write_report_every == 0:
                     write_report(processed=processed)
                 continue
             failures.append(f"{label}: invalid Url ''")
+            report_items.append({**base_item, "Result": "FAIL", "ErrorType": "ValueError", "Error": "invalid Url ''"})
             processed += 1
             if args.write_report_every and processed % args.write_report_every == 0:
                 write_report(processed=processed)
@@ -325,6 +345,14 @@ def main() -> int:
 
         if not src.url.startswith("http"):
             failures.append(f"{label}: invalid Url '{src.url}'")
+            report_items.append(
+                {
+                    **base_item,
+                    "Result": "FAIL",
+                    "ErrorType": "ValueError",
+                    "Error": f"invalid Url '{src.url}'",
+                }
+            )
             processed += 1
             if args.write_report_every and processed % args.write_report_every == 0:
                 write_report(processed=processed)
@@ -332,13 +360,16 @@ def main() -> int:
 
         if args.only_ti_symlink and (not _is_ti_symlink_url(src.url)):
             warnings.append(f"{label}: skipped (only-ti-symlink)")
+            report_items.append({**base_item, "Result": "SKIP", "SkipReason": "only-ti-symlink"})
             processed += 1
             if args.write_report_every and processed % args.write_report_every == 0:
                 write_report(processed=processed)
             continue
 
         try:
+            attempted_urls: list[str] = []
             probed_url = src.url
+            attempted_urls.append(probed_url)
 
             try:
                 resp = _probe(probed_url, timeout_s=args.timeout)
@@ -347,6 +378,7 @@ def main() -> int:
                 if e.code == 404 and _is_ti_symlink_url(src.url):
                     healed = False
                     for alt in _ti_symlink_fallback_urls(src.url)[1:]:
+                        attempted_urls.append(alt)
                         try:
                             resp = _probe(alt, timeout_s=args.timeout)
                             probed_url = alt
@@ -385,18 +417,13 @@ def main() -> int:
                 print(f"    size: {content_length}")
 
             item: dict[str, Any] = {
-                "PartNumber": src.part_number,
-                "ExactPartNumber": src.exact_part_number,
-                "Manufacturer": src.manufacturer,
-                "DocumentId": src.document_id,
-                "Revision": src.revision,
-                "Url": src.url,
+                **base_item,
+                "Result": "OK",
+                "AttemptedUrls": attempted_urls,
                 "ProbedUrl": probed_url,
                 "FinalUrl": final_url,
                 "ContentType": content_type,
                 "ContentLength": content_length,
-                "CheckedAt": now_iso,
-                "Downloaded": False,
             }
 
             if args.download:
@@ -466,7 +493,23 @@ def main() -> int:
                     break
 
         except Exception as e:  # noqa: BLE001
-            failures.append(f"{label}: {type(e).__name__}: {e}")
+            failure_msg = f"{label}: {type(e).__name__}: {e}"
+            failures.append(failure_msg)
+
+            failure_item: dict[str, Any] = {
+                **base_item,
+                "Result": "FAIL",
+                "ErrorType": type(e).__name__,
+                "Error": str(e),
+            }
+
+            if isinstance(e, urllib.error.HTTPError):
+                failure_item["HttpStatus"] = e.code
+                ct = e.headers.get("Content-Type", "") if e.headers else ""
+                if ct:
+                    failure_item["ContentType"] = ct
+
+            report_items.append(failure_item)
             processed += 1
             checked += 1
 
