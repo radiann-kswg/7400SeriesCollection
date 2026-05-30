@@ -25,7 +25,9 @@
 ```
 7400SeriesCollection/
 ├── .github/
-│   └── copilot-instructions.md          # このファイル：GitHub Copilot 向け指示書
+│   ├── copilot-instructions.md          # このファイル：GitHub Copilot 向け指示書
+│   └── prompts/
+│       └── factcheck-interactive.prompt.md  # 対話型ファクトチェックプロンプト（Agentモード用）
 ├── .gitignore                            # Git管理外ファイル指定
 ├── overview/
 │   ├── 7400_series_ic_overview.json          # マスターデータ：全IC情報
@@ -33,6 +35,8 @@
 ├── datasheets/
 │   ├── 7400_series_ic_datasheet_collection_status.json
 │   │                                     # データシート収集管理
+│   ├── .cache/                           # Git管理外の作業キャッシュ（.gitignore除外）
+│   │   └── pdf_render/                   # PDFレンダリング一時PNG（render_datasheet_pages.py出力）
 │   └── _download/                        # ダウンロード済みデータシート保管場所
 │       ├── FAIRCHILD(FairchildSemiconductor)/
 │       │   └── *.PDF                     # Fairchild製データシート
@@ -60,6 +64,9 @@
 │                                         # レア度別購入計画リスト
 ├── scripts/
 │   ├── autofill_gottenitems.py          # 入手履歴からデータシート情報を自動同期
+│   ├── auto_check_factcheck.py          # チートシートのファクトチェック項目を自動更新
+│   ├── render_datasheet_pages.py        # データシートPDFをPNGレンダリング（.cache/出力）
+│   ├── batch_factcheck_from_pdf.py      # PDFテキスト抽出による一括自動ファクトチェック（85%閾値）
 │   ├── merge_fp.py                      # データ統合処理スクリプト
 │   ├── refine_descriptions.py           # 説明文洗練化スクリプト
 │   ├── split_overview_by_logic_category.py # マスターデータを論理分類で分割
@@ -206,6 +213,9 @@
 **主要スクリプト:**
 
 - `autofill_gottenitems.py`: 入手履歴からデータシート情報を自動同期
+- `auto_check_factcheck.py`: チートシートのファクトチェック項目を自動更新（型番確定・datasheet_sources参照先確認）
+- `render_datasheet_pages.py`: ローカルPDFを `datasheets/.cache/pdf_render/` へPNGレンダリング（要 PyMuPDF）
+- `batch_factcheck_from_pdf.py`: PDFテキスト抽出による一括自動ファクトチェック（信頼度85%以上の項目のみ更新）
 - `merge_fp.py`: データ統合処理
 - `refine_descriptions.py`: 説明文洗練化
 - `sort_datasheet_by_partnumber.py`: データシートソート処理
@@ -329,6 +339,16 @@ _download/
 - データ管理・自動化スクリプト
 - Python3 で実行される処理スクリプト群
 - VS Code タスクから実行可能
+
+**主要スクリプト:**
+
+- `autofill_gottenitems.py`: 入手履歴からデータシート情報を自動同期
+- `auto_check_factcheck.py`: チートシートのファクトチェック項目を自動更新（型番確定・datasheet_sources参照先確認）
+- `render_datasheet_pages.py`: ローカルPDFを `datasheets/.cache/pdf_render/` へPNGレンダリング（要 PyMuPDF）
+- `batch_factcheck_from_pdf.py`: PDFテキスト抽出による一括自動ファクトチェック（信頼度85%以上の項目のみ更新）
+- `merge_fp.py`: データ統合処理
+- `refine_descriptions.py`: 説明文洗練化
+- `sort_datasheet_by_partnumber.py`: データシートソート処理
 
 ### `usage/`
 
@@ -556,9 +576,9 @@ history_path = os.path.join(base_dir, 'getstarting', '7400_series_ic_collection_
 4. **PDF が“画像主体”でテキスト抽出できない場合の手順**
 
 - まず Python（PyMuPDF 等）でページを PNG へレンダリングして、図表（Pin configuration / Terminal functions 等）を目視で確認します。
-- レンダリング出力は Git 管理外の `.temp/` 配下に置く（例: `.temp/pdf_render/<Part>/page_XX.png`）。
+- レンダリング出力は Git 管理外の `datasheets/.cache/pdf_render/` 配下に置く（例: `datasheets/.cache/pdf_render/<Part>/page_XX.png`）。
 - 目視確認ができない状況（自動抽出のみで確証が取れない場合）は、**不確実な記述を追加しない**。必要ならユーザーに該当ページ画像の共有を依頼する。
-- ページ画像の確認が取れ次第、**必ず確認の取れたか確認が不要になった画像から適切に削除し、`.temp`フォルダ内を整理する**（ただし、`.temp`フォルダ外にあるファイルはみだりに削除しないこと）。
+- ページ画像の確認が取れ次第、**必ず確認の取れたか確認が不要になった画像から適切に削除し、`datasheets/.cache/pdf_render/`フォルダ内を整理する**（ただし、`datasheets/.cache/`フォルダ外にあるファイルはみだりに削除しないこと）。
 
 5. **ネット検索は補助（一次資料がない/不足する場合のみ）**
 
@@ -633,7 +653,65 @@ history_path = os.path.join(base_dir, 'getstarting', '7400_series_ic_collection_
 - メーカー推定による収集予定データの自動生成
 - 既存データの上書き回避
 - 入手済み IC 型番の自動登録
+### `scripts/auto_check_factcheck.py`
 
+**機能**: `usage/{cat}/{74xNN}/{74xNN}.md` のファクトチェック項目（`- [ ]`）を自動更新
+
+- 入手履歴から実型番を決定し「対象の実型番」チェックを `[x]` に更新
+- `datasheets/datasheet_sources.json` から確認済み URL を探して「データシート参照先」を更新
+- 既に `[x]` の項目は冪等（スキップ）
+- 実行: `python3 scripts/auto_check_factcheck.py`
+
+### `scripts/render_datasheet_pages.py`
+
+**機能**: ローカルPDFを `datasheets/.cache/pdf_render/` に PNG レンダリングする
+
+- `datasheets/_download/` のPDFをインデックス化し、入手履歴から型番を照合
+- 出力先: `datasheets/.cache/pdf_render/{part}_{stem}/page_XXX.png`（Git 管理外）
+- 実行例:
+  ```powershell
+  python3 scripts/render_datasheet_pages.py --part 74x00 --pages 1-6 --dpi 150
+  ```
+- 対話型ファクトチェック（`factcheck-interactive.prompt.md`）の Step 2 で呼び出される
+- 確認後は `datasheets/.cache/pdf_render/` を手動またはスクリプトで削除すること
+
+### `scripts/batch_factcheck_from_pdf.py`
+
+**機能**: 入手済み全パーツに対してローカルPDFからテキスト抽出し、信頼度85%以上の項目を一括自動確認
+
+- **信頼度閾値**: 85%（未満はスキップ）
+- 項目ごとのスコアリング:
+  - ピン配置: ピン数・パッケージキーワード充足率
+  - 真理値表: 「Function Table / Truth Table」キーワードの有無
+  - 絶対最大定格: AMR キーワード充足率 + 電圧/電流数値の有無
+  - 電気特性: VOH/VOL/VIH/VIL キーワード充足率
+  - 未使用入力: 「unused input / floating / pull-up」キーワード充足率
+- 画像ベースPDF（テキスト抽出不可）は自動スキップ
+- PDF が見つからないパーツはスキップ
+- 実行例:
+  ```powershell
+  # dry-run（変更なし・結果表示）
+  python3 scripts/batch_factcheck_from_pdf.py --dry-run
+
+  # 特定パーツのみ
+  python3 scripts/batch_factcheck_from_pdf.py --part 74x86 --verbose
+
+  # 全パーツ一括適用
+  python3 scripts/batch_factcheck_from_pdf.py
+  ```
+- PDFを `datasheets/_download/` に追加すれば次回実行時に自動処理される
+
+### `.github/prompts/factcheck-interactive.prompt.md`
+
+**機能**: Agent モードで1パーツずつ対話型ファクトチェックを行うプロンプト
+
+- `render_datasheet_pages.py` でPDFをレンダリング → `view_image` で目視確認
+- **信頼度スコア評価**（ページごとに報告）:
+  - 低下要因: 小さいテキスト(-5〜15%)、多列表(-5〜20%)、紛らわしい文字(-3〜10%)、ページまたぎ(-5〜10%)、低画質(-10〜30%)
+  - 上昇要因: 複数PDFで相互確認(+5〜10%)
+- 85%以上: 自動確認扱い、85%未満: ユーザー目視確認を依頼
+- 確認後は `datasheets/.cache/pdf_render/` の一時PNG を削除
+- 呼び出し方: VS Code Agent チャットで `#factcheck-interactive 74x00` と入力
 ---
 
 ## 一次資料の“Web自動ファクトチェック”方針（将来）
@@ -643,7 +721,9 @@ history_path = os.path.join(base_dir, 'getstarting', '7400_series_ic_collection_
 - このリポでまず自動化するのは「URLの到達性」「ドキュメント識別情報の記録」「（任意で）ローカル一時ダウンロードとハッシュ算出」です。
 - PDF本文からピン配置/真理値表/電気特性を自動抽出して断定するのは、誤読リスクが高いので**慎重**に扱います。
   - 自動抽出を行う場合でも、結果が一次資料と一致すると保証できない限り、断定記述に使わない
-  - 必要なら `.temp/` にレンダ画像等を置き、ユーザー目視確認を前提にする
+  - レンダリング画像等の作業ファイルは `datasheets/.cache/` に置く（Git管理外、`.gitignore` 除外済み）
+  - `batch_factcheck_from_pdf.py` による自動確認は「信頼度85%以上」のみ更新し、それ以下はスキップ
+  - ユーザー目視確認が必要な場合は `factcheck-interactive.prompt.md` フローで対話確認
 
 関連スクリプト:
 
