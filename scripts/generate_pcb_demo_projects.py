@@ -272,6 +272,11 @@ def main():
         metavar="CATEGORY",
         help="特定カテゴリのみ処理（例: 01_buffers_inverters）",
     )
+    parser.add_argument(
+        "--part",
+        metavar="PART_NUMBER",
+        help="特定汎用型番のみ処理（例: 74x00）",
+    )
     args = parser.parse_args()
 
     dry_run = not args.apply
@@ -323,6 +328,8 @@ def main():
         cat = ov.get("Category", "99_other")
         if args.category and cat != args.category:
             continue
+        if args.part and pn != args.part:
+            continue
         if cat not in by_cat:
             by_cat[cat] = []
         by_cat[cat].append({"PartNumber": pn, **ov})
@@ -334,14 +341,16 @@ def main():
         cat = ov.get("Category", "99_other")
         if args.category and cat != args.category:
             continue
+        if args.part and pn != args.part:
+            continue
         generate_project(entry, overview_map, dry_run, args.overwrite, stats)
 
     # --- カテゴリ index 生成 ---
     for cat, parts in sorted(by_cat.items()):
         generate_category_index(cat, parts, dry_run)
 
-    # --- トップ index 生成（カテゴリ絞り込みなし時のみ） ---
-    if not args.category:
+    # --- トップ index 生成（カテゴリ/パーツ絞り込みなし時のみ） ---
+    if not args.category and not args.part:
         generate_top_index(history, overview_map, dry_run)
 
     # --- サマリ ---
