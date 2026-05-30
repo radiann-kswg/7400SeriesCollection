@@ -21,6 +21,80 @@
       "command": "python3 scripts/merge_fp.py",
       "isBackground": false,
       "group": "build"
+    },
+    {
+      "label": "PCB Demo: dry-run (show targets)",
+      "type": "shell",
+      "command": "python3 scripts/generate_pcb_demo_projects.py",
+      "isBackground": false,
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "PCB Demo: generate all projects",
+      "type": "shell",
+      "command": "python3 scripts/generate_pcb_demo_projects.py --apply",
+      "isBackground": false,
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "PCB Demo: overwrite all projects",
+      "type": "shell",
+      "command": "python3 scripts/generate_pcb_demo_projects.py --apply --overwrite",
+      "isBackground": false,
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "KiCAD CLI: export Gerber (requires project path arg)",
+      "type": "shell",
+      "command": "& 'C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe' pcb export gerbers --output '${input:gerberOutputDir}' '${input:pcbFilePath}'",
+      "isBackground": false,
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "KiCAD CLI: run DRC (requires project path arg)",
+      "type": "shell",
+      "command": "& 'C:\\Program Files\\KiCad\\10.0\\bin\\kicad-cli.exe' pcb drc --output '${input:drcOutputFile}' '${input:pcbFilePath}'",
+      "isBackground": false,
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    }
+  ],
+  "inputs": [
+    {
+      "id": "pcbFilePath",
+      "type": "promptString",
+      "description": "対象 .kicad_pcb ファイルのパス（例: pcb-demo/01_buffers_inverters/74x04/74x04.kicad_pcb）"
+    },
+    {
+      "id": "gerberOutputDir",
+      "type": "promptString",
+      "description": "Gerber 出力先ディレクトリ（例: pcb-demo/01_buffers_inverters/74x04/gerber）",
+      "default": "gerber"
+    },
+    {
+      "id": "drcOutputFile",
+      "type": "promptString",
+      "description": "DRC レポート出力ファイル名（例: drc_report.txt）",
+      "default": "drc_report.txt"
     }
   ]
 }

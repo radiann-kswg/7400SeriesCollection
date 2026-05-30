@@ -67,6 +67,22 @@
 └── usage/
   └── {カテゴリ名}/{パーツ番号}/**.md     # 回路設計情報 + 汎用型番チートシート（統合構造）
                        # 例: usage/06_encoders_decoders/74x141/74x141.md
+└── pcb-demo/
+  ├── _templates/                           # KiCAD プロジェクトテンプレート群
+  │   ├── template.kicad_pro                # プロジェクトファイルテンプレート
+  │   ├── template.kicad_sch                # 回路図テンプレート（KiCAD 8互換形式）
+  │   ├── template.kicad_pcb                # PCBレイアウトテンプレート（50×50mm外形）
+  │   ├── template.kicad_sym                # カスタムシンボルスタブテンプレート
+  │   └── README_template.md                # READMEテンプレート
+  ├── index.md                              # PCBデモ全体インデックス（自動生成）
+  └── {カテゴリ名}/
+      ├── index.md                          # カテゴリ別インデックス（自動生成）
+      └── {パーツ番号}/                     # 入手済みICのKiCADプロジェクト
+          ├── {パーツ番号}.kicad_pro
+          ├── {パーツ番号}.kicad_sch
+          ├── {パーツ番号}.kicad_pcb
+          ├── {パーツ番号}.kicad_sym
+          └── README.md
 ```
 
 ---
@@ -721,3 +737,75 @@ def validate_part_data(part_data):
 - **検証の徹底**: 変更後は必ずデータの妥当性を確認
 
 このプロジェクトは精密なデータ管理を要求するため、データ整合性と既存構造の尊重を最優先に開発を進めてください。
+
+---
+
+## KiCAD PCB デモ制作ガイドライン (`pcb-demo/`)
+
+### 概要
+
+`pcb-demo/` は、入手済み 7400 シリーズ IC の動作プレゼン用最小デモ PCB を  
+KiCAD 10.0.3 で制作するためのプロジェクト群です。
+
+- 構造は `usage/` と同じ `{カテゴリ名}/{パーツ番号}/` 形式
+- スクリプト `scripts/generate_pcb_demo_projects.py` で各 IC のスタブを一括生成
+- ピン配置・真理値表などの実配線事項は `usage/{カテゴリ}/{パーツ番号}/` の一次資料確認を前提とする
+
+### KiCAD 環境
+
+- **バージョン**: KiCAD 10.0.3
+- **CLI パス**: `C:\Program Files\KiCad\10.0\bin\kicad-cli.exe`
+- **テンプレート形式**: KiCAD 8 互換（version 20231120 / 20240108）
+  - KiCAD 10 が初回保存時に自動アップグレードする
+
+### ファイル生成スクリプト
+
+```powershell
+# dry-run（変更なし・生成予定を表示）
+python3 scripts/generate_pcb_demo_projects.py
+
+# 実際に生成（新規のみ）
+python3 scripts/generate_pcb_demo_projects.py --apply
+
+# 特定カテゴリのみ生成
+python3 scripts/generate_pcb_demo_projects.py --apply --category 01_buffers_inverters
+
+# 既存ファイルも上書き
+python3 scripts/generate_pcb_demo_projects.py --apply --overwrite
+```
+
+または VS Code タスクの「PCB Demo: dry-run」「PCB Demo: generate all projects」を使用。
+
+### 設計ルール（必須）
+
+1. **一次資料が未確認のまま断定的なピン配置を PCB に書かない**
+   - 回路図・PCB に実配線を記述する前に、`usage/{カテゴリ}/{パーツ番号}/` のファクトチェックが完了していること
+   - 一次資料の優先順位は `usage/` セクションの「重要: 一次資料照合」に準じる
+
+2. **KiCAD 標準ライブラリを優先する**
+   - 74xx シリーズは KiCAD 標準ライブラリ (`74xx`) にシンボルが収録されている
+   - `.kicad_sym` スタブはプレースホルダ。実際の設計では標準シンボルを使用すること
+
+3. **テンプレートのプレースホルダ**
+   - `{{PART_NUMBER}}` / `{{DESCRIPTION}}` / `{{DESCRIPTION_JP}}`
+   - `{{CATEGORY}}` / `{{CMOS_PARTS}}` / `{{TTL_PARTS}}` / `{{OTHER_PARTS}}`
+   - `{{ALL_OWNED_PARTS}}` / `{{DATE}}`
+
+4. **PCB 基本仕様（テンプレートのデフォルト）**
+   - 基板サイズ: 50×50 mm（Edge.Cuts に外形線あり）
+   - 銅箔厚: 35µm（標準 1oz）
+   - 基板厚: 1.6 mm
+   - 最小パターン幅: 0.2 mm
+   - デカップリング: IC 1個につき 100nF を VCC–GND 直近に配置すること
+
+5. **KiCAD CLI の利用（Gerber 出力・DRC）**
+   - Gerber 出力: VS Code タスク「KiCAD CLI: export Gerber」を使用
+   - DRC 実行: VS Code タスク「KiCAD CLI: run DRC」を使用
+   - CLI パスは `.vscode/tasks.json` の `kicad-cli.exe` のフルパスを参照
+
+### pcb-demo/ 関連ファイルの Git 管理方針
+
+- テンプレートファイル（`_templates/`）: Git 管理対象
+- 自動生成スタブ（各 IC のプロジェクトファイル）: Git 管理対象（stub として追跡）
+- Gerber 出力（`gerber/` サブディレクトリ）: `.gitignore` で除外推奨
+- KiCAD バックアップファイル（`*-backups/`, `*.kicad_prl`）: `.gitignore` で除外推奨
