@@ -8,6 +8,9 @@ datasheets/_download/**
 datasheets/**/*.pdf
 datasheets/**/*.PDF
 
+# Datasheet render cache (PNG images for factcheck interactive session)
+datasheets/.cache/
+
 *_temp.json
 .DS_Store
 
