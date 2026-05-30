@@ -1,0 +1,31 @@
+(kicad_sch
+  (version 20231120)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (paper "A4")
+  (title_block
+    (title "74x257 Demo Circuit")
+    (date "2026-05-30")
+    (rev "0.1")
+    (company "7400 Series Collection")
+    (comment 1 "Quad 2-to-1 multiplexer with 3-state outputs")
+    (comment 2 "4回路2入力マルチプレクサ（3状態出力）")
+    (comment 3 "Category: 07_data_selectors_mux_demux")
+    (comment 4 "IC: SN74HC257N, 74LS257AN, 74F257AN, SN74ALS257AN, SN74F257N")
+  )
+  (lib_symbols
+  )
+  (text "TODO: KiCadの標準ライブラリ (74xx) からシンボルを配置して回路を作成してください。\nピン配置・真理値表は usage/07_data_selectors_mux_demux/74x257/ の一次資料確認チェックリストを参照。"
+    (at 50 100 0)
+    (effects
+      (font
+        (size 1.5 1.5)
+      )
+    )
+  )
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
+)

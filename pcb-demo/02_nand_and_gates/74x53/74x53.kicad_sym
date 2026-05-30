@@ -1,0 +1,66 @@
+(kicad_symbol_lib
+  (version 20220914)
+  (generator "kicad_symbol_editor")
+  (symbol "74x53"
+    (pin_names
+      (offset 1.016)
+    )
+    (in_bom yes)
+    (on_board yes)
+    (property "Reference" "U"
+      (at 0 3.81 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Value" "74x53"
+      (at 0 -3.81 0)
+      (effects
+        (font (size 1.27 1.27))
+      )
+    )
+    (property "Footprint" ""
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Datasheet" ""
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "Description" "2-2-2-2-input AND-OR-Invert gate, expandable"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (property "ki_description" "2-2-2-2-input AND-OR-Invert gate, expandable"
+      (at 0 0 0)
+      (effects
+        (font (size 1.27 1.27))
+        (hide yes)
+      )
+    )
+    (symbol "74x53_0_1"
+      (rectangle
+        (start -5.08 -2.54)
+        (end 5.08 2.54)
+        (stroke (width 0) (type default))
+        (fill (type background))
+      )
+      (text "STUB\n74x53\n2回路2入力AND-OR-インバートゲート（拡張可能）"
+        (at 0 0 0)
+        (effects
+          (font (size 1.0 1.0))
+          (justify)
+        )
+      )
+    )
+  )
+)

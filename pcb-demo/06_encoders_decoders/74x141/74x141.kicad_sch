@@ -1,0 +1,43 @@
+(kicad_sch
+  (version 20231120)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (paper "A4")
+  (title_block
+    (title "74x141 Demo Circuit")
+    (date "2026-05-30")
+    (rev "0.1")
+    (company "7400 Series Collection")
+    (comment 1 "BCD to decimal decoder/driver for cold-cathode indicator or Nixie tube")
+    (comment 2 "BCD-10進デコーダ/ドライバー（冷陰極表示器/ニキシー管用）")
+    (comment 3 "Category: 06_encoders_decoders")
+    (comment 4 "IC: K155ID1/К155ИД1")
+  )
+  (lib_symbols
+  )
+  (text "【回路概要】74x141 簡単なニキシー管表示デモ回路\n電源: +5V\nIC: K155ID1/К155ИД1"
+    (at 10 15 0)
+    (effects (font (size 1.5 1.5)))
+  )
+  (text "【ピン配置】\n(ピン情報なし — usage/06_encoders_decoders/74x141/ を参照)"
+    (at 10 38 0)
+    (effects (font (size 1.27 1.27)))
+  )
+  (text "【配線要点】\n(配線要点なし)"
+    (at 10 68 0)
+    (effects (font (size 1.27 1.27)))
+  )
+  (text "【データシート】\n"
+    (at 10 95 0)
+    (effects (font (size 1.27 1.27)))
+  )
+  (text "TODO: 74xxライブラリから 74x141 シンボルを配置し\n上記ピン配置・配線要点に従って回路を完成させてください。\nusage/06_encoders_decoders/74x141/ の一次資料確認チェックリストも参照。"
+    (at 10 140 0)
+    (effects (font (size 1.5 1.5)) (justify left))
+  )
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
+)

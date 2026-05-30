@@ -1,0 +1,31 @@
+(kicad_sch
+  (version 20231120)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (paper "A4")
+  (title_block
+    (title "74x173 Demo Circuit")
+    (date "2026-05-30")
+    (rev "0.1")
+    (company "7400 Series Collection")
+    (comment 1 "4-bit D-type register with 3-state outputs")
+    (comment 2 "4ビットD型レジスタ（3状態出力）")
+    (comment 3 "Category: 09_registers")
+    (comment 4 "IC: TC74HC173AF, SN74LS173AN, DM74173N")
+  )
+  (lib_symbols
+  )
+  (text "TODO: KiCadの標準ライブラリ (74xx) からシンボルを配置して回路を作成してください。\nピン配置・真理値表は usage/09_registers/74x173/ の一次資料確認チェックリストを参照。"
+    (at 50 100 0)
+    (effects
+      (font
+        (size 1.5 1.5)
+      )
+    )
+  )
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
+)

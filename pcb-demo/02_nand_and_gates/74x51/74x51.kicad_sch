@@ -1,0 +1,43 @@
+(kicad_sch
+  (version 20231120)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (paper "A4")
+  (title_block
+    (title "74x51 Demo Circuit")
+    (date "2026-05-30")
+    (rev "0.1")
+    (company "7400 Series Collection")
+    (comment 1 "Dual AND-OR-Invert gate (configuration depends on logic family)")
+    (comment 2 "2回路AND-OR-インバートゲート（構成はロジックファミリに依存）")
+    (comment 3 "Category: 02_nand_and_gates")
+    (comment 4 "IC: DM74S51N")
+  )
+  (lib_symbols
+  )
+  (text "【回路概要】74x51 基本動作デモ（1回路）\n電源: +5V（ロジックファミリにより範囲が異なるため一次資料で確認）\nIC: DM74S51N"
+    (at 10 15 0)
+    (effects (font (size 1.5 1.5)))
+  )
+  (text "【ピン配置】\n(ピン情報なし — usage/02_nand_and_gates/74x51/ を参照)"
+    (at 10 38 0)
+    (effects (font (size 1.27 1.27)))
+  )
+  (text "【配線要点】\n・VCC/GND: ピン表で確認した電源ピンに接続。0.1µFをIC直近に配置。\n・入力: スイッチでH/Lを切り替え（フローティング禁止）。\n・出力: LED＋抵抗で観測（出力ドライブ能力は一次資料で確認）。"
+    (at 10 68 0)
+    (effects (font (size 1.27 1.27)))
+  )
+  (text "【データシート】\n"
+    (at 10 95 0)
+    (effects (font (size 1.27 1.27)))
+  )
+  (text "TODO: 74xxライブラリから 74x51 シンボルを配置し\n上記ピン配置・配線要点に従って回路を完成させてください。\nusage/02_nand_and_gates/74x51/ の一次資料確認チェックリストも参照。"
+    (at 10 140 0)
+    (effects (font (size 1.5 1.5)) (justify left))
+  )
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
+)

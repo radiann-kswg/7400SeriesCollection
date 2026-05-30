@@ -1,0 +1,31 @@
+(kicad_sch
+  (version 20231120)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (paper "A4")
+  (title_block
+    (title "74x162 Demo Circuit")
+    (date "2026-05-30")
+    (rev "0.1")
+    (company "7400 Series Collection")
+    (comment 1 "Synchronous presettable 4-bit decade counter, synchronous clear")
+    (comment 2 "同期式プリセット可能4ビット10進カウンタ（同期クリア）")
+    (comment 3 "Category: 14_system_controllers_timing")
+    (comment 4 "IC: DM74LS162AN")
+  )
+  (lib_symbols
+  )
+  (text "TODO: KiCadの標準ライブラリ (74xx) からシンボルを配置して回路を作成してください。\nピン配置・真理値表は usage/14_system_controllers_timing/74x162/ の一次資料確認チェックリストを参照。"
+    (at 50 100 0)
+    (effects
+      (font
+        (size 1.5 1.5)
+      )
+    )
+  )
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
+)

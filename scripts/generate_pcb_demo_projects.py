@@ -18,6 +18,21 @@ import sys
 from datetime import date
 from pathlib import Path
 
+# 実回路図生成モジュール（遅延インポートで ImportError を回避）
+try:
+    from scripts import kicad_sch_gen as _kicad_sch_gen  # type: ignore[import]
+except ImportError:
+    try:
+        import importlib.util as _iutil, os as _os
+        _spec = _iutil.spec_from_file_location(
+            "kicad_sch_gen",
+            Path(__file__).resolve().parent / "kicad_sch_gen.py",
+        )
+        _kicad_sch_gen = _iutil.module_from_spec(_spec)  # type: ignore[assignment]
+        _spec.loader.exec_module(_kicad_sch_gen)  # type: ignore[union-attr]
+    except Exception:
+        _kicad_sch_gen = None  # type: ignore[assignment]
+
 # ============================================================
 # パス設定
 # ============================================================
@@ -348,10 +363,24 @@ def generate_project(
 
         action = "上書き" if out_path.exists() else "新規"
 
-        # .kicad_sch: demo MD があればリッチ版を生成、なければテンプレート
-        if tmpl_name == "template.kicad_sch" and demo_info is not None:
-            content = build_sch_from_demo(demo_info, replacements)
-            src_note = f" (回路情報付き{demo_label})"
+        # .kicad_sch: 実シンボル回路図 > テキスト注釈 > テンプレートスタブ
+        if tmpl_name == "template.kicad_sch":
+            real_sch = None
+            if _kicad_sch_gen is not None:
+                try:
+                    real_sch = _kicad_sch_gen.build_real_kicad_sch(part_number, replacements)
+                except Exception as exc:
+                    print(f"  [WARN] 実回路図生成失敗 ({part_number}): {exc}")
+            if real_sch is not None:
+                content = real_sch
+                src_note = " (実シンボル回路図)"
+            elif demo_info is not None:
+                content = build_sch_from_demo(demo_info, replacements)
+                src_note = f" (テキスト注釈{demo_label})"
+            else:
+                content = tmpl_path.read_text(encoding="utf-8")
+                content = apply_replacements(content, replacements)
+                src_note = ""
         else:
             content = tmpl_path.read_text(encoding="utf-8")
             content = apply_replacements(content, replacements)

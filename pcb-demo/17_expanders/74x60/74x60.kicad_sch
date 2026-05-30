@@ -1,0 +1,31 @@
+(kicad_sch
+  (version 20231120)
+  (generator "eeschema")
+  (generator_version "8.0")
+  (paper "A4")
+  (title_block
+    (title "74x60 Demo Circuit")
+    (date "2026-05-30")
+    (rev "0.1")
+    (company "7400 Series Collection")
+    (comment 1 "dual 4-input expander for 74x23, 74x50, 74x53, 74x55")
+    (comment 2 "2回路4入力拡張器（74x23、74x50、74x53、74x55用）")
+    (comment 3 "Category: 17_expanders")
+    (comment 4 "IC: SN7460N")
+  )
+  (lib_symbols
+  )
+  (text "TODO: KiCadの標準ライブラリ (74xx) からシンボルを配置して回路を作成してください。\nピン配置・真理値表は usage/17_expanders/74x60/ の一次資料確認チェックリストを参照。"
+    (at 50 100 0)
+    (effects
+      (font
+        (size 1.5 1.5)
+      )
+    )
+  )
+  (sheet_instances
+    (path "/"
+      (page "1")
+    )
+  )
+)
