@@ -1,0 +1,5 @@
+# 03_nor_or_gates — PCB Demo Index
+
+| 汎用型番 | 機能 (EN) | 機能 (JP) |
+|---------|-----------|----------|
+| [74x02](74x02/README.md) | Quad 2-input NOR gate | 4回路2入力NORゲート |

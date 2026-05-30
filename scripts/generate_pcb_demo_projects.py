@@ -13,6 +13,7 @@ generate_pcb_demo_projects.py
 
 import argparse
 import json
+import re
 import sys
 from datetime import date
 from pathlib import Path
@@ -95,8 +96,209 @@ def template_to_output_name(template_filename: str, part_number: str) -> str:
 
 
 # ============================================================
-# プロジェクト生成
+# demo MD 解析（usage/{category}/{part_number}/01_*.md）
 # ============================================================
+
+def _esc_sch(s: str) -> str:
+    """KiCAD schematic (text ...) 内の文字列エスケープ。
+    - ダブルクォート → \\"
+    - バックスラッシュ → \\\\
+    - Python 改行 → literal \\n（KiCAD がテキスト折り返しとして解釈）
+    """
+    s = s.replace("\\", "\\\\")
+    s = s.replace('"', '\\"')
+    s = s.replace("\n", "\\n")
+    return s
+
+
+def find_demo_md(category: str, part_number: str) -> "Path | None":
+    """usage/{category}/{part_number}/ 配下の 01_*.md を探して返す。"""
+    usage_dir = BASE_DIR / "usage" / category / part_number
+    if not usage_dir.exists():
+        return None
+    for p in sorted(usage_dir.glob("01_*.md")):
+        return p
+    return None
+
+
+def parse_demo_md(md_path: Path) -> dict:
+    """demo MD から回路情報を抽出して辞書で返す。"""
+    text = md_path.read_text(encoding="utf-8")
+    lines = text.split("\n")
+    result: dict = {
+        "title": "",
+        "power_supply": "+5V",
+        "datasheet_url": "",
+        "pins": [],        # [{"pin": "1", "name": "1A"}, ...]
+        "notes": [],       # ["VCC/GND: ...", ...]
+        "components": "",  # 部品リストを平文テキスト化したもの
+    }
+
+    # H1 タイトル
+    for line in lines:
+        if line.startswith("# "):
+            result["title"] = line[2:].strip()
+            break
+
+    # 電源情報
+    m = re.search(r"\*\*電源\*\*[：:]\s*(.+?)(?:\n|$)", text)
+    if m:
+        result["power_supply"] = m.group(1).strip()
+
+    # ピン配置テーブル（| Pin | Name | 形式）
+    in_header = False
+    past_sep = False
+    for line in lines:
+        s = line.strip()
+        if re.match(r"\|\s*[Pp]in\s*\|", s):
+            in_header = True
+            past_sep = False
+            continue
+        if in_header and not past_sep and re.match(r"\|[-:\s|]+\|", s):
+            past_sep = True
+            continue
+        if in_header and past_sep:
+            if not s.startswith("|"):
+                in_header = False
+                past_sep = False
+                continue
+            cols = [c.strip() for c in s.strip("|").split("|")]
+            if len(cols) >= 2 and cols[0].isdigit():
+                result["pins"].append({"pin": cols[0], "name": cols[1]})
+
+    # データシート URL
+    m = re.search(r"\*\*データシートURL\*\*[：:]\s*(https?://\S+)", text)
+    if m:
+        result["datasheet_url"] = m.group(1).strip()
+
+    # 配線要点セクション
+    m = re.search(r"## 配線の要点(.*?)(?=\n##|\Z)", text, re.DOTALL)
+    if m:
+        for line in m.group(1).split("\n"):
+            s = line.strip()
+            if not s or s.startswith("#") or s.startswith("|") or re.match(r"^-{3,}$", s):
+                continue
+            s = re.sub(r"\*\*([^*]+)\*\*", r"\1", s)  # **bold** 除去
+            s = s.lstrip("-* ").strip()
+            if s:
+                result["notes"].append(s)
+
+    # 必要部品リストセクション
+    m = re.search(r"## 必要部品リスト(.*?)(?=\n##|\Z)", text, re.DOTALL)
+    if m:
+        comp_lines = []
+        for line in m.group(1).split("\n"):
+            s = line.strip()
+            if not s or re.match(r"^-{3,}$", s) or re.match(r"\|[-:\s|]+\|", s):
+                continue
+            if s.startswith("###"):
+                comp_lines.append("[" + s.lstrip("# ") + "]")
+            elif s.startswith("|"):
+                cols = [c.strip() for c in s.strip("|").split("|") if c.strip()]
+                skip_heads = {"部品", "汎用型番", "汎用ロジックic", "個数", "目安"}
+                if cols and cols[0].lower() not in skip_heads:
+                    comp_lines.append("  " + " / ".join(cols))
+        result["components"] = "\n".join(comp_lines)
+
+    return result
+
+
+def build_sch_from_demo(demo_info: dict, replacements: dict) -> str:
+    """demo_info を元にリッチな .kicad_sch コンテンツを生成して返す。"""
+    part_number = replacements["{{PART_NUMBER}}"]
+    description  = replacements["{{DESCRIPTION}}"]
+    description_jp = replacements["{{DESCRIPTION_JP}}"]
+    category     = replacements["{{CATEGORY}}"]
+    all_owned    = replacements["{{ALL_OWNED_PARTS}}"]
+    today        = replacements["{{DATE}}"]
+
+    def t(s: str) -> str:
+        return _esc_sch(s)
+
+    # ピン配置テキスト（7ピンごとに折り返し）
+    pins = demo_info.get("pins", [])
+    if pins:
+        chunk = 7
+        rows = [
+            "  ".join(f"{p['pin']}={p['name']}" for p in pins[i:i + chunk])
+            for i in range(0, len(pins), chunk)
+        ]
+        pin_text = t("\n".join(rows))
+    else:
+        pin_text = t(f"(ピン情報なし — usage/{category}/{part_number}/ を参照)")
+
+    # 配線要点
+    notes = demo_info.get("notes", [])
+    notes_text = t("\n".join(f"\u30fb{n}" for n in notes)) if notes else t("(配線要点なし)")
+
+    # データシート URL
+    ds_url = t(demo_info.get("datasheet_url", ""))
+
+    # 部品リスト
+    comp_raw = demo_info.get("components", "")
+    comp_block = (
+        f'  (text "【部品リスト】\\n{t(comp_raw)}"\n'
+        f'    (at 10 108 0)\n'
+        f'    (effects (font (size 1.27 1.27)))\n'
+        f'  )\n'
+    ) if comp_raw else ""
+
+    # TODO メッセージ
+    todo_msg = t(
+        f"TODO: 74xxライブラリから {part_number} シンボルを配置し\n"
+        f"上記ピン配置・配線要点に従って回路を完成させてください。\n"
+        f"usage/{category}/{part_number}/ の一次資料確認チェックリストも参照。"
+    )
+
+    circuit_title = t(demo_info.get("title", f"{part_number} Demo"))
+    power = t(demo_info.get("power_supply", "+5V"))
+
+    return (
+        f'(kicad_sch\n'
+        f'  (version 20231120)\n'
+        f'  (generator "eeschema")\n'
+        f'  (generator_version "8.0")\n'
+        f'  (paper "A4")\n'
+        f'  (title_block\n'
+        f'    (title "{t(part_number)} Demo Circuit")\n'
+        f'    (date "{today}")\n'
+        f'    (rev "0.1")\n'
+        f'    (company "7400 Series Collection")\n'
+        f'    (comment 1 "{t(description)}")\n'
+        f'    (comment 2 "{t(description_jp)}")\n'
+        f'    (comment 3 "Category: {t(category)}")\n'
+        f'    (comment 4 "IC: {t(all_owned)}")\n'
+        f'  )\n'
+        f'  (lib_symbols\n'
+        f'  )\n'
+        f'  (text "【回路概要】{circuit_title}\\n電源: {power}\\nIC: {t(all_owned)}"\n'
+        f'    (at 10 15 0)\n'
+        f'    (effects (font (size 1.5 1.5)))\n'
+        f'  )\n'
+        f'  (text "【ピン配置】\\n{pin_text}"\n'
+        f'    (at 10 38 0)\n'
+        f'    (effects (font (size 1.27 1.27)))\n'
+        f'  )\n'
+        f'  (text "【配線要点】\\n{notes_text}"\n'
+        f'    (at 10 68 0)\n'
+        f'    (effects (font (size 1.27 1.27)))\n'
+        f'  )\n'
+        f'  (text "【データシート】\\n{ds_url}"\n'
+        f'    (at 10 95 0)\n'
+        f'    (effects (font (size 1.27 1.27)))\n'
+        f'  )\n'
+        + comp_block +
+        f'  (text "{todo_msg}"\n'
+        f'    (at 10 140 0)\n'
+        f'    (effects (font (size 1.5 1.5)) (justify left))\n'
+        f'  )\n'
+        f'  (sheet_instances\n'
+        f'    (path "/"\n'
+        f'      (page "1")\n'
+        f'    )\n'
+        f'  )\n'
+        f')\n'
+    )
 
 def generate_project(
     entry: dict,
@@ -126,6 +328,11 @@ def generate_project(
         cmos_parts, ttl_parts, other_parts,
     )
 
+    # usage/ 配下の demo MD を探す
+    demo_md_path = find_demo_md(category, part_number)
+    demo_info = parse_demo_md(demo_md_path) if demo_md_path else None
+    demo_label = f" ← {demo_md_path.name}" if demo_md_path else ""
+
     for tmpl_name in TEMPLATE_FILES:
         tmpl_path = TEMPLATES_DIR / tmpl_name
         if not tmpl_path.exists():
@@ -140,17 +347,25 @@ def generate_project(
             continue
 
         action = "上書き" if out_path.exists() else "新規"
+
+        # .kicad_sch: demo MD があればリッチ版を生成、なければテンプレート
+        if tmpl_name == "template.kicad_sch" and demo_info is not None:
+            content = build_sch_from_demo(demo_info, replacements)
+            src_note = f" (回路情報付き{demo_label})"
+        else:
+            content = tmpl_path.read_text(encoding="utf-8")
+            content = apply_replacements(content, replacements)
+            src_note = ""
+
         if dry_run:
             rel = out_path.relative_to(BASE_DIR)
-            print(f"  [DRY-RUN] {action}: {rel}")
+            print(f"  [DRY-RUN] {action}: {rel}{src_note}")
             stats["would_create"] += 1
         else:
             project_dir.mkdir(parents=True, exist_ok=True)
-            content = tmpl_path.read_text(encoding="utf-8")
-            content = apply_replacements(content, replacements)
             out_path.write_text(content, encoding="utf-8")
             rel = out_path.relative_to(BASE_DIR)
-            print(f"  [{action}] {rel}")
+            print(f"  [{action}] {rel}{src_note}")
             stats["created"] += 1
 
 
