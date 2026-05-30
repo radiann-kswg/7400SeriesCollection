@@ -67,6 +67,8 @@
 │   ├── auto_check_factcheck.py          # チートシートのファクトチェック項目を自動更新
 │   ├── render_datasheet_pages.py        # データシートPDFをPNGレンダリング（.cache/出力）
 │   ├── batch_factcheck_from_pdf.py      # PDFテキスト抽出による一括自動ファクトチェック（85%閾値）
+│   ├── generate_pcb_demo_projects.py   # pcb-demo/ KiCADプロジェクトスタブ一括生成
+│   ├── kicad_sch_gen.py                # KiCAD 8形式の実回路図（実シンボル）生成モジュール
 │   ├── merge_fp.py                      # データ統合処理スクリプト
 │   ├── refine_descriptions.py           # 説明文洗練化スクリプト
 │   ├── split_overview_by_logic_category.py # マスターデータを論理分類で分割
@@ -216,6 +218,8 @@
 - `auto_check_factcheck.py`: チートシートのファクトチェック項目を自動更新（型番確定・datasheet_sources参照先確認）
 - `render_datasheet_pages.py`: ローカルPDFを `datasheets/.cache/pdf_render/` へPNGレンダリング（要 PyMuPDF）
 - `batch_factcheck_from_pdf.py`: PDFテキスト抽出による一括自動ファクトチェック（信頼度85%以上の項目のみ更新）
+- `generate_pcb_demo_projects.py`: `pcb-demo/` 配下のKiCADプロジェクトスタブを一括生成。`kicad_sch_gen.py` と連携して実シンボル回路図を優先生成
+- `kicad_sch_gen.py`: KiCAD 8形式 (version 20231120) の実回路図生成モジュール。KiCAD 10標準ライブラリ (`74xx.kicad_sym`) からシンボル定義を読み込んで `lib_symbols` に埋め込む
 - `merge_fp.py`: データ統合処理
 - `refine_descriptions.py`: 説明文洗練化
 - `sort_datasheet_by_partnumber.py`: データシートソート処理
@@ -346,6 +350,8 @@ _download/
 - `auto_check_factcheck.py`: チートシートのファクトチェック項目を自動更新（型番確定・datasheet_sources参照先確認）
 - `render_datasheet_pages.py`: ローカルPDFを `datasheets/.cache/pdf_render/` へPNGレンダリング（要 PyMuPDF）
 - `batch_factcheck_from_pdf.py`: PDFテキスト抽出による一括自動ファクトチェック（信頼度85%以上の項目のみ更新）
+- `generate_pcb_demo_projects.py`: `pcb-demo/` 配下のKiCADプロジェクトスタブを一括生成。`kicad_sch_gen.py` と連携して実シンボル回路図を優先生成
+- `kicad_sch_gen.py`: KiCAD 8形式 (version 20231120) の実回路図生成モジュール。KiCAD 10標準ライブラリ (`74xx.kicad_sym`) からシンボル定義を読み込んで `lib_symbols` に埋め込む
 - `merge_fp.py`: データ統合処理
 - `refine_descriptions.py`: 説明文洗練化
 - `sort_datasheet_by_partnumber.py`: データシートソート処理
@@ -828,7 +834,9 @@ def validate_part_data(part_data):
 KiCAD 10.0.3 で制作するためのプロジェクト群です。
 
 - 構造は `usage/` と同じ `{カテゴリ名}/{パーツ番号}/` 形式
-- スクリプト `scripts/generate_pcb_demo_projects.py` で各 IC のスタブを一括生成
+- `scripts/generate_pcb_demo_projects.py` で各 IC のプロジェクトを一括生成
+- `scripts/kicad_sch_gen.py` が **KiCAD 標準ライブラリの実シンボルを使った `.kicad_sch`** を自動生成（対応部品: バッファ/インバータ・NAND/NOR/AND/OR/XOR・FF・ラッチ・MUX・デコーダ・カウンタ・算術・シフトレジスタ 計47種）
+  - 非対応部品はテキスト注釈版またはテンプレートスタブにフォールバック
 - ピン配置・真理値表などの実配線事項は `usage/{カテゴリ}/{パーツ番号}/` の一次資料確認を前提とする
 
 ### KiCAD 環境
@@ -864,6 +872,7 @@ python3 scripts/generate_pcb_demo_projects.py --apply --overwrite
 
 2. **KiCAD 標準ライブラリを優先する**
    - 74xx シリーズは KiCAD 標準ライブラリ (`74xx`) にシンボルが収録されている
+   - `kicad_sch_gen.py` が対応している部品は標準ライブラリのシンボルを `lib_symbols` に埋め込んだ実回路図を自動生成する
    - `.kicad_sym` スタブはプレースホルダ。実際の設計では標準シンボルを使用すること
 
 3. **テンプレートのプレースホルダ**

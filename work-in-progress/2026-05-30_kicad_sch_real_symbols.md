@@ -103,11 +103,15 @@ python3 scripts/generate_pcb_demo_projects.py --apply --overwrite --part 74x00
   - 全4ゲートユニット + 電源ユニット配置 ✓
 - バッチ検証（全164件）: 実行済み（結果は next session 参照）
 
+## 検証結果（確定）
+
+- **全164件 KiCAD CLI (SVG export) 成功、Failures: 0**
+  - 74x00 SVG (317KB) に IN_A, IN_B, OUT_Y, VCC, GND, 74LS00 が含まれることを確認済み
+- `.temp/batch_svg/`, `.temp/test_sch_export/` は削除済み
+
 ## 残課題
 
-- [ ] 全164件のバッチKiCAD CLI検証完了確認
 - [ ] 各ICをKiCADアプリで実際に開いてビジュアル確認
 - [ ] `PART_TO_KICAD_SYM` に未登録の入手済み部品（74x141等）への対応
   - 74x141 は KiCAD標準ライブラリに存在するか要確認（`74xx.kicad_sym` で検索）
-- [ ] `.temp/batch_svg/` の一時ファイル削除（作業完了後）
 - [ ] `.temp/debug_pins.py`, `.temp/check_pin_names.py` の削除（作業完了後）
