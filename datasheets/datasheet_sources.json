@@ -16,18 +16,28 @@
         "Manufacturer": "PHILIPS(NXPSemiconductors)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Url": "https://assets.nexperia.com/documents/data-sheet/74HC_HCT00.pdf",
+        "LastAccessed": "2026-06-15",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) ",
+        "FinalUrl": "https://assets.nexperia.com/documents/data-sheet/74HC_HCT00.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "269586",
+        "Sha256": "dd401970bc0520c2496dd2a8fb8d9c94f29585c61d5f49dab606257d6c92b22f",
+        "CheckedAt": "2026-06-15T12:59:18+00:00"
       },
       {
         "ExactPartNumber": "HD74HC00F",
         "Manufacturer": "RENESAS",
         "DocumentId": "",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history"
+        "Url": "https://www.renesas.com/en/document/dst/hd74hc00-datasheet",
+        "LastAccessed": "2026-06-15",
+        "Notes": "AUTO: from history",
+        "FinalUrl": "https://www.renesas.com/en/document/dst/hd74hc00-datasheet",
+        "ContentType": "application/pdf",
+        "ContentLength": "108961",
+        "Sha256": "f13f5b3adf3366f1d5c04e56e8588939699bf6fbf2211a5707123ee0521e64f5",
+        "CheckedAt": "2026-06-15T12:59:22+00:00"
       },
       {
         "ExactPartNumber": "SN74HC00N",
@@ -44,12 +54,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74s00.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74s00.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1749181",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "1749179",
+        "CheckedAt": "2026-06-15T12:59:19+00:00",
+        "Sha256": "20f07175c446f17a1e16520ef22d46d05cc64f325897a78d9ae8ff834258273c"
       },
       {
         "ExactPartNumber": "TC74HC00AF",
@@ -97,9 +108,14 @@
         "Manufacturer": "RENESAS",
         "DocumentId": "",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history"
+        "Url": "https://www.renesas.com/en/document/dst/hd74hc02-datasheet",
+        "LastAccessed": "2026-06-15",
+        "Notes": "AUTO: from history",
+        "FinalUrl": "https://www.renesas.com/en/document/dst/hd74hc02-datasheet",
+        "ContentType": "application/pdf",
+        "ContentLength": "108913",
+        "Sha256": "9823526b000dcc93161327bfaf8fc8ff07cfc9eeea9603f4ce6f680a3f78ca03",
+        "CheckedAt": "2026-06-15T12:59:24+00:00"
       },
       {
         "ExactPartNumber": "SN74F02N",
@@ -107,12 +123,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74f02.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f02.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1270654",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T12:59:25+00:00",
+        "Sha256": "84bbb009966a4c8eef86e84d6a7df088b5c5b37946ebce536c9578395138f577"
       },
       {
         "ExactPartNumber": "SN74HC02N",
@@ -146,18 +163,28 @@
         "Manufacturer": "RENESAS",
         "DocumentId": "",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history"
+        "Url": "https://www.renesas.com/en/document/dst/hd74ls03-datasheet",
+        "LastAccessed": "2026-06-15",
+        "Notes": "AUTO: from history",
+        "FinalUrl": "https://www.renesas.com/en/document/dst/hd74ls03-datasheet",
+        "ContentType": "application/pdf",
+        "ContentLength": "163029",
+        "Sha256": "c646be8c3a697bc28487f67c266dfd1ea70c89a3d8dd674ffeb2acbab18b0802",
+        "CheckedAt": "2026-06-15T12:59:28+00:00"
       },
       {
         "ExactPartNumber": "MC74HC03AN",
         "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history"
+        "Url": "https://www.onsemi.com/download/data-sheet/pdf/mc74hc03a-d.pdf",
+        "LastAccessed": "2026-06-15",
+        "Notes": "AUTO: from history",
+        "FinalUrl": "https://www.onsemi.com/download/data-sheet/pdf/mc74hc03a-d.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "259423",
+        "Sha256": "8a4d78401df54d2d1bcc3f0cfcb1592d8bfdf2ed40cdf5639eb6ee1f844fbcf9",
+        "CheckedAt": "2026-06-15T12:59:32+00:00"
       },
       {
         "ExactPartNumber": "SN7403",
@@ -187,9 +214,14 @@
         "Manufacturer": "PHILIPS(NXPSemiconductors)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Url": "https://assets.nexperia.com/documents/data-sheet/74HCU04.pdf",
+        "LastAccessed": "2026-06-15",
+        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) ",
+        "FinalUrl": "https://assets.nexperia.com/documents/data-sheet/74HCU04.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "261756",
+        "Sha256": "d9b751e606932081c550a0e0c2939c4b640be4be0d6210db0d61e6ba9cf6eae9",
+        "CheckedAt": "2026-06-15T12:59:35+00:00"
       },
       {
         "ExactPartNumber": "MM74HC04N/MC74HC04N",
@@ -206,12 +238,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74als04b.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als04b.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1452406",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T12:59:37+00:00",
+        "Sha256": "5d78da443666a1b6d302ec29ac29b311d40a535836c5c8841351281963fa7ea3"
       },
       {
         "ExactPartNumber": "SN74AS04N",
@@ -219,12 +252,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74as04.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74as04.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1452406",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T12:59:38+00:00",
+        "Sha256": "5d78da443666a1b6d302ec29ac29b311d40a535836c5c8841351281963fa7ea3"
       },
       {
         "ExactPartNumber": "SN74F04N",
@@ -232,12 +266,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74f04.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f04.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1269385",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "1269389",
+        "CheckedAt": "2026-06-15T12:59:39+00:00",
+        "Sha256": "0bcd7bf20532feffd1f8aba5e02bd0774e89044b28aa1e2c05395bf3a5ba3a4f"
       },
       {
         "ExactPartNumber": "SN74H04N",
@@ -245,12 +280,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn7404.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn7404.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1542673",
-        "CheckedAt": "2026-02-14T06:47:21+00:00"
+        "ContentLength": "1542686",
+        "CheckedAt": "2026-06-15T12:59:36+00:00",
+        "Sha256": "39955a271e67e428dc8dc60b28a23383bce42c3fc7da0ece1dcd0c434d9254f5"
       },
       {
         "ExactPartNumber": "SN74HC04N",
@@ -276,12 +312,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74als05a.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als05a.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1271767",
-        "CheckedAt": "2026-02-14T06:47:21+00:00"
+        "ContentLength": "1271762",
+        "CheckedAt": "2026-06-15T12:59:42+00:00",
+        "Sha256": "3d351681003fc9a296801f175a5f32200af431345d69f447e973021237a44b47"
       },
       {
         "ExactPartNumber": "SN74HC05N",
@@ -302,12 +339,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74ls05.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls05.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1491956",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T12:59:40+00:00",
+        "Sha256": "1a04c8fe6e99a9e50d272c5c692025b93307326dfbb489496c9f25efff39a659"
       }
     ]
   },
@@ -379,12 +417,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74als08.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als08.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1312700",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T12:59:54+00:00",
+        "Sha256": "48af852fabc5dd5b02dc00499dbd8312e22b848971dc1ded52b6a5b57d7425d9"
       },
       {
         "ExactPartNumber": "SN74AS08N",
@@ -392,12 +431,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74as08.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74as08.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1312700",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T12:59:55+00:00",
+        "Sha256": "48af852fabc5dd5b02dc00499dbd8312e22b848971dc1ded52b6a5b57d7425d9"
       },
       {
         "ExactPartNumber": "SN74HC08N",
@@ -423,12 +463,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74ls09.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls09.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1440774",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T12:59:56+00:00",
+        "Sha256": "be91a818c563eaa562bbeebd08f27e9e5fc38286d7de7df48d8a4d9e1bec336f"
       }
     ]
   },
@@ -441,12 +482,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74f10.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f10.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1268320",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T12:59:57+00:00",
+        "Sha256": "77b4ea709dc154f95e6bbe84924a0a5cf404bfb8b6680fb3351781df800087c4"
       },
       {
         "ExactPartNumber": "SN74HC10N",
@@ -647,9 +689,14 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history"
+        "Url": "https://www.ti.com/lit/ds/symlink/sn5423.pdf",
+        "LastAccessed": "2026-06-15",
+        "Notes": "AUTO: from history",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn5423.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "807790",
+        "Sha256": "5ec313063f6ab786b6bab21f563380e037ad4c15d1b67eaeaa19ced85f595878",
+        "CheckedAt": "2026-06-15T13:00:12+00:00"
       }
     ]
   },
@@ -670,9 +717,14 @@
         "Manufacturer": "RENESAS",
         "DocumentId": "",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history"
+        "Url": "https://www.renesas.com/en/document/dst/hd74ls26-datasheet",
+        "LastAccessed": "2026-06-15",
+        "Notes": "AUTO: from history",
+        "FinalUrl": "https://www.renesas.com/en/document/dst/hd74ls26-datasheet",
+        "ContentType": "application/pdf",
+        "ContentLength": "163193",
+        "Sha256": "876e7dcd40fabf1bcf8149cd4b9e0a4aa97870c76300721e335d0b470aaeb609",
+        "CheckedAt": "2026-06-15T13:00:15+00:00"
       },
       {
         "ExactPartNumber": "SN74LS26N",
@@ -680,12 +732,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74ls26.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls26.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "740322",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "740323",
+        "CheckedAt": "2026-06-15T13:00:16+00:00",
+        "Sha256": "e2923b53ffd735c81c4f6544ae752e21514a0cde9c80413c55065c22de62f7be"
       }
     ]
   },
@@ -707,12 +760,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74als27a.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als27a.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1306104",
-        "CheckedAt": "2026-02-14T06:47:21+00:00"
+        "CheckedAt": "2026-06-15T13:00:17+00:00",
+        "Sha256": "485622fb4b94b2fe312621cf6bf30c152eff82f9927b1948f838efd653792858"
       },
       {
         "ExactPartNumber": "SN74HC27N",
@@ -797,12 +851,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn54als33a.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn54als33a.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "360838",
-        "CheckedAt": "2026-02-14T06:47:21+00:00"
+        "CheckedAt": "2026-06-15T13:00:20+00:00",
+        "Sha256": "db9f1834135e46ef57e20a8bb0a7d5a0ad6aeeb94703c33fb0023b851e31ccb4"
       }
     ]
   },
@@ -1053,12 +1108,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74als74a.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als74a.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1329027",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:00:51+00:00",
+        "Sha256": "aa32465d7632a00eb4c9ac79b31b8b6d487ea3109693adbdb607a9856b5eaf2f"
       },
       {
         "ExactPartNumber": "SN74AS74N",
@@ -1066,12 +1122,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74as74a.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74as74a.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1329027",
-        "CheckedAt": "2026-02-14T06:47:21+00:00"
+        "CheckedAt": "2026-06-15T13:00:52+00:00",
+        "Sha256": "aa32465d7632a00eb4c9ac79b31b8b6d487ea3109693adbdb607a9856b5eaf2f"
       },
       {
         "ExactPartNumber": "SN74F74N",
@@ -1079,12 +1136,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74f74.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f74.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1288808",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "1288022",
+        "CheckedAt": "2026-06-15T13:00:53+00:00",
+        "Sha256": "8f0557070c5030083fc08cebdb125ad81e3acb09e65122d2dca4e5cfbdee66e6"
       },
       {
         "ExactPartNumber": "SN74HC74N",
@@ -1186,9 +1244,14 @@
         "Manufacturer": "RENESAS",
         "DocumentId": "",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history"
+        "Url": "https://www.renesas.com/en/document/dst/hd74ls86-datasheet",
+        "LastAccessed": "2026-06-15",
+        "Notes": "AUTO: from history",
+        "FinalUrl": "https://www.renesas.com/en/document/dst/hd74ls86-datasheet",
+        "ContentType": "application/pdf",
+        "ContentLength": "80734",
+        "Sha256": "76811a6154bec0588be18199cdc344aa2d3a2fe5d70d09c0aa15efca76ad7bae",
+        "CheckedAt": "2026-06-15T13:00:58+00:00"
       },
       {
         "ExactPartNumber": "SN74HC86N",
@@ -1339,9 +1402,14 @@
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history"
+        "Url": "https://www.ti.com/lit/ds/symlink/sn54107.pdf",
+        "LastAccessed": "2026-06-15",
+        "Notes": "AUTO: from history",
+        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn54107.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "881786",
+        "Sha256": "9d30952bf84b76402655a53702e9963feb6abe66eabfb0963871fb7e888ab428",
+        "CheckedAt": "2026-06-15T13:00:59+00:00"
       }
     ]
   },
@@ -1363,12 +1431,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74f109.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f109.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "961318",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "961325",
+        "CheckedAt": "2026-06-15T13:01:12+00:00",
+        "Sha256": "f96ab28b079ff7d95888481ec60888153034fa513a1c654df5c44cc040848b20"
       },
       {
         "ExactPartNumber": "SN74HC109N",
@@ -1415,9 +1484,14 @@
         "Manufacturer": "RENESAS",
         "DocumentId": "",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history"
+        "Url": "https://www.renesas.com/en/document/dst/hd74ls112-datasheet",
+        "LastAccessed": "2026-06-15",
+        "Notes": "AUTO: from history",
+        "FinalUrl": "https://www.renesas.com/en/document/dst/hd74ls112-datasheet",
+        "ContentType": "application/pdf",
+        "ContentLength": "292122",
+        "Sha256": "d3ecba74340dac9a470a4b340c71cb43fb0d6e2272d283e7c329fe038726b279",
+        "CheckedAt": "2026-06-15T13:01:14+00:00"
       },
       {
         "ExactPartNumber": "SN74HC112N",
@@ -1493,12 +1567,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74s124.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74s124.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "705932",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "705923",
+        "CheckedAt": "2026-06-15T13:01:18+00:00",
+        "Sha256": "b3bf698f7521fb23c7be3d11d62479f4046e66ab7f1b438256b957d2795257ce"
       }
     ]
   },
@@ -1520,12 +1595,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74f125.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f125.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "537040",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:01:19+00:00",
+        "Sha256": "ed95f167863b903133c0b90c4fead1ed850ff8551b9878380f79d0392e33194f"
       },
       {
         "ExactPartNumber": "SN74HC125N",
@@ -1595,9 +1671,14 @@
         "Manufacturer": "RENESAS",
         "DocumentId": "",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history"
+        "Url": "https://www.renesas.com/en/document/dst/hd74ls136-datasheet",
+        "LastAccessed": "2026-06-15",
+        "Notes": "AUTO: from history",
+        "FinalUrl": "https://www.renesas.com/en/document/dst/hd74ls136-datasheet",
+        "ContentType": "application/pdf",
+        "ContentLength": "164983",
+        "Sha256": "bcce4738db636603195c2d668860bd92eb3dbcce021d5a2d9022c4f53d39f1dd",
+        "CheckedAt": "2026-06-15T13:01:22+00:00"
       },
       {
         "ExactPartNumber": "SN74LS136N",
@@ -1883,9 +1964,14 @@
         "Manufacturer": "RENESAS",
         "DocumentId": "",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history"
+        "Url": "https://www.renesas.com/en/document/dst/hd74ls153-datasheet",
+        "LastAccessed": "2026-06-15",
+        "Notes": "AUTO: from history",
+        "FinalUrl": "https://www.renesas.com/en/document/dst/hd74ls153-datasheet",
+        "ContentType": "application/pdf",
+        "ContentLength": "258340",
+        "Sha256": "921d18b2b19091a2a14d31ec54d62809adc3c8f0785129809beba5efa1b54098",
+        "CheckedAt": "2026-06-15T13:01:25+00:00"
       }
     ]
   },
@@ -1970,12 +2056,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74als156.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als156.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "371555",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:01:28+00:00",
+        "Sha256": "81dcb243c443e364cee55c241742b958da37de2c306aeeb7c1db0e4d9678f184"
       },
       {
         "ExactPartNumber": "SN74LS156N",
@@ -2122,12 +2209,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74f161a.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f161a.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "580111",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:01:51+00:00",
+        "Sha256": "ac6e267dddab0d93da12f3ffe4857f3e4be50ec2386a8bbd86fd3cc4020c3e70"
       },
       {
         "ExactPartNumber": "SN74HC161N",
@@ -2198,12 +2286,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74s163.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74s163.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1895226",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:01:52+00:00",
+        "Sha256": "37fba9163a0d9cdc03daab99a1730308eacf645fdde89dc8e022043c897ba173"
       }
     ]
   },
@@ -2224,9 +2313,14 @@
         "Manufacturer": "RENESAS",
         "DocumentId": "",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history"
+        "Url": "https://www.renesas.com/en/document/dst/hd74ls164-datasheet",
+        "LastAccessed": "2026-06-15",
+        "Notes": "AUTO: from history",
+        "FinalUrl": "https://www.renesas.com/en/document/dst/hd74ls164-datasheet",
+        "ContentType": "application/pdf",
+        "ContentLength": "113743",
+        "Sha256": "ea2eeff6a4c8009aa8100e884ea957480ba4c4964a49afb2b8cd85107228e558",
+        "CheckedAt": "2026-06-15T13:01:55+00:00"
       },
       {
         "ExactPartNumber": "SN74HC164N",
@@ -2803,12 +2897,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74als240a.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als240a.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1506753",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "1506748",
+        "CheckedAt": "2026-06-15T13:02:22+00:00",
+        "Sha256": "85ca569cca04a4d8b606168a8788558cdf1da57c34000d277a231505f5197e65"
       },
       {
         "ExactPartNumber": "SN74LS240N",
@@ -2816,12 +2911,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74ls240.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls240.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1864968",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "1864983",
+        "CheckedAt": "2026-06-15T13:02:10+00:00",
+        "Sha256": "31db3143899f87e46fe19561bf928d0ad494fe74a8a64442a067f6d6f6993f42"
       }
     ]
   },
@@ -2865,12 +2961,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74ls241.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls241.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1864968",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "1864983",
+        "CheckedAt": "2026-06-15T13:02:44+00:00",
+        "Sha256": "31db3143899f87e46fe19561bf928d0ad494fe74a8a64442a067f6d6f6993f42"
       }
     ]
   },
@@ -2920,12 +3017,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74as244a.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74as244a.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1505807",
-        "CheckedAt": "2026-02-14T06:47:21+00:00"
+        "ContentLength": "1505808",
+        "CheckedAt": "2026-06-15T13:02:46+00:00",
+        "Sha256": "88da3eff705ffd68ead288acc84038a09b068cd6e606bb21ce6689a65a15f0ef"
       },
       {
         "ExactPartNumber": "SN74HC244N",
@@ -3095,12 +3193,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74als257a.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als257a.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1197723",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "1197724",
+        "CheckedAt": "2026-06-15T13:02:47+00:00",
+        "Sha256": "7cc39ab3966c21b3033ed11ed25a38509b0dc5a374e4aedc863ea26b3cc1793a"
       },
       {
         "ExactPartNumber": "SN74F257N",
@@ -3108,12 +3207,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74f257.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74f257.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "522568",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:02:48+00:00",
+        "Sha256": "476fa647568c6efdacac7109a5daba1023a3047a7dea8eb2a2a7de1f05960be3"
       },
       {
         "ExactPartNumber": "SN74HC257N",
@@ -3307,12 +3407,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74ls279a.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls279a.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1258739",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:02:55+00:00",
+        "Sha256": "ffe9b1a45f640215f7aa1d431a059daf358f7831cd58ae5260e9505eccacea0a"
       }
     ]
   },
@@ -3667,12 +3768,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74s373.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74s373.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1638767",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "1638779",
+        "CheckedAt": "2026-06-15T13:03:14+00:00",
+        "Sha256": "5e4af8e9a0eb1143d7eed2ce470dc356d4a02e87412c87b4973cd7f4546a7bb0"
       }
     ]
   },
@@ -3703,12 +3805,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/cd74hc374.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74hc374.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1483583",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "1483574",
+        "CheckedAt": "2026-06-15T13:03:28+00:00",
+        "Sha256": "a74cfe527dfaef74105016e27efeab61f50dffa9f683adaf1e75ffc166db7fbe"
       },
       {
         "ExactPartNumber": "SN74AHC374N",
@@ -3716,12 +3819,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74ahc374.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ahc374.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2983074",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "2983092",
+        "CheckedAt": "2026-06-15T13:03:29+00:00",
+        "Sha256": "ebd2cf61fb028f3b06f51322de00505b97fc93fcefa9eac0cc259c936ded5535"
       },
       {
         "ExactPartNumber": "SN74ALS374AN",
@@ -3729,12 +3833,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74als374a.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als374a.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1372782",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:03:26+00:00",
+        "Sha256": "53f796b02d6389a5d8279e46a16d65ccaec76fb90bf0a2bee468898ac480828a"
       },
       {
         "ExactPartNumber": "SN74HC374N",
@@ -3778,12 +3883,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74ls375.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls375.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "439958",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:03:30+00:00",
+        "Sha256": "c67ecc33e82e7db58f44cf57871da3e9d0e99e701e8d6ea8e1702fe2cf29897a"
       }
     ]
   },
@@ -3970,12 +4076,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74als521.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als521.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1346646",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:03:54+00:00",
+        "Sha256": "ee8c82e9419172f1e85c2f8a1f0e31f84a950f9271245cc134f983a797afe595"
       }
     ]
   },
@@ -4150,12 +4257,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/cd74act573.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/cd74act573.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "883405",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:03:55+00:00",
+        "Sha256": "660befac1dde5f4a9153bac49ced41d57bc9155d611bd618381a386407c9662d"
       },
       {
         "ExactPartNumber": "DM74AS573N",
@@ -4208,12 +4316,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74abt574a.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74abt574a.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1626989",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:03:56+00:00",
+        "Sha256": "954940f6cb57707cbe1c2e2bd4f4c6ef4e71e56d83730abded2947cf0869a622"
       },
       {
         "ExactPartNumber": "SN74HC574N",
@@ -4343,12 +4452,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74als623a.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als623a.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "792066",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:03:57+00:00",
+        "Sha256": "e0e454b74be7cbed5b2a1cd8dd9af46321ce76a2b26f29296ee0d71fed08b1f3"
       }
     ]
   },
@@ -4406,12 +4516,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74als648a.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als648a.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "508173",
-        "CheckedAt": "2026-02-14T06:47:21+00:00"
+        "CheckedAt": "2026-06-15T13:03:58+00:00",
+        "Sha256": "6ada82e1d1e2406858b37432f2df52b68535e7f298fec8c72aaf91ef49b148ad"
       }
     ]
   },
@@ -4464,12 +4575,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74ls682.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls682.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1669653",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:04:02+00:00",
+        "Sha256": "e4e9dac219dc55ff5b67f7ee378eb44bae5e70bb4de444aa66dfb1ed7a69d97c"
       }
     ]
   },
@@ -4528,12 +4640,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74als760.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als760.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1297864",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:04:03+00:00",
+        "Sha256": "88dd9c6a3f5ae43e1c78e6d2210e0db1ca23ce89bdedc0d2bb7533a1b4eea153"
       },
       {
         "ExactPartNumber": "SN74AS760N",
@@ -4541,12 +4654,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74as760.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74as760.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1297864",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:04:04+00:00",
+        "Sha256": "88dd9c6a3f5ae43e1c78e6d2210e0db1ca23ce89bdedc0d2bb7533a1b4eea153"
       }
     ]
   },
@@ -4559,12 +4673,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74als804a.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als804a.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "1238652",
-        "CheckedAt": "2026-02-14T06:47:21+00:00"
+        "CheckedAt": "2026-06-15T13:04:05+00:00",
+        "Sha256": "504f067f96145a6f27b1830cd4d5f96ed92dbe3fff9eb06f06664ad20fbabb03"
       }
     ]
   },
@@ -4591,12 +4706,13 @@
         "DocumentId": "",
         "Revision": "",
         "Url": "https://www.ti.com/lit/ds/symlink/sn74als841.pdf",
-        "LastAccessed": "2026-02-14",
+        "LastAccessed": "2026-06-15",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
         "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74als841.pdf",
         "ContentType": "application/pdf",
         "ContentLength": "265075",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "CheckedAt": "2026-06-15T13:04:06+00:00",
+        "Sha256": "0bc503ac45781a68d0396b9b6a7713100f26a88ba7a0925084723ac59b967a6f"
       }
     ]
   },
