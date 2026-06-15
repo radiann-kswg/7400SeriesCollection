@@ -5,7 +5,7 @@
   (paper "A4")
   (title_block
     (title "74x163 Demo Circuit")
-    (date "2026-05-30")
+    (date "2026-06-15")
     (rev "0.1")
     (company "7400 Series Collection")
     (comment 1 "4-bit binary counter, synchronous, with clear and load")
@@ -15,13 +15,25 @@
   )
   (lib_symbols
   )
-  (text "TODO: KiCadの標準ライブラリ (74xx) からシンボルを配置して回路を作成してください。\nピン配置・真理値表は usage/14_system_controllers_timing/74x163/ の一次資料確認チェックリストを参照。"
-    (at 50 100 0)
-    (effects
-      (font
-        (size 1.5 1.5)
-      )
-    )
+  (text "【回路概要】74x163 カウンタ/タイミング制御 基本動作デモ\n電源: +5V（ロジックファミリにより範囲が異なるため一次資料で確認）\nIC: SN74HC163N, 74LS163AN, SN74S163N, DM74163AN"
+    (at 10 15 0)
+    (effects (font (size 1.5 1.5)))
+  )
+  (text "【ピン配置】\n(ピン情報なし — usage/14_system_controllers_timing/74x163/ を参照)"
+    (at 10 38 0)
+    (effects (font (size 1.27 1.27)))
+  )
+  (text "【配線要点】\n・電源（VCC/GND）: ピン表で確認した電源ピンに接続。0.1µFのデカップリングコンデンサをIC VCC〜GND間の直近（できれば5mm以内）に配置。\n・入力のフローティング禁止: 未使用入力は必ずVCCまたはGNDに接続。CMOS系（74HC等）は特に重要（誤動作・貫通電流の原因）。\n・出力電流: LED駆動電流（目安8〜10mA）が出力定格以内であることを一次資料で確認。"
+    (at 10 68 0)
+    (effects (font (size 1.27 1.27)))
+  )
+  (text "【データシート】\nhttps://www.ti.com/lit/ds/symlink/sn74hc163.pdf"
+    (at 10 95 0)
+    (effects (font (size 1.27 1.27)))
+  )
+  (text "TODO: 74xxライブラリから 74x163 シンボルを配置し\n上記ピン配置・配線要点に従って回路を完成させてください。\nusage/14_system_controllers_timing/74x163/ の一次資料確認チェックリストも参照。"
+    (at 10 140 0)
+    (effects (font (size 1.5 1.5)) (justify left))
   )
   (sheet_instances
     (path "/"

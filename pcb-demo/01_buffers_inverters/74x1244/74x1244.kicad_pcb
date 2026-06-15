@@ -9,7 +9,7 @@
   (paper "A4")
   (title_block
     (title "74x1244 Demo PCB")
-    (date "2026-05-30")
+    (date "2026-06-15")
     (rev "0.1")
     (company "7400 Series Collection")
     (comment 1 "octal buffer / driver, non-inverting (lower-power version of 74x244)")

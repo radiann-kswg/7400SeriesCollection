@@ -5,7 +5,7 @@
   (paper "A4")
   (title_block
     (title "74x141 Demo Circuit")
-    (date "2026-05-30")
+    (date "2026-06-15")
     (rev "0.1")
     (company "7400 Series Collection")
     (comment 1 "BCD to decimal decoder/driver for cold-cathode indicator or Nixie tube")
@@ -15,7 +15,7 @@
   )
   (lib_symbols
   )
-  (text "【回路概要】74x141 簡単なニキシー管表示デモ回路\n電源: +5V\nIC: K155ID1/К155ИД1"
+  (text "【回路概要】74x141 エンコーダ/デコーダ 基本動作デモ\n電源: +5V（ロジックファミリにより範囲が異なるため一次資料で確認）\nIC: K155ID1/К155ИД1"
     (at 10 15 0)
     (effects (font (size 1.5 1.5)))
   )
@@ -23,7 +23,7 @@
     (at 10 38 0)
     (effects (font (size 1.27 1.27)))
   )
-  (text "【配線要点】\n(配線要点なし)"
+  (text "【配線要点】\n・電源（VCC/GND）: ピン表で確認した電源ピンに接続。0.1µFのデカップリングコンデンサをIC VCC〜GND間の直近（できれば5mm以内）に配置。\n・入力のフローティング禁止: 未使用入力は必ずVCCまたはGNDに接続。CMOS系（74HC等）は特に重要（誤動作・貫通電流の原因）。\n・出力電流: LED駆動電流（目安8〜10mA）が出力定格以内であることを一次資料で確認。"
     (at 10 68 0)
     (effects (font (size 1.27 1.27)))
   )

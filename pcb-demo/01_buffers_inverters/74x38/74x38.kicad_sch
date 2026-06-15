@@ -5,7 +5,7 @@
   (paper "A4")
   (title_block
     (title "74x38 Demo Circuit")
-    (date "2026-05-30")
+    (date "2026-06-15")
     (rev "0.1")
     (company "7400 Series Collection")
     (comment 1 "Quad 2-input NAND buffer/driver with open-collector outputs")
