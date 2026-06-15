@@ -316,7 +316,11 @@ _download/
 - `render_datasheet_pages.py`: ローカルPDFを `datasheets/.cache/pdf_render/` へPNGレンダリング（要 PyMuPDF）
 - `batch_factcheck_from_pdf.py`: PDFテキスト抽出による一括自動ファクトチェック（信頼度85%以上の項目のみ更新）
 - `generate_pcb_demo_projects.py`: `pcb-demo/` 配下のKiCADプロジェクトスタブを一括生成。`kicad_sch_gen.py` と連携して実シンボル回路図を優先生成
-- `kicad_sch_gen.py`: KiCAD 8形式 (version 20231120) の実回路図生成モジュール。KiCAD 10標準ライブラリ (`74xx.kicad_sym`) からシンボル定義を読み込んで `lib_symbols` に埋め込む
+- `kicad_sch_gen.py`: KiCAD 8形式 (version 20231120) の実回路図生成モジュール。KiCAD 10標準ライブラリ (`74xx.kicad_sym`) からシンボル定義を読み込んで `lib_symbols` に埋め込む。シンボルはオーバーライド表→自動探索で解決し、フットプリント(DIP)も自動割当
+- `kicad_lib.py`: `.kicad_sym` を sexpdata で堅牢にパースする共通モジュール（列挙/extends解決/ピン抽出/`74xNN`→実シンボル自動探索）。`sexpdata` 依存
+- `verify_kicad_sch.py`: 生成済み `.kicad_sch` を `kicad-cli sch erc` でヘッドレス一括検証
+- `audit_kicad_coverage.py`: 入手済み全型番の実シンボル化カバレッジを一覧/CSV
+- `generate_pcb_layout.py`: ERC→netlist→配置→Freerouting配線→DRC→Gerber の下流パイプライン（配置以降は KiCAD 同梱 python が必要）
 - `merge_fp.py`: データ統合処理
 - `refine_descriptions.py`: 説明文洗練化
 - `split_overview_by_logic_category.py`: マスターデータを論理分類で `overview/categories/` に分割
@@ -807,7 +811,7 @@ KiCAD 10.0.3 で制作するためのプロジェクト群です。
 
 - 構造は `usage/` と同じ `{カテゴリ名}/{パーツ番号}/` 形式
 - `scripts/generate_pcb_demo_projects.py` で各 IC のプロジェクトを一括生成
-- `scripts/kicad_sch_gen.py` が **KiCAD 標準ライブラリの実シンボルを使った `.kicad_sch`** を自動生成（対応部品: バッファ/インバータ・NAND/NOR/AND/OR/XOR・FF・ラッチ・MUX・デコーダ・カウンタ・算術・シフトレジスタ 計47種）
+- `scripts/kicad_sch_gen.py` が **KiCAD 標準ライブラリの実シンボルを使った `.kicad_sch`** を自動生成。シンボル解決はオーバーライド表→`kicad_lib.discover_symbol` による `74xx.kicad_sym` 自動探索の順で、ライブラリ実在型番は自動対応（カバレッジは `audit_kicad_coverage.py` で確認）。実在しない型番のみテキスト版へフォールバック
   - 非対応部品はテキスト注釈版またはテンプレートスタブにフォールバック
 - ピン配置・真理値表などの実配線事項は `usage/{カテゴリ}/{パーツ番号}/` の一次資料確認を前提とする
 

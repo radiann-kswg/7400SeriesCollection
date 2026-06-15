@@ -14,15 +14,38 @@ import re
 import uuid as _uuid_mod
 from pathlib import Path
 
+# 堅牢な S-expression パーサ＋自動探索モジュール（sexpdata ベース）。
+# 取得失敗時は従来の正規表現フォールバックを使う。
+try:
+    from scripts import kicad_lib as _kl  # type: ignore[import]
+except ImportError:
+    try:
+        import importlib.util as _iu
+        _spec = _iu.spec_from_file_location(
+            "kicad_lib", Path(__file__).resolve().parent / "kicad_lib.py"
+        )
+        _kl = _iu.module_from_spec(_spec)  # type: ignore[assignment]
+        _spec.loader.exec_module(_kl)  # type: ignore[union-attr]
+    except Exception:
+        _kl = None  # type: ignore[assignment]
+
 # ============================================================
 # KiCAD ライブラリパス
 # ============================================================
 KICAD_LIB_DIR = Path(r"C:\Program Files\KiCad\10.0\share\kicad\symbols")
 
+
+def _lib_path(lib_name: str) -> str:
+    return str(KICAD_LIB_DIR / f"{lib_name}.kicad_sym")
+
 # ============================================================
-# 部品番号 → KiCADライブラリシンボル マッピング
+# 部品番号 → KiCADライブラリシンボル マッピング（オーバーライド表）
 # "74xNN" -> (lib_filename_without_ext, base_symbol_name)
-# 実際のKiCADライブラリ (74xx.kicad_sym) に存在するシンボルのみ登録
+#
+# ※ 2026-06 改修: このマップは「明示的に優先したい型番」のみのオーバーライド。
+#    マップに無い型番は kicad_lib.discover_symbol() が 74xx.kicad_sym を
+#    走査して自動解決するため、入手済み全型番が自動的に対象になる。
+#    （ライブラリに実在しない型番のみテキスト注釈版へフォールバック）
 # ============================================================
 PART_TO_KICAD_SYM: dict[str, tuple[str, str]] = {
     # ── バッファ・インバータ ──────────────────────────────────────
@@ -286,6 +309,7 @@ def _sym_instance(
     project_name: str,
     rotation: int = 0,
     pwr_ref_suffix: str = "",
+    footprint: str = "",
 ) -> str:
     """シンボルインスタンスの S-expression を生成。"""
     u = _uuid_mod.uuid4
@@ -304,7 +328,7 @@ def _sym_instance(
         f'      (at {_coord(x)} {_coord(y - 3.5)} 0)\n'
         f'      (effects (font (size 1.27 1.27)))\n'
         f'    )\n'
-        f'    (property "Footprint" ""\n'
+        f'    (property "Footprint" "{footprint}"\n'
         f'      (at {_coord(x)} {_coord(y)} 0)\n'
         f'      (effects (font (size 1.27 1.27)) (hide yes))\n'
         f'    )\n'
@@ -457,6 +481,36 @@ def _layout_units(
 
 
 # ============================================================
+# フットプリント自動割当（DIP 標準パッケージ）
+# ============================================================
+
+# ピン数 → KiCAD 標準 DIP フットプリント。
+# デモ基板はスルーホール DIP 前提（手はんだ容易）。SO 等が必要なら拡張する。
+_DIP_FOOTPRINT = {
+    8:  "Package_DIP:DIP-8_W7.62mm",
+    14: "Package_DIP:DIP-14_W7.62mm",
+    16: "Package_DIP:DIP-16_W7.62mm",
+    18: "Package_DIP:DIP-18_W7.62mm",
+    20: "Package_DIP:DIP-20_W7.62mm",
+    24: "Package_DIP:DIP-24_W7.62mm",
+    28: "Package_DIP:DIP-28_W7.62mm",
+}
+
+
+def pick_footprint(pins_by_unit: dict[int, list[dict]]) -> str:
+    """全ユニットの相異なるピン番号数から DIP フットプリントを選ぶ。"""
+    nums = {p["num"] for pins in pins_by_unit.values() for p in pins}
+    n = len(nums)
+    if n in _DIP_FOOTPRINT:
+        return _DIP_FOOTPRINT[n]
+    # 近い上位の標準ピン数に丸める（例: 15→16）
+    for std in sorted(_DIP_FOOTPRINT):
+        if std >= n:
+            return _DIP_FOOTPRINT[std]
+    return ""
+
+
+# ============================================================
 # メイン: 実回路図生成
 # ============================================================
 
@@ -471,31 +525,44 @@ def build_real_kicad_sch(
     replacements には make_replacements() の戻り値を渡す。
     """
 
-    # 1. シンボル検索
-    if part_number not in PART_TO_KICAD_SYM:
-        return None
-    lib_name, sym_name = PART_TO_KICAD_SYM[part_number]
+    # 1. シンボル検索: オーバーライド表 → 無ければライブラリ自動探索
+    if part_number in PART_TO_KICAD_SYM:
+        lib_name, sym_name = PART_TO_KICAD_SYM[part_number]
+    else:
+        lib_name = "74xx"
+        sym_name = None
+        if _kl is not None:
+            sym_name = _kl.discover_symbol(_lib_path(lib_name), part_number)
+        if sym_name is None:
+            return None  # ライブラリに実在しない → テキスト注釈版へフォールバック
 
     lib_content = _load_lib(lib_name)
     if lib_content is None:
         return None
 
-    # 2. シンボル定義を取得（extends を解決して基底シンボルを使用）
-    raw_def = _extract_block(lib_content, sym_name)
+    # 2. (extends ...) を解決して基底シンボル名を決定
+    if _kl is not None:
+        base_sym_name = _kl.resolve_extends(_lib_path(lib_name), sym_name)
+    else:
+        raw0 = _extract_block(lib_content, sym_name)
+        em = re.search(r'\(extends\s+"([^"]+)"\)', raw0) if raw0 else None
+        base_sym_name = em.group(1) if em else sym_name
+
+    # 埋め込み用に基底定義を原文のまま切り出す（フォーマット完全保存）
+    raw_def = _extract_block(lib_content, base_sym_name)
     if raw_def is None:
         return None
 
-    extends_m = re.search(r'\(extends\s+"([^"]+)"\)', raw_def)
-    base_sym_name = extends_m.group(1) if extends_m else sym_name
-    if extends_m:
-        raw_def = _extract_block(lib_content, base_sym_name)
-        if raw_def is None:
-            return None
-
     embed_lib_id = f"{lib_name}:{base_sym_name}"
 
-    # 3. ピン情報を解析
-    pins_by_unit = parse_pins_by_unit(raw_def, base_sym_name)
+    # 3. ピン情報を解析（sexpdata 優先、失敗時は正規表現フォールバック）
+    pins_by_unit = None
+    if _kl is not None:
+        node = _kl.find_symbol_node(_lib_path(lib_name), base_sym_name)
+        if node is not None:
+            pins_by_unit = _kl.parse_pins_by_unit(node)
+    if not pins_by_unit:
+        pins_by_unit = parse_pins_by_unit(raw_def, base_sym_name)
     if not pins_by_unit:
         return None
 
@@ -505,6 +572,9 @@ def build_real_kicad_sch(
     )
     if not gate_units:
         return None
+
+    # フットプリント自動割当（netlist / PCB 生成で使用）
+    ic_footprint = pick_footprint(pins_by_unit)
 
     # 4. 電源シンボル定義を取得
     power_lib = _load_lib("power")
@@ -573,6 +643,7 @@ def build_real_kicad_sch(
                 pin_nums=pin_nums,
                 sch_uuid=sch_uuid,
                 project_name=project_name,
+                footprint=ic_footprint,
             ))
         else:
             # ゲートユニット
@@ -586,6 +657,7 @@ def build_real_kicad_sch(
                 pin_nums=pin_nums,
                 sch_uuid=sch_uuid,
                 project_name=project_name,
+                footprint=ic_footprint,
             ))
 
             if is_first_gate:

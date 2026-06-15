@@ -238,7 +238,13 @@
 ### PCB デモ
 
 - `generate_pcb_demo_projects.py`: `pcb-demo/` の KiCAD プロジェクトを一括生成
-- `kicad_sch_gen.py`: KiCAD 8 形式（version 20231120）の実回路図生成モジュール。KiCAD 標準ライブラリ `74xx.kicad_sym` のシンボルを `lib_symbols` に埋め込む（対応 47 種）
+- `kicad_sch_gen.py`: KiCAD 8 形式（version 20231120）の実回路図生成モジュール。KiCAD 標準ライブラリ `74xx.kicad_sym` のシンボルを `lib_symbols` に埋め込む。フットプリント（DIP）も自動割当。
+- `kicad_lib.py`: `.kicad_sym` を **sexpdata** で堅牢にパースする共通モジュール（シンボル列挙 / extends 解決 / ピン抽出 / `74xNN`→実シンボルの自動探索）。`kicad_sch_gen.py` が依存。**`pip install sexpdata` が必要。**
+- `verify_kicad_sch.py`: 生成済み `.kicad_sch` を `kicad-cli sch erc` でヘッドレス一括検証（GUI目視確認の代替）。
+- `audit_kicad_coverage.py`: 入手済み全型番について実シンボル化可能か（override / 自動探索 / 未対応）を一覧・CSV 出力。
+- `generate_pcb_layout.py`: 回路図→PCB の下流パイプライン（ERC→netlist→フットプリント配置→Freerouting自動配線→DRC→Gerber）。kicad-cli ステージは通常 python、配置/配線ステージは **KiCAD 同梱 python**（`import pcbnew`）+ Freerouting(`java -jar freerouting.jar`)が必要。
+
+> **依存**: `kicad_lib.py` / `kicad_sch_gen.py` は `sexpdata` を要求する。`requirements`（または `.venv`）に追加すること。シンボル解決はハードコード表に依存せず `74xx.kicad_sym` を実行時に走査するため、入手済み型番のカバレッジは `audit_kicad_coverage.py` で実数を確認できる。
 
 ### Python コーディング指針
 
@@ -263,6 +269,10 @@
 - `PCB Demo: overwrite all projects` → `... --apply --overwrite`
 - `KiCAD CLI: export Gerber` → `kicad-cli.exe pcb export gerbers ...`
 - `KiCAD CLI: run DRC` → `kicad-cli.exe pcb drc ...`
+- `KiCAD: verify schematics (ERC, real only)` → `verify_kicad_sch.py --only-real`
+- `KiCAD: audit symbol coverage` → `audit_kicad_coverage.py`
+- `PCB Layout: erc + netlist (plain python)` → `generate_pcb_layout.py --stages erc,netlist`
+- `PCB Layout: full pipeline (KiCAD bundled python)` → KiCAD 同梱 python で配置〜Gerber
 
 KiCAD CLI のフルパスは `tasks.json` 内（`C:\Program Files\KiCad\10.0\bin\kicad-cli.exe`）を参照。
 
@@ -349,7 +359,16 @@ python3 scripts/generate_pcb_demo_projects.py --apply --category 01_buffers_inve
 python3 scripts/generate_pcb_demo_projects.py --apply --overwrite   # 既存も上書き
 ```
 
-`kicad_sch_gen.py` が KiCAD 標準ライブラリ（`74xx`）の実シンボルを使った `.kicad_sch` を生成（対応 47 種: バッファ/インバータ・NAND/NOR/AND/OR/XOR・FF・ラッチ・MUX・デコーダ・カウンタ・算術・シフトレジスタ等）。非対応部品はテキスト注釈版またはテンプレートスタブにフォールバック。
+`kicad_sch_gen.py` が KiCAD 標準ライブラリ（`74xx`）の実シンボルを使った `.kicad_sch` を生成する。シンボル解決は **オーバーライド表 → 自動探索（`kicad_lib.discover_symbol` が `74xx.kicad_sym` を走査）** の順で、ライブラリに実在する型番は自動的に対象になる（ハードコード表の手動メンテ不要）。実在しない型番のみテキスト注釈版／テンプレートスタブにフォールバック。フットプリント（DIP）も自動割当。
+
+回路図生成後の下流は手動 GUI 不要で自動化できる:
+
+```bash
+python3 scripts/audit_kicad_coverage.py             # 実シンボル化カバレッジ確認（Windows）
+python  scripts/verify_kicad_sch.py --only-real     # ERC ヘッドレス一括検証
+python  scripts/generate_pcb_layout.py --stages erc,netlist           # netlist まで
+& 'C:\Program Files\KiCad\10.0\bin\python.exe' scripts/generate_pcb_layout.py --part 74x00 --freerouting-jar C:\tools\freerouting.jar  # 配置〜Gerber
+```
 
 ### 設計ルール（必須）
 

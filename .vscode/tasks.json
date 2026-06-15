@@ -76,6 +76,50 @@
         "reveal": "always",
         "panel": "shared"
       }
+    },
+    {
+      "label": "KiCAD: verify schematics (ERC, real only)",
+      "type": "shell",
+      "command": "python scripts/verify_kicad_sch.py --only-real",
+      "isBackground": false,
+      "group": "test",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "KiCAD: audit symbol coverage",
+      "type": "shell",
+      "command": "python scripts/audit_kicad_coverage.py",
+      "isBackground": false,
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "PCB Layout: erc + netlist (plain python)",
+      "type": "shell",
+      "command": "python scripts/generate_pcb_layout.py --stages erc,netlist",
+      "isBackground": false,
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
+    },
+    {
+      "label": "PCB Layout: full pipeline (KiCAD bundled python)",
+      "type": "shell",
+      "command": "& 'C:\\Program Files\\KiCad\\10.0\\bin\\python.exe' scripts/generate_pcb_layout.py --part '${input:partNumber}' --freerouting-jar '${input:freeroutingJar}'",
+      "isBackground": false,
+      "group": "build",
+      "presentation": {
+        "reveal": "always",
+        "panel": "shared"
+      }
     }
   ],
   "inputs": [
@@ -95,6 +139,16 @@
       "type": "promptString",
       "description": "DRC レポート出力ファイル名（例: drc_report.txt）",
       "default": "drc_report.txt"
+    },
+    {
+      "id": "partNumber",
+      "type": "promptString",
+      "description": "対象の汎用型番（例: 74x00）"
+    },
+    {
+      "id": "freeroutingJar",
+      "type": "promptString",
+      "description": "freerouting.jar のパス（例: C:\\tools\\freerouting.jar）"
     }
   ]
 }
