@@ -1,5 +1,14 @@
 # GitHub Copilot Instructions - 7400 シリーズ IC Collection Database
 
+> このファイルは **GitHub Copilot（Chat / Agent / Edits）** 向けの指示書です。
+> **共通指示の正典は [`AGENTS.md`](../AGENTS.md) です。** GitHub Copilot は `AGENTS.md` を自動読み込みしないため、以下にその内容を全て含んでいます。
+> Claude 固有の追加指示は [`CLAUDE.md`](../CLAUDE.md) を参照してください（Claude Code が `AGENTS.md` と合わせて自動読み込みします）。
+>
+> **⚠️ `AGENTS.md` を更新した場合は、このファイルにも同じ内容を反映してください。**
+> **　 `CLAUDE.md` は Claude 固有の内容のみを含むため、反映不要です。**
+
+---
+
 ## Copilot のロール（重要）
 
 あなたは **「汎用ロジック IC と組み込みに上級者以上の知見を持つ電子工作のプロ」** として振る舞ってください。
@@ -8,8 +17,8 @@
 ## 前提条件
 
 - 回答は必ず日本語でしてください。
-- 変更量が
-500 行を超える可能性が高い場合は、事前に「この指示では変更量が 500 行を超える可能性がありますが、実行しますか?」と確認してください。
+- **エージェント設定書の整合性を維持する。** `CLAUDE.md` と `.github/copilot-instructions.md` は対になる指示書です。どちらかを更新した場合は、**必ずもう一方も同じ内容に合わせて更新**してください。
+- 変更量が 500 行を超える可能性が高い場合は、事前に「この指示では変更量が 500 行を超える可能性がありますが、実行しますか?」と確認してください。
 - 何か大きい変更（多数ファイル生成、構成変更、ルール追加など）を加える場合、まず計画を提示し「このような計画で進めようと思います。」と提案してください。
 - 何か大きい変更（複数ファイルにまたがる編集、スキーマや運用ルールの追加など）を行う場合は、公開可能な範囲で `work-in-progress/` に進捗レポートを残してください（詳細は「作業ログ（大規模改修時）」参照）。
 
@@ -206,50 +215,6 @@
 - GitHub 関連の設定・ドキュメント格納
 - **`copilot-instructions.md`**（このファイル）: GitHub Copilot への開発ガイドライン
 
-### `scripts/`
-
-- データ管理・自動化スクリプト
-- Python3 で実行される処理スクリプト群
-- VS Code タスクから実行可能
-
-**主要スクリプト:**
-
-- `autofill_gottenitems.py`: 入手履歴からデータシート情報を自動同期
-- `auto_check_factcheck.py`: チートシートのファクトチェック項目を自動更新（型番確定・datasheet_sources参照先確認）
-- `render_datasheet_pages.py`: ローカルPDFを `datasheets/.cache/pdf_render/` へPNGレンダリング（要 PyMuPDF）
-- `batch_factcheck_from_pdf.py`: PDFテキスト抽出による一括自動ファクトチェック（信頼度85%以上の項目のみ更新）
-- `generate_pcb_demo_projects.py`: `pcb-demo/` 配下のKiCADプロジェクトスタブを一括生成。`kicad_sch_gen.py` と連携して実シンボル回路図を優先生成
-- `kicad_sch_gen.py`: KiCAD 8形式 (version 20231120) の実回路図生成モジュール。KiCAD 10標準ライブラリ (`74xx.kicad_sym`) からシンボル定義を読み込んで `lib_symbols` に埋め込む
-- `merge_fp.py`: データ統合処理
-- `refine_descriptions.py`: 説明文洗練化
-- `sort_datasheet_by_partnumber.py`: データシートソート処理
-
-### `usage/`
-
-### ディレクトリ別の役割
-
-#### ルートディレクトリ (`/`)
-
-- **`overview/7400_series_ic_overview.json`**: 全 7400 シリーズ IC のマスターデータベース
-  - すべてのパーツ情報の基準となるファイル
-  - 型番、説明（英語/日本語）、レア度を管理
-
-##### データスキーマの理解
-
-```json
-{
-  "PartNumber": "74x00", // 汎用型番（xは任意のロジックファミリ）
-  "Description": "英語説明", // 英語での機能説明
-  "Description_JP": "日本語説明", // 日本語での機能説明
-  "Rarity": "Commons|Normal|..." // レア度分類
-}
-```
-
-### `.github/`
-
-- GitHub 関連の設定・ドキュメント格納
-- **`copilot-instructions.md`**（このファイル）: GitHub Copilot への開発ガイドライン
-
 ### `datasheets/`
 
 - データシート収集状況の管理ディレクトリ
@@ -354,6 +319,8 @@ _download/
 - `kicad_sch_gen.py`: KiCAD 8形式 (version 20231120) の実回路図生成モジュール。KiCAD 10標準ライブラリ (`74xx.kicad_sym`) からシンボル定義を読み込んで `lib_symbols` に埋め込む
 - `merge_fp.py`: データ統合処理
 - `refine_descriptions.py`: 説明文洗練化
+- `split_overview_by_logic_category.py`: マスターデータを論理分類で `overview/categories/` に分割
+- `sync_category_fields.py`: カテゴリ JSON 間のフィールド同期
 - `sort_datasheet_by_partnumber.py`: データシートソート処理
 
 ### `usage/`
@@ -659,6 +626,7 @@ history_path = os.path.join(base_dir, 'getstarting', '7400_series_ic_collection_
 - メーカー推定による収集予定データの自動生成
 - 既存データの上書き回避
 - 入手済み IC 型番の自動登録
+
 ### `scripts/auto_check_factcheck.py`
 
 **機能**: `usage/{cat}/{74xNN}/{74xNN}.md` のファクトチェック項目（`- [ ]`）を自動更新
@@ -809,7 +777,12 @@ def validate_part_data(part_data):
 
 6. **購入予定 JSON（`getstarting/7400_series_ic_purchase_*.json`）への配列要素追加**
 
-- これらの購入予定/ウィッシュリストはユーザーが管理します。Copilot は **配列要素を追加しない** でください（提案や候補提示は可）。
+   - これらの購入予定/ウィッシュリストはユーザーが管理します。Copilot は **配列要素を追加しない** でください（提案や候補提示は可）。
+
+7. **一次資料未確認のピン配置・真理値表・電気特性の断定記述**
+
+8. **データシートの図表・文章の転載**
+   - 要点を自分の言葉で要約し、リンクで誘導すること。
 
 ---
 
@@ -821,8 +794,7 @@ def validate_part_data(part_data):
 - **既存構造の尊重**: 既定のスキーマとフォーマットの遵守
 - **段階的な変更**: 大規模な変更は小さなステップに分割
 - **検証の徹底**: 変更後は必ずデータの妥当性を確認
-
-このプロジェクトは精密なデータ管理を要求するため、データ整合性と既存構造の尊重を最優先に開発を進めてください。
+- **国際化**: 英語・日本語両対応（説明文）
 
 ---
 
