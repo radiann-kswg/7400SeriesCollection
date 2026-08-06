@@ -20,3 +20,7 @@ datasheets/.cache/
 
 # Python virtual environment
 .venv/
+
+# Archive or old folder
+/[._]archive/
+/[._]old/
