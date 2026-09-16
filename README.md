@@ -32,7 +32,7 @@
 │       │   └── SN74LS/
 │       ├── TOSHIBA/
 │       └── UTC(UnisonicTechnologies)/
-├── getstarting/                          # 入手・購入管理
+├── getstarting/                          # 入手・購入管理【git 管理外】
 │   ├── 7400_series_ic_collection_acquisition_history.json
 │   ├── 7400_series_ic_purchase_plan_normal_or_lower.json
 │   ├── 7400_series_ic_purchase_plan_rare.json
@@ -76,6 +76,8 @@
 - **廃止品/特殊品**: `Abolition(R+)`, `Maniac(SR+)`, `ManiacRare(SSR)`, `VeryNerd(UR)`
 
 ### 入手管理データ
+
+> **⚠️ `getstarting/` は git 管理外です。** 購入先・コメントを含む私物情報のため、データシート PDF と同様に `.gitignore` で除外しています。ファイルはローカルに存在し、参照するスクリプトはそのまま動作します。クローンしただけの環境では存在しません。
 
 #### `getstarting/7400_series_ic_collection_acquisition_history.json`
 
@@ -234,6 +236,21 @@ python3 scripts/generate_usage_cheatsheets.py
 
 詳細は[Copilot Instructions](.github/copilot-instructions.md#回路設計ドキュメント作成ガイド-usage)を参照。
 
+## 🔌 デモ基板の製作（`pcb-demo/`）
+
+収集した現物の DIP IC をソケットに挿し、**その IC が実際に動いている状態**で展示する基板群。
+「本物の元素を封入した周期表」の 7400 シリーズ版という位置づけ。
+
+全タイルで回路トポロジは共通で、型番ごとに変わるのは**電源ピン配線・未実装セル・シルクの 3 点だけ**。
+これにより、ピン機能表が未確定の型番でも「VCC/GND のピン位置とピン数」さえ一次資料で確認すれば設計できる。
+
+| ドキュメント | 内容 |
+|---|---|
+| [`pcb-demo/REQUIREMENTS.md`](pcb-demo/REQUIREMENTS.md) | 要件定義（決定事項・制約・段階計画・非目標・リスク） |
+| [`pcb-demo/_carrier/README.md`](pcb-demo/_carrier/README.md) | 共通キャリア設計仕様（回路方式・定数・命名規則・生成規則） |
+| [`pcb-demo/ORDER_CHECKLIST.md`](pcb-demo/ORDER_CHECKLIST.md) | JLCPCB 発注チェックリスト（発注ゲート） |
+| [`pcb-demo/index.md`](pcb-demo/index.md) | 型番別 KiCAD プロジェクト一覧 |
+
 ## 🛡️ データ整合性の維持
 
 このプロジェクトは複数の JSON ファイル間で整合性を保つ必要があります：
@@ -253,7 +270,9 @@ python3 scripts/generate_usage_cheatsheets.py
 
 ## 📄 ライセンス
 
-このプロジェクトは個人のコレクション管理データベースです。
+MIT License（[LICENSE](LICENSE)）。
+
+**ハードウェア設計データ（`pcb-demo/` 配下の KiCAD プロジェクト・Gerber・BOM を含む）も同じく MIT License** で提供します。
 
 ---
 

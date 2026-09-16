@@ -84,7 +84,7 @@
 │       ├── TI(TexasInstruments)/{CD74HC,SN74HC,SN74LS}/
 │       ├── TOSHIBA/
 │       └── UTC(UnisonicTechnologies)/
-├── getstarting/
+├── getstarting/                           # 【Git 管理外】私物情報（購入先・コメント含む）
 │   ├── 7400_series_ic_collection_acquisition_history.json  # 入手済み履歴
 │   ├── 7400_series_ic_purchase_plan_normal_or_lower.json
 │   ├── 7400_series_ic_purchase_plan_rare.json
@@ -93,6 +93,9 @@
 ├── scripts/                               # 自動化スクリプト（Python3）
 ├── usage/{カテゴリ}/{74xNN}/**.md         # チートシート + 回路設計例
 ├── pcb-demo/{カテゴリ}/{74xNN}/           # KiCAD デモプロジェクト群
+│   ├── REQUIREMENTS.md                    # PCBA 化の要件定義（作業前に必読）
+│   ├── ORDER_CHECKLIST.md                 # JLCPCB 発注ゲート
+│   ├── _carrier/README.md                 # 共通キャリア設計仕様
 │   ├── _templates/                        # KiCAD テンプレート
 │   └── index.md                           # 自動生成インデックス
 └── work-in-progress/                      # 大規模改修の作業ログ（YYYY-MM-DD_*.md）
@@ -380,8 +383,44 @@ python  scripts/generate_pcb_layout.py --stages erc,netlist           # netlist 
 
 ### Git 管理方針
 
-- テンプレート（`_templates/`）・自動生成スタブ（各 IC プロジェクト）: **管理対象**
-- Gerber 出力（`gerber/`）・KiCAD バックアップ（`*-backups/`, `*.kicad_prl`）: `.gitignore` 除外推奨
+- テンプレート（`_templates/`）・共通キャリア（`_carrier/`）・自動生成スタブ（各 IC プロジェクト）: **管理対象**
+- Gerber 出力（`gerber/`）・KiCAD バックアップ（`*-backups/`, `*.kicad_prl`）: **`.gitignore` 除外済み**（2026-09-16 に追跡解除）
+
+### PCBA 化プロジェクト（Specimen Tiles）
+
+収集した現物の DIP IC をソケットに挿して動作展示する基板を JLCPCB で製作するプロジェクト。
+**作業前に必ず [`pcb-demo/REQUIREMENTS.md`](pcb-demo/REQUIREMENTS.md) を読むこと。**
+
+| ドキュメント | 役割 |
+|---|---|
+| `pcb-demo/REQUIREMENTS.md` | 要件定義。決定事項（D1〜D12）・制約・段階計画・非目標・リスク |
+| `pcb-demo/_carrier/README.md` | 共通キャリア設計仕様。回路方式・定数・リファレンス命名規則・型番別生成規則 |
+| `pcb-demo/ORDER_CHECKLIST.md` | 発注ゲート。全項目 `[x]` になるまで発注しない |
+
+守るべき要点:
+
+1. 回路トポロジは**全型番共通**。型番ごとに変えてよいのは**電源ピン配線・未実装セル・シルクの 3 点だけ**
+2. リファレンス指定子は接点番号 k と 1 対 1（`Dk` / `Rk` / `R(20+k)`）。**手で振り直さない**
+3. 入力駆動の直列抵抗 `Rd` 1kΩ は**出力ピン誤操作時の電流制限器**。省略・470Ω 以下への変更は禁止
+4. 電源ピン位置を「角ピン」と決め打ちしない（74x73/75/90/93 は非標準）
+5. 発注前に確定が必要な一次資料情報は **VCC/GND のピン位置とピン数のみ**。全ピン機能表は不要
+6. SMD 部品は**上面のみ**（JLCPCB Economic 組立の制約）。ソケットとピンヘッダは手はんだ
+
+### KiCAD MCP Server
+
+`~/.claude.json` の `mcpServers.kicad` に登録済み（**kicad-mcp v2.7.0**, MIT, 233 ツール / 24 カテゴリ）。
+**Claude Code は起動時に MCP を読み込むため、登録後に開始したセッションでのみ利用できる。**
+
+既存スクリプトとは**置き換えではなく併用**する。162 件の一括バッチは既存スクリプトが速く、1 枚を作り込む作業は MCP が向く。
+
+| 作業 | 担当 |
+|---|---|
+| 収集 DB・対象型番リスト・ファクトチェック | 既存 Python スクリプト（`scripts/`） |
+| 回路図の作図・一括編集、基板レイアウト | KiCAD MCP |
+| ERC / DRC | KiCAD MCP `run_erc` / `run_drc`（一括検証は `verify_kicad_sch.py` を併用） |
+| LCSC 部品選定・Basic/Extended 判定 | KiCAD MCP `search_jlcpcb_parts` / `get_jlcpcb_part` / `suggest_jlcpcb_alternatives` |
+| Gerber / ドリル / CPL / BOM 出力 | KiCAD MCP `export_gerbers` / `export_drill` / `export_pos` / `export_bom` |
+| 自動配線 | 本設計では不要。必要時のみ `autoroute`（Java / Docker / Podman） |
 
 ---
 
@@ -405,6 +444,7 @@ python  scripts/generate_pcb_layout.py --stages erc,netlist           # netlist 
 6. **購入予定 JSON（`getstarting/..._purchase_*.json` / `..._wishlist_*.json`）への配列要素追加**（ユーザー管理。提案・候補提示のみ可）
 7. **一次資料未確認のピン配置・真理値表・電気特性の断定記述**
 8. データシート図表・文章の転載
+9. **`getstarting/` を git 追跡対象に戻すこと**（購入先・コメントを含む私物情報。`.gitignore` 除外済み）
 
 ---
 

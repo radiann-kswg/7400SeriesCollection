@@ -11,6 +11,20 @@ datasheets/**/*.PDF
 # Datasheet render cache (PNG images for factcheck interactive session)
 datasheets/.cache/
 
+# Personal collection data (purchase history / plans / wishlist).
+# Kept on disk so scripts keep working, but never tracked.
+getstarting/
+
+# KiCad generated artifacts (gerber / backups / local project state)
+pcb-demo/**/gerber/
+pcb-demo/**/*-backups/
+pcb-demo/**/*.kicad_prl
+*.lck
+~*.lck
+
+# VS Code Local History extension
+.history/
+
 *_temp.json
 .DS_Store
 

@@ -63,7 +63,7 @@
 │       │   └── *.PDF                     # TOSHIBA製データシート
 │       └── UTC(UnisonicTechnologies)/
 │           └── *.PDF                     # UTC製データシート
-├── getstarting/
+├── getstarting/                          # 【Git 管理外】私物情報（購入先・コメント含む）
 │   ├── 7400_series_ic_collection_acquisition_history.json
 │   │                                     # 実入手済みIC履歴
 │   ├── 7400_series_ic_purchase_plan_normal_or_lower.json
@@ -86,6 +86,9 @@
   └── {カテゴリ名}/{パーツ番号}/**.md     # 回路設計情報 + 汎用型番チートシート（統合構造）
                        # 例: usage/06_encoders_decoders/74x141/74x141.md
 └── pcb-demo/
+  ├── REQUIREMENTS.md                       # PCBA 化の要件定義（作業前に必読）
+  ├── ORDER_CHECKLIST.md                    # JLCPCB 発注ゲート
+  ├── _carrier/README.md                    # 共通キャリア設計仕様
   ├── _templates/                           # KiCAD プロジェクトテンプレート群
   │   ├── template.kicad_pro                # プロジェクトファイルテンプレート
   │   ├── template.kicad_sch                # 回路図テンプレート（KiCAD 8互換形式）
@@ -773,6 +776,10 @@ def validate_part_data(part_data):
 3. **メーカー推定ロジックの過度な拡張**
    - 保守的アプローチを維持し、不確実な推定は避ける
 
+4. **`getstarting/` を Git 追跡対象に戻すこと**
+   - 購入先・コメントを含む私物情報のため `.gitignore` で除外済み。ファイルはローカルに存在し、
+     参照するスクリプトはそのまま動作する
+
 4. **JSON ファイルの文字コード変更**
    - UTF-8 エンコーディングを厳守
 
@@ -870,7 +877,41 @@ python3 scripts/generate_pcb_demo_projects.py --apply --overwrite
 
 ### pcb-demo/ 関連ファイルの Git 管理方針
 
-- テンプレートファイル（`_templates/`）: Git 管理対象
+- テンプレートファイル（`_templates/`）・共通キャリア（`_carrier/`）: Git 管理対象
 - 自動生成スタブ（各 IC のプロジェクトファイル）: Git 管理対象（stub として追跡）
-- Gerber 出力（`gerber/` サブディレクトリ）: `.gitignore` で除外推奨
-- KiCAD バックアップファイル（`*-backups/`, `*.kicad_prl`）: `.gitignore` で除外推奨
+- Gerber 出力（`gerber/` サブディレクトリ）: **`.gitignore` で除外済み**
+- KiCAD バックアップファイル（`*-backups/`, `*.kicad_prl`）: **`.gitignore` で除外済み**（2026-09-16 に追跡解除）
+
+### PCBA 化プロジェクト（Specimen Tiles）
+
+収集した現物の DIP IC をソケットに挿して動作展示する基板を JLCPCB で製作するプロジェクト。
+**作業前に必ず `pcb-demo/REQUIREMENTS.md` を読むこと。**
+
+| ドキュメント | 役割 |
+|---|---|
+| `pcb-demo/REQUIREMENTS.md` | 要件定義。決定事項（D1〜D12）・制約・段階計画・非目標・リスク |
+| `pcb-demo/_carrier/README.md` | 共通キャリア設計仕様。回路方式・定数・リファレンス命名規則・型番別生成規則 |
+| `pcb-demo/ORDER_CHECKLIST.md` | 発注ゲート。全項目 `[x]` になるまで発注しない |
+
+守るべき要点:
+
+1. 回路トポロジは**全型番共通**。型番ごとに変えてよいのは**電源ピン配線・未実装セル・シルクの 3 点だけ**
+2. リファレンス指定子は接点番号 k と 1 対 1（`Dk` / `Rk` / `R(20+k)`）。**手で振り直さない**
+3. 入力駆動の直列抵抗 `Rd` 1kΩ は**出力ピン誤操作時の電流制限器**。省略・470Ω 以下への変更は禁止
+4. 電源ピン位置を「角ピン」と決め打ちしない（74x73/75/90/93 は非標準）
+5. 発注前に確定が必要な一次資料情報は **VCC/GND のピン位置とピン数のみ**。全ピン機能表は不要
+6. SMD 部品は**上面のみ**（JLCPCB Economic 組立の制約）。ソケットとピンヘッダは手はんだ
+
+### KiCAD MCP Server
+
+`~/.claude.json` の `mcpServers.kicad` に登録済み（kicad-mcp v2.7.0, MIT, 233 ツール / 24 カテゴリ）。
+MCP は起動時に読み込まれるため、**登録後に開始したセッションでのみ利用できる**。
+既存スクリプトとは置き換えではなく併用する（一括バッチはスクリプト、1 枚の作り込みは MCP）。
+
+| 作業 | 担当 |
+|---|---|
+| 収集 DB・対象型番リスト・ファクトチェック | 既存 Python スクリプト（`scripts/`） |
+| 回路図の作図・一括編集、基板レイアウト | KiCAD MCP |
+| ERC / DRC | KiCAD MCP `run_erc` / `run_drc`（一括検証は `verify_kicad_sch.py`） |
+| LCSC 部品選定・Basic/Extended 判定 | KiCAD MCP `search_jlcpcb_parts` / `get_jlcpcb_part` |
+| Gerber / ドリル / CPL / BOM 出力 | KiCAD MCP `export_gerbers` / `export_drill` / `export_pos` / `export_bom` |
