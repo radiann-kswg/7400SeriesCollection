@@ -1,0 +1,115 @@
+{
+  "part": "74x244",
+  "package_pins": 20,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC244.PDF",
+    "doc_id": "SCLS130H",
+    "page": 3,
+    "table": "Pin Functions",
+    "checked": "2026-09-16",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "1OE",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "2": {
+      "name": "1A1",
+      "dir": "input"
+    },
+    "3": {
+      "name": "2Y4",
+      "dir": "tri_state"
+    },
+    "4": {
+      "name": "1A2",
+      "dir": "input"
+    },
+    "5": {
+      "name": "2Y3",
+      "dir": "tri_state"
+    },
+    "6": {
+      "name": "1A3",
+      "dir": "input"
+    },
+    "7": {
+      "name": "2Y2",
+      "dir": "tri_state"
+    },
+    "8": {
+      "name": "1A4",
+      "dir": "input"
+    },
+    "9": {
+      "name": "2Y1",
+      "dir": "tri_state"
+    },
+    "10": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "11": {
+      "name": "2A1",
+      "dir": "input"
+    },
+    "12": {
+      "name": "1Y4",
+      "dir": "tri_state"
+    },
+    "13": {
+      "name": "2A2",
+      "dir": "input"
+    },
+    "14": {
+      "name": "1Y3",
+      "dir": "tri_state"
+    },
+    "15": {
+      "name": "2A3",
+      "dir": "input"
+    },
+    "16": {
+      "name": "1Y2",
+      "dir": "tri_state"
+    },
+    "17": {
+      "name": "2A4",
+      "dir": "input"
+    },
+    "18": {
+      "name": "1Y1",
+      "dir": "tri_state"
+    },
+    "19": {
+      "name": "2OE",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "20": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "出力は 3 ステート。OE=H で Hi-Z になり LED は消灯（Rled 4.7k が GND に落とすので浮かない）",
+    "OE は負論理。スイッチ GND 側で出力有効"
+  ]
+}

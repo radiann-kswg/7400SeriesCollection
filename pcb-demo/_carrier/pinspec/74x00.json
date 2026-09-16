@@ -1,0 +1,84 @@
+{
+  "part": "74x00",
+  "package_pins": 14,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC00.PDF",
+    "doc_id": "SCLS181H",
+    "page": 3,
+    "table": "Pin Functions",
+    "checked": "2026-09-16",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "1A",
+      "dir": "input"
+    },
+    "2": {
+      "name": "1B",
+      "dir": "input"
+    },
+    "3": {
+      "name": "1Y",
+      "dir": "output"
+    },
+    "4": {
+      "name": "2A",
+      "dir": "input"
+    },
+    "5": {
+      "name": "2B",
+      "dir": "input"
+    },
+    "6": {
+      "name": "2Y",
+      "dir": "output"
+    },
+    "7": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "8": {
+      "name": "3Y",
+      "dir": "output"
+    },
+    "9": {
+      "name": "3A",
+      "dir": "input"
+    },
+    "10": {
+      "name": "3B",
+      "dir": "input"
+    },
+    "11": {
+      "name": "4Y",
+      "dir": "output"
+    },
+    "12": {
+      "name": "4A",
+      "dir": "input"
+    },
+    "13": {
+      "name": "4B",
+      "dir": "input"
+    },
+    "14": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "全ピンが単純な入出力。共通回路で問題なし"
+  ]
+}

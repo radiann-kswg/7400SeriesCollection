@@ -1,0 +1,115 @@
+{
+  "part": "74x273",
+  "package_pins": 20,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC273.PDF",
+    "doc_id": "SCLS136F",
+    "page": 3,
+    "table": "Pin Functions",
+    "checked": "2026-09-16",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "CLR",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "2": {
+      "name": "1Q",
+      "dir": "output"
+    },
+    "3": {
+      "name": "1D",
+      "dir": "input"
+    },
+    "4": {
+      "name": "2D",
+      "dir": "input"
+    },
+    "5": {
+      "name": "2Q",
+      "dir": "output"
+    },
+    "6": {
+      "name": "3Q",
+      "dir": "output"
+    },
+    "7": {
+      "name": "3D",
+      "dir": "input"
+    },
+    "8": {
+      "name": "4D",
+      "dir": "input"
+    },
+    "9": {
+      "name": "4Q",
+      "dir": "output"
+    },
+    "10": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "11": {
+      "name": "CLK",
+      "dir": "input",
+      "attr": [
+        "clock"
+      ]
+    },
+    "12": {
+      "name": "5Q",
+      "dir": "output"
+    },
+    "13": {
+      "name": "5D",
+      "dir": "input"
+    },
+    "14": {
+      "name": "6D",
+      "dir": "input"
+    },
+    "15": {
+      "name": "6Q",
+      "dir": "output"
+    },
+    "16": {
+      "name": "7Q",
+      "dir": "output"
+    },
+    "17": {
+      "name": "7D",
+      "dir": "input"
+    },
+    "18": {
+      "name": "8D",
+      "dir": "input"
+    },
+    "19": {
+      "name": "8Q",
+      "dir": "output"
+    },
+    "20": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "CLK はスライドスイッチ駆動。チャタリングで複数回エッジが入っても D が安定していれば同じ値を再ラッチするだけなので実害なし（カウンタ系とは異なる）",
+    "CLR は負論理。スイッチ GND 側でクリア"
+  ]
+}
