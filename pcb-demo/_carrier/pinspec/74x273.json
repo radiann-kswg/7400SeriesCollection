@@ -25,7 +25,8 @@
       "name": "CLR",
       "dir": "input",
       "attr": [
-        "active_low"
+        "active_low",
+        "clear"
       ]
     },
     "2": {
