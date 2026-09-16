@@ -65,12 +65,16 @@ YS = 6.0                              # 上側スイッチ中心（下側は H -
 RAIL, BUS_Y = 1.0, 24.175             # +5V 外周レール / ソケット下を通る電源バス
 SIG, PWR, GNDW = 0.25, 0.5, 0.3
 
-# I/O セルの局所座標 (u, v)。v はスイッチ → ソケット方向。スイッチのパッド列は u = -1.95 側
+# I/O セルの局所座標 (u, v)。v はスイッチ → ソケット方向。スイッチのパッド列は u = SW_PAD_U 側
+# SHOU HAN純正図面(C3008585)確認済みのSW_SPDT_Shouhan_MSS12C02LSパッド1/2/3のローカルY座標（2026-09-16, REQUIREMENTS R8）
+SW_PAD_U = -1.8
 CELL_POS = {"SW": (0, 0), "D": (-1.6, 6.1), "RL": (-1.6, 9.2), "RD": (0, 9.2)}
 CELL_TRACKS = [  # (ネット, 幅, 点列)
-    ("+5V", PWR, [(-1.95, -2.25), (-1.95, -5.0)]),
-    ("GND", GNDW, [(-1.95, 2.25), (-2.1, 3.3), (-2.1, 4.813), (-1.6, 5.313)]),
-    ("SWC", SIG, [(-1.95, 0.75), (-0.82, 0.75), (-0.82, 2.0), (0, 2.82), (0, 8.375)]),  # 位置決め穴を避けて本体下を通す
+    # SHOU HAN純正図面確認後の端子パッド拡大(0.6x1.3->0.8x1.6)に伴い、SHパッド・位置決め穴とのクリアランスを
+    # 確保するため経路を調整(2026-09-16, REQUIREMENTS R8)。+5VはGNDと同じ u=-2.1 側へ迂回してSHパッドを回避
+    ("+5V", PWR, [(SW_PAD_U, -2.25), (-2.1, -2.25), (-2.1, -5.0)]),
+    ("GND", GNDW, [(SW_PAD_U, 2.25), (-2.1, 3.3), (-2.1, 4.813), (-1.6, 5.313)]),
+    ("SWC", SIG, [(SW_PAD_U, 0.75), (-0.82, 0.75), (-0.82, 0.65), (0.9, 0.65), (0.9, 2.6), (0, 2.82), (0, 8.375)]),  # 位置決め穴とパッド3(GND)を避けて本体右側を迂回
     ("LA", SIG, [(-1.6, 6.887), (-1.6, 8.375)]),
     ("P", SIG, [(-1.6, 10.025), (0, 10.025)]),
 ]
@@ -241,8 +245,9 @@ def write_sch(p, comps, path):
 # ---------------------------------------------------------------- 基板
 
 def make_switch_fp():
-    """MSK12C02（横レバー）のランドを流用し、縦レバー品 MSS12C02LS 用に外形・courtyard を本体寸法へ詰める。"""
-    # ponytail: ランド配置は MSK12C02 と同一と仮定。MSS12C02LS の寸法図で照合するまで発注不可（ORDER_CHECKLIST A）
+    """MSK12C02（横レバー）を土台に、SHOU HAN純正図面(C3008585)で確認済みの端子パッド・穴寸法に置き換える。
+    4隅SHパッド・外形/courtyardは未照合のためMSK12C02のランドをそのまま流用（2026-09-16、REQUIREMENTS R8）。"""
+    # ponytail: SHパッド・外形はMSK12C02と同一と仮定。現物サンプルで最終照合するまで発注不可（ORDER_CHECKLIST A）
     # pcbnew で図形を消して保存すると SWIG の型情報が壊れ、以降の FootprintLoad() が失敗するのでテキストで加工する
     old = "SW_SPDT_Shouhan_MSK12C02"
     src = (KICAD_FP / "Button_Switch_SMD.pretty" / f"{old}.kicad_mod").read_text(encoding="utf-8")
@@ -258,8 +263,19 @@ def make_switch_fp():
         i = k + 1
     body = "".join(out) + src[i:]
     body = re.sub(r'\(descr "[^"]*"\)', '(descr "SPDT SMD slide switch, top actuated, SHOU HAN MSS12C02LS (LCSC C3008585). '
-                  'Pads copied from SW_SPDT_Shouhan_MSK12C02 - verify against the MSS12C02LS drawing")', body)
+                  'Switch-terminal pads (1/2/3) and NPTH holes re-derived from SHOU HAN drawing C3008585 and user-confirmed 2026-09-16. '
+                  'SH corner pads and body outline still inherited from SW_SPDT_Shouhan_MSK12C02 (cross-checked against the drawing but not independently re-derived)")', body)
     body = body.replace(f'"{old}"', f'"{SW_FP}"')
+    # SHOU HAN純正図面(C3008585)で確認した端子パッド・NPTH穴の寸法に置き換える（2026-09-16, REQUIREMENTS R8）
+    for at_old, at_new in [
+        ("(at -1.5 0)\n\t\t(size 0.85 0.85)\n\t\t(drill 0.85)", "(at -1.5 0)\n\t\t(size 0.8 0.8)\n\t\t(drill 0.8)"),
+        ("(at 1.5 0)\n\t\t(size 0.85 0.85)\n\t\t(drill 0.85)", "(at 1.5 0)\n\t\t(size 0.8 0.8)\n\t\t(drill 0.8)"),
+        ("(at -2.25 -1.95)\n\t\t(size 0.6 1.3)", "(at -2.25 -1.8)\n\t\t(size 0.8 1.6)"),
+        ("(at 0.75 -1.95)\n\t\t(size 0.6 1.3)", "(at 0.75 -1.8)\n\t\t(size 0.8 1.6)"),
+        ("(at 2.25 -1.95)\n\t\t(size 0.6 1.3)", "(at 2.25 -1.8)\n\t\t(size 0.8 1.6)"),
+    ]:
+        assert at_old in body, f"switch fp pad pattern not found: {at_old!r}"
+        body = body.replace(at_old, at_new)
     rects = "".join(
         f'\t(fp_rect (start {x0} {y0}) (end {x1} {y1}) (stroke (width {w}) (type solid)) (fill no)'
         f' (layer "{layer}") (uuid "{uuid.uuid5(uuid.NAMESPACE_URL, SW_FP + layer)}"))\n'
@@ -357,7 +373,7 @@ def write_pcb(p, comps, path):
             fp, kind = fps[ref]
             fp.SetOrientationDegrees(f["rot"])
             fp.SetPosition(V(*g(*CELL_POS[kind])))
-        expect(fps[f"SW{k}"][0], "1", g(-1.95, -2.25))
+        expect(fps[f"SW{k}"][0], "1", g(SW_PAD_U, -2.25))
         expect(fps[f"D{k}"][0], "1", g(-1.6, 6.1 - 0.787))
         name = {"+5V": "+5V", "GND": "GND", "SWC": f"SWC{k}", "LA": f"LA{k}", "P": f"P{k}"}
         for kind, w, pts in CELL_TRACKS:
@@ -366,8 +382,8 @@ def write_pcb(p, comps, path):
         track([g(0, 10.025), (f["xc"], f["lane"]), (f["xpad"], f["lane"]), (f["xpad"], f["ypad"])], f"P{k}", SIG)
 
     # +5V: 外周レール（上・下・左）と、ソケット下を通って VCC 接点へ行くバス
-    top = max(frame(k)["g"](-1.95, 0)[0] for k in cells(p) if k > 10)  # 全列のスタブがレールに乗るように
-    bot = max(frame(k)["g"](-1.95, 0)[0] for k in cells(p) if k <= 10)
+    top = max(frame(k)["g"](SW_PAD_U, 0)[0] for k in cells(p) if k > 10)  # 全列のスタブがレールに乗るように
+    bot = max(frame(k)["g"](SW_PAD_U, 0)[0] for k in cells(p) if k <= 10)
     track([(top, RAIL), (RAIL, RAIL), (RAIL, H - RAIL), (bot, H - RAIL)], "+5V", PWR)
     j1, c1 = fps["J1"][0], fps["C1"][0]
     j1.SetPosition(V(5.5, BUS_Y))
