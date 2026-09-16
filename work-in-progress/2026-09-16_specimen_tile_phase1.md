@@ -142,3 +142,51 @@ $cli = 'C:\Program Files\KiCad\10.0\bin\kicad-cli.exe'
 
 - オープンコレクタ出力（74x05 / 06 / 07 等）: LED を GND 側に付けても点灯しない → pinspec で `open_collector` にすると全 DNP。別方式（プルアップ + LED を VCC 側）が要るか相談
 - クロック入力のチャタリング: カウンタ・シフトレジスタ（74x393 / 164 / 595 等）は複数回カウントされる。展示としてどこまで許容するか相談
+
+## 2026-09-16 続き: Phase 1 残タスクの対応（新規セッション）
+
+前回グリリングで整理した6項目の決定を受けて対応。残り9型番の生成（Phase 2）は別セッションに先送り。
+
+### コミット
+
+未コミットだった検証済み分（ERC/DRC 0）を3コミットに分割（Windows側のgitで実施。VM側の`--no-optional-locks`回避のため、コミットメッセージはVM側でUTF-8ファイルに書き出してから`git commit -F`で渡した。PowerShellのヒアストリングに直接日本語を渡すと文字化けするため不採用）。
+
+1. `9e2128d` 仕様書（REQUIREMENTS/README/CHECKLIST/AGENTS/copilot-instructions）をv0.3化
+2. `61c36bd` `generate_specimen_tile.py`と専用フットプリントを追加
+3. `b7bf798` 代表3型番のタイル生成物・pinspec・作業ログを追加
+
+`Claude outputs/74x273_tile_top.png`（3Dレンダリングのスクリーンショット）は温存対象に見当たらないためコミット対象から除外（未追跡のまま）。
+
+### R6 パネライズ: KiKit採用
+
+KiCad同梱python（`C:\Program Files\KiCad\10.0\bin\python.exe -m pip install kikit`）へ導入。CLIは`C:\Users\s-chi\OneDrive\Documents\KiCad\10.0\3rdparty\Python311\Scripts\kikit.exe`（PATH未登録のためフルパス指定が必要）。
+
+74x244タイルで検証:
+
+```powershell
+$kikit = 'C:\Users\s-chi\OneDrive\Documents\KiCad\10.0\3rdparty\Python311\Scripts\kikit.exe'
+& $kikit panelize -l "type: grid; rows: 2; cols: 2; hspace: 0mm; vspace: 0mm; hbackbone: 0mm; vbackbone: 0mm" -s "type: auto" -t "type: none" -c "type: vcuts" -r "type: none" -o "type: none" -f "type: none" pcb-demo\_carrier\tiles\74x244\74x244_tile.kicad_pcb <出力先>.kicad_pcb
+```
+
+- `hspace`/`vspace`を2mmにすると102.1×102.1mmになり100×100mm価格帯を外れる。**0mmで100.1×100.1mm**（V-cutは板同士の隙間を必要としない）
+- 出力先プロジェクトに`Specimen`フットプリントライブラリを指す`fp-lib-table`（`${KIPRJMOD}/../../pcb-demo/_carrier/Specimen.pretty`）を追加しないと、DRCで`lib_footprint_issues`警告が72件出る（実害無し。ライブラリ未リンクの警告のみ）
+- 上記対応後、DRC 0・未配線0を確認
+- 異なる型番を混在させたパネル（実際のパイロット発注で使う想定）はPhase 2で検証する
+
+### R8 MSS12C02LSランド照合: メーカー問い合わせへ切替
+
+LCSC公式データシート（C3008585）を確認したが、本体外形（6.65×2.75×3.4mm）のみでフットプリント図・位置決め穴・H/L方向の図面が無いことを再確認（従来の調査と同じ結論）。ユーザー方針により、LCSC/JLCPCB経由でメーカー（SHOU HAN）へ図面を問い合わせる方針に変更。問い合わせ文面はユーザーへ提示済み、送信はユーザーのアカウントから行う。回答が来るまで発注しない。
+
+### クロック入力のチャタリング: 許容で確定
+
+REQUIREMENTS.md §4.2に記載。74x393/164/595はデバウンス回路を追加せず、実機検証で問題が出た場合のみ再検討。
+
+### R1 実見積もり: ユーザーがJLCONEで取得
+
+ユーザーがHalvanに導入済みのデスクトップアプリ「JLCONE」でGerber/BOM/CPLから直接取得する方針。Claude側はパネル用製造データの書き出しまでを担当。
+
+### 残課題
+
+- SHOU HANからの図面回答待ち（回答後、ランド照合・H/Lシルク追加）
+- 実見積もり（ユーザーがJLCONEで取得）
+- 残り9型番のpinspec作成・タイル生成、混在パネルの面付け（Phase 2、別セッション）
