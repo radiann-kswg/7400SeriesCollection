@@ -89,6 +89,7 @@
   ├── REQUIREMENTS.md                       # PCBA 化の要件定義（作業前に必読）
   ├── ORDER_CHECKLIST.md                    # JLCPCB 発注ゲート
   ├── _carrier/README.md                    # 共通キャリア設計仕様
+  ├── _carrier/tiles/{74xNN}/                # タイル生成物（generate_specimen_tile.py）
   ├── _templates/                           # KiCAD プロジェクトテンプレート群
   │   ├── template.kicad_pro                # プロジェクトファイルテンプレート
   │   ├── template.kicad_sch                # 回路図テンプレート（KiCAD 8互換形式）
@@ -323,6 +324,7 @@ _download/
 - `kicad_lib.py`: `.kicad_sym` を sexpdata で堅牢にパースする共通モジュール（列挙/extends解決/ピン抽出/`74xNN`→実シンボル自動探索）。`sexpdata` 依存
 - `verify_kicad_sch.py`: 生成済み `.kicad_sch` を `kicad-cli sch erc` でヘッドレス一括検証
 - `audit_kicad_coverage.py`: 入手済み全型番の実シンボル化カバレッジを一覧/CSV
+- `generate_specimen_tile.py`: Specimen Tile（PCBA 化）の回路図・基板・プロジェクトを型番ごとに生成（KiCAD 同梱 python。出力 `pcb-demo/_carrier/tiles/{型番}/`）
 - `generate_pcb_layout.py`: ERC→netlist→配置→Freerouting配線→DRC→Gerber の下流パイプライン（配置以降は KiCAD 同梱 python が必要）
 - `merge_fp.py`: データ統合処理
 - `refine_descriptions.py`: 説明文洗練化
@@ -895,11 +897,11 @@ python3 scripts/generate_pcb_demo_projects.py --apply --overwrite
 
 守るべき要点:
 
-1. 回路トポロジは**全型番共通**。型番ごとに変えてよいのは**電源ピン配線・未実装セル・シルクの 3 点だけ**
+1. 回路トポロジ・部品配置は**全型番共通**。型番ごとに変えてよいのは**電源接点・セル種別（DNP の組合せ）・シルクの 3 点だけ**
 2. リファレンス指定子は接点番号 k と 1 対 1（`Dk` / `Rk` / `R(20+k)`）。**手で振り直さない**
 3. 入力駆動の直列抵抗 `Rd` 1kΩ は**出力ピン誤操作時の電流制限器**。省略・470Ω 以下への変更は禁止
 4. 電源ピン位置を「角ピン」と決め打ちしない（74x73/75/90/93 は非標準）
-5. 発注前に確定が必要な一次資料情報は **VCC/GND のピン位置とピン数のみ**。全ピン機能表は不要
+5. 基板生成の前に**各ピンの方向をデータシートで確認**し `pcb-demo/_carrier/pinspec/{型番}.json` に記録する（REQUIREMENTS §4.1）。出力接点は LED のみ、入力接点はスイッチ + LED。pinspec の無い型番は生成・発注しない
 6. SMD 部品は**上面のみ**（JLCPCB Economic 組立の制約）。ソケットとピンヘッダは手はんだ
 
 ### KiCAD MCP Server
