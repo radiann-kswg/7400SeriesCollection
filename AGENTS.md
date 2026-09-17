@@ -405,7 +405,7 @@ python  scripts/generate_pcb_layout.py --stages erc,netlist           # netlist 
 2. リファレンス指定子は接点番号 k と 1 対 1（`Dk` / `Rk` / `R(20+k)`）。**手で振り直さない**
 3. 入力駆動の直列抵抗 `Rd` 1kΩ は**出力ピン誤操作時の電流制限器**。省略・470Ω 以下への変更は禁止
 4. 電源ピン位置を「角ピン」と決め打ちしない（74x73/75/90/93 は非標準）
-5. 基板生成の前に**各ピンの方向をデータシートで確認**し `pcb-demo/_carrier/pinspec/{型番}.json` に記録する（REQUIREMENTS §4.1）。出力接点は LED のみ、入力接点はスイッチ + LED。pinspec の無い型番は生成・発注しない
+5. 基板生成の前に**各ピンの方向をデータシートで確認**し `pcb-demo/_carrier/pinspec/{型番}.json` に記録する（REQUIREMENTS §4.1）。出力接点は LED のみ、入力接点はスイッチのみ（D25）。pinspec の無い型番は生成・発注しない
 6. SMD 部品は**上面のみ**（JLCPCB Economic 組立の制約）。ソケットとピンヘッダは手はんだ
 
 ### KiCAD MCP Server

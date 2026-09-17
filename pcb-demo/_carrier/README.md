@@ -2,7 +2,7 @@
 
 全タイルで共通の回路トポロジ。型番ごとに変わるのは**電源ピン配線・未実装セル・シルクの 3 点だけ**（→ [`../REQUIREMENTS.md`](../REQUIREMENTS.md) §2.3）。
 
-- 版: 0.5（2026-09-16: Rd を 220Ω に変更（旧 1kΩ、REQUIREMENTS D16）。LED を負論理=赤／通常=白の2色に変更（D22）。クロック入力クリーンアップ回路（タクトスイッチ+RC+74x1G14）を実装・DRC/ERC検証済み（REQUIREMENTS §4.2/D17・D24））
+- 版: 0.6（2026-09-17: 入力接点の LED 表示を廃止しスイッチのみに変更（REQUIREMENTS D25）。2026-09-16: Rd を 220Ω に変更（旧 1kΩ、REQUIREMENTS D16）。LED を負論理=赤／通常=白の2色に変更（D22）。クロック入力クリーンアップ回路（タクトスイッチ+RC+74x1G14）を実装・DRC/ERC検証済み（REQUIREMENTS §4.2/D17・D24））
 - 対象: DIP-14 / DIP-16 / DIP-20（300mil）= 所持品の 118/120
 
 ---
@@ -132,7 +132,7 @@ IC pin i  (i >  n/2)  ->  ソケット接点 i + (20 - n)
 | 差分         | 規則                                                                                     |
 | ------------ | ---------------------------------------------------------------------------------------- |
 | ① 電源接点   | 型番の VCC / GND ピンを §6.1 で接点に変換し、その接点を +5V / GND ベタに接続。**I/O セルは実装しない** |
-| ② セル種別   | `pinspec/{型番}.json` の `dir` で決める。`input` / `bidirectional` → 全実装。`output` / `tri_state` → `SWk`・`R(20+k)` を DNP（LED のみ）。未使用接点・`nc`・`open_collector` → 全部 DNP。DNP は BOM・CPL から除外 |
+| ② セル種別   | `pinspec/{型番}.json` の `dir` で決める。`input` → **スイッチのみ**（`Rk`・`Dk` を DNP、REQUIREMENTS D25）。`output` / `tri_state` → `SWk`・`R(20+k)` を DNP（LED のみ）。`bidirectional` は D19 により生成停止。未使用接点・`nc`・`open_collector` → 全部 DNP。DNP は BOM・CPL から除外 |
 | ③ シルク     | 汎用型番・機能名（EN / JP）・カテゴリ・各接点のピン名                                    |
 
 ### 6.3 実装セル数

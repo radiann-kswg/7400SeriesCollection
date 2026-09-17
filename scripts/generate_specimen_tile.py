@@ -213,8 +213,8 @@ def components(p):
                 d_kind = "DW"  # 通常出力は白（D22）
         out += [(f"SW{k}", "SW", {"1": "+5V", "2": f"SWC{k}", "3": "GND"}, kind != "io"),
                 (f"R{20 + k}", "RD", {"1": f"SWC{k}", "2": f"P{k}"}, kind != "io"),
-                (f"R{k}", "RL", {"1": f"LA{k}", "2": f"P{k}"}, kind == "dnp"),
-                (f"D{k}", d_kind, d_nets, kind == "dnp")]
+                (f"R{k}", "RL", {"1": f"LA{k}", "2": f"P{k}"}, kind != "out"),
+                (f"D{k}", d_kind, d_nets, kind != "out")]
     return out
 
 
