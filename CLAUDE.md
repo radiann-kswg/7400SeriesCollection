@@ -21,3 +21,19 @@ Copilot 用の [`.github/prompts/factcheck-interactive.prompt.md`](.github/promp
 4. **ユーザー確認**: **85% 以上は自動確認**（`[x]` 更新）、**85% 未満のみユーザーに目視確認を依頼**。「それっぽい」だけで高信頼度を与えない。信頼度の根拠（何が明瞭/不明瞭か）を述べる。
 5. **更新**: 確認済み項目を `- [ ]` → `- [x]` に。確認日・信頼度・参照 PDF を付記（例: `（TI データシートより確認 2026-02-14, 読み取り信頼度 95%）`）。読み取れなかった項目は `- [ ]` のまま。
 6. **後片付け**: `datasheets/.cache/pdf_render/{型番}*` の一時 PNG を削除する。
+
+---
+
+## Agent skills
+
+### Issue tracker
+
+Issue は GitHub Issues（`radiann-kswg/7400SeriesCollection`、`gh` CLI 経由）で管理する。See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+標準の 5 ラベル（`needs-triage` / `needs-info` / `ready-for-agent` / `ready-for-human` / `wontfix`）をそのまま使う。See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+single-context（リポジトリ直下の `CONTEXT.md` + `docs/adr/`、いずれも未作成、必要時に `/domain-modeling` が作る）。See `docs/agents/domain.md`.
