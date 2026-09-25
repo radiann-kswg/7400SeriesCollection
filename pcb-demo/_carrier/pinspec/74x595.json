@@ -1,0 +1,106 @@
+{
+  "part": "74x595",
+  "package_pins": 16,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC595.PDF",
+    "doc_id": "SCLS041J",
+    "page": 3,
+    "table": "Table 5-1. Pin Functions",
+    "checked": "2026-09-25",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。同ページのピン配置図と相互確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "QB",
+      "dir": "tri_state"
+    },
+    "2": {
+      "name": "QC",
+      "dir": "tri_state"
+    },
+    "3": {
+      "name": "QD",
+      "dir": "tri_state"
+    },
+    "4": {
+      "name": "QE",
+      "dir": "tri_state"
+    },
+    "5": {
+      "name": "QF",
+      "dir": "tri_state"
+    },
+    "6": {
+      "name": "QG",
+      "dir": "tri_state"
+    },
+    "7": {
+      "name": "QH",
+      "dir": "tri_state"
+    },
+    "8": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "9": {
+      "name": "QH'",
+      "dir": "output"
+    },
+    "10": {
+      "name": "SRCLR",
+      "dir": "input",
+      "attr": [
+        "active_low",
+        "clear"
+      ]
+    },
+    "11": {
+      "name": "SRCLK",
+      "dir": "input",
+      "attr": [
+        "clock"
+      ]
+    },
+    "12": {
+      "name": "RCLK",
+      "dir": "input",
+      "attr": [
+        "clock"
+      ]
+    },
+    "13": {
+      "name": "OE",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "14": {
+      "name": "SER",
+      "dir": "input"
+    },
+    "15": {
+      "name": "QA",
+      "dir": "tri_state"
+    },
+    "16": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "QA〜QH は OE で高インピーダンスになる 3 ステート出力。QH' はカスケード用の通常出力",
+    "SRCLK・RCLK ともクロックセル（D17）"
+  ]
+}

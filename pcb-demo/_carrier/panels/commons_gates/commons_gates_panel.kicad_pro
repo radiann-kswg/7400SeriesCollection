@@ -373,119 +373,7 @@
     "netclass_patterns": [
       {
         "netclass": "A_Default",
-        "pattern": "A_/SWC2"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/P15"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/P6"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/LA12"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/LA1"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/LA3"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/SWC10"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/SWC4"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/LA14"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/LA10"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/LA2"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/LA6"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/LA11"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/LA9"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/P10"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/LA19"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/LA4"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/P17"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/SWC16"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/SWC5"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/LA15"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/SWC19"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/SWC3"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/P3"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/P8"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/SWC9"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/LA18"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/P13"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/SWC17"
+        "pattern": "A_/SWC6"
       },
       {
         "netclass": "A_Default",
@@ -493,27 +381,7 @@
       },
       {
         "netclass": "A_Default",
-        "pattern": "A_/P12"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/SWC13"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/LA8"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/SWC11"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/SWC6"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/P1"
+        "pattern": "A_/SWC9"
       },
       {
         "netclass": "A_Default",
@@ -521,11 +389,19 @@
       },
       {
         "netclass": "A_Default",
-        "pattern": "A_/P9"
+        "pattern": "A_/P5"
       },
       {
         "netclass": "A_Default",
-        "pattern": "A_/P18"
+        "pattern": "A_/SWC17"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/LA1"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/P15"
       },
       {
         "netclass": "A_Default",
@@ -533,11 +409,15 @@
       },
       {
         "netclass": "A_Default",
-        "pattern": "A_/P14"
+        "pattern": "A_/LA16"
       },
       {
         "netclass": "A_Default",
-        "pattern": "A_/SWC12"
+        "pattern": "A_/P8"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/SWC4"
       },
       {
         "netclass": "A_Default",
@@ -545,39 +425,11 @@
       },
       {
         "netclass": "A_Default",
-        "pattern": "A_/LA13"
+        "pattern": "A_/P14"
       },
       {
         "netclass": "A_Default",
-        "pattern": "A_/SWC1"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/P19"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/P5"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/SWC15"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/LA16"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/SWC8"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/SWC14"
-      },
-      {
-        "netclass": "A_Default",
-        "pattern": "A_/SWC18"
+        "pattern": "A_/P6"
       },
       {
         "netclass": "A_Default",
@@ -585,7 +437,123 @@
       },
       {
         "netclass": "A_Default",
-        "pattern": "A_/LA17"
+        "pattern": "A_/LA12"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/P3"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/LA3"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/SWC13"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/LA18"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/LA13"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/P17"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/P12"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/LA19"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/P10"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/P19"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/SWC2"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_+5V"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/P18"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/SWC19"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/LA14"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/LA11"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/SWC18"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/SWC10"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/SWC1"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/SWC3"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/SWC5"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/SWC12"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/SWC15"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/P13"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/LA9"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/SWC11"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/LA6"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/LA8"
+      },
+      {
+        "netclass": "A_Default",
+        "pattern": "A_/LA10"
       },
       {
         "netclass": "A_Default",
@@ -593,123 +561,39 @@
       },
       {
         "netclass": "A_Default",
-        "pattern": "A_+5V"
+        "pattern": "A_/LA15"
       },
       {
-        "netclass": "B_Default",
-        "pattern": "B_/LA10"
+        "netclass": "A_Default",
+        "pattern": "A_/SWC14"
       },
       {
-        "netclass": "B_Default",
-        "pattern": "B_/LA19"
+        "netclass": "A_Default",
+        "pattern": "A_/LA2"
       },
       {
-        "netclass": "B_Default",
-        "pattern": "B_/LA8"
+        "netclass": "A_Default",
+        "pattern": "A_/LA17"
       },
       {
-        "netclass": "B_Default",
-        "pattern": "B_/SWC10"
+        "netclass": "A_Default",
+        "pattern": "A_/P1"
       },
       {
-        "netclass": "B_Default",
-        "pattern": "B_/SWC6"
+        "netclass": "A_Default",
+        "pattern": "A_/P9"
       },
       {
-        "netclass": "B_Default",
-        "pattern": "B_/P18"
+        "netclass": "A_Default",
+        "pattern": "A_/SWC16"
       },
       {
-        "netclass": "B_Default",
-        "pattern": "B_/LA6"
+        "netclass": "A_Default",
+        "pattern": "A_/LA4"
       },
       {
-        "netclass": "B_Default",
-        "pattern": "B_/P1"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/P6"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/LA15"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/LA3"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/LA13"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/LA5"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/P14"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/P15"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/P9"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/P10"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/P16"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/SWC14"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/LA16"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/SWC18"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/P5"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/LA4"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/SWC16"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/SWC11"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_GND"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/P4"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/P19"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/SWC8"
+        "netclass": "A_Default",
+        "pattern": "A_/SWC8"
       },
       {
         "netclass": "B_Default",
@@ -717,15 +601,11 @@
       },
       {
         "netclass": "B_Default",
-        "pattern": "B_/SWC9"
+        "pattern": "B_/P19"
       },
       {
         "netclass": "B_Default",
-        "pattern": "B_+5V"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/SWC17"
+        "pattern": "B_/P1"
       },
       {
         "netclass": "B_Default",
@@ -733,19 +613,23 @@
       },
       {
         "netclass": "B_Default",
-        "pattern": "B_/LA14"
+        "pattern": "B_/P9"
       },
       {
         "netclass": "B_Default",
-        "pattern": "B_/LA9"
+        "pattern": "B_/SWC10"
       },
       {
         "netclass": "B_Default",
-        "pattern": "B_/LA12"
+        "pattern": "B_/LA3"
       },
       {
         "netclass": "B_Default",
-        "pattern": "B_/P8"
+        "pattern": "B_/SWC15"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/P17"
       },
       {
         "netclass": "B_Default",
@@ -753,7 +637,7 @@
       },
       {
         "netclass": "B_Default",
-        "pattern": "B_/P3"
+        "pattern": "B_/SWC9"
       },
       {
         "netclass": "B_Default",
@@ -761,7 +645,7 @@
       },
       {
         "netclass": "B_Default",
-        "pattern": "B_/LA2"
+        "pattern": "B_/P14"
       },
       {
         "netclass": "B_Default",
@@ -769,7 +653,35 @@
       },
       {
         "netclass": "B_Default",
-        "pattern": "B_/P2"
+        "pattern": "B_GND"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/LA11"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/SWC19"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/LA12"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/LA14"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/SWC14"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/SWC11"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/LA2"
       },
       {
         "netclass": "B_Default",
@@ -777,11 +689,27 @@
       },
       {
         "netclass": "B_Default",
-        "pattern": "B_/LA17"
+        "pattern": "B_/SWC18"
       },
       {
         "netclass": "B_Default",
-        "pattern": "B_/SWC2"
+        "pattern": "B_/LA6"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/LA16"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/SWC6"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/SWC3"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/SWC8"
       },
       {
         "netclass": "B_Default",
@@ -793,23 +721,39 @@
       },
       {
         "netclass": "B_Default",
+        "pattern": "B_/P2"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/P15"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/SWC17"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/LA9"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/P10"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/LA5"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/LA17"
+      },
+      {
+        "netclass": "B_Default",
         "pattern": "B_/P13"
       },
       {
         "netclass": "B_Default",
-        "pattern": "B_/SWC19"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/P17"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/LA11"
-      },
-      {
-        "netclass": "B_Default",
-        "pattern": "B_/SWC15"
+        "pattern": "B_/P16"
       },
       {
         "netclass": "B_Default",
@@ -817,11 +761,131 @@
       },
       {
         "netclass": "B_Default",
-        "pattern": "B_/SWC3"
+        "pattern": "B_/SWC16"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/P18"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/P4"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/LA4"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/P8"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/LA10"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_+5V"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/SWC2"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/LA15"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/P3"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/LA19"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/P5"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/LA8"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/LA13"
+      },
+      {
+        "netclass": "B_Default",
+        "pattern": "B_/P6"
       },
       {
         "netclass": "C_Default",
-        "pattern": "C_/LA14"
+        "pattern": "C_/LA13"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/P17"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/SWC18"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/SWC1"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/LA10"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/SWC3"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/LA12"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/SWC13"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/LA17"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_GND"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/LA15"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/SWC4"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/SWC2"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/P10"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/SWC11"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/SWC6"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/P6"
       },
       {
         "netclass": "C_Default",
@@ -833,203 +897,11 @@
       },
       {
         "netclass": "C_Default",
-        "pattern": "C_/P8"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/LA18"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/SWC19"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/LA9"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/SWC12"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/LA13"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/LA3"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/SWC6"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/LA11"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/SWC11"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/P2"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/P15"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/P3"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/P18"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/SWC9"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/LA5"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/LA12"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/P6"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_GND"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/LA4"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/SWC1"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/LA15"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/P10"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/SWC18"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/SWC3"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/SWC5"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/LA19"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/P16"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/P5"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/SWC17"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/SWC8"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/P13"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/LA2"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/SWC2"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/P17"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/SWC10"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/P12"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/LA8"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/LA17"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_+5V"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/SWC14"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/P4"
-      },
-      {
-        "netclass": "C_Default",
         "pattern": "C_/P11"
       },
       {
         "netclass": "C_Default",
-        "pattern": "C_/SWC15"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/P1"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/LA6"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/SWC13"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/SWC16"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/P9"
-      },
-      {
-        "netclass": "C_Default",
-        "pattern": "C_/LA1"
+        "pattern": "C_/LA14"
       },
       {
         "netclass": "C_Default",
@@ -1037,43 +909,139 @@
       },
       {
         "netclass": "C_Default",
-        "pattern": "C_/LA10"
+        "pattern": "C_/LA9"
       },
       {
         "netclass": "C_Default",
-        "pattern": "C_/SWC4"
+        "pattern": "C_/P2"
       },
       {
-        "netclass": "D_Default",
-        "pattern": "D_/P13"
+        "netclass": "C_Default",
+        "pattern": "C_/SWC12"
       },
       {
-        "netclass": "D_Default",
-        "pattern": "D_/P6"
+        "netclass": "C_Default",
+        "pattern": "C_/LA18"
       },
       {
-        "netclass": "D_Default",
-        "pattern": "D_/LA13"
+        "netclass": "C_Default",
+        "pattern": "C_/LA11"
       },
       {
-        "netclass": "D_Default",
-        "pattern": "D_/P18"
+        "netclass": "C_Default",
+        "pattern": "C_/LA5"
       },
       {
-        "netclass": "D_Default",
-        "pattern": "D_/LA8"
+        "netclass": "C_Default",
+        "pattern": "C_/SWC17"
       },
       {
-        "netclass": "D_Default",
-        "pattern": "D_/SWC1"
+        "netclass": "C_Default",
+        "pattern": "C_/P18"
       },
       {
-        "netclass": "D_Default",
-        "pattern": "D_/P4"
+        "netclass": "C_Default",
+        "pattern": "C_/LA3"
       },
       {
-        "netclass": "D_Default",
-        "pattern": "D_/P19"
+        "netclass": "C_Default",
+        "pattern": "C_/P1"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/P5"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/SWC19"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/SWC15"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/P9"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/LA6"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/LA19"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/SWC14"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/SWC9"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/LA1"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/LA8"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_+5V"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/SWC10"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/SWC16"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/P4"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/LA4"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/SWC8"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/LA2"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/P8"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/SWC5"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/P13"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/P3"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/P12"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/P15"
+      },
+      {
+        "netclass": "C_Default",
+        "pattern": "C_/P16"
       },
       {
         "netclass": "D_Default",
@@ -1081,35 +1049,11 @@
       },
       {
         "netclass": "D_Default",
+        "pattern": "D_/SWC1"
+      },
+      {
+        "netclass": "D_Default",
         "pattern": "D_/SWC18"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/SWC2"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/LA1"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/SWC14"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/SWC11"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/SWC15"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/P16"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/SWC12"
       },
       {
         "netclass": "D_Default",
@@ -1117,27 +1061,11 @@
       },
       {
         "netclass": "D_Default",
-        "pattern": "D_/SWC16"
+        "pattern": "D_/LA19"
       },
       {
         "netclass": "D_Default",
-        "pattern": "D_/SWC9"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/P11"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/LA5"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/P8"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/SWC5"
+        "pattern": "D_/LA11"
       },
       {
         "netclass": "D_Default",
@@ -1145,43 +1073,15 @@
       },
       {
         "netclass": "D_Default",
-        "pattern": "D_/P15"
+        "pattern": "D_/SWC8"
       },
       {
         "netclass": "D_Default",
-        "pattern": "D_/SWC19"
+        "pattern": "D_/SWC5"
       },
       {
         "netclass": "D_Default",
-        "pattern": "D_/P17"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/LA2"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/SWC3"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/LA6"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/LA10"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/LA12"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/LA17"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/LA15"
+        "pattern": "D_/LA5"
       },
       {
         "netclass": "D_Default",
@@ -1189,15 +1089,35 @@
       },
       {
         "netclass": "D_Default",
+        "pattern": "D_/LA18"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/LA13"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/P6"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_GND"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/SWC14"
+      },
+      {
+        "netclass": "D_Default",
         "pattern": "D_/P9"
       },
       {
         "netclass": "D_Default",
-        "pattern": "D_/P2"
+        "pattern": "D_/LA8"
       },
       {
         "netclass": "D_Default",
-        "pattern": "D_/LA16"
+        "pattern": "D_/LA12"
       },
       {
         "netclass": "D_Default",
@@ -1209,15 +1129,19 @@
       },
       {
         "netclass": "D_Default",
-        "pattern": "D_/P3"
+        "pattern": "D_/LA15"
       },
       {
         "netclass": "D_Default",
-        "pattern": "D_/P14"
+        "pattern": "D_/SWC16"
       },
       {
         "netclass": "D_Default",
-        "pattern": "D_/SWC17"
+        "pattern": "D_/P13"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/SWC12"
       },
       {
         "netclass": "D_Default",
@@ -1225,39 +1149,55 @@
       },
       {
         "netclass": "D_Default",
-        "pattern": "D_/LA19"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/P5"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/LA11"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/LA18"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/P10"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_GND"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/SWC8"
-      },
-      {
-        "netclass": "D_Default",
-        "pattern": "D_/P12"
-      },
-      {
-        "netclass": "D_Default",
         "pattern": "D_/LA3"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/P14"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/LA16"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/LA17"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/P2"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/SWC19"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/SWC2"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/SWC3"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/LA9"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/P16"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/P4"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/LA10"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/SWC15"
       },
       {
         "netclass": "D_Default",
@@ -1265,7 +1205,67 @@
       },
       {
         "netclass": "D_Default",
-        "pattern": "D_/LA9"
+        "pattern": "D_/LA6"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/P11"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/P17"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/LA2"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/P10"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/P12"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/LA1"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/P3"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/P15"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/P5"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/SWC17"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/P8"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/P19"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/P18"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/SWC11"
+      },
+      {
+        "netclass": "D_Default",
+        "pattern": "D_/SWC9"
       }
     ]
   },

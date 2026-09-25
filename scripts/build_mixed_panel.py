@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import shutil
 import sys
 from pathlib import Path
 
@@ -69,9 +70,11 @@ def main():
     panel.addVCutV(fmm(BASE_MM + TILE_MM))
     panel.addVCutH(fmm(BASE_MM + TILE_MM))
     panel.save()
+    # Specimen.pretty の参照。tiles/ と panels/ は同じ深さなので先頭タイルの表をそのまま使える
+    shutil.copy(CARRIER / "tiles" / args.parts[0] / "fp-lib-table", out_dir / "fp-lib-table")
 
     # BOM マージ（タイルBOMの Designator 列に接頭辞を付けて結合）
-    bom_rows, header = [], None
+    bom_rows, header, merged = [], None, {}
     for part, prefix in ref_map:
         bom = CARRIER / "tiles" / part / f"{part}_bom.csv"
         if not bom.exists():
@@ -89,7 +92,13 @@ def main():
                 continue
             r = list(r)
             r[di] = ",".join(f"{prefix}_{d.strip()}" for d in r[di].split(","))
-            bom_rows.append(r)
+            # 同一部品（Designator 以外の列が一致）は1行にまとめる。JLCPCB の BOM は部品ごと1行
+            key = tuple(v for i, v in enumerate(r) if i != di)
+            if key in merged:
+                merged[key][di] += "," + r[di]
+            else:
+                merged[key] = r
+                bom_rows.append(r)
     out_bom = out_dir / f"{args.name}_bom.csv"
     with open(out_bom, "w", newline="", encoding="utf-8") as f:
         w = csv.writer(f, quoting=csv.QUOTE_ALL, lineterminator="\n")

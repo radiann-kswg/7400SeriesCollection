@@ -1,12 +1,8 @@
 ** Drc report for commons_gates_panel.kicad_pcb **
-** Created on 2026-09-25T08:47:09 **
+** Created on 2026-09-25T12:44:29 **
 ** Report includes: Errors, Warnings, Exclusions **
 
-** Found 1 DRC violations **
-[silk_overlap]: Silkscreen clearance
-    Rule: 基板の設定のシルクスクリーンの制約; warning
-    @(88.6000 mm, 124.2000 mm): PCB text 'NAND gate' on F.Silkscreen
-    @(88.6000 mm, 123.0000 mm): PCB text 'Triple 3-input' on F.Silkscreen
+** Found 0 DRC violations **
 
 ** Found 0 unconnected pads **
 

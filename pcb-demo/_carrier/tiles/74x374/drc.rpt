@@ -1,0 +1,37 @@
+** Drc report for 74x374_tile.kicad_pcb **
+** Created on 2026-09-25T12:57:27 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 4 DRC violations **
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(43.8000 mm, 21.2000 mm): PCB text '74x374' on F.Silkscreen
+    @(44.8350 mm, 20.5350 mm): Segment of D11 on F.Silkscreen
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(43.3650 mm, 20.5350 mm): Segment of D11 on F.Silkscreen
+    @(43.8000 mm, 21.2000 mm): PCB text '74x374' on F.Silkscreen
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(43.8000 mm, 21.2000 mm): PCB text '74x374' on F.Silkscreen
+    @(44.1000 mm, 19.8375 mm): Pad 1 [GND] of D11 on F.Cu
+[silk_over_copper]: Silkscreen clipped by solder mask
+    Local override; warning
+    @(43.8000 mm, 21.2000 mm): PCB text '74x374' on F.Silkscreen
+    @(47.3000 mm, 19.8750 mm): Pad 2 [/LA11] of R11 on F.Cu
+
+** Found 0 unconnected pads **
+
+** Found 1 Footprint errors **
+[net_conflict]: 回路図(unconnected-(UG11-NC-Pad1))で指定されたネットのパッドが見つかりません
+    Local override; warning
+    @(46.6500 mm, 14.0625 mm): Pad 1 [<no net>] of UG11 on F.Cu
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

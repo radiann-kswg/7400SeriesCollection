@@ -520,7 +520,8 @@ def write_pcb(p, comps, path):
         h = load_fp(str(KICAD_FP / "MountingHole.pretty"), fp_name)
         h.SetReference(ref)
         h.Reference().SetVisible(False)
-        h.SetAttributes(h.GetAttributes() | pcbnew.FP_EXCLUDE_FROM_BOM | pcbnew.FP_EXCLUDE_FROM_POS_FILES)
+        h.SetAttributes(h.GetAttributes() | pcbnew.FP_EXCLUDE_FROM_BOM | pcbnew.FP_EXCLUDE_FROM_POS_FILES
+                        | pcbnew.FP_BOARD_ONLY)  # 回路図に無い穴。等価性チェックの extra_footprint を出さない
         h.SetPosition(V(x, y))
         board.Add(h)
         ko = pcbnew.ZONE(board)
@@ -538,8 +539,9 @@ def write_pcb(p, comps, path):
             o.Append(mm(kx), mm(ky))
         board.Add(ko)
 
-    # D27(c): 額装用 M2 固定穴。右中央(46.5,25)は説明シルクと干渉するため現状は左中央のみ
+    # D27(c): 額装用 M2 固定穴。説明を横帯へ逃がしたので右中央を復活し左右対称ペアにする
     npth("MTG1", "MountingHole_2.2mm_M2", MTG_L_X, H / 2, MTG_KEEPOUT)
+    npth("MTG2", "MountingHole_2.2mm_M2", MTG_R_X, H / 2, MTG_KEEPOUT)
     # D27(b): JLCPCB の PCBA ツーリングホールを自前で確保し位置を確定させる(Ø1.152mm NPTH)。
     #         左上は接点20=VCC でセルが無く、右下は全フットプリント(〜47.3)と外周レール(〜43.9)の外側。
     for i, (tx, ty) in enumerate(TOOLING_XY, 1):
@@ -551,10 +553,12 @@ def write_pcb(p, comps, path):
         if label:
             text(label, frame(k)["xc"], RAIL if k > 10 else H - RAIL, 0.8)
     text(p["part"], 43.8, 21.2, 1.6)
-    # D27: MTG2 を省いた右余白(x38.6〜48)に、基板端をはみ出さない可読幅で左寄せ。
-    en, jp = textwrap.wrap(p["desc"], 14), wrap_cjk(p["desc_jp"], 9)  # 和文は NAND 等を割らない
+    # D27: 説明は上段セルとソケットの間の横帯(y16.8〜20.2)へ全幅・中央寄せ。右中央を空けて
+    #      額装用 M2 を左右対称に置くため。帯はマスク下の配線の上なのでシルクを重ねてよい。
+    en, jp = textwrap.wrap(p["desc"], 62), wrap_cjk(p["desc_jp"], 34)
+    assert len(en) + len(jp) <= 3, (p["part"], "説明が横帯に収まらない", en, jp)
     for i, line in enumerate(en + jp):
-        text(line, 38.6, 23.0 + 1.2 * i + 0.4 * (i >= len(en)), 0.8, left=True)
+        text(line, XC, 17.2 + 1.45 * i, 0.8)  # 和文グリフは公称より高いので 1.45mm ピッチ
     text("+5V", 5.5, 22.0, 0.8)
     text("GND", 5.5, 28.9, 0.8)
     back = [f"7400 Specimen Tile v0.1  {p['part']}", p["cat"], "MIT License"]

@@ -1,12 +1,8 @@
 ** Drc report for 74x10_tile.kicad_pcb **
-** Created on 2026-09-25T09:02:15 **
+** Created on 2026-09-25T12:42:21 **
 ** Report includes: Errors, Warnings, Exclusions **
 
-** Found 1 DRC violations **
-[silk_overlap]: Silkscreen clearance
-    Rule: 基板の設定のシルクスクリーンの制約; warning
-    @(38.6000 mm, 23.0000 mm): PCB text 'Triple 3-input' on F.Silkscreen
-    @(38.6000 mm, 24.2000 mm): PCB text 'NAND gate' on F.Silkscreen
+** Found 0 DRC violations **
 
 ** Found 0 unconnected pads **
 

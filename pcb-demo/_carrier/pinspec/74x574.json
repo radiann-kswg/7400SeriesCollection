@@ -1,0 +1,114 @@
+{
+  "part": "74x574",
+  "package_pins": 20,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC574.PDF",
+    "doc_id": "SCLS148H",
+    "page": 3,
+    "table": "Figure: Pin Configuration (J/W/DB/DW/N/NS/PW package, Top View)",
+    "checked": "2026-09-25",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。同ページのピン配置図と相互確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "OE",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "2": {
+      "name": "1D",
+      "dir": "input"
+    },
+    "3": {
+      "name": "2D",
+      "dir": "input"
+    },
+    "4": {
+      "name": "3D",
+      "dir": "input"
+    },
+    "5": {
+      "name": "4D",
+      "dir": "input"
+    },
+    "6": {
+      "name": "5D",
+      "dir": "input"
+    },
+    "7": {
+      "name": "6D",
+      "dir": "input"
+    },
+    "8": {
+      "name": "7D",
+      "dir": "input"
+    },
+    "9": {
+      "name": "8D",
+      "dir": "input"
+    },
+    "10": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "11": {
+      "name": "CLK",
+      "dir": "input",
+      "attr": [
+        "clock"
+      ]
+    },
+    "12": {
+      "name": "8Q",
+      "dir": "tri_state"
+    },
+    "13": {
+      "name": "7Q",
+      "dir": "tri_state"
+    },
+    "14": {
+      "name": "6Q",
+      "dir": "tri_state"
+    },
+    "15": {
+      "name": "5Q",
+      "dir": "tri_state"
+    },
+    "16": {
+      "name": "4Q",
+      "dir": "tri_state"
+    },
+    "17": {
+      "name": "3Q",
+      "dir": "tri_state"
+    },
+    "18": {
+      "name": "2Q",
+      "dir": "tri_state"
+    },
+    "19": {
+      "name": "1Q",
+      "dir": "tri_state"
+    },
+    "20": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "同 PDF の p.3 に Pin Functions 表が無いため、ピン配置図から読み取った。74x374 と機能同一でピン配置のみ異なる（D が片側、Q が反対側）"
+  ]
+}

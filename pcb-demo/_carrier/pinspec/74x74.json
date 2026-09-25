@@ -1,0 +1,111 @@
+{
+  "part": "74x74",
+  "package_pins": 14,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC74.PDF",
+    "doc_id": "SCLS094F",
+    "page": 3,
+    "table": "Pin Functions",
+    "checked": "2026-09-25",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。同ページのピン配置図と相互確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "1CLR",
+      "dir": "input",
+      "attr": [
+        "active_low",
+        "clear"
+      ]
+    },
+    "2": {
+      "name": "1D",
+      "dir": "input"
+    },
+    "3": {
+      "name": "1CLK",
+      "dir": "input",
+      "attr": [
+        "clock"
+      ]
+    },
+    "4": {
+      "name": "1PRE",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "5": {
+      "name": "1Q",
+      "dir": "output"
+    },
+    "6": {
+      "name": "~{1Q}",
+      "dir": "output",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "7": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "8": {
+      "name": "~{2Q}",
+      "dir": "output",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "9": {
+      "name": "2Q",
+      "dir": "output"
+    },
+    "10": {
+      "name": "2PRE",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "11": {
+      "name": "2CLK",
+      "dir": "input",
+      "attr": [
+        "clock"
+      ]
+    },
+    "12": {
+      "name": "2D",
+      "dir": "input"
+    },
+    "13": {
+      "name": "2CLR",
+      "dir": "input",
+      "attr": [
+        "active_low",
+        "clear"
+      ]
+    },
+    "14": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "CLK は正エッジトリガ。クロックセル（D17）を2系統使う",
+    "CLR/PRE は負論理。両方 L は禁止状態（Q と反転出力がともに H）"
+  ]
+}

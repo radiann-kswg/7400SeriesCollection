@@ -1,0 +1,96 @@
+{
+  "part": "74x125",
+  "package_pins": 14,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC125.PDF",
+    "doc_id": "SCLS104F",
+    "page": 3,
+    "table": "Pin Functions",
+    "checked": "2026-09-25",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。同ページのピン配置図と相互確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "1OE",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "2": {
+      "name": "1A",
+      "dir": "input"
+    },
+    "3": {
+      "name": "1Y",
+      "dir": "tri_state"
+    },
+    "4": {
+      "name": "2OE",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "5": {
+      "name": "2A",
+      "dir": "input"
+    },
+    "6": {
+      "name": "2Y",
+      "dir": "tri_state"
+    },
+    "7": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "8": {
+      "name": "3Y",
+      "dir": "tri_state"
+    },
+    "9": {
+      "name": "3A",
+      "dir": "input"
+    },
+    "10": {
+      "name": "3OE",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "11": {
+      "name": "4Y",
+      "dir": "tri_state"
+    },
+    "12": {
+      "name": "4A",
+      "dir": "input"
+    },
+    "13": {
+      "name": "4OE",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "14": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "データシートの I/O 欄は Output だが OE で高インピーダンスになるため tri_state とする（74x244 と同じ扱い）"
+  ]
+}
