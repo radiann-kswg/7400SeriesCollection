@@ -1,0 +1,84 @@
+{
+  "part": "74x21",
+  "package_pins": 14,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC21.PDF",
+    "doc_id": "SCLS087F",
+    "page": 3,
+    "table": "Pin Functions",
+    "checked": "2026-09-25",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。p.1 の Functional Pinout と相互確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "1A",
+      "dir": "input"
+    },
+    "2": {
+      "name": "1B",
+      "dir": "input"
+    },
+    "3": {
+      "name": "NC",
+      "dir": "nc"
+    },
+    "4": {
+      "name": "1C",
+      "dir": "input"
+    },
+    "5": {
+      "name": "1D",
+      "dir": "input"
+    },
+    "6": {
+      "name": "1Y",
+      "dir": "output"
+    },
+    "7": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "8": {
+      "name": "2Y",
+      "dir": "output"
+    },
+    "9": {
+      "name": "2A",
+      "dir": "input"
+    },
+    "10": {
+      "name": "2B",
+      "dir": "input"
+    },
+    "11": {
+      "name": "NC",
+      "dir": "nc"
+    },
+    "12": {
+      "name": "2C",
+      "dir": "input"
+    },
+    "13": {
+      "name": "2D",
+      "dir": "input"
+    },
+    "14": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "2回路4入力AND。ピン3・11はNC（内部未接続）→該当セルは全部DNP"
+  ]
+}

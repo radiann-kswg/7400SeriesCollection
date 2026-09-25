@@ -1,0 +1,84 @@
+{
+  "part": "74x10",
+  "package_pins": 14,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC10.PDF",
+    "doc_id": "SCLS083E",
+    "page": 3,
+    "table": "Pin Functions",
+    "checked": "2026-09-25",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。p.1 の Functional Pinout と相互確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "1A",
+      "dir": "input"
+    },
+    "2": {
+      "name": "1B",
+      "dir": "input"
+    },
+    "3": {
+      "name": "2A",
+      "dir": "input"
+    },
+    "4": {
+      "name": "2B",
+      "dir": "input"
+    },
+    "5": {
+      "name": "2C",
+      "dir": "input"
+    },
+    "6": {
+      "name": "2Y",
+      "dir": "output"
+    },
+    "7": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "8": {
+      "name": "3Y",
+      "dir": "output"
+    },
+    "9": {
+      "name": "3A",
+      "dir": "input"
+    },
+    "10": {
+      "name": "3B",
+      "dir": "input"
+    },
+    "11": {
+      "name": "3C",
+      "dir": "input"
+    },
+    "12": {
+      "name": "1Y",
+      "dir": "output"
+    },
+    "13": {
+      "name": "1C",
+      "dir": "input"
+    },
+    "14": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "3回路3入力NAND。ゲート1の入出力が 1,2,13→12 と非隣接配置な点に注意（回路は共通トポロジで問題なし）"
+  ]
+}

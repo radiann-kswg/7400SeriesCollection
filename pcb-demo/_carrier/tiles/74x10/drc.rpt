@@ -1,0 +1,22 @@
+** Drc report for 74x10_tile.kicad_pcb **
+** Created on 2026-09-25T09:02:15 **
+** Report includes: Errors, Warnings, Exclusions **
+
+** Found 1 DRC violations **
+[silk_overlap]: Silkscreen clearance
+    Rule: 基板の設定のシルクスクリーンの制約; warning
+    @(38.6000 mm, 23.0000 mm): PCB text 'Triple 3-input' on F.Silkscreen
+    @(38.6000 mm, 24.2000 mm): PCB text 'NAND gate' on F.Silkscreen
+
+** Found 0 unconnected pads **
+
+** Found 0 Footprint errors **
+
+** Ignored checks **
+    - Footprint has no courtyard defined
+    - Track endpoint not centered on via
+    - Tuning profile track geometries
+    - Footprint doesn't match symbol's footprint filters
+    - Footprint component type doesn't match footprint pads
+
+** End of Report **

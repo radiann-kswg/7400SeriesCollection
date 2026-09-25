@@ -362,6 +362,21 @@ def make_switch_fp():
     (SPEC_LIB / f"{SW_FP}.kicad_mod").write_text(body, encoding="utf-8")
 
 
+def wrap_cjk(text, width):
+    """空白の無い和文を折り返す。textwrap と違い ASCII 英数字の連なり(NAND 等)を割らない"""
+    lines, cur = [], ""
+    for tok in re.findall(r"[0-9A-Za-z]+|.", text):
+        if cur and len(cur) + len(tok) > width:
+            lines.append(cur)
+            cur = tok
+        else:
+            cur += tok
+    return lines + ([cur] if cur else [])
+
+
+assert wrap_cjk("4回路2入力NANDゲート", 9) == ["4回路2入力", "NANDゲート"], "wrap_cjk"
+
+
 def write_pcb(p, comps, path):
     board = pcbnew.NewBoard(str(path))
     nets = {}
@@ -500,28 +515,35 @@ def write_pcb(p, comps, path):
     board.Add(zone)
 
     # D23: 左右中央の M2（2.2mm 非メッキ）取付穴。参照は重複エラー回避のため MTG1/MTG2（非表示）
-    for i, mx in enumerate((MTG_L_X, MTG_R_X), 1):
-        hole = load_fp(str(KICAD_FP / "MountingHole.pretty"), "MountingHole_2.2mm_M2")
-        hole.SetReference(f"MTG{i}")
-        hole.Reference().SetVisible(False)
-        hole.SetAttributes(hole.GetAttributes() | pcbnew.FP_EXCLUDE_FROM_BOM | pcbnew.FP_EXCLUDE_FROM_POS_FILES)
-        hole.SetPosition(V(mx, H / 2))
-        board.Add(hole)
-        # 取付穴まわりは GND ベタを打ち抜かないよう B.Cu にキープアウト（hole_clearance 対策）
+    # D27: NPTH 穴の共通配置。GND ベタが穴際まで流れ込むのを防ぐため B.Cu にキープアウトを張る(D24)
+    def npth(ref, fp_name, x, y, keepout):
+        h = load_fp(str(KICAD_FP / "MountingHole.pretty"), fp_name)
+        h.SetReference(ref)
+        h.Reference().SetVisible(False)
+        h.SetAttributes(h.GetAttributes() | pcbnew.FP_EXCLUDE_FROM_BOM | pcbnew.FP_EXCLUDE_FROM_POS_FILES)
+        h.SetPosition(V(x, y))
+        board.Add(h)
         ko = pcbnew.ZONE(board)
         ko.SetIsRuleArea(True)
         ko.SetLayer(pcbnew.B_Cu)
         ko.SetDoNotAllowZoneFills(True)
         ko.SetDoNotAllowVias(True)
-        ko.SetDoNotAllowPads(False)       # 取付穴自身の NPTH パッドは禁止しない(D24)
+        ko.SetDoNotAllowPads(False)       # 穴自身の NPTH パッドは禁止しない(D24)
         ko.SetDoNotAllowTracks(False)
         ko.SetDoNotAllowFootprints(False)
-        ko_outline = ko.Outline()
-        ko_outline.NewOutline()
-        for kx, ky in [(mx - MTG_KEEPOUT, H / 2 - MTG_KEEPOUT), (mx + MTG_KEEPOUT, H / 2 - MTG_KEEPOUT),
-                       (mx + MTG_KEEPOUT, H / 2 + MTG_KEEPOUT), (mx - MTG_KEEPOUT, H / 2 + MTG_KEEPOUT)]:
-            ko_outline.Append(mm(kx), mm(ky))
+        o = ko.Outline()
+        o.NewOutline()
+        for kx, ky in [(x - keepout, y - keepout), (x + keepout, y - keepout),
+                       (x + keepout, y + keepout), (x - keepout, y + keepout)]:
+            o.Append(mm(kx), mm(ky))
         board.Add(ko)
+
+    # D27(c): 額装用 M2 固定穴。右中央(46.5,25)は説明シルクと干渉するため現状は左中央のみ
+    npth("MTG1", "MountingHole_2.2mm_M2", MTG_L_X, H / 2, MTG_KEEPOUT)
+    # D27(b): JLCPCB の PCBA ツーリングホールを自前で確保し位置を確定させる(Ø1.152mm NPTH)。
+    #         左上は接点20=VCC でセルが無く、右下は全フットプリント(〜47.3)と外周レール(〜43.9)の外側。
+    for i, (tx, ty) in enumerate(TOOLING_XY, 1):
+        npth(f"TH{i}", "ToolingHole_1.152mm", tx, ty, TOOL_KEEPOUT)
 
     # シルク: 各列のピン名、型番・機能名、給電表示。裏面にカテゴリ・版・ライセンス
     for k in range(1, 21):
@@ -529,8 +551,9 @@ def write_pcb(p, comps, path):
         if label:
             text(label, frame(k)["xc"], RAIL if k > 10 else H - RAIL, 0.8)
     text(p["part"], 43.8, 21.2, 1.6)
-    en, jp = textwrap.wrap(p["desc"], 16), textwrap.wrap(p["desc_jp"], 10)  # D24: 幅は復元(行数超過=Y方向対策)
-    for i, line in enumerate(en + jp):  # ソケット右の余白（x 38.6〜49.5）。和文は字面が高いので 0.4 空ける
+    # D27: MTG2 を省いた右余白(x38.6〜48)に、基板端をはみ出さない可読幅で左寄せ。
+    en, jp = textwrap.wrap(p["desc"], 14), wrap_cjk(p["desc_jp"], 9)  # 和文は NAND 等を割らない
+    for i, line in enumerate(en + jp):
         text(line, 38.6, 23.0 + 1.2 * i + 0.4 * (i >= len(en)), 0.8, left=True)
     text("+5V", 5.5, 22.0, 0.8)
     text("GND", 5.5, 28.9, 0.8)
@@ -556,6 +579,7 @@ def write_pcb(p, comps, path):
 
 # D23: 取付穴中心 x（左右中央）と J1 の新しい x（左取付穴を避ける）
 MTG_L_X, MTG_R_X, MTG_KEEPOUT = 3.5, 46.5, 1.55
+TOOLING_XY, TOOL_KEEPOUT = ((2.5, 2.5), (48.5, 48.5)), 1.1  # D27(b) ツーリングホール
 J1_X = 8.3  # D23: 実測コートヤードで左取付穴と0.5mm以上の余裕を確保
 
 
