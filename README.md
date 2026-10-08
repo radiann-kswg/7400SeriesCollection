@@ -44,6 +44,7 @@
 │   ├── refine_descriptions.py           # 説明文洗練化
 │   ├── split_overview_by_logic_category.py # overviewを論理分類で分割
 │   └── sort_datasheet_by_partnumber.py  # データシートソート
+├── structures/                           # 【サブモジュール】回路構造資料（7400SeriesStructures）
 └── usage/                                # 回路設計実例
   ├── 06_encoders_decoders/             # カテゴリ
   │   └── 74x141/                       # パーツ番号

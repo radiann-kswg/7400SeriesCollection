@@ -85,6 +85,7 @@
 └── usage/
   └── {カテゴリ名}/{パーツ番号}/**.md     # 回路設計情報 + 汎用型番チートシート（統合構造）
                        # 例: usage/06_encoders_decoders/74x141/74x141.md
+├── structures/                           # 【サブモジュール】回路構造資料（7400SeriesStructures）
 └── pcb-demo/
   ├── REQUIREMENTS.md                       # PCBA 化の要件定義（作業前に必読）
   ├── ORDER_CHECKLIST.md                    # JLCPCB 発注ゲート
@@ -415,6 +416,17 @@ _download/
 - 見出しレベルは適切に階層化（レベル 2-4 を使用）
 - チェックボックス（`- [ ]`, `- [x]`）で確認項目を記載
 - 重要な注意事項は引用（`>`）または **太字** で強調
+
+---
+
+## 回路構造資料（`structures/` サブモジュール）
+
+`structures/` は別リポジトリ [7400SeriesStructures](https://github.com/radiann-kswg/7400SeriesStructures) の git サブモジュール。ロジックファミリ別の物理構造（トランジスタレベル）と型番横断の「構造の型」（ゲートレベル）を KiCAD 回路図＋SVG で収録する。ピン配置・真理値表・定格は引き続き `usage/` が担当する。
+
+- 内容の追加・修正は **Structures 側の作業コピーで行い**、push 後に本リポジトリのサブモジュールポインタを更新する（`git submodule update --remote structures` → commit）。サブモジュール内で直接編集・commit しない。
+- `usage/` から構造を参照するときは `../../../structures/...` への相対リンクを使う。型番別の補足は `structures/parts/{74xNN}.md`。
+- Structures からは `getstarting/` を参照しない（私物情報の境界）。入手済みかどうかは本リポジトリにだけ書く。
+- clone 時は `git clone --recurse-submodules`、既存の作業コピーでは `git submodule update --init`。
 
 ---
 

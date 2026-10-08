@@ -36,6 +36,10 @@
 
 > チートシートは「断定を避け、一次資料確認の導線を置く」方針です。
 
+## 回路構造（サブモジュール）
+
+- [structures/](../structures/) — ロジックファミリ別の物理構造と「構造の型」（[7400SeriesStructures](https://github.com/radiann-kswg/7400SeriesStructures)）。カテゴリ番号は本ディレクトリと共通
+
 ## 実回路例（例）
 
 - [06_encoders_decoders/74x141/](./06_encoders_decoders/74x141/)

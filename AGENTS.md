@@ -99,6 +99,7 @@
 │   ├── _carrier/tiles/{74xNN}/             # タイル生成物（generate_specimen_tile.py）
 │   ├── _templates/                        # KiCAD テンプレート
 │   └── index.md                           # 自動生成インデックス
+├── structures/                            # 【サブモジュール】回路構造資料（7400SeriesStructures）
 └── work-in-progress/                      # 大規模改修の作業ログ（YYYY-MM-DD_*.md）
 ```
 
@@ -313,6 +314,17 @@ overview 由来の説明（機能/カテゴリ/レア度）、一般的な配線
 ### Markdown 記法
 
 コードブロックで ASCII 回路図、テーブルでピン接続表、見出しはレベル 2〜4、チェックボックス（`- [ ]` / `- [x]`）で確認項目、重要事項は引用（`>`）または **太字**。
+
+---
+
+## 回路構造資料（`structures/` サブモジュール）
+
+`structures/` は別リポジトリ [7400SeriesStructures](https://github.com/radiann-kswg/7400SeriesStructures) の git サブモジュール。ロジックファミリ別の物理構造（トランジスタレベル）と型番横断の「構造の型」（ゲートレベル）を KiCAD 回路図＋SVG で収録する。ピン配置・真理値表・定格は引き続き `usage/` が担当する。
+
+- 内容の追加・修正は **Structures 側の作業コピーで行い**、push 後に本リポジトリのサブモジュールポインタを更新する（`git submodule update --remote structures` → commit）。サブモジュール内で直接編集・commit しない。
+- `usage/` から構造を参照するときは `../../../structures/...` への相対リンクを使う。型番別の補足は `structures/parts/{74xNN}.md`。
+- Structures からは `getstarting/` を参照しない（私物情報の境界）。入手済みかどうかは本リポジトリにだけ書く。
+- clone 時は `git clone --recurse-submodules`、既存の作業コピーでは `git submodule update --init`。
 
 ---
 
