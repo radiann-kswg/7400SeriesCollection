@@ -1,0 +1,89 @@
+{
+  "part": "74x295",
+  "package_pins": 14,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS295.pdf",
+    "doc_id": "SDLS154（REVISED MARCH 1988）",
+    "page": 1,
+    "table": "pin diagram (TOP VIEW, D/J/N/W) / logic symbol",
+    "checked": "2026-11-22",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。p.1 のピン配置図と論理記号のピン番号を相互確認。出力形式は本文と論理記号（3 ステート）で確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "SER",
+      "dir": "input"
+    },
+    "2": {
+      "name": "A",
+      "dir": "input"
+    },
+    "3": {
+      "name": "B",
+      "dir": "input"
+    },
+    "4": {
+      "name": "C",
+      "dir": "input"
+    },
+    "5": {
+      "name": "D",
+      "dir": "input"
+    },
+    "6": {
+      "name": "LD/SH",
+      "dir": "input"
+    },
+    "7": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "8": {
+      "name": "OC",
+      "dir": "input"
+    },
+    "9": {
+      "name": "CLK",
+      "dir": "input",
+      "attr": [
+        "clock"
+      ]
+    },
+    "10": {
+      "name": "QD",
+      "dir": "tri_state"
+    },
+    "11": {
+      "name": "QC",
+      "dir": "tri_state"
+    },
+    "12": {
+      "name": "QB",
+      "dir": "tri_state"
+    },
+    "13": {
+      "name": "QA",
+      "dir": "tri_state"
+    },
+    "14": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "LD/SH（データシート表記 LD/SH̄）は H でパラレルロード、L でシフト。OC は H で出力有効（L で高インピーダンス）",
+    "CLK は立ち下がりエッジ。ピン 9 が接点 15 に来るため、現状はクロックセルの配置制約（REQUIREMENTS R10）でタイル生成が停止する",
+    "手持ちの実型番 SN74LS295BN と同じ TI データシート（'LS295B）。読み取り信頼度: ピン配置 95%、出力形式 95%"
+  ]
+}

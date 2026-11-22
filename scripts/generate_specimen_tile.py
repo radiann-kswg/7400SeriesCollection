@@ -166,7 +166,10 @@ def load_part(part):
                 names={contact(i): v["name"] for i, v in pins.items()},
                 dirs={contact(i): v["dir"] for i, v in pins.items()},
                 attrs={contact(i): v.get("attr", []) for i, v in pins.items()},
-                desc=o["Description"], desc_jp=o.get("Description_JP", ""), cat=o["Category"])
+                desc=o["Description"], desc_jp=o.get("Description_JP", ""), cat=o["Category"],
+                # シルク用の短い説明（pinspec の任意項目）。overview の説明が横帯に収まらない・不正確な型番だけ書く
+                silk_desc=spec.get("silk_desc", o["Description"]),
+                silk_desc_jp=spec.get("silk_desc_jp", o.get("Description_JP", "")))
 
 
 def cells(p):
@@ -192,6 +195,13 @@ def cells(p):
 # かつソケットへの引き出しを局所 +u 側に決め打ちしているため、列端で +u 側にソケットがある接点 1・11 に限る。
 # 接点 1 は接点 11 の 180 度回転で、DRC/ERC 0 を確認済み（2026-11-22）。他の接点は回路方式が未設計のため生成を停止する。
 CLOCK_CONTACTS = (1, 11)
+
+
+def check_corner_contact(p):
+    """R11: D27 の左上ツーリングホール(2.5, 2.5)は接点 20 が電源でセルの無いことが前提。
+    電源ピンが非標準で接点 20 に I/O セル（DNP 含む）が来る型番は、穴とスイッチが衝突するため生成を停止する"""
+    if 20 not in (p["vcc"], p["gnd"]):
+        sys.exit(f"{p['part']}: 接点 20 が {p['names'].get(20)} で I/O セルが置かれ、左上のツーリングホール（D27）と衝突するため生成を停止（REQUIREMENTS R11）")
 
 
 def check_clock_contacts(p):
@@ -580,15 +590,15 @@ def write_pcb(p, comps, path):
     text(p["part"], 43.8, 21.2, 1.6)
     # D27: 説明は上段セルとソケットの間の横帯(y16.8〜20.2)へ全幅・中央寄せ。右中央を空けて
     #      額装用 M2 を左右対称に置くため。帯はマスク下の配線の上なのでシルクを重ねてよい。
-    en, jp = textwrap.wrap(p["desc"], 62), wrap_cjk(p["desc_jp"], 34)
+    en, jp = textwrap.wrap(p["silk_desc"], 62), wrap_cjk(p["silk_desc_jp"], 34)
     if len(en) + len(jp) > 2:
         # 3 行目は上段ソケットのパッドとシルク外形に掛かるため、英文が実測で帯幅(46mm)に収まるなら 1 行にする
         probe = pcbnew.PCB_TEXT(board)
-        probe.SetText(p["desc"])
+        probe.SetText(p["silk_desc"])
         probe.SetTextSize(pcbnew.VECTOR2I(mm(0.8), mm(0.8)))
         probe.SetTextThickness(mm(0.15))
         if pcbnew.ToMM(probe.GetBoundingBox().GetWidth()) <= 46.0:
-            en = [p["desc"]]
+            en = [p["silk_desc"]]
     assert len(en) + len(jp) <= 3, (p["part"], "説明が横帯に収まらない", en, jp)
     for i, line in enumerate(en + jp):
         text(line, XC, 17.2 + 1.45 * i, 0.8)  # 和文グリフは公称より高いので 1.45mm ピッチ
@@ -746,6 +756,7 @@ def main():
     for part in parts:
         p = load_part(part)
         check_clock_contacts(p)
+        check_corner_contact(p)
         out = CARRIER / "tiles" / part
         out.mkdir(parents=True, exist_ok=True)
         stem = out / f"{part}_tile"

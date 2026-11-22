@@ -1060,10 +1060,14 @@
         "ExactPartNumber": "SN7460N",
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
-        "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history"
+        "Revision": "Revised December 1983",
+        "Url": "https://www.pulsar-cad.com/datasheets/33/02/00000000233.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "TI原資料のミラー、印刷ページ 3-245～3-248。SN7460 の N パッケージを掲載。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN7460.PDF",
+        "LocalBytes": 478756,
+        "LocalSha256": "c4bb615be324f3fe7404724eaf020fa59d02a3b84b357542e230ece736c72831",
+        "LocalCheckedAt": "2026-11-22"
       }
     ]
   },
@@ -1229,10 +1233,14 @@
         "ExactPartNumber": "SN7482N",
         "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
-        "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history"
+        "Revision": "Revised December 1983",
+        "Url": "https://pulsar-cad.com/datasheets/39/02/00000000239.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "TI原資料のミラー（1972年12月初版）。Nパッケージを掲載。2ビット全加算器（4ビットではない）。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN7482.pdf",
+        "LocalBytes": 392097,
+        "LocalSha256": "6ba3bb7b1c89f877c57c99604cf3b3b4f79e3fb3581ac7a6384da01f233b3a6a",
+        "LocalCheckedAt": "2026-11-22"
       }
     ]
   },
@@ -1314,7 +1322,11 @@
         "Revision": "Revised February 1984",
         "Url": "https://doctor-pasquale.com/wp-content/uploads/2017/05/7489-64-BIT-RAM.pdf",
         "LastAccessed": "2026-11-22",
-        "Notes": "TI原資料のミラー（TI公式ホストではない）。参照リンクのみ、PDF未保存。"
+        "Notes": "TI原資料のミラー（TI公式ホストではない）。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN7489.pdf",
+        "LocalBytes": 302451,
+        "LocalSha256": "7ae8990298643dcf3f37b36ccc1141eeaab093dfb46b21d82c30a9fa9684fce1",
+        "LocalCheckedAt": "2026-11-22"
       }
     ]
   },
@@ -2726,11 +2738,15 @@
       {
         "ExactPartNumber": "SN74LS189AN",
         "Manufacturer": "TI(TexasInstruments)",
-        "DocumentId": "",
-        "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls189.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "DocumentId": "D2417",
+        "Revision": "Revised February 1985",
+        "Url": "https://datasheet.datasheetarchive.com/originals/scans/Scans-000/Scans-008451.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "TI原資料のミラー（1980年9月初版、印刷ページ 5-19 以降）。LS189AのNパッケージ、反転3ステート出力を掲載。未確認のTIシンボリックリンクを差し替え。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS189,SN74LS219,SN74LS289,SN74LS319.PDF",
+        "LocalBytes": 304450,
+        "LocalSha256": "9f1e38783094bf236e187c5f6a00afd1d2a3c7da111b719e29cd61f6d6da1fa9",
+        "LocalCheckedAt": "2026-11-22"
       }
     ]
   },
@@ -2884,7 +2900,11 @@
         "Revision": "Revised March 1985",
         "Url": "https://cdn.semikey.com/upload/pdfs/38/00/38000a8f1a33203ab5110604491913be.pdf#page=2",
         "LastAccessed": "2026-11-22",
-        "Notes": "PDFの2ページ目からTI原資料（印刷ページ 2-13～2-20、SN74LS227のNパッケージを掲載）。1ページ目はRochester Electronicsの別型番の表紙。TI公式ホストではない。参照リンクのみ、PDF未保存。"
+        "Notes": "PDFの2ページ目からTI原資料（印刷ページ 2-13～2-20、SN74LS227のNパッケージを掲載）。1ページ目はRochester Electronicsの別型番の表紙。TI公式ホストではない。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS224,SN74LS227,SN74LS228.PDF",
+        "LocalBytes": 526775,
+        "LocalSha256": "d60f3261061d5b0607f5b246d9b6eb543ed4e0ddfd5dc402d5a3d620f109d453",
+        "LocalCheckedAt": "2026-11-22"
       }
     ]
   },
@@ -3358,11 +3378,15 @@
       {
         "ExactPartNumber": "SN74265N",
         "Manufacturer": "TI(TexasInstruments)",
-        "DocumentId": "",
-        "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history"
+        "DocumentId": "SDLS088",
+        "Revision": "Revised March 1988",
+        "Url": "https://datasheet.datasheetarchive.com/originals/library/Datasheet-081/DASF0028600.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "TI原資料のミラー（1983年12月初版）。Nパッケージを掲載。相補出力4回路：1・4回路はバッファ／反転、2・3回路はAND／NAND。XNORではない。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74265.pdf",
+        "LocalBytes": 423167,
+        "LocalSha256": "3837bbe57d850394a8df98e6b64c045a286fd617b96f3ee8723a06ccf167bac3",
+        "LocalCheckedAt": "2026-11-22"
       }
     ]
   },
@@ -3553,7 +3577,11 @@
         "Revision": "Revised December 1983",
         "Url": "https://sapr.asvcorp.ru/datasheets/34/03/00000000334.pdf",
         "LastAccessed": "2026-11-22",
-        "Notes": "TI原資料のミラー（TI公式ホストではない）。参照リンクのみ、PDF未保存。"
+        "Notes": "TI原資料のミラー（TI公式ホストではない）。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74284,SN74285.pdf",
+        "LocalBytes": 570896,
+        "LocalSha256": "6dde43d41165b9700a1a44580b723531b0c03c286af1135b38d94a01c93371da",
+        "LocalCheckedAt": "2026-11-22"
       }
     ]
   },
@@ -3567,7 +3595,11 @@
         "Revision": "Revised December 1983",
         "Url": "https://sapr.asvcorp.ru/datasheets/34/03/00000000334.pdf",
         "LastAccessed": "2026-11-22",
-        "Notes": "TI原資料のミラー（TI公式ホストではない）。参照リンクのみ、PDF未保存。"
+        "Notes": "TI原資料のミラー（TI公式ホストではない）。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74284,SN74285.pdf",
+        "LocalBytes": 570896,
+        "LocalSha256": "6dde43d41165b9700a1a44580b723531b0c03c286af1135b38d94a01c93371da",
+        "LocalCheckedAt": "2026-11-22"
       }
     ]
   },
@@ -3595,11 +3627,15 @@
       {
         "ExactPartNumber": "SN74LS295BN",
         "Manufacturer": "TI(TexasInstruments)",
-        "DocumentId": "",
-        "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls295.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "DocumentId": "SDLS154",
+        "Revision": "Revised March 1988",
+        "Url": "https://www.unicornelectronics.com/ftp/Data%20Sheets/74ls295.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "TI原資料のミラー（1975年10月初版）。3ステート出力付き4ビット右／左シフトレジスタ。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS295.pdf",
+        "LocalBytes": 195110,
+        "LocalSha256": "b00f8e74c12423b4e59f22c0b41b0e6f643d4dc27a4d7db58058ef508f335155",
+        "LocalCheckedAt": "2026-11-22"
       }
     ]
   },
@@ -4058,7 +4094,11 @@
         "Revision": "Revised April 1985",
         "Url": "https://sapr.asvcorp.ru/datasheets/97/03/00000000397.pdf",
         "LastAccessed": "2026-11-22",
-        "Notes": "TI原資料のミラー（TI公式ホストではない）。参照リンクのみ、PDF未保存。"
+        "Notes": "TI原資料のミラー（TI公式ホストではない）。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS385.PDF",
+        "LocalBytes": 420210,
+        "LocalSha256": "74b4f7139b85c588530881ea25843bfa462903c20eaec6f210d5183b3115d836",
+        "LocalCheckedAt": "2026-11-22"
       }
     ]
   },
@@ -4841,6 +4881,78 @@
         "Url": "",
         "LastAccessed": "2026-02-14",
         "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x1000",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74ALS1000AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDAS056A / D2661",
+        "Revision": "Revised May 1986",
+        "Url": "https://radio-hobby.org/uploads/datasheet/35/sn54/sn54als1000a.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "TI原資料のミラー（1984年4月初版）。ALS型とNパッケージ掲載。後年のSDAS056BはAS型のみ。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74ALS1000A,SN74AS1000A.pdf",
+        "LocalBytes": 55917,
+        "LocalSha256": "88a071b33ec440e780c73331fdd65e214ec49533b498a43403ff15f8c6033373",
+        "LocalCheckedAt": "2026-11-22"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x1002",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74ALS1002AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDAS238 / D2661",
+        "Revision": "Revised May 1986",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn54als1002a.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "TI公式PDF（1983年12月初版）。SN54ALS1002Aとの共通資料にSN74ALS1002ANを掲載。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74ALS1002A.pdf",
+        "LocalBytes": 338718,
+        "LocalSha256": "e1722cbfd503b36781e3e94003d890f8bf320fc8e8f85baa2e1b215a220b0712",
+        "LocalCheckedAt": "2026-11-22"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x1032",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74ALS1032AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "D2661",
+        "Revision": "Revised May 1986",
+        "Url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-112/DSAP0048680.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "TI原資料のミラー（1982年12月初版）。ALS型とNパッケージを掲載する3ページ。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74ALS1032A,SN74AS1032A.pdf",
+        "LocalBytes": 95809,
+        "LocalSha256": "79210058bb3a43fd7a14edb2f071988ab488020a72ae59e9a783a1d0c4d5602a",
+        "LocalCheckedAt": "2026-11-22"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x1804",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74AS1804N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDAS042C",
+        "Revision": "Revised January 1995",
+        "Url": "https://www.silicon-ark.co.uk/datasheets/sn74as1804-datasheet-texas-instruments.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "TI原資料のミラー（1984年8月初版）。TI製Nパッケージの参照資料。所蔵登録のNational Semiconductor製DM74AS1804Nとは別の正確な型番であり、所蔵扱いにしない。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74AS1804.PDF",
+        "LocalBytes": 163292,
+        "LocalSha256": "2011b5e7dd73dec04ace3232cdd72a026113abbdb7b97d1c981de7f7235d8f47",
+        "LocalCheckedAt": "2026-11-22"
       }
     ]
   }

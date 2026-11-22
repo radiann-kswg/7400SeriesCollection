@@ -1,0 +1,96 @@
+{
+  "part": "74x23",
+  "package_pins": 16,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN7423.PDF",
+    "doc_id": "SDLS082（REVISED MARCH 1988）",
+    "page": 1,
+    "table": "pin diagram (TOP VIEW, SN7423 N) / logic symbol",
+    "checked": "2026-11-22",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。p.1 のピン配置図と論理記号のピン番号を相互確認。出力形式は p.2 の回路図（トーテムポール）で確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "1X",
+      "dir": "nc"
+    },
+    "2": {
+      "name": "1A",
+      "dir": "input"
+    },
+    "3": {
+      "name": "1B",
+      "dir": "input"
+    },
+    "4": {
+      "name": "1G",
+      "dir": "input"
+    },
+    "5": {
+      "name": "1C",
+      "dir": "input"
+    },
+    "6": {
+      "name": "1D",
+      "dir": "input"
+    },
+    "7": {
+      "name": "1Y",
+      "dir": "output"
+    },
+    "8": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "9": {
+      "name": "2Y",
+      "dir": "output"
+    },
+    "10": {
+      "name": "2A",
+      "dir": "input"
+    },
+    "11": {
+      "name": "2B",
+      "dir": "input"
+    },
+    "12": {
+      "name": "2G",
+      "dir": "input"
+    },
+    "13": {
+      "name": "2C",
+      "dir": "input"
+    },
+    "14": {
+      "name": "2D",
+      "dir": "input"
+    },
+    "15": {
+      "name": "1XN",
+      "dir": "nc"
+    },
+    "16": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "Y = NOT(G・(A+B+C+D))。G はストローブ（正論理、H で有効）",
+    "1X / 1XN（データシート表記 1X / 1X̄）はエキスパンダ（74x60）接続用の入力。未使用時は開放と規定されているため nc として扱い、タイルでは何も接続しない",
+    "手持ちの実型番 SN7423N と同じ TI データシート。読み取り信頼度: ピン配置 95%、出力形式 95%",
+    "和文の説明が 2 行に折り返され横帯に収まらないため、シルクは silk_desc_jp で短縮する"
+  ],
+  "silk_desc_jp": "2回路4入力ストローブ付きNORゲート（74x60で拡張可）"
+}

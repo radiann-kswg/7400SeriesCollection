@@ -1,0 +1,90 @@
+{
+  "part": "74x82",
+  "package_pins": 14,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN7482.pdf",
+    "doc_id": "(記載なし。DECEMBER 1972 - REVISED DECEMBER 1983)",
+    "page": 1,
+    "table": "pin diagram (TOP VIEW, J/N) / logic diagram",
+    "checked": "2026-11-22",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。p.1 のピン配置図と論理図のピン番号を相互確認。出力形式は p.2 の電気的特性（VOH・IOS 規定）からトーテムポールと判断",
+    "confidence": 92
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "SUM1",
+      "dir": "output"
+    },
+    "2": {
+      "name": "A1",
+      "dir": "input"
+    },
+    "3": {
+      "name": "B1",
+      "dir": "input"
+    },
+    "4": {
+      "name": "VCC",
+      "dir": "power"
+    },
+    "5": {
+      "name": "C0",
+      "dir": "input"
+    },
+    "6": {
+      "name": "NC",
+      "dir": "nc"
+    },
+    "7": {
+      "name": "NC",
+      "dir": "nc"
+    },
+    "8": {
+      "name": "NC",
+      "dir": "nc"
+    },
+    "9": {
+      "name": "NC",
+      "dir": "nc"
+    },
+    "10": {
+      "name": "C2",
+      "dir": "output"
+    },
+    "11": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "12": {
+      "name": "SUM2",
+      "dir": "output"
+    },
+    "13": {
+      "name": "B2",
+      "dir": "input"
+    },
+    "14": {
+      "name": "A2",
+      "dir": "input"
+    }
+  },
+  "notes": [
+    "電源ピンが非標準（VCC=4、GND=11）",
+    "データシート上の出力名は Σ1 / Σ2（ASCII で SUM1 / SUM2 と表記）。2 ビットの全加算器（C0 は桁上げ入力、C2 は桁上げ出力）",
+    "C2 の IOH 規定は -200 µA と小さいが、出力 LED（白、4.7kΩ）の電流は VOH≈3.4 V で 0.1 mA 程度と見積もられ範囲内",
+    "手持ちの実型番 SN7482N と同じ TI データシート。読み取り信頼度: ピン配置 95%、出力形式 92%",
+    "overview の説明は「4-bit parallel adder」だが一次資料では 2 ビット全加算器のため、シルクは silk_desc で正しい表記にする（overview 本体の修正はユーザー判断）"
+  ],
+  "silk_desc": "2-bit binary full adder",
+  "silk_desc_jp": "2ビット2進全加算器"
+}
