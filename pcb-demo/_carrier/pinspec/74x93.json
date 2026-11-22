@@ -1,0 +1,99 @@
+{
+  "part": "74x93",
+  "package_pins": 14,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS90,SN74LS92,SN74LS93.PDF",
+    "doc_id": "SDLS940A（REVISED MARCH 1988）",
+    "page": 1,
+    "table": "pin diagram (TOP VIEW, 'LS93)",
+    "checked": "2026-11-22",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。p.1 の 'LS93 ピン配置図で確認。出力形式は p.5 の 'LS93 出力等価回路（トーテムポール）で確認",
+    "confidence": 80
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "CKB",
+      "dir": "input",
+      "attr": [
+        "clock"
+      ]
+    },
+    "2": {
+      "name": "R0(1)",
+      "dir": "input",
+      "attr": [
+        "clear"
+      ]
+    },
+    "3": {
+      "name": "R0(2)",
+      "dir": "input",
+      "attr": [
+        "clear"
+      ]
+    },
+    "4": {
+      "name": "NC",
+      "dir": "nc"
+    },
+    "5": {
+      "name": "VCC",
+      "dir": "power"
+    },
+    "6": {
+      "name": "NC",
+      "dir": "nc"
+    },
+    "7": {
+      "name": "NC",
+      "dir": "nc"
+    },
+    "8": {
+      "name": "QC",
+      "dir": "output"
+    },
+    "9": {
+      "name": "QB",
+      "dir": "output"
+    },
+    "10": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "11": {
+      "name": "QD",
+      "dir": "output"
+    },
+    "12": {
+      "name": "QA",
+      "dir": "output"
+    },
+    "13": {
+      "name": "NC",
+      "dir": "nc"
+    },
+    "14": {
+      "name": "CKA",
+      "dir": "input",
+      "attr": [
+        "clock"
+      ]
+    }
+  },
+  "notes": [
+    "電源ピンが非標準（VCC=5、GND=10）",
+    "手持ちは National の DM74LS93N だが、照合した資料は TI の SN74LS93。メーカー違いの資料での照合のため信頼度を 80% とし、ユーザー確認待ちとする（DM74LS93 の一次資料が入手できれば再照合）",
+    "R0(1)・R0(2) は両方 H でリセット（正論理）。CKA は QA、CKB は QB〜QD の段を駆動する立ち下がりエッジのクロック。4 ビットで数えるには QA を CKB へ外部で接続する",
+    "CKA（ピン 14）が接点 20 に来るため、クロックセルの配置制約（REQUIREMENTS R10、対応は接点 1・11 のみ）によりタイル生成は停止する"
+  ]
+}

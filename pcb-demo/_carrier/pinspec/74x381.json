@@ -1,0 +1,116 @@
+{
+  "part": "74x381",
+  "package_pins": 20,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS381A.PDF",
+    "doc_id": "SDLS168（REVISED MARCH 1988）",
+    "page": 1,
+    "table": "pin diagram (TOP VIEW, 'LS381A/'S381) / PIN DESIGNATIONS",
+    "checked": "2026-11-22",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。p.1 のピン配置図とピン機能表、p.5 の論理記号のピン番号を相互確認。出力形式は p.5 の 'LS381A 出力等価回路（トーテムポール）で確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "A1",
+      "dir": "input"
+    },
+    "2": {
+      "name": "B1",
+      "dir": "input"
+    },
+    "3": {
+      "name": "A0",
+      "dir": "input"
+    },
+    "4": {
+      "name": "B0",
+      "dir": "input"
+    },
+    "5": {
+      "name": "S0",
+      "dir": "input"
+    },
+    "6": {
+      "name": "S1",
+      "dir": "input"
+    },
+    "7": {
+      "name": "S2",
+      "dir": "input"
+    },
+    "8": {
+      "name": "F0",
+      "dir": "output"
+    },
+    "9": {
+      "name": "F1",
+      "dir": "output"
+    },
+    "10": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "11": {
+      "name": "F2",
+      "dir": "output"
+    },
+    "12": {
+      "name": "F3",
+      "dir": "output"
+    },
+    "13": {
+      "name": "G",
+      "dir": "output",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "14": {
+      "name": "P",
+      "dir": "output",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "15": {
+      "name": "CN",
+      "dir": "input"
+    },
+    "16": {
+      "name": "B3",
+      "dir": "input"
+    },
+    "17": {
+      "name": "A3",
+      "dir": "input"
+    },
+    "18": {
+      "name": "B2",
+      "dir": "input"
+    },
+    "19": {
+      "name": "A2",
+      "dir": "input"
+    },
+    "20": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "G・P はデータシート上バー付きの負論理キャリー生成・伝搬出力（74x182 と組み合わせる用）。LED は D18 により点灯 = アクティブ（L）",
+    "CN は加算時のキャリー入力、減算時は反転キャリー入力",
+    "手持ちの実型番 SN74LS381AN と同じ TI データシート。読み取り信頼度: ピン配置 95%、出力形式 95%"
+  ]
+}

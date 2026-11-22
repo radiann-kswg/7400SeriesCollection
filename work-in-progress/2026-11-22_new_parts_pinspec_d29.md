@@ -49,3 +49,68 @@
 - `datasheets/datasheet_sources.json` の 5 型番の Notes が「PDF未保存」のままだが、PDF は `_download/` に保存済み
 - `scripts/sort_datasheet_by_partnumber.py` が保存時にファイル末尾の改行を落とす（今回は手で補った）
 - 74x227 の PDF ファイル名にカンマが含まれる（74x284/285 も同様）。`render_datasheet_pages.py --part` の自動探索で見つかるかは未確認
+
+## 追記: R10（クロックセル配置）と UR/SSR 級タイルの一括生成（同日 21:00〜）
+
+### 目的
+
+手持ちの UR（VeryNerd）・SSR（ManiacRare）級 23 型番をタイル化する。あわせて R10（クロックセルを置ける接点が限られる）を一般化する。
+
+### 対象の整理
+
+| 区分 | 型番 |
+|---|---|
+| タイル生成済み（7） | 74x284 / 74x285 / 74x89 / 74x385 / 74x182 / 74x280 / 74x381 |
+| pinspec のみ（R10 で生成停止） | 74x227（LDCK=接点4・UNCK=接点19）、74x93（CKA=接点20） |
+| 対象外 | 74x181・74x841（24 ピンで DIP-20 ソケットに入らない）、74x124（VCC/GND が 2 組・外付けコンデンサと電圧入力が必要） |
+| PDF 待ち（公式サイトから取得不可） | 74x23 / 60 / 82 / 189 / 265 / 295 / 1000 / 1002 / 1032 / 1804 / 5074 |
+| 未入手 | 74x382（入手履歴に行はあるが実型番なし） |
+
+`fetch_missing_datasheets.py --part` は TI が HTTP 404、onsemi（MC74F280）が PDF でなく HTML を返し、いずれも取得できなかった。
+
+### スクリプトの変更（`scripts/generate_specimen_tile.py`）
+
+1. D29 の実装漏れ修正: 基板配線の選択条件に `open_collector` を追加（部品のネットだけプルアップ側になり、配線が通常パターンのままで短絡していた）
+2. D31: プルアップ LED セルの配線を再設計（+5V を外周レール際のビア → 裏面 u=-1.0 → D の A 側ビア、LA は u=-2.6 を迂回）
+3. D30: `place_clock_cell()` の GND スタブ・LA ビア・迂回レーンを実パッド基点の局所オフセット（`nudge()`）に変更。接点 1 では LA ビアを左外周レールから離す
+4. D30: `CLOCK_CONTACTS = (1, 11)` と `check_clock_contacts()` を追加。対応外の接点にクロックがある型番は生成前に停止
+5. 回路図: クロックセルの列幅を 40→48 グリッドに変更（2 個以上で 74LVC1G14 の出力ピンと次セルの SWT の GND が重なり、P ネットが GND に短絡していた）
+6. 説明シルクが 3 行になる場合、英文が実測で 46mm 以内なら 1 行にする（3 行目が上段ソケットのパッドに掛かるため。74x381 で発生）
+
+### 実行コマンド
+
+```powershell
+& 'C:\Program Files\KiCad\10.0\bin\python.exe' scripts\generate_specimen_tile.py 74x284 74x285 74x89 74x385 74x182 74x280 74x381
+kicad-cli sch erc --severity-all --format json -o <out> <tile>.kicad_sch
+kicad-cli pcb drc --severity-all --schematic-parity --format json -o <out> <tile>.kicad_pcb
+kicad-cli sch export bom ... --exclude-dnp / kicad-cli pcb export pos --format csv --side front --exclude-dnp
+```
+
+検証用の補助スクリプトは `.temp/tile_check.py`（ERC/DRC 集計）、`.temp/board_cmp.py`（基板の配線・ビア・部品位置・パッドネットの比較）、`.temp/bomcpl.py`（BOM と CPL の突き合わせ）。
+
+### 検証結果
+
+| 型番 | ERC | DRC（警告含む） | 等価性 | BOM / CPL |
+|---|---|---|---|---|
+| 74x284 | 0 | 0 | 0 | 29 / 29 一致 |
+| 74x285 | 0 | 0 | 0 | 29 / 29 一致 |
+| 74x89 | 0 | 0 | 0 | 29 / 29 一致 |
+| 74x385 | 0 | 0 | 1（UG1 の NC ピン。既存 74x273 の UG11 と同じ既知の警告） | 41 / 41 一致 |
+| 74x182 | 0 | 0 | 0 | 29 / 29 一致 |
+| 74x280 | 0 | 0 | 0 | 23 / 23 一致 |
+| 74x381 | 0 | 0 | 0 | 37 / 37 一致 |
+
+既存 12 タイル（74x00/04/08/10/125/14/21/244/273/374/377/574）を変更後のスクリプトで再生成し、HEAD の基板と配線・ビア・部品位置・パッドネットが完全一致することを確認した。
+
+### 作業ツリーの状態（未コミット）
+
+- 既存 12 タイルの `.kicad_sch` / `.kicad_pcb` / 一部 `.kicad_pro` は検証のための再生成で、UUID と日付だけが変わった状態で残っている（形状は一致）。`git checkout` で戻すかはユーザー判断
+- 診断用に生成した 74x227 / 74x74 / 74x595 のタイル（不具合を含む）は `.temp/stale_tiles/` に退避
+
+### 残課題
+
+- R10: 接点 1・11 以外のクロックセル（74x227・74x93・74x74・74x595 が該当）。奥行きを詰めたセルと u 反転版の配線の設計が必要
+- 74x93: 手持ちは DM74LS93N（National）だが照合は TI の SN74LS93。信頼度 80% のためユーザー確認待ち
+- 74x280: 74F280（NXP・onsemi）の一次資料が未入手
+- PDF 待ちの 11 型番
+- 74x595 の説明シルクが 4 行になり生成時のアサーションで止まる（UR/SSR 外、今回は未対応）

@@ -97,17 +97,21 @@ CELL_TRACKS = [  # (ネット, 幅, 点列)
 CELL_VIA = (-2.1, 3.3)  # GND
 P_START = (0, 10.025)   # 通常セルの P ネット最終区間（ソケットへ）の起点。クロックセルは別値を使う
 
-# active_low 出力セル用（D18）: D(LED)をプルアップ配線に反転。GND↔+5Vの行き先を入れ替え、
-# 新規の +5V・LA 迂回トレースは u=-2.7/-3.3 に分けて SW_SPDT 本体(パッド u 範囲 -2.2〜-1.4)を避ける。
-# SW/R(20+k) は DNP のまま(パッド自体は存在するが未実装)。エッジ列以外での隣接セル干渉は未検証(残課題)。
+# プルアップ LED セル用（active_low 出力 D18 / open_collector 出力 D29）: D(LED)の向きはそのままで
+# A(pin2)=+5V、K(pin1)=LA にする。SW_SPDT のパッド（u -2.6〜-1.0、R8 の拡大後寸法）と隣接セルの SH パッドの間は
+# 0.55mm しかなく F.Cu では +5V を通せないため、外周レール手前(v=-4.8、SH パッドの外側)でビアを打ち、
+# 裏面(B.Cu)を u=-1.0 で縦断して D の A 側へ戻る（CELL_PULLUP_VIAS）。LA は D の外側 u=-2.6 を回って R へ。
+# SW/R(20+k) は DNP のまま(パッド自体は存在するが未実装)。2026-11-22 に内側の列を含め DRC で検証（R10 の作業）。
 CELL_TRACKS_ACTIVE_LOW = [
     ("+5V", PWR, [(SW_PAD_U, -2.25), (-2.1, -2.25), (-2.1, -5.0)]),
     ("GND", GNDW, [(SW_PAD_U, 2.25), (-2.1, 3.3)]),
     ("SWC", SIG, [(SW_PAD_U, 0.75), (-0.82, 0.75), (-0.82, 0.65), (0.9, 0.65), (0.9, 2.6), (0, 2.82), (0, 8.375)]),
-    ("+5V", PWR, [(SW_PAD_U, -2.25), (-2.7, -2.25), (-2.7, 6.887), (-1.6, 6.887)]),  # D pin2(A)へ+5Vを延長(反転配線)
-    ("LA", SIG, [(-1.6, 5.313), (-3.3, 5.313), (-3.3, 8.375), (-1.6, 8.375)]),  # D pin1(旧GND位置)からR pin1へ、SW本体とその他の迂回を避ける
+    ("+5V", PWR, [(-2.1, -4.8), (-1.0, -4.8)]),                       # レール際からビアへ
+    ("+5V", SIG, [(-1.0, 6.887), (-1.6, 6.887)]),                      # ビアから D pin2(A)へ
+    ("LA", SIG, [(-1.6, 5.313), (-2.6, 5.313), (-2.6, 8.375), (-1.6, 8.375)]),  # D pin1(K)から D の外側を回って R pin1 へ
     ("P", SIG, [(-1.6, 10.025), (0, 10.025)]),
 ]
+CELL_PULLUP_VIAS = ((-1.0, -4.8), (-1.0, 6.887))  # この 2 点間を B.Cu の +5V で結ぶ
 
 
 def mm(v):
@@ -182,6 +186,19 @@ def cells(p):
         else:
             out[k] = "dnp"
     return out
+
+
+# R10: クロック整形回路セル（D17）を置ける接点。セルの奥行きがソケット上の引き回し帯（v≈11〜13）に掛かり、
+# かつソケットへの引き出しを局所 +u 側に決め打ちしているため、列端で +u 側にソケットがある接点 1・11 に限る。
+# 接点 1 は接点 11 の 180 度回転で、DRC/ERC 0 を確認済み（2026-11-22）。他の接点は回路方式が未設計のため生成を停止する。
+CLOCK_CONTACTS = (1, 11)
+
+
+def check_clock_contacts(p):
+    bad = sorted(k for k, kind in cells(p).items() if kind == "clk" and k not in CLOCK_CONTACTS)
+    if bad:
+        names = ", ".join(f"接点{k}={p['names'][k]}" for k in bad)
+        sys.exit(f"{p['part']}: クロック入力 {names} は接点 {CLOCK_CONTACTS} 以外のため生成を停止（REQUIREMENTS R10）")
 
 
 def clear_pins(p):
@@ -293,7 +310,7 @@ def write_sch(p, comps, path):
         elif kind in clk_offs:
             k = int(re.sub(r"\D", "", ref))
             clk_idx.setdefault(k, len(clk_idx))
-            gx, gy = 88 + clk_idx[k] * 40 + clk_offs[kind], 220
+            gx, gy = 88 + clk_idx[k] * 48 + clk_offs[kind], 220  # R10: 40 では UG 出力ピンが次セルの SWT と重なる
         else:
             k = int(re.sub(r"\D", "", ref)) - (20 if kind == "RD" else 0)
             gx, gy = 88 + (k - 1) % 5 * 48 + offs[kind], 32 + (k - 1) // 5 * 48
@@ -473,10 +490,15 @@ def write_pcb(p, comps, path):
             fp.SetPosition(V(*g(*CELL_POS[comp_kind])))
         expect(fps[f"SW{k}"][0], "1", g(SW_PAD_U, -2.25))
         expect(fps[f"D{k}"][0], "1", g(-1.6, 6.1 - 0.787))
-        active_low = kind == "out" and "active_low" in p["attrs"].get(k, [])
+        # D18/D29: active_low 出力と open_collector 出力は LED をプルアップ配線にする（components() と同じ条件）
+        active_low = kind == "out" and ("active_low" in p["attrs"].get(k, []) or p["dirs"].get(k) == "open_collector")
         name = {"+5V": "+5V", "GND": "GND", "SWC": f"SWC{k}", "LA": f"LA{k}", "P": f"P{k}"}
         for tkind, w, pts in (CELL_TRACKS_ACTIVE_LOW if active_low else CELL_TRACKS):
             track([g(*q) for q in pts], name[tkind], w)
+        if active_low:
+            for q in CELL_PULLUP_VIAS:
+                via(*g(*q), "+5V")
+            track([g(*q) for q in CELL_PULLUP_VIAS], "+5V", SIG, layer=pcbnew.B_Cu)
         via(*g(*CELL_VIA), "GND")
         track([g(*P_START), (f["xc"], f["lane"]), (f["xpad"], f["lane"]), (f["xpad"], f["ypad"])], f"P{k}", SIG)
 
@@ -559,6 +581,14 @@ def write_pcb(p, comps, path):
     # D27: 説明は上段セルとソケットの間の横帯(y16.8〜20.2)へ全幅・中央寄せ。右中央を空けて
     #      額装用 M2 を左右対称に置くため。帯はマスク下の配線の上なのでシルクを重ねてよい。
     en, jp = textwrap.wrap(p["desc"], 62), wrap_cjk(p["desc_jp"], 34)
+    if len(en) + len(jp) > 2:
+        # 3 行目は上段ソケットのパッドとシルク外形に掛かるため、英文が実測で帯幅(46mm)に収まるなら 1 行にする
+        probe = pcbnew.PCB_TEXT(board)
+        probe.SetText(p["desc"])
+        probe.SetTextSize(pcbnew.VECTOR2I(mm(0.8), mm(0.8)))
+        probe.SetTextThickness(mm(0.15))
+        if pcbnew.ToMM(probe.GetBoundingBox().GetWidth()) <= 46.0:
+            en = [p["desc"]]
     assert len(en) + len(jp) <= 3, (p["part"], "説明が横帯に収まらない", en, jp)
     for i, line in enumerate(en + jp):
         text(line, XC, 17.2 + 1.45 * i, 0.8)  # 和文グリフは公称より高いので 1.45mm ピッチ
@@ -644,6 +674,12 @@ def place_clock_cell(k, f, fps, track, via):
     rl1, rl2 = pad("RL", "1"), pad("RL", "2")
     d1, d2 = pad("D", "1"), pad("D", "2")
 
+    def nudge(src, du, dv):
+        """実パッド座標 src から局所 (du, dv) だけずらした点。上段では従来の絶対オフセットと同じ値になり、
+        下段（180 度回転）では向きが反転する(R10)"""
+        ox, oy = g(0, 0)
+        return round(src[0] + g(du, 0)[0] - ox, 3), round(src[1] + g(0, dv)[1] - oy, 3)
+
     # SWT の2個目の物理パッドにも到達(D24)
     track([swt1, swt1b], "GND", GNDW)
     track([swt2, swt2b], f"CLKR{k}", SIG)
@@ -662,9 +698,9 @@ def place_clock_cell(k, f, fps, track, via):
     track([(x_by, top_y), (x_by, rc1[1]), rc1], "+5V", PWR)
     track([rc1, (x_by, rc1[1]), (x_by, ug5[1]), ug5], "+5V", PWR)
 
-    # GND: 各所に個別 via（裏面 GND ベタへ）
-    for src, dx, dy in ((swt1, 0, 0.6), (ck2, 0.4, 0), (ug3, 0, 0.55), (d1, 0, 0.55)):
-        stub = (round(src[0] + dx, 3), round(src[1] + dy, 3))
+    # GND: 各所に個別 via（裏面 GND ベタへ）。スタブ先は局所座標で与え、下段（180度回転）でも同じ形にする(R10)
+    for src, du, dv in ((swt1, 0, 0.6), (ck2, -0.4, 0), (ug3, 0, 0.55), (d1, 0, 0.55)):
+        stub = nudge(src, du, dv)
         track([src, stub], "GND", GNDW)
         via(*stub, "GND")
 
@@ -672,15 +708,17 @@ def place_clock_cell(k, f, fps, track, via):
     # tracks_crossing を回避。UG は回転で実効の幅・高さが入れ替わるため pin5 の実効下端(~17.0)を避けて
     # 17.4 とする(D24)。レーン合流部も同じ Y で D11 を迂回してから socket レーンへ戻す
     y_mid = g(0, 11.4)[1]
-    lane_x = d1[0] - 2.0  # D24: D11 パッド左端(実効半幅込み)から余裕を見て迂回
+    lane_x = nudge(d1, 2.0, 0)[0]  # D24: D パッドの外側(局所 +u)を迂回。R10: 下段でも同じ側へ
     track([ug4, (ug4[0], y_mid), (rl1[0], y_mid), rl1], f"P{k}", SIG)
     track([rl1, (f["xc"], f["lane"]), (f["xc"], y_mid), (lane_x, y_mid),
            (lane_x, f["lane"]), (f["xpad"], f["lane"]), (f["xpad"], f["ypad"])], f"P{k}", SIG)
 
     # LA: RL -> D(LED)。F.Cu は UG11/R11/D11 のパッドが密集し迂回余地が無いため、短いビア2本で
     # 裏面(B.Cu、GND ベタとは別ネットにつき自動でクリアランス確保)を経由する(D24)
-    la1 = (round(rl2[0] + 1.1, 3), rl2[1])
-    la2 = (round(d1[0] - 1.1, 3), d2[1])
+    la1 = nudge(rl2, -1.1, 0)
+    if abs(la1[0] - RAIL) < 1.2:  # R10: 接点1では左外周レール(+5V)に近すぎるので RL 寄りに置く
+        la1 = nudge(rl2, -0.65, 0)
+    la2 = (nudge(d1, 1.1, 0)[0], d2[1])
     track([rl2, la1], f"LA{k}", SIG)
     via(*la1, f"LA{k}")
     track([la1, la2], f"LA{k}", SIG, layer=pcbnew.B_Cu)
@@ -707,6 +745,7 @@ def main():
     make_switch_fp()
     for part in parts:
         p = load_part(part)
+        check_clock_contacts(p)
         out = CARRIER / "tiles" / part
         out.mkdir(parents=True, exist_ok=True)
         stem = out / f"{part}_tile"

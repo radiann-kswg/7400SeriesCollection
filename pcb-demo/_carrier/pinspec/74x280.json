@@ -1,0 +1,86 @@
+{
+  "part": "74x280",
+  "package_pins": 14,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS280.PDF",
+    "doc_id": "SDLS152（REVISED MARCH 1988）",
+    "page": 1,
+    "table": "pin diagram (TOP VIEW, D/J/N/W)",
+    "checked": "2026-11-22",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。p.1 のピン配置図と論理記号のピン番号を相互確認。出力形式は p.2 の 'S280 出力等価回路（トーテムポール）で確認",
+    "confidence": 90
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "G",
+      "dir": "input"
+    },
+    "2": {
+      "name": "H",
+      "dir": "input"
+    },
+    "3": {
+      "name": "NC",
+      "dir": "nc"
+    },
+    "4": {
+      "name": "I",
+      "dir": "input"
+    },
+    "5": {
+      "name": "EVEN",
+      "dir": "output"
+    },
+    "6": {
+      "name": "ODD",
+      "dir": "output"
+    },
+    "7": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "8": {
+      "name": "A",
+      "dir": "input"
+    },
+    "9": {
+      "name": "B",
+      "dir": "input"
+    },
+    "10": {
+      "name": "C",
+      "dir": "input"
+    },
+    "11": {
+      "name": "D",
+      "dir": "input"
+    },
+    "12": {
+      "name": "E",
+      "dir": "input"
+    },
+    "13": {
+      "name": "F",
+      "dir": "input"
+    },
+    "14": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "データシート上の出力名は ΣEVEN / ΣODD（ASCII で EVEN / ODD と表記）。入力 A〜I の H の個数が偶数なら EVEN=H",
+    "手持ちは 74F280BN・SN74S280N・MC74F280N。照合した資料は TI の SN74LS280/SN74S280 で、SN74S280N とは一致するが 74F280（NXP・onsemi）の一次資料は未入手のため、F 品はピン配置が同じ前提で使う（要確認）",
+    "読み取り信頼度: ピン配置 95%、出力形式 90%（'S280 の等価回路で確認。'F280 は未確認）"
+  ]
+}

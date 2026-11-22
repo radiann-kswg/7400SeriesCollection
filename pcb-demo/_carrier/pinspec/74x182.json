@@ -1,0 +1,124 @@
+{
+  "part": "74x182",
+  "package_pins": 16,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74S182.pdf",
+    "doc_id": "SDLS206（REVISED MARCH 1988）",
+    "page": 1,
+    "table": "pin diagram (TOP VIEW) / PIN DESIGNATIONS",
+    "checked": "2026-11-22",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。p.1 のピン配置図とピン機能表・論理記号のピン番号を相互確認。出力形式は p.3 の出力等価回路（トーテムポール）で確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "G1",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "2": {
+      "name": "P1",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "3": {
+      "name": "G0",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "4": {
+      "name": "P0",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "5": {
+      "name": "G3",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "6": {
+      "name": "P3",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "7": {
+      "name": "P",
+      "dir": "output",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "8": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "9": {
+      "name": "CN+Z",
+      "dir": "output"
+    },
+    "10": {
+      "name": "G",
+      "dir": "output",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "11": {
+      "name": "CN+Y",
+      "dir": "output"
+    },
+    "12": {
+      "name": "CN+X",
+      "dir": "output"
+    },
+    "13": {
+      "name": "CN",
+      "dir": "input"
+    },
+    "14": {
+      "name": "G2",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "15": {
+      "name": "P2",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "16": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "G0〜G3・P0〜P3 入力と P・G 出力はデータシート上バー付き（負論理）。active_low 出力の LED は D18 により点灯 = アクティブ（L）",
+    "CN+X / CN+Y / CN+Z は正論理のキャリー出力",
+    "手持ちの実型番 SN74S182N と同じ TI データシート。読み取り信頼度: ピン配置 95%、出力形式 95%"
+  ]
+}
