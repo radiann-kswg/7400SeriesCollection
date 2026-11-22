@@ -9,9 +9,10 @@ generate_specimen_tile.py — Specimen Tile（共通キャリア）の回路図�
 - リファレンス: 接点 k ごとに SWk / R(20+k)=Rd 220 / Rk=Rled 4.7k / Dk、ソケット U1 のパッド k。
   クロック入力（pinspec attr=clock）は SWk/R(20+k) の代わりに SWTk（タクトスイッチ）/ RCk（10k プルアップ）/
   CKk（1uF）/ UGk（74LVC1G14 シュミットトリガ）を使うクロック整形回路になる（D17）。
-- 接点の種類: 入力・双方向 = スイッチ + LED、出力（output / tri_state）= LED のみ（SWk・R(20+k) は DNP）、
-  未使用・NC・open_collector = 全部 DNP（OC 出力は H 側へ引けないので LED を点けられない）。
+- 接点の種類: 入力・双方向 = スイッチ + LED、出力（output / tri_state / open_collector）= LED のみ
+  （SWk・R(20+k) は DNP）、未使用・NC = 全部 DNP。
   出力 LED は白、ただし active_low 属性を持つ出力は赤+プルアップ配線（点灯=アクティブ）にする（D18/D22）。
+  open_collector 出力は H 側へ引けないため、同じ赤+プルアップ配線（+5V→LED→Rk→ピン、点灯=ピンが L）にする（D29）。
 
 実行（KiCAD 同梱 Python。pcbnew が必要）:
   & 'C:\\Program Files\\KiCad\\10.0\\bin\\python.exe' scripts/generate_specimen_tile.py 74x00 74x244 74x273
@@ -176,7 +177,7 @@ def cells(p):
             out[k] = "clk"
         elif d in ("input", "bidirectional"):
             out[k] = "io"
-        elif d in ("output", "tri_state"):
+        elif d in ("output", "tri_state", "open_collector"):  # open_collector は D29
             out[k] = "out"
         else:
             out[k] = "dnp"
@@ -205,10 +206,12 @@ def components(p):
                     (f"D{k}", "D", {"1": "GND", "2": f"LA{k}"}, False)]
             continue
         active_low = "active_low" in p["attrs"].get(k, [])
+        open_collector = p["dirs"].get(k) == "open_collector"
         d_kind, d_nets = "D", {"1": "GND", "2": f"LA{k}"}
         if kind == "out":
-            if active_low:
-                d_nets = {"1": f"LA{k}", "2": "+5V"}  # 点灯=アクティブ(P_k=L)になるようプルアップに反転（D18）
+            if active_low or open_collector:
+                # 点灯=P_k が L になるようプルアップに反転（active_low: D18、OC は H を出せないため D29）
+                d_nets = {"1": f"LA{k}", "2": "+5V"}
             else:
                 d_kind = "DW"  # 通常出力は白（D22）
         out += [(f"SW{k}", "SW", {"1": "+5V", "2": f"SWC{k}", "3": "GND"}, kind != "io"),
@@ -302,7 +305,7 @@ def write_sch(p, comps, path):
     note = (f"{part} Specimen Tile v0.1 ({p['desc']})\\n"
             f"DIP-{p['n']}: VCC = contact {p['vcc']}, GND = contact {p['gnd']}\\n"
             "Cell k: SWk selects +5V/GND -> R(20+k) 220R -> contact k -> Rk 4.7k -> Dk -> GND\\n"
-            "Output contacts (per pinspec): SWk and R(20+k) are DNP, LED only (white; active_low = red + inverted)\\n"
+            "Output contacts (per pinspec): SWk and R(20+k) are DNP, LED only (white; active_low / open_collector = red + pull-up, lit = L)\\n"
             "Clock contacts (attr=clock): tact SWTk + RCk/CKk RC + UGk 74LVC1G14 Schmitt trigger -> contact k\\n"
             "Spec: pcb-demo/_carrier/README.md")
     body.append(f'  (text "{note}" (exclude_from_sim no) (at 25.4 20.32 0) (effects (font (size 1.27 1.27)) (justify left bottom)) (uuid "{uuid.uuid4()}"))\n')

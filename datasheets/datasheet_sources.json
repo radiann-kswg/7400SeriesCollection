@@ -1269,6 +1269,20 @@
     ]
   },
   {
+    "PartNumber": "74x89",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN7489N",
+        "Manufacturer": "TI(Texas Instruments)",
+        "DocumentId": "D1416",
+        "Revision": "Revised February 1984",
+        "Url": "https://doctor-pasquale.com/wp-content/uploads/2017/05/7489-64-BIT-RAM.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "TI原資料のミラー（TI公式ホストではない）。参照リンクのみ、PDF未保存。"
+      }
+    ]
+  },
+  {
     "PartNumber": "74x90",
     "Sources": [
       {
@@ -2817,6 +2831,20 @@
     ]
   },
   {
+    "PartNumber": "74x227",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS227N",
+        "Manufacturer": "TI(Texas Instruments)",
+        "DocumentId": "",
+        "Revision": "Revised March 1985",
+        "Url": "https://cdn.semikey.com/upload/pdfs/38/00/38000a8f1a33203ab5110604491913be.pdf#page=2",
+        "LastAccessed": "2026-11-22",
+        "Notes": "PDFの2ページ目からTI原資料（印刷ページ 2-13～2-20、SN74LS227のNパッケージを掲載）。1ページ目はRochester Electronicsの別型番の表紙。TI公式ホストではない。参照リンクのみ、PDF未保存。"
+      }
+    ]
+  },
+  {
     "PartNumber": "74x237",
     "Sources": [
       {
@@ -3472,6 +3500,34 @@
     ]
   },
   {
+    "PartNumber": "74x284",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74284N",
+        "Manufacturer": "TI(Texas Instruments)",
+        "DocumentId": "",
+        "Revision": "Revised December 1983",
+        "Url": "https://sapr.asvcorp.ru/datasheets/34/03/00000000334.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "TI原資料のミラー（TI公式ホストではない）。参照リンクのみ、PDF未保存。"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x285",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74285N",
+        "Manufacturer": "TI(Texas Instruments)",
+        "DocumentId": "",
+        "Revision": "Revised December 1983",
+        "Url": "https://sapr.asvcorp.ru/datasheets/34/03/00000000334.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "TI原資料のミラー（TI公式ホストではない）。参照リンクのみ、PDF未保存。"
+      }
+    ]
+  },
+  {
     "PartNumber": "74x293",
     "Sources": [
       {
@@ -3945,6 +4001,20 @@
         "Url": "https://www.ti.com/lit/ds/symlink/sn74ls381.pdf",
         "LastAccessed": "2026-02-14",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x385",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS385N",
+        "Manufacturer": "TI(Texas Instruments)",
+        "DocumentId": "D2412",
+        "Revision": "Revised April 1985",
+        "Url": "https://sapr.asvcorp.ru/datasheets/97/03/00000000397.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "TI原資料のミラー（TI公式ホストではない）。参照リンクのみ、PDF未保存。"
       }
     ]
   },

@@ -1,0 +1,118 @@
+{
+  "part": "74x385",
+  "package_pins": 20,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS385.PDF",
+    "doc_id": "D2412",
+    "page": 1,
+    "table": "pin diagram (TOP VIEW, J/N package)",
+    "checked": "2026-11-22",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。DIP と FK/FN パッケージのピン配置図のピン番号を相互確認。出力形式は p.3 電気的特性（IOS 規定・VOH min 2.7 V）からトーテムポールと判断",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "CLK",
+      "dir": "input",
+      "attr": [
+        "clock"
+      ]
+    },
+    "2": {
+      "name": "1SUM",
+      "dir": "output"
+    },
+    "3": {
+      "name": "1S/A",
+      "dir": "input"
+    },
+    "4": {
+      "name": "1B",
+      "dir": "input"
+    },
+    "5": {
+      "name": "1A",
+      "dir": "input"
+    },
+    "6": {
+      "name": "2A",
+      "dir": "input"
+    },
+    "7": {
+      "name": "2B",
+      "dir": "input"
+    },
+    "8": {
+      "name": "2S/A",
+      "dir": "input"
+    },
+    "9": {
+      "name": "2SUM",
+      "dir": "output"
+    },
+    "10": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "11": {
+      "name": "CLR",
+      "dir": "input",
+      "attr": [
+        "active_low",
+        "clear"
+      ]
+    },
+    "12": {
+      "name": "3SUM",
+      "dir": "output"
+    },
+    "13": {
+      "name": "3S/A",
+      "dir": "input"
+    },
+    "14": {
+      "name": "3B",
+      "dir": "input"
+    },
+    "15": {
+      "name": "3A",
+      "dir": "input"
+    },
+    "16": {
+      "name": "4A",
+      "dir": "input"
+    },
+    "17": {
+      "name": "4B",
+      "dir": "input"
+    },
+    "18": {
+      "name": "4S/A",
+      "dir": "input"
+    },
+    "19": {
+      "name": "4SUM",
+      "dir": "output"
+    },
+    "20": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "データシート上の信号名 Σ は ASCII で SUM、S/Ā は S/A と表記（S/A=H で A−B、L で A+B）",
+    "CLK は 4 素子共通の立ち上がりエッジ。クロックセル（D17）対象だが接点 1 に置くことになる（R10: クロックセル配置の検証は接点 11 のみ）",
+    "CLR は 4 素子共通の非同期クリア（負論理）",
+    "SUM 出力はトーテムポール。出力等価回路図は未確認のため出力形式の読み取り信頼度は 90%"
+  ]
+}

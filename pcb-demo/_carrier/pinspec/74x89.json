@@ -1,0 +1,113 @@
+{
+  "part": "74x89",
+  "package_pins": 16,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN7489.pdf",
+    "doc_id": "D1416",
+    "page": 1,
+    "table": "pin diagram (TOP VIEW) / logic symbol",
+    "checked": "2026-11-22",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。ピン配置図（TOP VIEW）と論理記号のピン番号を相互確認。画像のみの PDF（テキスト抽出不可）。出力形式は本文の Open-Collector Outputs 記載で確認",
+    "confidence": 93
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "A0",
+      "dir": "input"
+    },
+    "2": {
+      "name": "ME",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "3": {
+      "name": "WE",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "4": {
+      "name": "D1",
+      "dir": "input"
+    },
+    "5": {
+      "name": "Q1",
+      "dir": "open_collector",
+      "attr": [
+        "complement"
+      ]
+    },
+    "6": {
+      "name": "D2",
+      "dir": "input"
+    },
+    "7": {
+      "name": "Q2",
+      "dir": "open_collector",
+      "attr": [
+        "complement"
+      ]
+    },
+    "8": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "9": {
+      "name": "Q3",
+      "dir": "open_collector",
+      "attr": [
+        "complement"
+      ]
+    },
+    "10": {
+      "name": "D3",
+      "dir": "input"
+    },
+    "11": {
+      "name": "Q4",
+      "dir": "open_collector",
+      "attr": [
+        "complement"
+      ]
+    },
+    "12": {
+      "name": "D4",
+      "dir": "input"
+    },
+    "13": {
+      "name": "A3",
+      "dir": "input"
+    },
+    "14": {
+      "name": "A2",
+      "dir": "input"
+    },
+    "15": {
+      "name": "A1",
+      "dir": "input"
+    },
+    "16": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "出力 Q1〜Q4（データシート表記は Q̄1〜Q̄4）はオープンコレクタで、書き込んだデータの反転を出す。ME=H かつ WE=H では H（オフ）。attr は D18 に従い active_low ではなく complement とした（LED は D29 により点灯 = L = 記憶値 1）",
+    "共通回路では REQUIREMENTS D29 により赤 LED + プルアップ配線で表示。点灯 = ピンが L",
+    "ME・WE は負論理。WE はレベル動作の書き込み（クロックではない）",
+    "読み取り信頼度: ピン配置 93%（スキャン画像だが判読可能）、出力形式 98%"
+  ]
+}

@@ -1,0 +1,101 @@
+{
+  "part": "74x284",
+  "package_pins": 16,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74284,SN74285.pdf",
+    "doc_id": "(記載なし。MAY 1972 - REVISED DECEMBER 1983)",
+    "page": 1,
+    "table": "pin diagram (TOP VIEW) / logic symbols",
+    "checked": "2026-11-22",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。ピン配置図（TOP VIEW）と論理記号のピン番号を相互確認。出力形式は p.2 の出力等価回路（VCC 側トランジスタなし）と p.4 推奨動作条件（VOH 最大 5.5 V）で確認",
+    "confidence": 92
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "2C",
+      "dir": "input"
+    },
+    "2": {
+      "name": "2B",
+      "dir": "input"
+    },
+    "3": {
+      "name": "2A",
+      "dir": "input"
+    },
+    "4": {
+      "name": "1D",
+      "dir": "input"
+    },
+    "5": {
+      "name": "1A",
+      "dir": "input"
+    },
+    "6": {
+      "name": "1B",
+      "dir": "input"
+    },
+    "7": {
+      "name": "1C",
+      "dir": "input"
+    },
+    "8": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "9": {
+      "name": "Y7",
+      "dir": "open_collector"
+    },
+    "10": {
+      "name": "Y6",
+      "dir": "open_collector"
+    },
+    "11": {
+      "name": "Y5",
+      "dir": "open_collector"
+    },
+    "12": {
+      "name": "Y4",
+      "dir": "open_collector"
+    },
+    "13": {
+      "name": "GB",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "14": {
+      "name": "GA",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "15": {
+      "name": "2D",
+      "dir": "input"
+    },
+    "16": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "出力 Y4・Y5・Y6・Y7 はオープンコレクタ（データシート p.2 等価回路・p.4 推奨動作条件 VOH max 5.5 V）。共通回路では REQUIREMENTS D29 により赤 LED + プルアップ配線で表示。点灯 = ピンが L",
+    "GA・GB は負論理イネーブル。両方 L で出力有効（データシート Figure A は両方 GND 接続）",
+    "1A〜1D が一方の 4 ビット語（1A=2^0）、2A〜2D がもう一方の語（2A=2^0）",
+    "読み取り信頼度: ピン配置 95%、出力形式 92%"
+  ]
+}

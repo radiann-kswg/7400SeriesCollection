@@ -1,0 +1,123 @@
+{
+  "part": "74x227",
+  "package_pins": 20,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS224,SN74LS227,SN74LS228.PDF",
+    "doc_id": "(記載なし。JANUARY 1981 - REVISED MARCH 1985)",
+    "page": 2,
+    "table": "pin diagram (TOP VIEW, 'LS222/'LS227) / logic symbols",
+    "checked": "2026-11-22",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。画像のみの PDF（1 ページ目は Rochester の表紙）。PDF p.2 のピン配置図と p.4 の 'LS227 論理記号のピン番号を相互確認。出力形式は p.2 の型番表・p.3 の注記と p.7（'LS227/'LS228 の電気的特性）で確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "OE",
+      "dir": "input"
+    },
+    "2": {
+      "name": "IRE",
+      "dir": "input"
+    },
+    "3": {
+      "name": "IR",
+      "dir": "output"
+    },
+    "4": {
+      "name": "LDCK",
+      "dir": "input",
+      "attr": [
+        "clock"
+      ]
+    },
+    "5": {
+      "name": "D0",
+      "dir": "input"
+    },
+    "6": {
+      "name": "NC",
+      "dir": "nc"
+    },
+    "7": {
+      "name": "D1",
+      "dir": "input"
+    },
+    "8": {
+      "name": "D2",
+      "dir": "input"
+    },
+    "9": {
+      "name": "D3",
+      "dir": "input"
+    },
+    "10": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "11": {
+      "name": "CLR",
+      "dir": "input",
+      "attr": [
+        "active_low",
+        "clear"
+      ]
+    },
+    "12": {
+      "name": "Q3",
+      "dir": "open_collector"
+    },
+    "13": {
+      "name": "Q2",
+      "dir": "open_collector"
+    },
+    "14": {
+      "name": "Q1",
+      "dir": "open_collector"
+    },
+    "15": {
+      "name": "NC",
+      "dir": "nc"
+    },
+    "16": {
+      "name": "Q0",
+      "dir": "open_collector"
+    },
+    "17": {
+      "name": "OR",
+      "dir": "output"
+    },
+    "18": {
+      "name": "ORE",
+      "dir": "input"
+    },
+    "19": {
+      "name": "UNCK",
+      "dir": "input",
+      "attr": [
+        "clock"
+      ]
+    },
+    "20": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "Q0〜Q3 はオープンコレクタ（非反転）。OE=H で有効、OE=L でオフ（OE は IR・OR に影響しない）。共通回路では REQUIREMENTS D29 により赤 LED + プルアップ配線で表示。点灯 = ピンが L",
+    "IR・OR はトーテムポール出力（p.7: VOH min 2.7 V・IOS 規定あり）",
+    "LDCK は立ち下がりエッジで書き込み、UNCK は立ち上がりエッジで読み出し。両方クロックセル（D17）対象だが接点 4・19 に置くことになる（R10: クロックセル配置の検証は接点 11 のみ）",
+    "IRE・ORE は IR・OR のゲート入力（'LS222/'LS227 のみ）。論理記号上は正論理（G3/G5）",
+    "CLR は負論理の非同期クリア（IR=H、OR=L に初期化）",
+    "読み取り信頼度: ピン配置 95%、Q 出力形式 98%、IR/OR 出力形式 93%"
+  ]
+}
