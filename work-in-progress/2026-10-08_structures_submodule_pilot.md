@@ -33,3 +33,12 @@
 - KiCAD 10 の `Device` ライブラリではトランジスタ名が `Q_NPN` / `Q_NMOS` / `Q_PMOS`（`_BCE` / `_GSD` 接尾辞無し）
 - 回転した部品のプロパティ文字を水平に保つには property の角度を `(360 − 回転) % 360` にし、90° 回転のときだけ justify を左右反転する必要があった
 - `.temp/` に sn7400.pdf とレンダリング PNG が残っている（VM から削除できないため。Git 管理外）
+
+## 追記 1（2026-11-22）: セッション成果物の Structures への移管
+
+- `Claude outputs/structures_*_preview.png`（svg/ の縮小モンタージュ）を Structures の `.temp/preview/`（Git 管理外）へ移動。正本は svg/ のまま
+- 図の生成器 `.temp/gen_sch.py` を Structures の `scripts/gen_sch.py` に昇格し、「生成器を直して再生成」方式に統一（KiCAD 同梱ライブラリを直接読むよう改修。生成される .kicad_sch は従来と同一であることを git diff で確認）
+- `scripts/export_svg.py` が SVG の書き出し日時を除去するようにし、再生成で差分が出ないようにした
+- 設計上の決定事項を Structures の `docs/DECISIONS.md` に転記（Structures 単独で読めるようにする）
+- Structures の `.temp/` に残っていた sn7400.pdf・データシート PNG・ERC JSON・抽出一時ファイルを削除
+- Structures コミット ad80e39 を push し、本リポジトリのサブモジュールポインタを更新（このコミットは structures/ と本ログのみ）
