@@ -990,6 +990,24 @@
     ]
   },
   {
+    "PartNumber": "74x50",
+    "Sources": [
+      {
+        "ExactPartNumber": "K1LR551/К1ЛР551",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://doc.platan.ru/pdf/datasheets/russia/K155LR1.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "後継表記 К155ЛР1 の端子・電気仕様参考資料。旧表記 К1ЛР551 との対応は装置技術資料の印刷 p.29 表8（https://djvu.online/file/SK39KkKa4AD9W）を参照。旧型番のメーカー原本・所蔵個体メーカーは未確認。パッケージ・端子互換は現物で要確認。PDF 保存済み（Url 先と sha256 一致を確認 2026-11-22）。",
+        "LocalPath": "datasheets/_download/_OTHER/K1LR551.pdf",
+        "LocalBytes": 59406,
+        "LocalSha256": "9ac412e815ef60aee074ef1248a08c265a9d264d7020213d5045fff48ddf1e86",
+        "LocalCheckedAt": "2026-11-22T21:30:00+09:00"
+      }
+    ]
+  },
+  {
     "PartNumber": "74x51",
     "Sources": [
       {
@@ -1000,6 +1018,24 @@
         "Url": "",
         "LastAccessed": "2026-02-14",
         "Notes": "AUTO: from history"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x53",
+    "Sources": [
+      {
+        "ExactPartNumber": "K131LR3/К131ЛР3",
+        "Manufacturer": "(unknown)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://ipelectron.ru/upload/iblock/a7b/a7b33cd3_1c60_11e3_a2b2_000423b8155e_a7b33cdc_1c60_11e3_a2b2_000423b8155e.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "К131ЛР3 の型番が載る技術資料の抜粋（メーカー原本・所蔵個体メーカーは未確認）。2+2+2+3入力、6番ピンは入力。74H53系の仕様で、標準7453の端子・論理仕様をそのまま適用しない。PDF 保存済み（Url 先と sha256 一致を確認 2026-11-22）。",
+        "LocalPath": "datasheets/_download/_OTHER/K131LR3.pdf",
+        "LocalBytes": 185544,
+        "LocalSha256": "12cc2dc30f8a737284eb6aac1bf9169c52644fe7ccae04ff1014949a67162596",
+        "LocalCheckedAt": "2026-11-22T21:30:00+09:00"
       }
     ]
   },
@@ -1818,20 +1854,28 @@
       {
         "ExactPartNumber": "K155ID1",
         "Manufacturer": "(unknown)",
-        "DocumentId": "",
+        "DocumentId": "DOC005918323",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from usage"
+        "Url": "https://static.chipdip.ru/lib/918/DOC005918323.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "chipdip 掲載の К155ИД1 技術資料（作成者 Тресков、2020-10-26。出典に Нефедов『Интегральные микросхемы и их зарубежные аналоги』1998 などを記載）。メーカー原本ではない。端子割当・機能図・電気特性・使用上の限界値・使用上の推奨を掲載。所蔵個体メーカーは未確認。PDF 保存済み（Url 先と sha256 一致を確認 2026-11-22）。補足資料: 製品ラベル ЭТИКЕТКА（製造技術条件 6КО.348.006-28 ТУ）https://www.tube-tester.com/pic/shop/k155id1.pdf → datasheets/_download/_OTHER/K155ID1_etiketka.pdf。便覧誌面のスキャン https://doc.platan.ru/pdf/datasheets/russia/K155ID1.pdf → datasheets/_download/_OTHER/K155ID1_platan.pdf（sha256 7331b8bdae52e9b4b9c92df6ea42b35df92cc4fdcb9fedeaed6e4ee8941c0a9e）。本資料の「入力 10〜15 時の出力オフ電流 ≤15 mA」は誤記で、誌面スキャン p.3 の画像では ≤15 µA（2026-11-22 目視確認。スキャン PDF の OCR テキストは「115 µA」と誤読）。",
+        "LocalPath": "datasheets/_download/_OTHER/K155ID1.pdf",
+        "LocalBytes": 441679,
+        "LocalSha256": "fe1728a2c64b844439efb40334eaea5c12d10c8f56a216d1992cc07be55a488e",
+        "LocalCheckedAt": "2026-11-22T21:40:00+09:00"
       },
       {
         "ExactPartNumber": "К155ИД1",
         "Manufacturer": "(unknown)",
-        "DocumentId": "",
+        "DocumentId": "DOC005918323",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from usage"
+        "Url": "https://static.chipdip.ru/lib/918/DOC005918323.pdf",
+        "LastAccessed": "2026-11-22",
+        "Notes": "chipdip 掲載の К155ИД1 技術資料（作成者 Тресков、2020-10-26。出典に Нефедов『Интегральные микросхемы и их зарубежные аналоги』1998 などを記載）。メーカー原本ではない。端子割当・機能図・電気特性・使用上の限界値・使用上の推奨を掲載。所蔵個体メーカーは未確認。PDF 保存済み（Url 先と sha256 一致を確認 2026-11-22）。補足資料: 製品ラベル ЭТИКЕТКА（製造技術条件 6КО.348.006-28 ТУ）https://www.tube-tester.com/pic/shop/k155id1.pdf → datasheets/_download/_OTHER/K155ID1_etiketka.pdf。便覧誌面のスキャン https://doc.platan.ru/pdf/datasheets/russia/K155ID1.pdf → datasheets/_download/_OTHER/K155ID1_platan.pdf（sha256 7331b8bdae52e9b4b9c92df6ea42b35df92cc4fdcb9fedeaed6e4ee8941c0a9e）。本資料の「入力 10〜15 時の出力オフ電流 ≤15 mA」は誤記で、誌面スキャン p.3 の画像では ≤15 µA（2026-11-22 目視確認。スキャン PDF の OCR テキストは「115 µA」と誤読）。",
+        "LocalPath": "datasheets/_download/_OTHER/K155ID1.pdf",
+        "LocalBytes": 441679,
+        "LocalSha256": "fe1728a2c64b844439efb40334eaea5c12d10c8f56a216d1992cc07be55a488e",
+        "LocalCheckedAt": "2026-11-22T21:40:00+09:00"
       }
     ]
   },

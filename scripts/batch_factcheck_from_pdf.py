@@ -71,6 +71,13 @@ def build_local_pdf_index(root: Path) -> dict[str, Path]:
     return index
 
 def find_pdf_for_exact_part(exact_pn: str, index: dict[str, Path], max_strips: int = 6) -> Path | None:
+    # "K155ID1/К155ИД1" のようにラテン表記とキリル表記を "/" で併記した型番は別名ごとに探す
+    if "/" in exact_pn:
+        for alias in exact_pn.split("/"):
+            hit = find_pdf_for_exact_part(alias.strip(), index, max_strips)
+            if hit is not None:
+                return hit
+        return None
     base = _normalize_token(exact_pn)
     cur = base
     for _ in range(max_strips + 1):
