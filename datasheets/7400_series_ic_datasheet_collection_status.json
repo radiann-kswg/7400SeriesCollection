@@ -96,6 +96,12 @@
     }
   },
   {
+    "PartNumber": "74x12",
+    "GottenItems_MakerOfDataSheet": {
+      "SN74LS12N": "TI(Texas Instruments)"
+    }
+  },
+  {
     "PartNumber": "74x14",
     "GottenItems_MakerOfDataSheet": {
       "74HC14AP": "TOSHIBA",
@@ -275,9 +281,21 @@
     }
   },
   {
+    "PartNumber": "74x76",
+    "GottenItems_MakerOfDataSheet": {
+      "SN74LS76AN": "TI(Texas Instruments)"
+    }
+  },
+  {
     "PartNumber": "74x82",
     "GottenItems_MakerOfDataSheet": {
       "SN7482N": "TI(Texas Instruments)"
+    }
+  },
+  {
+    "PartNumber": "74x85",
+    "GottenItems_MakerOfDataSheet": {
+      "SN74S85N": "TI(Texas Instruments)"
     }
   },
   {
@@ -303,7 +321,9 @@
   {
     "PartNumber": "74x93",
     "GottenItems_MakerOfDataSheet": {
-      "DM74LS93N": "TI(Texas Instruments)"
+      "DM74LS93N": "TI(Texas Instruments)",
+      "HD74LS93P": "RENESAS",
+      "SN74LS93N": "TI(Texas Instruments)"
     }
   },
   {
@@ -312,7 +332,8 @@
       "CD74HC107E": "TI(Texas Instruments)",
       "DM74LS107N": "(保留)",
       "74107PC": "(保留)",
-      "SN74107N": "TI(Texas Instruments)"
+      "SN74107N": "TI(Texas Instruments)",
+      "TC74HC107P": "TOSHIBA"
     }
   },
   {
@@ -337,6 +358,13 @@
     "PartNumber": "74x113",
     "GottenItems_MakerOfDataSheet": {
       "SN74S113N": "(収集予定:TI(Texas Instruments))"
+    }
+  },
+  {
+    "PartNumber": "74x114",
+    "GottenItems_MakerOfDataSheet": {
+      "HD74LS114P": "(収集予定:RENESAS)",
+      "SN74LS114AN": "TI(Texas Instruments)"
     }
   },
   {
@@ -370,6 +398,13 @@
     "GottenItems_MakerOfDataSheet": {
       "SN74HC132N": "TI(Texas Instruments)",
       "74S132": "(保留)"
+    }
+  },
+  {
+    "PartNumber": "74x133",
+    "GottenItems_MakerOfDataSheet": {
+      "M74LS133P": "MITSUBISHI(Mitsubishi Electric)",
+      "SN74ALS133N": "TI(Texas Instruments)"
     }
   },
   {
@@ -585,7 +620,9 @@
   {
     "PartNumber": "74x190",
     "GottenItems_MakerOfDataSheet": {
-      "CD74HC190E": "TI(Texas Instruments)"
+      "CD74HC190E": "TI(Texas Instruments)",
+      "74LS190N": "RAYTHEON",
+      "SN74LS190N": "TI(Texas Instruments)"
     }
   },
   {
@@ -597,13 +634,15 @@
   {
     "PartNumber": "74x192",
     "GottenItems_MakerOfDataSheet": {
-      "CD74HC192E": "TI(Texas Instruments)"
+      "CD74HC192E": "TI(Texas Instruments)",
+      "HD74HC192P": "RENESAS"
     }
   },
   {
     "PartNumber": "74x193",
     "GottenItems_MakerOfDataSheet": {
-      "SN74HC193N": "TI(Texas Instruments)"
+      "SN74HC193N": "TI(Texas Instruments)",
+      "SN74LS193N": "TI(Texas Instruments)"
     }
   },
   {
@@ -623,7 +662,8 @@
   {
     "PartNumber": "74x221",
     "GottenItems_MakerOfDataSheet": {
-      "CD74HC221E": "TI(Texas Instruments)"
+      "CD74HC221E": "TI(Texas Instruments)",
+      "SN74LS221N": "TI(Texas Instruments)"
     }
   },
   {
@@ -666,14 +706,16 @@
   {
     "PartNumber": "74x242",
     "GottenItems_MakerOfDataSheet": {
-      "TC74HC242P": "(収集予定:TOSHIBA)"
+      "TC74HC242P": "(収集予定:TOSHIBA)",
+      "HD74HC242P": "RENESAS"
     }
   },
   {
     "PartNumber": "74x243",
     "GottenItems_MakerOfDataSheet": {
       "74HC243AP": "PHILIPS(NXP Semiconductors)",
-      "DM74S273N": "(保留)"
+      "DM74S273N": "(保留)",
+      "SN74ALS243AN": "TI(Texas Instruments)"
     }
   },
   {
@@ -741,6 +783,12 @@
     }
   },
   {
+    "PartNumber": "74x260",
+    "GottenItems_MakerOfDataSheet": {
+      "SN74S260N": "TI(Texas Instruments)"
+    }
+  },
+  {
     "PartNumber": "74x265",
     "GottenItems_MakerOfDataSheet": {
       "SN74265N": "TI(Texas Instruments)"
@@ -769,7 +817,8 @@
     "PartNumber": "74x279",
     "GottenItems_MakerOfDataSheet": {
       "SN74LS279AN": "TI(Texas Instruments)",
-      "DM74279N": "(保留)"
+      "DM74279N": "(保留)",
+      "SN74LS279N": "TI(Texas Instruments)"
     }
   },
   {
@@ -901,6 +950,12 @@
     }
   },
   {
+    "PartNumber": "74x378",
+    "GottenItems_MakerOfDataSheet": {
+      "SN74LS378N": "TI(Texas Instruments)"
+    }
+  },
+  {
     "PartNumber": "74x379",
     "GottenItems_MakerOfDataSheet": {
       "MC74F379N": "(収集予定:FAIRCHILD(Fairchild Semiconductor))"
@@ -931,7 +986,9 @@
   {
     "PartNumber": "74x390",
     "GottenItems_MakerOfDataSheet": {
-      "CD74HC390E": "TI(Texas Instruments)"
+      "CD74HC390E": "TI(Texas Instruments)",
+      "SN74LS390N": "TI(Texas Instruments)",
+      "TC74HC390P": "TOSHIBA"
     }
   },
   {
@@ -947,6 +1004,12 @@
     }
   },
   {
+    "PartNumber": "74x396",
+    "GottenItems_MakerOfDataSheet": {
+      "SN74LS396N": "TI(Texas Instruments)"
+    }
+  },
+  {
     "PartNumber": "74x399",
     "GottenItems_MakerOfDataSheet": {
       "SN74LS399N": "TI(Texas Instruments)"
@@ -959,10 +1022,17 @@
     }
   },
   {
+    "PartNumber": "74x461",
+    "GottenItems_MakerOfDataSheet": {
+      "SN74LS461NS": "MMI(Monolithic Memories)"
+    }
+  },
+  {
     "PartNumber": "74x521",
     "GottenItems_MakerOfDataSheet": {
       "MC74F521N": "(収集予定:FAIRCHILD(Fairchild Semiconductor))",
-      "SN74ALS521N": "TI(Texas Instruments)"
+      "SN74ALS521N": "TI(Texas Instruments)",
+      "74F521PC": "FAIRCHILD(Fairchild Semiconductor)"
     }
   },
   {
@@ -1030,6 +1100,12 @@
     }
   },
   {
+    "PartNumber": "74x592",
+    "GottenItems_MakerOfDataSheet": {
+      "SN74LS592N": "TI(Texas Instruments)"
+    }
+  },
+  {
     "PartNumber": "74x595",
     "GottenItems_MakerOfDataSheet": {
       "SN74HC595": "TI(Texas Instruments)",
@@ -1059,7 +1135,8 @@
   {
     "PartNumber": "74x640",
     "GottenItems_MakerOfDataSheet": {
-      "SN74HC640N": "TI(Texas Instruments)"
+      "SN74HC640N": "TI(Texas Instruments)",
+      "TC74HC640AP": "TOSHIBA"
     }
   },
   {
@@ -1067,6 +1144,12 @@
     "GottenItems_MakerOfDataSheet": {
       "SN74HC645N": "TI(Texas Instruments)",
       "DM74AS645N": "(保留)"
+    }
+  },
+  {
+    "PartNumber": "74x646",
+    "GottenItems_MakerOfDataSheet": {
+      "TC74HC646P": "TOSHIBA"
     }
   },
   {
@@ -1092,7 +1175,8 @@
   {
     "PartNumber": "74x688",
     "GottenItems_MakerOfDataSheet": {
-      "SN74HC688N": "TI(Texas Instruments)"
+      "SN74HC688N": "TI(Texas Instruments)",
+      "SN74LS688N": "TI(Texas Instruments)"
     }
   },
   {
@@ -1143,6 +1227,12 @@
     "PartNumber": "74x1002",
     "GottenItems_MakerOfDataSheet": {
       "SN74ALS1002AN": "TI(Texas Instruments)"
+    }
+  },
+  {
+    "PartNumber": "74x1004",
+    "GottenItems_MakerOfDataSheet": {
+      "SN74ALS1004N": "TI(Texas Instruments)"
     }
   },
   {

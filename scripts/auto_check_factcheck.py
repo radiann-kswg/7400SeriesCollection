@@ -275,6 +275,7 @@ def _build_datasheet_ref_block(pdf_paths: list[Path], url_refs: list[DatasheetRe
 class PatchResult:
     modified: bool = False
     changes: list[str] = field(default_factory=list)
+    warnings: list[str] = field(default_factory=list)
 
 
 def patch_markdown_content(
@@ -324,10 +325,18 @@ def patch_markdown_content(
         if _RE_CHECKED_PARTNUMBER.match(stripped):
             new_lines.append(line)
             i += 1
+            sub_items = []
             # Consume existing sub-items
             while i < len(lines) and _RE_SUB_ITEM.match(lines[i].rstrip("\n")):
                 new_lines.append(lines[i])
+                sub_items.append(lines[i])
                 i += 1
+
+            # 自動生成した一覧だけを比較し、手作業の確認内容は上書きしない。
+            if "入手履歴より自動確認" in stripped and part_info and part_info.all_parts:
+                listed = re.findall(r"`([^`]+)`", "".join(sub_items))
+                if set(listed) != set(part_info.all_parts):
+                    result.warnings.append("対象の実型番が入手履歴と異なります。手動で確認してください。")
 
             # Insert データシート参照先 if needed and we have something
             if (pdf_paths or url_refs) and not _datasheet_ref_already_present(lines, i):
@@ -493,6 +502,9 @@ def main() -> None:
         new_content, patch_result = patch_markdown_content(
             content, generic_pn, part_info, pdf_paths, url_refs
         )
+
+        for warning in patch_result.warnings:
+            print(f"  WARNING {path.relative_to(REPO_ROOT)}: {warning}")
 
         if patch_result.modified:
             updated += 1

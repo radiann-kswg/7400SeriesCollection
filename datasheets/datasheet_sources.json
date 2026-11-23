@@ -542,6 +542,24 @@
     ]
   },
   {
+    "PartNumber": "74x12",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS12N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDLS040",
+        "Revision": "",
+        "Url": "https://media.onzuu.com/static/datasheets/rochester-electronics-74ls12n.pdf#page=7",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI原資料にRochesterの表紙が付くミラー。PDF p.7のTI注文表にSN74LS12N（PDIP-14）を掲載。ローカルの1988 Standard TTL印刷 p.2-63 / PDF p.126にNの端子図。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS12.PDF",
+        "LocalBytes": 790550,
+        "LocalSha256": "2c1101fd21cd6ff65946543edc3d3bc892261a3a2afe41403b700b8e771ecfc6",
+        "LocalCheckedAt": "2026-11-23"
+      }
+    ]
+  },
+  {
     "PartNumber": "74x14",
     "Sources": [
       {
@@ -1227,6 +1245,24 @@
     ]
   },
   {
+    "PartNumber": "74x76",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS76AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn54ls76a.pdf",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI公式のSN74LS76A資料。Nの注文表はTI旧版PDF追補 p.7: https://www.alldatasheet.com.mx/html-pdf/27423/TI/SN74LS76A/191/7/SN74LS76A.html 。1988 Standard TTL印刷 p.2-247 / PDF p.310のNパッケージ図とも一致。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS76A.PDF",
+        "LocalBytes": 465386,
+        "LocalSha256": "60beef315e4f231cc73b5579c7e724eb2eee64b50513975117cf3762459cbdff",
+        "LocalCheckedAt": "2026-11-23"
+      }
+    ]
+  },
+  {
     "PartNumber": "74x82",
     "Sources": [
       {
@@ -1259,6 +1295,19 @@
         "ContentType": "application/pdf",
         "ContentLength": "1351081",
         "CheckedAt": "2026-02-14T05:59:43+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74S85N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDLS123",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls85.pdf#page=9",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI公式PDF。PDF p.9の注文表にS85のN（PDIP-16）を掲載。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74S/SN7485,SN74LS85,SN74S85.PDF",
+        "LocalBytes": 1431079,
+        "LocalSha256": "031cc493fdeeb13a011f3912664ce69e26af6047521e076a1905f4a0ce079159",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -1359,6 +1408,32 @@
         "Url": "",
         "LastAccessed": "2026-02-14",
         "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "HD74LS93P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "REJ03D0423-0200",
+        "Revision": "Rev.2.00",
+        "Url": "https://www.renesas.com/en/document/dst/hd74ls93-datasheet",
+        "LastAccessed": "2026-11-23",
+        "Notes": "Renesas公式PDF（旧日立品）。PDF p.1の注文表にP（PDIP-14）を掲載。",
+        "LocalPath": "datasheets/_download/RENESAS/HD74LS93.PDF",
+        "LocalBytes": 204462,
+        "LocalSha256": "d9974fbeb0f722209abc5a63078ff079c6f83f45193ef8715e9cdbcf17449adf",
+        "LocalCheckedAt": "2026-11-23"
+      },
+      {
+        "ExactPartNumber": "SN74LS93N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDLS940A",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls93.pdf#page=13",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI公式PDF。PDF p.13の注文表にN（PDIP-14）を掲載。 LocalPathは同系統の既存TI PDF。URL側の版とはファイル照合未実施。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS90,SN74LS92,SN74LS93.PDF",
+        "LocalBytes": 1104566,
+        "LocalSha256": "bf73f6f6272a1814a3994362314157928d3824b7ec456813060bd34b180a5025",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -1472,6 +1547,19 @@
         "ContentLength": "881786",
         "Sha256": "9d30952bf84b76402655a53702e9963feb6abe66eabfb0963871fb7e888ab428",
         "CheckedAt": "2026-06-15T13:00:59+00:00"
+      },
+      {
+        "ExactPartNumber": "TC74HC107P",
+        "Manufacturer": "TOSHIBA",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://bitsavers.trailing-edge.com/components/toshiba/_dataBook/1986_Toshiba_Logic_TC74HC_Series.pdf#page=103",
+        "LastAccessed": "2026-11-23",
+        "Notes": "Toshiba America 1986 Logic TC74HC Series。印刷 p.102からのTC74HC107P/F予備資料（PはDIP-14）。AP/AFとは別表記。 PDF p.103。",
+        "LocalPath": "datasheets/_download/TOSHIBA/_databooks/1986_Toshiba_Logic_TC74HC_Series.pdf",
+        "LocalBytes": 23616851,
+        "LocalSha256": "c583041228cb88a50e6a67b2c8a44f1708839c33e0baab99b7a0af41c6397ee0",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -1594,6 +1682,37 @@
         "Url": "https://www.ti.com/lit/ds/symlink/sn74s113.pdf",
         "LastAccessed": "2026-02-14",
         "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x114",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS114AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://unicornelectronics.com/ftp/Data%20Sheets/74ls114.pdf",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI原資料のミラー。PDF p.1のSN74LS114A Nパッケージ。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS114A.PDF",
+        "LocalBytes": 243554,
+        "LocalSha256": "8f7d4a7d9a8b1ce5d8a4adefec2270cda01f2d006f7b4b9e9c7e6e9ed4dbdc2b",
+        "LocalCheckedAt": "2026-11-23"
+      },
+      {
+        "ExactPartNumber": "HD74LS114P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.renesas.com/en/document/dst/hd74ls114-non-210#page=5",
+        "LastAccessed": "2026-11-23",
+        "Notes": "Renesas公式の旧日立HD74LS114。PDF p.5（印刷p.117）に機能とピン配置、PDF p.8にDP-14外形。PサフィックスはDIP品を表すが、この版のPDF本文には完全な注文文字列が見つからない。TI LS114Aと別。",
+        "LocalPath": "datasheets/_download/RENESAS/HD74LS114.PDF",
+        "LocalBytes": 225009,
+        "LocalSha256": "1a50455b46f78039d8a7da121855abfb7dae0df64070c6536685f540a71d6685",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -1722,6 +1841,37 @@
         "ContentType": "application/pdf",
         "ContentLength": "2526348",
         "CheckedAt": "2026-02-14T05:59:43+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x133",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74ALS133N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als133.pdf#page=5",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI公式PDF。PDF p.5の注文表にN（PDIP-16）を掲載。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74ALS/SN74ALS133.PDF",
+        "LocalBytes": 1156284,
+        "LocalSha256": "ade038cc83cc5241ee6f5165fc5194f025deab1c7fcdca59c96e7b23fd655fc7",
+        "LocalCheckedAt": "2026-11-23"
+      },
+      {
+        "ExactPartNumber": "M74LS133P",
+        "Manufacturer": "MITSUBISHI(MitsubishiElectric)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://bitsavers.trailing-edge.com/components/mitsubishi/_dataBooks/1985_Mitsubishi_Bipolar_Digital_IC_LSTTL.pdf#page=168",
+        "LastAccessed": "2026-11-23",
+        "Notes": "三菱電機1985 Bipolar Digital IC LS TTL。印刷 pp.2-143〜2-144、印刷 p.1-11の外形 16P4（16ピンモールドプラスチックDIL）。 PDF pp.168–169。",
+        "LocalPath": "datasheets/_download/MITSUBISHI(MitsubishiElectric)/_databooks/1985_Mitsubishi_Bipolar_Digital_IC_LSTTL.pdf",
+        "LocalBytes": 26961035,
+        "LocalSha256": "81789d9ded2c13b5174f1bc293ff77d40d0c1458c64a91019bebc94c7a5d94d3",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -2765,6 +2915,32 @@
         "ContentType": "application/pdf",
         "ContentLength": "1005926",
         "CheckedAt": "2026-02-14T05:59:43+00:00"
+      },
+      {
+        "ExactPartNumber": "74LS190N",
+        "Manufacturer": "RAYTHEON",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://ftpmirror.your.org/pub/misc/bitsavers/components/raytheon/1977_Raytheon_Digital_Low-Power_Schottky.pdf#page=145",
+        "LastAccessed": "2026-11-23",
+        "Notes": "Raytheon 1977 Digital Low-Power Schottkyのメーカー同一・74LS190系統資料。印刷 pp.2-110〜2-118 / PDF pp.145〜153。資料中ではN注文コード未確認。N刻印と16ピンDIPは現物掲載写真で確認。TI型とは別エントリ。",
+        "LocalPath": "datasheets/_download/RAYTHEON/_databooks/1977_Raytheon_Digital_Low-Power_Schottky.pdf",
+        "LocalBytes": 19019745,
+        "LocalSha256": "5355c33f048bdaedf93886e04a130330a60eb348de6a7399860b714e58ce7867",
+        "LocalCheckedAt": "2026-11-23"
+      },
+      {
+        "ExactPartNumber": "SN74LS190N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDLS072",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls191.pdf",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI公式のSN74LS190/191共通資料（PDF p.1以降）。TI 1981 TTL Data Book印刷 p.5-50のSN74LS190 (J,N)と照合: https://www.bitsavers.org/components/ti/_dataBooks/1981_TI_The_TTL_Data_Book_For_Design_Engineers_2ed.pdf",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS190,SN74LS191.PDF",
+        "LocalBytes": 1611744,
+        "LocalSha256": "45139fdf486ec9039f53f4fbeb5467236e2ba4a3bbb448abf42749c7809423c0",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -2801,6 +2977,19 @@
         "ContentType": "application/pdf",
         "ContentLength": "748588",
         "CheckedAt": "2026-02-14T05:59:43+00:00"
+      },
+      {
+        "ExactPartNumber": "HD74HC192P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.renesas.com/ja/document/dst/hd74hc192-hd74hc193-datasheet",
+        "LastAccessed": "2026-11-23",
+        "Notes": "Renesas公式PDF（旧日立品）。印刷 p.2 / PDF p.4の注文表にP（PDIP-16）を掲載。",
+        "LocalPath": "datasheets/_download/RENESAS/HD74HC192,HD74HC193.PDF",
+        "LocalBytes": 338098,
+        "LocalSha256": "3c51d4b391571cb64b3bd96c0f3df5e91835220beb632ca194aa147e8eb0a134",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -2819,6 +3008,19 @@
         "ContentType": "application/pdf",
         "ContentLength": "830191",
         "CheckedAt": "2026-02-14T05:59:43+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74LS193N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDLS074",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls193.pdf#page=15",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI公式PDF。PDF p.15の注文表にN（PDIP-16）を掲載。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS192,SN74LS193.PDF",
+        "LocalBytes": 1544343,
+        "LocalSha256": "c46d486e345ee5dfd21e8eca074d43e05e8626a9d4e8c5e0696830eb75f5184e",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -2887,6 +3089,19 @@
         "ContentType": "application/pdf",
         "ContentLength": "755161",
         "CheckedAt": "2026-02-14T05:59:43+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74LS221N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDLS213B",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls221.pdf#page=15",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI公式PDF。PDF pp.1,15の注文記載にN（PDIP-16）を掲載。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS221.PDF",
+        "LocalBytes": 1433561,
+        "LocalSha256": "9d7f372b30430c703fff05476d16c1961f9a047342277f5918dc518cf71f16d3",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -3074,6 +3289,19 @@
         "Url": "",
         "LastAccessed": "2026-02-14",
         "Notes": "AUTO: from history"
+      },
+      {
+        "ExactPartNumber": "HD74HC242P",
+        "Manufacturer": "RENESAS",
+        "DocumentId": "ADE-205-473 (Z)",
+        "Revision": "September 2000",
+        "Url": "https://www.renesas.com/en/document/dst/hd74hc242hd74hc243?r=524641",
+        "LastAccessed": "2026-11-23",
+        "Notes": "Renesas/旧日立の資料にHD74HC242とDP-14を掲載。P=プラスチックDIPはメーカーのHD74HC Series Common Information (PDF p.2) https://www.renesas.com/en/document/oth/hd74hc-series-common-information?r=524576 と照合。ローカルPDFは同じ品種の旧日立版で端子図PDF p.2、外形図p.7。",
+        "LocalPath": "datasheets/_download/RENESAS/HD74HC242,HD74HC243.PDF",
+        "LocalBytes": 53597,
+        "LocalSha256": "17650585fcbc15b817bc82695e4861102e33d031a632b4dc386939ab17d9b149",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -3088,6 +3316,19 @@
         "Url": "",
         "LastAccessed": "2026-02-14",
         "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      },
+      {
+        "ExactPartNumber": "SN74ALS243AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDAS069B",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn54als243a.pdf",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI公式PDF pp.1–3。旧TI原資料の注文表に完全型番とPDIP-14を掲載: https://media.digikey.com/pdf/Data%20Sheets/Texas%20Instruments%20PDFs/SN%2854%2C74%29ALS243A.pdf",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74ALS/SN74ALS243A.PDF",
+        "LocalBytes": 712720,
+        "LocalSha256": "92c71e6829f81c5a8cd7e26e59ca5acd190104e930b8e69515459fe50256ea1d",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -3373,6 +3614,24 @@
     ]
   },
   {
+    "PartNumber": "74x260",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74S260N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74s260.pdf#page=4",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI公式PDF。PDF p.4の注文表にN（PDIP-14）を掲載。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74S/SN74S260.PDF",
+        "LocalBytes": 892081,
+        "LocalSha256": "76fcfa4b54b9a36a8dd64d8c38a6b4ac17655b9f74806b13e81aaa45e7dccedd",
+        "LocalCheckedAt": "2026-11-23"
+      }
+    ]
+  },
+  {
     "PartNumber": "74x265",
     "Sources": [
       {
@@ -3510,6 +3769,19 @@
         "ContentLength": "1258739",
         "CheckedAt": "2026-06-15T13:02:55+00:00",
         "Sha256": "ffe9b1a45f640215f7aa1d431a059daf358f7831cd58ae5260e9505eccacea0a"
+      },
+      {
+        "ExactPartNumber": "SN74LS279N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "",
+        "Revision": "1981 databook",
+        "Url": "https://bitsavers.trailing-edge.com/components/ti/_dataBooks/1981_TI_The_TTL_Data_Book_For_Design_Engineers_2ed.pdf#page=132",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI 1981 The TTL Data Book for Design Engineers, 2nd edition。印刷 p.5-59 にSN74LS279 (J,N)の外形・端子、p.6-60に電気特性。SN74LS279Aではない。 PDF pp.132,264。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/_databooks/1981_TI_The_TTL_Data_Book_For_Design_Engineers_2ed.pdf",
+        "LocalBytes": 29954976,
+        "LocalSha256": "5fd3dc58d4dd3558494289c756bfb16bfccc609964a32aa8ec1dfe6539ed9c74",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -4057,6 +4329,24 @@
     ]
   },
   {
+    "PartNumber": "74x378",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS378N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDLS167",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls377.pdf#page=6",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI公式PDF。PDF p.6の注文表にN（PDIP-16）を掲載。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS377,SN74LS378,SN74LS379.PDF",
+        "LocalBytes": 1556526,
+        "LocalSha256": "3e15bfd515882778b376ba7abe14eda47b54b491335d6b3c1f05d4b1a381fb75",
+        "LocalCheckedAt": "2026-11-23"
+      }
+    ]
+  },
+  {
     "PartNumber": "74x379",
     "Sources": [
       {
@@ -4131,6 +4421,32 @@
         "ContentType": "application/pdf",
         "ContentLength": "950379",
         "CheckedAt": "2026-02-14T05:59:43+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74LS390N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDLS107",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls390.pdf#page=12",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI公式PDF。PDF p.12の注文表にN（PDIP-16）を掲載。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS390,SN74LS393.PDF",
+        "LocalBytes": 1939970,
+        "LocalSha256": "01ffbca0db1f34ba3d10dcaf9c96c1cc5685e74869d4da08c4d638efe6735ea0",
+        "LocalCheckedAt": "2026-11-23"
+      },
+      {
+        "ExactPartNumber": "TC74HC390P",
+        "Manufacturer": "TOSHIBA",
+        "DocumentId": "",
+        "Revision": "1986 databook",
+        "Url": "https://bitsavers.trailing-edge.com/components/toshiba/_dataBook/1986_Toshiba_Logic_TC74HC_Series.pdf#page=441",
+        "LastAccessed": "2026-11-23",
+        "Notes": "Toshiba America 1986 Logic TC74HC SeriesのTC74HC390P/F。印刷 p.438から、PDF pp.441–447。PはDIP-16。後年のAP/AFとは別表記。",
+        "LocalPath": "datasheets/_download/TOSHIBA/_databooks/1986_Toshiba_Logic_TC74HC_Series.pdf",
+        "LocalBytes": 23616851,
+        "LocalSha256": "c583041228cb88a50e6a67b2c8a44f1708839c33e0baab99b7a0af41c6397ee0",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -4167,6 +4483,24 @@
     ]
   },
   {
+    "PartNumber": "74x396",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS396N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDLS173",
+        "Revision": "",
+        "Url": "https://www.standby-shop.eu/media/products/9c944f3844dcaccaaaf7c39e1e89a388/attachments/pl_PL/74ls396-ti.pdf",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI原資料。PDF p.1にSN74LS396のN（DIP-16）上面図。手元の1988 Standard TTL印刷 p.2-933 / PDF p.996にも掲載。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS396.PDF",
+        "LocalBytes": 146514,
+        "LocalSha256": "9460612bc000bb86391550b98c238bfc8ac31d0687697f41320b1dc7c257ab91",
+        "LocalCheckedAt": "2026-11-23"
+      }
+    ]
+  },
+  {
     "PartNumber": "74x399",
     "Sources": [
       {
@@ -4195,6 +4529,24 @@
         "Url": "",
         "LastAccessed": "2026-02-14",
         "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x461",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS461NS",
+        "Manufacturer": "MMI(MonolithicMemories)",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://ftpmirror.your.org/pub/misc/bitsavers/components/mmi/_dataBooks/1981_MMI_Biploar_LSI_Databook_4ed.pdf#page=187",
+        "LastAccessed": "2026-11-23",
+        "Notes": "MMI Bipolar LSI Databook (4th ed.)、印刷 pp.8-4〜8-7。MMIの市販NS品は24ピン Skinny DIP。TIの同名NSパッケージと混同しない。 PDF pp.187–190。",
+        "LocalPath": "datasheets/_download/MMI(MonolithicMemories)/_databooks/1981_MMI_Biploar_LSI_Databook_4ed.pdf",
+        "LocalBytes": 37815280,
+        "LocalSha256": "04302e24daf10ee1cb215360836e3d46e30b9cfab40d072673b02c0d8693140d",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -4237,6 +4589,19 @@
         "ContentLength": "1346646",
         "CheckedAt": "2026-06-15T13:03:54+00:00",
         "Sha256": "ee8c82e9419172f1e85c2f8a1f0e31f84a950f9271245cc134f983a797afe595"
+      },
+      {
+        "ExactPartNumber": "74F521PC",
+        "Manufacturer": "FAIRCHILD(FairchildSemiconductor)",
+        "DocumentId": "DS009545",
+        "Revision": "Revised October 2000",
+        "Url": "https://media.digikey.com/pdf/Data%20Sheets/Fairchild%20PDFs/74F521.pdf",
+        "LastAccessed": "2026-11-23",
+        "Notes": "Fairchild原資料のDigiKeyミラー。PDF p.1の注文表にPC（PDIP-20/N20A）を掲載。",
+        "LocalPath": "datasheets/_download/FAIRCHILD(FairchildSemiconductor)/74F521.PDF",
+        "LocalBytes": 81340,
+        "LocalSha256": "23e529822087c3dc71ada322bf0bff7745f0e9bbfe2e55b45679e7ee48fe7b38",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -4508,6 +4873,24 @@
     ]
   },
   {
+    "PartNumber": "74x592",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS592N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDLS004",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls592.pdf#page=9",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI公式PDF。PDF p.9の注文表にN（PDIP-16）を掲載。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS592,SN74LS593.PDF",
+        "LocalBytes": 1313481,
+        "LocalSha256": "ca36228ad698f83b2a32bbfb37b6a05807ab21b5ee390d22577b0b1106f4b7d5",
+        "LocalCheckedAt": "2026-11-23"
+      }
+    ]
+  },
+  {
     "PartNumber": "74x595",
     "Sources": [
       {
@@ -4631,6 +5014,19 @@
         "ContentType": "application/pdf",
         "ContentLength": "1373421",
         "CheckedAt": "2026-02-14T05:59:43+00:00"
+      },
+      {
+        "ExactPartNumber": "TC74HC640AP",
+        "Manufacturer": "TOSHIBA",
+        "DocumentId": "",
+        "Revision": "Rev.1.0.A",
+        "Url": "https://toshiba-semicon-storage.com/info/TC74HC640AP_datasheet_en_20220304.pdf?did=141723&prodName=TC74HC640AP",
+        "LastAccessed": "2026-11-23",
+        "Notes": "東芝公式PDF。PDF pp.1–2,7に完全型番とDIP-20。 LocalPathは同じRev.1.0.Aの日本語公式版。",
+        "LocalPath": "datasheets/_download/TOSHIBA/TC74HC640AP.PDF",
+        "LocalBytes": 454462,
+        "LocalSha256": "39162f7cdb85ea2b97739284d4c521c48a709858e3304c9b1a91600209d81b1f",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -4658,6 +5054,24 @@
         "ContentType": "application/pdf",
         "ContentLength": "1232371",
         "CheckedAt": "2026-02-14T05:59:43+00:00"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x646",
+    "Sources": [
+      {
+        "ExactPartNumber": "TC74HC646P",
+        "Manufacturer": "TOSHIBA",
+        "DocumentId": "",
+        "Revision": "1986 databook",
+        "Url": "https://bitsavers.trailing-edge.com/components/toshiba/_dataBook/1986_Toshiba_Logic_TC74HC_Series.pdf#page=504",
+        "LastAccessed": "2026-11-23",
+        "Notes": "Toshiba America 1986 Logic TC74HC SeriesのTC74HC646P。印刷 p.501から、PDF pp.504–511。PはDIP-24。",
+        "LocalPath": "datasheets/_download/TOSHIBA/_databooks/1986_Toshiba_Logic_TC74HC_Series.pdf",
+        "LocalBytes": 23616851,
+        "LocalSha256": "c583041228cb88a50e6a67b2c8a44f1708839c33e0baab99b7a0af41c6397ee0",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -4754,6 +5168,19 @@
         "ContentType": "application/pdf",
         "ContentLength": "1880399",
         "CheckedAt": "2026-02-14T05:59:43+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74LS688N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDLS008 / D2617",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls688.pdf#page=12",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI公式PDF。PDF p.12の注文表にN（PDIP-20）を掲載。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS688.PDF",
+        "LocalBytes": 1666128,
+        "LocalSha256": "5cd6469c74ab13767ae99d8c6483562aac0d753c608ab5fb4871ae5cf4a57078",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
@@ -4917,6 +5344,24 @@
         "LocalBytes": 338718,
         "LocalSha256": "e1722cbfd503b36781e3e94003d890f8bf320fc8e8f85baa2e1b215a220b0712",
         "LocalCheckedAt": "2026-11-22"
+      }
+    ]
+  },
+  {
+    "PartNumber": "74x1004",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74ALS1004N",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDAS074B",
+        "Revision": "",
+        "Url": "https://www.ti.com/lit/ds/symlink/sn74als1004.pdf?ts=1794645852911#page=6",
+        "LastAccessed": "2026-11-23",
+        "Notes": "TI公式PDF。PDF p.6のパッケージ追補にALSのN（PDIP-14）を掲載。AS1004Aとは別品番。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74ALS/SN74ALS1004,SN74AS1004A.PDF",
+        "LocalBytes": 1305765,
+        "LocalSha256": "cf37711492c72f5023dc43cb1311788263be4a04ab040a368b0e0823927ee482",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   },
