@@ -1,4 +1,7 @@
 {
+	"python.defaultInterpreterPath": "${workspaceFolder}/.venv",
+	"python.testing.unittestEnabled": true,
+	"python.testing.unittestArgs": ["-s", "scripts", "-p", "test_*.py"],
 	"chat.tools.terminal.autoApprove": {
 		"Get-Item": true
 	}

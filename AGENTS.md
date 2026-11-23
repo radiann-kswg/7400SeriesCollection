@@ -244,7 +244,7 @@ single-context（リポジトリ直下の `CONTEXT.md` + `docs/adr/`、いずれ
 
 ## スクリプト（`scripts/`）
 
-すべて Python3。リポジトリルートから実行。Windows 環境の仮想環境 Python は `.venv/Scripts/python.exe`（PyMuPDF=`fitz` 等を含む）。
+すべて Python3。リポジトリルートから実行。開発用の `.venv` を作成してテストする手順は [README の「Python 開発環境とテスト」](README.md#python-開発環境とテスト) を参照。
 
 ### データ管理・生成
 
@@ -289,7 +289,7 @@ single-context（リポジトリ直下の `CONTEXT.md` + `docs/adr/`、いずれ
 - `generate_specimen_tile.py`: Specimen Tile（PCBA 化）の回路図・基板・プロジェクトを型番ごとに生成。**KiCAD 同梱 python** で実行。出力は `pcb-demo/_carrier/tiles/{型番}/`（仕様は `pcb-demo/_carrier/README.md`）
 - `generate_pcb_layout.py`: 回路図→PCB の下流パイプライン（ERC→netlist→フットプリント配置→Freerouting自動配線→DRC→Gerber）。kicad-cli ステージは通常 python、配置/配線ステージは **KiCAD 同梱 python**（`import pcbnew`）+ Freerouting(`java -jar freerouting.jar`)が必要。
 
-> **依存**: `kicad_lib.py` / `kicad_sch_gen.py` は `sexpdata` を要求する。`requirements`（または `.venv`）に追加すること。シンボル解決はハードコード表に依存せず `74xx.kicad_sym` を実行時に走査するため、入手済み型番のカバレッジは `audit_kicad_coverage.py` で実数を確認できる。
+> **依存**: `kicad_lib.py` / `kicad_sch_gen.py` が使う `sexpdata` は `requirements.txt` に含まれる。シンボル解決はハードコード表に依存せず `74xx.kicad_sym` を実行時に走査するため、入手済み型番のカバレッジは `audit_kicad_coverage.py` で実数を確認できる。
 
 ### Python コーディング指針
 

@@ -120,6 +120,33 @@
 
 ## 🔧 スクリプト使用方法
 
+### Python 開発環境とテスト
+
+リポジトリルートで Python 3.14 の仮想環境を作成します。データ管理と PDF 処理の依存関係は `requirements.txt` に固定しています。基板配置に使う `pcbnew` と KiKit は KiCad 側の Python 環境で実行します。
+
+**Windows（PowerShell）**。Python 本体を Codex からも読める場所に置くには、初回に Python Install Manager で次を実行します。
+
+```powershell
+py install --target=.venv/base 3.14
+.\.venv\base\python.exe -m venv .venv
+.\.venv\Scripts\python.exe -m pip install -r requirements.txt
+```
+
+作成済みの環境では、Codex・Copilot ともに次のコマンドでテストできます。VS Code の Python 拡張で別の環境が選択されている場合は、「Python: Select Interpreter」でこの実行ファイルを選択してください。
+
+```powershell
+.\.venv\Scripts\python.exe -m unittest discover -s scripts -v
+```
+
+**Linux（Codex・GitHub Copilot）**。`python3` と `venv` が利用できる環境で実行します。
+
+```sh
+sh scripts/setup-dev.sh
+.venv/bin/python -m unittest discover -s scripts -v
+```
+
+Codex のクラウド環境でセットアップコマンドを指定する場合は `sh scripts/setup-dev.sh` を登録します。GitHub Copilot のクラウドエージェントでは、既定ブランチの [セットアップワークフロー](.github/workflows/copilot-setup-steps.yml) が同じコマンドを実行します。テストには公開データと一時ディレクトリを使います。
+
 ### データシート情報の自動同期
 
 入手履歴からデータシート収集状況を自動生成：

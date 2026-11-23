@@ -3,29 +3,33 @@
   "tasks": [
     {
       "label": "Generate FP/ALL JSONs",
-      "type": "shell",
-      "command": "python3 scripts/merge_fp.py",
+      "type": "process",
+      "command": "${command:python.interpreterPath}",
+      "args": ["scripts/merge_fp.py"],
       "isBackground": false,
       "group": "build"
     },
     {
       "label": "Refine Descriptions",
-      "type": "shell",
-      "command": "python3 scripts/refine_descriptions.py",
+      "type": "process",
+      "command": "${command:python.interpreterPath}",
+      "args": ["scripts/refine_descriptions.py"],
       "isBackground": false,
       "group": "build"
     },
     {
       "label": "Regenerate ALL after refine",
-      "type": "shell",
-      "command": "python3 scripts/merge_fp.py",
+      "type": "process",
+      "command": "${command:python.interpreterPath}",
+      "args": ["scripts/merge_fp.py"],
       "isBackground": false,
       "group": "build"
     },
     {
       "label": "PCB Demo: dry-run (show targets)",
-      "type": "shell",
-      "command": "python3 scripts/generate_pcb_demo_projects.py",
+      "type": "process",
+      "command": "${command:python.interpreterPath}",
+      "args": ["scripts/generate_pcb_demo_projects.py"],
       "isBackground": false,
       "group": "build",
       "presentation": {
@@ -35,8 +39,9 @@
     },
     {
       "label": "PCB Demo: generate all projects",
-      "type": "shell",
-      "command": "python3 scripts/generate_pcb_demo_projects.py --apply",
+      "type": "process",
+      "command": "${command:python.interpreterPath}",
+      "args": ["scripts/generate_pcb_demo_projects.py", "--apply"],
       "isBackground": false,
       "group": "build",
       "presentation": {
@@ -46,8 +51,9 @@
     },
     {
       "label": "PCB Demo: overwrite all projects",
-      "type": "shell",
-      "command": "python3 scripts/generate_pcb_demo_projects.py --apply --overwrite",
+      "type": "process",
+      "command": "${command:python.interpreterPath}",
+      "args": ["scripts/generate_pcb_demo_projects.py", "--apply", "--overwrite"],
       "isBackground": false,
       "group": "build",
       "presentation": {
@@ -79,8 +85,9 @@
     },
     {
       "label": "KiCAD: verify schematics (ERC, real only)",
-      "type": "shell",
-      "command": "python scripts/verify_kicad_sch.py --only-real",
+      "type": "process",
+      "command": "${command:python.interpreterPath}",
+      "args": ["scripts/verify_kicad_sch.py", "--only-real"],
       "isBackground": false,
       "group": "test",
       "presentation": {
@@ -90,8 +97,9 @@
     },
     {
       "label": "KiCAD: audit symbol coverage",
-      "type": "shell",
-      "command": "python scripts/audit_kicad_coverage.py",
+      "type": "process",
+      "command": "${command:python.interpreterPath}",
+      "args": ["scripts/audit_kicad_coverage.py"],
       "isBackground": false,
       "group": "build",
       "presentation": {
@@ -101,8 +109,9 @@
     },
     {
       "label": "PCB Layout: erc + netlist (plain python)",
-      "type": "shell",
-      "command": "python scripts/generate_pcb_layout.py --stages erc,netlist",
+      "type": "process",
+      "command": "${command:python.interpreterPath}",
+      "args": ["scripts/generate_pcb_layout.py", "--stages", "erc,netlist"],
       "isBackground": false,
       "group": "build",
       "presentation": {

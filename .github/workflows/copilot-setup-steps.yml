@@ -1,0 +1,21 @@
+name: Copilot Setup Steps
+on:
+  workflow_dispatch:
+  pull_request:
+    paths:
+      - .github/workflows/copilot-setup-steps.yml
+      - requirements.txt
+      - scripts/setup-dev.sh
+
+jobs:
+  copilot-setup-steps:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.14'
+      - run: sh scripts/setup-dev.sh
+      - run: .venv/bin/python -m unittest discover -s scripts -v
