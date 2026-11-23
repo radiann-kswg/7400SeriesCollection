@@ -27,6 +27,7 @@ description: "データシートPDFをCopilotとユーザーの対話形式で�
 3. `getstarting/7400_series_ic_collection_acquisition_history.json` から実型番リストを取得する。
 4. `datasheets/datasheet_sources.json` から確認済みURLを取得する。
 5. `datasheets/7400_series_ic_datasheet_collection_status.json` からデータシート収集状況を確認する。
+6. `datasheets/_download/{メーカー}/_databooks/README.md` の索引で、データブック（二次資料）に該当ページがあるかを確認する。
 
 ---
 
@@ -50,6 +51,17 @@ $py = "d:/VisualStudio Code Userfile/7400SeriesCollection/.venv/Scripts/python.e
 - 「Function Table」または「Truth Table」が含まれるページ
 - 「Absolute Maximum Ratings」が含まれるページ
 - 「Electrical Characteristics」が含まれるページ
+
+**データブックがある場合**: 個別データシートに加えて該当ページをレンダリングし、相互確認に使う（所蔵品と同じメーカーの個別データシートが無い場合は、データブックを主な照合元にする）。1 冊が数百〜千ページ超なので必ず `--pages` を付ける。
+
+```powershell
+# 索引に無い品番は OCR テキスト層を検索してページを探す（取りこぼしあり）
+& $py scripts/render_datasheet_pages.py --pdf "datasheets/_download/{メーカー}/_databooks/{データブック}.pdf" --find {品番}
+# 該当ページだけレンダリング（出力先を {PART_NUMBER}_databook にするとステップ 6 でまとめて消せる）
+& $py scripts/render_datasheet_pages.py --pdf "datasheets/_download/{メーカー}/_databooks/{データブック}.pdf" --pages {PDFページ} --outdir datasheets/.cache/pdf_render/{PART_NUMBER}_databook
+```
+
+OCR テキストは読み取り値の根拠にしない。引用するときはデータブック名と印刷ページ・PDF ページの両方を書く。
 
 ---
 

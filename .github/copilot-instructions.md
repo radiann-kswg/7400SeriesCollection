@@ -62,8 +62,11 @@
 │       │   └── SN74{ABT,AHC,ALS,AS,F,S}/ # その他シリーズ
 │       ├── TOSHIBA/
 │       │   └── *.PDF                     # TOSHIBA製データシート
-│       └── UTC(UnisonicTechnologies)/
-│           └── *.PDF                     # UTC製データシート
+│       ├── UTC(UnisonicTechnologies)/
+│       │   └── *.PDF                     # UTC製データシート
+│       └── {メーカー}/_databooks/        # データブック（メーカー刊行の原典スキャン。二次資料）
+│           ├── *.pdf                     # 例: NSC(NationalSemiconductor)/_databooks/1987_ALS_AS_Logic_Databook.pdf
+│           └── README.md                 # 取得元・sha256・品番→ページ索引
 ├── getstarting/                          # 【Git 管理外】私物情報（購入先・コメント含む）
 │   ├── 7400_series_ic_collection_acquisition_history.json
 │   │                                     # 実入手済みIC履歴
@@ -265,6 +268,7 @@ _download/
 2. TI は型番プレフィックス（`SN74LS` など。SN54xx は SN74xx に寄せ、無印 TTL は `SN74`）でサブディレクトリ化し、直下に PDF を置かない（保存先は `scripts/fetch_missing_datasheets.py` の `ti_subdir()` が決める）
 3. 複数型番を含むデータシートは、カンマ区切りで型番を列挙（例：`SN74HC257,SN74HC258.PDF`）
 4. `_cache/`ディレクトリは一時ファイル用（`.gitignore`で除外を推奨）
+5. データブック（全冊スキャン）は `{メーカー}/_databooks/` に置き、同じフォルダの `README.md` に取得元・sha256・品番→ページ索引を書く（使い方は「一次資料照合」の「データブック（二次資料）の使い方」）
 
 #### データシート収集状況 JSON のスキーマ
 
@@ -552,9 +556,30 @@ history_path = os.path.join(base_dir, 'getstarting', '7400_series_ic_collection_
 
 - 既に手元にある資料を使って“正しそうか”を確認する用途（ただし公開リポでの再現性は URL/DocID/Rev/参照日 で担保する）
 
-3. **Web検索 + 手動確認情報（URL/DocID/Rev/参照日）**
+3. **データブック（`datasheets/_download/{メーカー}/_databooks/`）**
 
-- 1. 2. が用意できない場合の補助（一次資料と矛盾する情報があれば一次資料を優先し、矛盾点を明示してユーザー確認）
+- メーカー刊行の原典スキャン。個別データシートを補う二次資料（使い方は下の「データブック（二次資料）の使い方」）
+
+4. **Web検索 + 手動確認情報（URL/DocID/Rev/参照日）**
+
+- 1.〜3. が用意できない場合の補助（一次資料と矛盾する情報があれば一次資料を優先し、矛盾点を明示してユーザー確認）
+
+**データブック（二次資料）の使い方**
+
+`datasheets/_download/{メーカー}/_databooks/` に、メーカー刊行データブックの全冊スキャン（公開アーカイブから取得。Git 管理外）を置く。同じフォルダの `README.md` に、取得元・sha256 と **品番 → 印刷ページ / PDF ページ** の索引がある。
+
+- **使う場面**
+  - 個別データシートで読み取った内容の**相互確認**（読み取り信頼度 +5〜10%。個別 PDF の出所が第三者ミラーの場合は特に確認する）
+  - 所蔵品と同じメーカーの個別データシートが無いとき（例: DM74AS1804N → National 1987 ALS/AS Logic Databook）。**別メーカーの個別データシートより、所蔵品と同じメーカーのデータブックを優先**する
+  - 個別データシートに載っていない総論（未使用入力の扱い・測定回路・ファミリ共通の定格）
+- **照合元として有効**: メーカー自身の刊行物なので、データブックだけで確認した項目も `[x]` にしてよい（信頼度基準は同じ）。刊行年が古いため、**型番の改訂サフィックス（A / B）・パッケージ・改訂日**が所蔵品や個別データシートと合っているかを確認し、差があれば明記する
+- **ページ探し**: まず `_databooks/README.md` の索引を見る。無ければ `--find` で OCR テキスト層を品番検索する（取りこぼし・誤検出あり。見つからなければ巻頭の品番索引ページを目視する）
+  - 例: `python3 scripts/render_datasheet_pages.py --pdf "datasheets/_download/TI(TexasInstruments)/_databooks/1986_TI_The_TTL_Data_Book_Vol_4.pdf" --find SN7489`
+- **レンダリング**: 1 冊が数百〜千ページ超なので、必ず PDF ページを指定する。OCR テキストは読み取り値の根拠にしない
+  - 例: `python3 scripts/render_datasheet_pages.py --pdf "datasheets/_download/NSC(NationalSemiconductor)/_databooks/1987_ALS_AS_Logic_Databook.pdf" --pages 638-639 --outdir datasheets/.cache/pdf_render/74x1804_databook`
+- **引用の書き方**: データブック名 + **印刷ページと PDF ページの両方** + 文書番号（あれば）+ 取得元 URL（例: `1987 ALS/AS Logic Databook p.638〜639（印刷ページ 3-217〜3-218、TL/F/8619）`）
+- **索引の更新**: 新しい品番のページを見つけたら `_databooks/README.md` の表に追記する。README は Git 管理外なので、後から検証に使う参照は usage・pinspec・`datasheet_sources.json` の側にも書く
+- **`datasheet_sources.json` への登録**: その実型番の資料がデータブックしか無い場合だけ `Sources` に載せる。同じ `ExactPartNumber` を 2 件にしない（`check_datasheet_sources.py --update` は `ExactPartNumber` で更新先を決める）。相互確認に使っただけなら、確認した側（usage / pinspec の注記）に書く
 
 補足:
 
@@ -671,6 +696,7 @@ history_path = os.path.join(base_dir, 'getstarting', '7400_series_ic_collection_
   ```powershell
   python3 scripts/render_datasheet_pages.py --part 74x00 --pages 1-6 --dpi 150
   ```
+- データブックは `--pdf` と `--pages` でページを指定する（100 ページを超える PDF は `--pages` なしだとエラーで止まる）。ページ探しは `--find 品番`
 - 対話型ファクトチェック（`factcheck-interactive.prompt.md`）の Step 2 で呼び出される
 - 確認後は `datasheets/.cache/pdf_render/` を手動またはスクリプトで削除すること
 

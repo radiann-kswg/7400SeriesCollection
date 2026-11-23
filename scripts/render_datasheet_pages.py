@@ -26,6 +26,12 @@ Usage:
     # 出力先ディレクトリを指定（省略時=.temp/pdf_render/{stem}）
     python3 scripts/render_datasheet_pages.py --part 74x00 --outdir .temp/pdf_render/74x00_SN74HC00
 
+    # データブック（_databooks/）のページ探し（OCR テキスト層を品番で検索。レンダリングはしない）
+    python3 scripts/render_datasheet_pages.py --pdf "datasheets/_download/TI(TexasInstruments)/_databooks/1986_TI_The_TTL_Data_Book_Vol_4.pdf" --find SN7489
+
+    # データブック（_databooks/）は PDF ページを指定して該当ページだけ出力する（100 ページ超は --pages 必須）
+    python3 scripts/render_datasheet_pages.py --pdf "datasheets/_download/NSC(NationalSemiconductor)/_databooks/1987_ALS_AS_Logic_Databook.pdf" --pages 638-639 --outdir datasheets/.cache/pdf_render/74x1804_databook
+
 Requires: PyMuPDF (pip install pymupdf)
 """
 
@@ -42,6 +48,8 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 HISTORY_PATH = REPO_ROOT / "getstarting" / "7400_series_ic_collection_acquisition_history.json"
 DOWNLOAD_DIR = REPO_ROOT / "datasheets" / "_download"
 CACHE_DIR = REPO_ROOT / "datasheets" / ".cache" / "pdf_render"
+# これを超えるページ数の PDF（＝データブック）は --pages 必須。個別データシートは多くても数十ページ
+MAX_PAGES_WITHOUT_RANGE = 100
 
 
 # ---------------------------------------------------------------------------
@@ -141,6 +149,19 @@ def parse_pages(spec: str, total_pages: int) -> list[int]:
 
 
 # ---------------------------------------------------------------------------
+# Page search (databooks)
+# ---------------------------------------------------------------------------
+
+def find_pages(pdf_path: Path, text: str) -> list[int]:
+    """OCR テキスト層から text を含む PDF ページ（1 始まり）を探す。空白と大文字小文字は無視。"""
+    import fitz  # type: ignore[import]
+
+    needle = re.sub(r"\s+", "", text).upper()
+    with fitz.open(str(pdf_path)) as doc:
+        return [i + 1 for i, page in enumerate(doc) if needle in re.sub(r"\s+", "", page.get_text()).upper()]
+
+
+# ---------------------------------------------------------------------------
 # Rendering
 # ---------------------------------------------------------------------------
 
@@ -216,6 +237,10 @@ def main() -> None:
         "--outdir", metavar="DIR",
         help="出力先ディレクトリ（省略時は .temp/pdf_render/{stem}）"
     )
+    parser.add_argument(
+        "--find", metavar="TEXT",
+        help="レンダリングせず、TEXT（品番など）を含む PDF ページ番号を OCR テキスト層から探して表示する（データブックのページ探し用）"
+    )
     args = parser.parse_args()
 
     # Resolve PDF path(s)
@@ -232,6 +257,17 @@ def main() -> None:
         if not pdfs:
             print(f"[ERROR] {args.part} に対応するPDFが見つかりません", file=sys.stderr)
             sys.exit(1)
+
+    if args.find:
+        for pdf_path in pdfs:
+            hits = find_pages(pdf_path, args.find)
+            try:
+                rel = pdf_path.relative_to(REPO_ROOT)
+            except ValueError:
+                rel = pdf_path
+            print(f"{rel}: '{args.find}' を含む PDF ページ = {hits or 'なし'}")
+        print("（OCR 由来のため取りこぼし・誤検出がある。該当ページは必ずレンダリングして目視する）")
+        return
 
     all_rendered: list[Path] = []
 
@@ -259,6 +295,14 @@ def main() -> None:
 
         if args.pages:
             page_indices = parse_pages(args.pages, total)
+        elif total > MAX_PAGES_WITHOUT_RANGE:
+            # データブック（数百〜千ページ超）を全ページ PNG 化しないための安全弁
+            print(
+                f"[ERROR] {total} ページあります。データブック等の大きい PDF は --pages でページを指定してください"
+                f"（ページ索引: datasheets/_download/{{メーカー}}/_databooks/README.md）",
+                file=sys.stderr,
+            )
+            sys.exit(1)
         else:
             page_indices = list(range(total))
 

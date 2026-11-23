@@ -88,6 +88,7 @@
   },
   "notes": [
     "素子 1・4 はバッファ（W = A、Y = Ā）、素子 2・3 は AND/NAND（W = AB、Y = NOT(AB)）の相補出力",
-    "手持ちの実型番 SN74265N と同じ TI データシート。読み取り信頼度: ピン配置 95%、出力形式 95%"
+    "手持ちの実型番 SN74265N と同じ TI データシート。読み取り信頼度: ピン配置 95%、出力形式 95%",
+    "TI データブックでもピン配置の一致を目視確認（2026-11-23、相互確認）: 1985 The TTL Data Book Vol. 2 印刷ページ 3-878 / PDF 929 ページ（datasheets/_download/TI(TexasInstruments)/_databooks/1985_TI_The_TTL_Data_Book_Vol_2.pdf。REVISED DECEMBER 1983。個別 PDF（REVISED MARCH 1988）より古い版）"
   ]
 }

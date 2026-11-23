@@ -79,11 +79,13 @@
 │   ├── .cache/pdf_render/                 # PDF→PNG レンダリング一時出力（Git 管理外）
 │   └── _download/                         # ダウンロード済みデータシート（メーカー別）
 │       ├── FAIRCHILD(FairchildSemiconductor)/
+│       ├── NSC(NationalSemiconductor)/
 │       ├── PHILIPS(NXPSemiconductors)/
 │       ├── RENESAS/
 │       ├── TI(TexasInstruments)/{CD74HC,SN74,SN74HC,SN74LS,SN74ALS,…}/  # 型番プレフィックス別（直下に PDF を置かない。無印 TTL は SN74/）
 │       ├── TOSHIBA/
-│       └── UTC(UnisonicTechnologies)/
+│       ├── UTC(UnisonicTechnologies)/
+│       └── {メーカー}/_databooks/         # データブック（メーカー刊行の原典スキャン。二次資料）+ README.md（ページ索引）
 ├── getstarting/                           # 【Git 管理外】私物情報（購入先・コメント含む）
 │   ├── 7400_series_ic_collection_acquisition_history.json  # 入手済み履歴
 │   ├── 7400_series_ic_purchase_plan_normal_or_lower.json
@@ -234,6 +236,7 @@
 - `seed_datasheet_sources_from_usage_and_history.py`: usage / 入手履歴から `datasheet_sources.json` の雛形を生成
 - `render_datasheet_pages.py`: ローカル PDF を `datasheets/.cache/pdf_render/{part}_{stem}/page_XXX.png` へ PNG レンダリング（要 PyMuPDF / Git 管理外）
   - 例: `python3 scripts/render_datasheet_pages.py --part 74x00 --pages 1-6 --dpi 150`
+  - データブックは `--pdf` と `--pages` でページを指定する（100 ページを超える PDF は `--pages` なしだとエラーで止まる）。ページ探しは `--find 品番`（「データブック（二次資料）の使い方」参照）
   - **確認後は `datasheets/.cache/pdf_render/` を整理・削除する**（`.cache/` 外のファイルはみだりに削除しない）
 - `batch_factcheck_from_pdf.py`: 入手済み全パーツのローカル PDF からテキスト抽出し、**信頼度 85% 以上**の項目のみ一括自動確認。画像主体 PDF / PDF 無しパーツはスキップ
   - 例: `python3 scripts/batch_factcheck_from_pdf.py --dry-run`
@@ -336,14 +339,32 @@ overview 由来の説明（機能/カテゴリ/レア度）、一般的な配線
 
 1. **Web 自動取得 PDF**（`datasheet_sources.json` の URL を `check_datasheet_sources.py --download` で取得。URL 到達性・sha256 で再現性が高い）
 2. **`datasheets/_download/` の手動入手 PDF**（手元資料での整合確認。公開時の再現性は URL/DocID/Rev/参照日 で担保）
-3. **Web 検索 + 手動確認情報**（1・2 が無い場合の補助。一次資料と矛盾したら一次資料優先し、矛盾点を明示してユーザー確認）
+3. **データブック**（`datasheets/_download/{メーカー}/_databooks/`。メーカー刊行の原典スキャン。個別データシートを補う二次資料。使い方は次節）
+4. **Web 検索 + 手動確認情報**（1〜3 が無い場合の補助。一次資料と矛盾したら一次資料優先し、矛盾点を明示してユーザー確認）
+
+### データブック（二次資料）の使い方
+
+`datasheets/_download/{メーカー}/_databooks/` に、メーカー刊行データブックの全冊スキャン（公開アーカイブから取得。Git 管理外）を置く。同じフォルダの `README.md` に、取得元・sha256 と **品番 → 印刷ページ / PDF ページ** の索引がある。
+
+- **使う場面**
+  - 個別データシートで読み取った内容の**相互確認**（読み取り信頼度 +5〜10%。個別 PDF の出所が第三者ミラーの場合は特に確認する）
+  - 所蔵品と同じメーカーの個別データシートが無いとき（例: DM74AS1804N → National 1987 ALS/AS Logic Databook）。**別メーカーの個別データシートより、所蔵品と同じメーカーのデータブックを優先**する
+  - 個別データシートに載っていない総論（未使用入力の扱い・測定回路・ファミリ共通の定格）
+- **照合元として有効**: メーカー自身の刊行物なので、データブックだけで確認した項目も `[x]` にしてよい（信頼度基準は同じ）。刊行年が古いため、**型番の改訂サフィックス（A / B）・パッケージ・改訂日**が所蔵品や個別データシートと合っているかを確認し、差があれば明記する
+- **ページ探し**: まず `_databooks/README.md` の索引を見る。無ければ `--find` で OCR テキスト層を品番検索する（取りこぼし・誤検出あり。見つからなければ巻頭の品番索引ページを目視する）
+  - 例: `python3 scripts/render_datasheet_pages.py --pdf "datasheets/_download/TI(TexasInstruments)/_databooks/1986_TI_The_TTL_Data_Book_Vol_4.pdf" --find SN7489`
+- **レンダリング**: 1 冊が数百〜千ページ超なので、必ず PDF ページを指定する。OCR テキストは読み取り値の根拠にしない
+  - 例: `python3 scripts/render_datasheet_pages.py --pdf "datasheets/_download/NSC(NationalSemiconductor)/_databooks/1987_ALS_AS_Logic_Databook.pdf" --pages 638-639 --outdir datasheets/.cache/pdf_render/74x1804_databook`
+- **引用の書き方**: データブック名 + **印刷ページと PDF ページの両方** + 文書番号（あれば）+ 取得元 URL（例: `1987 ALS/AS Logic Databook p.638〜639（印刷ページ 3-217〜3-218、TL/F/8619）`）
+- **索引の更新**: 新しい品番のページを見つけたら `_databooks/README.md` の表に追記する。README は Git 管理外なので、後から検証に使う参照は usage・pinspec・`datasheet_sources.json` の側にも書く
+- **`datasheet_sources.json` への登録**: その実型番の資料がデータブックしか無い場合だけ `Sources` に載せる。同じ `ExactPartNumber` を 2 件にしない（`check_datasheet_sources.py --update` は `ExactPartNumber` で更新先を決める）。相互確認に使っただけなら、確認した側（usage / pinspec の注記）に書く
 
 ### 必須ルール
 
 - 推測でピンアサイン・真理値表を断定しない。読み取れなかった項目は `- [ ]` のまま残す。
 - 断定的な仕様を書く場合は最低限 **メーカー名 / 正確な型番 / パッケージ / データシート URL / DocID / Revision / 参照日（YYYY-MM-DD）** を併記。
 - **データシートの図表・文章は転載しない。** 要点を自分の言葉で要約し、リンクで誘導する。
-- **画像主体 PDF**（テキスト抽出不可）は `render_datasheet_pages.py` で PNG 化し、目視確認。確認できない項目は追加しない。確認後はレンダリング画像を整理・削除する。
+- **画像主体 PDF**（テキスト抽出不可）と**データブック**（OCR テキスト層はあるが誤認識が多い）は `render_datasheet_pages.py` で PNG 化し、目視確認。確認できない項目は追加しない。確認後はレンダリング画像を整理・削除する。
 - 入手済みの実型番（`GottenItemsMN_*`）を優先し、対応する一次資料の有無を確認してから記述。
 - **キリル型番等の互換パーツ**（`GottenItemsMN_Other` の `K155ID1/К155ИД1` など）は PDF 入手・機械解読が困難なことがあり、例外的にネット情報に依存可。ただし世代差・ピン配置差の可能性を明示し、断定せずユーザーと共同確認する。
 

@@ -81,6 +81,7 @@
   "notes": [
     "74x00 と同じピン配置の 2 入力 NAND バッファ",
     "手持ちは SN74ALS1000AN と M74ALS1000P（三菱）。照合した資料は TI の SN74ALS1000A で、M74ALS1000P の一次資料は未入手（同じピン配置の前提で使う。要確認）",
-    "読み取り信頼度: ピン配置 95%、出力形式 95%"
+    "読み取り信頼度: ピン配置 95%、出力形式 95%",
+    "TI データブックでもピン配置の一致を目視確認（2026-11-23、相互確認）: 1986 ALS/AS Logic Data Book 印刷ページ 2-825 / PDF 864 ページ（datasheets/_download/TI(TexasInstruments)/_databooks/1986_TI_ALS_AS_Logic_Data_Book.pdf。D2661, REVISED MAY 1986。個別 PDF と同じ改訂）"
   ]
 }
