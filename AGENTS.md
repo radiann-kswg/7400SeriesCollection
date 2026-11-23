@@ -1,12 +1,40 @@
 # AGENTS.md — 7400 シリーズ IC Collection Database（全エージェント共通指示）
 
-> このファイルはすべての AI エージェント（Claude / GitHub Copilot / その他）が参照する**共通指示書**です。
-> エージェント固有の追加指示は以下のファイルに記載されています:
-> - **Claude**: [`CLAUDE.md`](CLAUDE.md)（Claude 固有の手順。`AGENTS.md` は Claude Code が自動読み込み）
-> - **GitHub Copilot**: [`.github/copilot-instructions.md`](.github/copilot-instructions.md)（Copilot 固有の追記 + 本ファイルの内容を包含）
->
-> **⚠️ このファイルを更新した場合は `.github/copilot-instructions.md` にも同じ内容を反映してください。**
-> **　 `CLAUDE.md` は Claude 固有の内容のみを含むため、反映不要です（Claude Code が AGENTS.md を自動読み込みします）。**
+> このファイルはすべての AI エージェント（Codex / Claude / GitHub Copilot / その他）が参照する**共通指示の単一の正本（SSOT）**です。
+> エージェント別のファイル（`CLAUDE.md`・`.github/copilot-instructions.md`）には、その道具でしか通じないことだけを書きます（下の「指示ファイルの構成」）。
+
+---
+
+## 指示ファイルの構成（SSOT）
+
+共通の指示はこの `AGENTS.md` にだけ書く。エージェント別のファイルには、その道具でしか通じないこと（ツール名・実行環境）だけを書き、ここの内容を写さない。
+
+| エージェント | 読むファイル | エージェント別の補足 |
+|---|---|---|
+| Codex（CLI・アプリ・GitHub のコードレビュー） | `AGENTS.md` | 置かない。レビューの観点はこのファイル末尾の「Code Review Rules」 |
+| Claude Code・Claude（Cowork） | `CLAUDE.md`（先頭の `@AGENTS.md` でこのファイルを読み込む） | `CLAUDE.md`（対話型ファクトチェックの Claude での実行方法など） |
+| GitHub Copilot（コーディングエージェント・コードレビュー・VS Code） | ルートの `AGENTS.md`。`AGENTS.md` を読まない機能向けに `.github/copilot-instructions.md` を入口として置く | `.github/copilot-instructions.md`（`AGENTS.md` への案内と Copilot のプロンプトだけ）、`.github/prompts/` |
+
+- 共通の指示を変えるときは、このファイルだけを直す。`CLAUDE.md`・`.github/copilot-instructions.md` に同じ内容を足さない。
+- 複数のエージェントが交互に作業する。判断・決定・未了の事項は会話にだけ残さず、`work-in-progress/` の作業ログ（または該当する要件定義・README）に書く。作業ログの終わりには「残課題」を置く。
+
+---
+
+## Agent skills
+
+mattpocock-skills（Claude・Codex）が読む設定。`setup-matt-pocock-skills` で作り直すときも、この節を直す（`CLAUDE.md` に写さない）。
+
+### Issue tracker
+
+Issue は GitHub Issues（`radiann-kswg/7400SeriesCollection`、`gh` CLI 経由）で管理する。See `docs/agents/issue-tracker.md`.
+
+### Triage labels
+
+標準の 5 ラベル（`needs-triage` / `needs-info` / `ready-for-agent` / `ready-for-human` / `wontfix`）をそのまま使う。See `docs/agents/triage-labels.md`.
+
+### Domain docs
+
+single-context（リポジトリ直下の `CONTEXT.md` + `docs/adr/`、いずれも未作成、必要時に `/domain-modeling` が作る）。See `docs/agents/domain.md`.
 
 ---
 
@@ -27,7 +55,7 @@
 ## 基本ルール（必ず守ること）
 
 - **回答は必ず日本語で行う。**
-- **エージェント設定書の整合性を維持する。** `AGENTS.md` が共通指示の正典です。このファイルを更新した場合は **`.github/copilot-instructions.md` にも同じ内容を反映**してください（Claude Code は `AGENTS.md` を自動読み込みするため `CLAUDE.md` への反映は不要）。
+- **指示ファイルは SSOT。** 共通の指示は `AGENTS.md` にだけ書く（「指示ファイルの構成」）。
 - **大きな変更の前に計画を提示する。** 多数ファイルの生成・構成変更・ルール追加など大きい変更を行う場合は、まず計画を示し「このような計画で進めようと思います。」と提案して合意を取る。
 - **変更量が 500 行を超えそうな場合は事前確認する。** 「この指示では変更量が 500 行を超える可能性がありますが、実行しますか?」と尋ねる。
 - **大規模改修時は作業ログを残す。** `work-in-progress/` に日付付き Markdown を残す（詳細は「作業ログ」節）。
@@ -57,11 +85,11 @@
 
 ```
 7400SeriesCollection/
-├── AGENTS.md                              # このファイル：全エージェント共通指示書
-├── CLAUDE.md                              # Claude 専用追記指示（固有手順のみ）
+├── AGENTS.md                              # このファイル：全エージェント共通指示の単一の正本
+├── CLAUDE.md                              # Claude 向けの入口（@AGENTS.md と Claude 固有の手順のみ）
 ├── README.md                              # プロジェクト概要
 ├── .github/
-│   ├── copilot-instructions.md            # GitHub Copilot 向け指示書（本ファイルの内容を包含）
+│   ├── copilot-instructions.md            # GitHub Copilot 向けの入口（AGENTS.md への案内のみ）
 │   └── prompts/
 │       └── factcheck-interactive.prompt.md  # 対話型ファクトチェック（Copilot Agent 用）
 ├── .gitignore
@@ -92,6 +120,7 @@
 │   ├── 7400_series_ic_purchase_plan_rare.json
 │   ├── 7400_series_ic_purchase_plan_maniac.json
 │   └── 7400_series_ic_purchase_wishlist_very_nerd.json
+├── docs/agents/                           # エージェントスキルの設定（issue-tracker / triage-labels / domain）
 ├── scripts/                               # 自動化スクリプト（Python3）
 ├── usage/{カテゴリ}/{74xNN}/**.md         # チートシート + 回路設計例
 ├── pcb-demo/{カテゴリ}/{74xNN}/           # KiCAD デモプロジェクト群
@@ -150,6 +179,13 @@
   - `"メーカー名"` → データシート入手済み
   - `"(収集予定:メーカー名)"` → 未入手・収集予定
   - `"(保留)"` → 収集保留（廃止品・入手困難など）
+
+### `datasheets/_download/`（データシートの保管）
+
+- メーカー名のフォルダは統一表記（例: `TI(TexasInstruments)`）。
+- TI は型番の接頭辞でサブフォルダに分け（`SN74LS` など。SN54xx は SN74xx に寄せ、無印 TTL は `SN74`）、直下に PDF を置かない。保存先は `scripts/fetch_missing_datasheets.py` の `ti_subdir()` が決める。
+- ファイル名は `型番.PDF`。複数型番を含む資料はカンマ区切り（例: `SN74HC257,SN74HC258.PDF`）。
+- `_cache/` は一時ファイル用。データブック（全冊スキャン）は `{メーカー}/_databooks/` に置き、同じフォルダの `README.md` に取得元・sha256・品番→ページ索引を書く（「データブック（二次資料）の使い方」）。
 
 ### `datasheets/datasheet_sources.json`
 
@@ -265,6 +301,7 @@
   overview_path = os.path.join(base_dir, 'overview', '7400_series_ic_overview.json')
   ```
 - メーカー推定は型番接頭辞による **保守的**ロジック。入力データの妥当性チェック・適切なエラーハンドリング・処理結果ログを実装する。
+- 新しいメーカーやロジックファミリを足しやすい形にする。
 
 ---
 
@@ -370,12 +407,16 @@ overview 由来の説明（機能/カテゴリ/レア度）、一般的な配線
 
 ### 対話型ファクトチェック手順
 
-エージェントごとに固有の実装があります:
+1. **対象確認**: 指定の汎用型番について、`usage/{カテゴリ}/{型番}/{型番}.md`・入手履歴・`datasheet_sources.json`・収集状況 JSON を読む。`datasheets/_download/{メーカー}/_databooks/README.md` の索引で、データブックに該当ページがあるかも確かめる。
+2. **レンダリング**: `render_datasheet_pages.py --part {型番}` で PDF を PNG 化する（大きい PDF は `--pages` で絞る。CMOS 系・TI SN74HC を優先）。データブックに該当ページがあれば同じく PNG 化して相互確認に使う。所蔵品と同じメーカーの個別データシートが無いときは、データブックを主な照合元にする。
+3. **目視と信頼度**: ピン配置・真理値表・絶対最大定格と推奨動作条件・電気特性・未使用入力の扱いを読み取り、項目ごとに信頼度 0〜100% を自己評価して、根拠（何が明瞭で何が不明瞭か）と一緒に報告する。
+   - 下げる要因: 小さい・かすれた文字 −5〜15%、多列・多行の表 −5〜20%、紛らわしい文字（0/O・1/l・µ/u）−3〜10%、ページをまたぐ表 −5〜10%、低画質（モアレ・歪み）−10〜30%
+   - 上げる要因: 複数の PDF での相互確認 +5〜10%（個別データシートとデータブックの一致を含む）
+4. **確認**: **85% 以上は自動確認**（`[x]` 更新）、**85% 未満はユーザーに目視確認を依頼**。「それっぽい」だけで高い信頼度を与えない。
+5. **更新**: 確認した項目を `- [ ]` → `- [x]` にし、確認日・信頼度・参照 PDF を付記する（例: `（TI データシートより確認 2026-02-14, 読み取り信頼度 95%）`）。データブックを使ったときは、名前と印刷ページ・PDF ページの両方を書く。読み取れなかった項目は `- [ ]` のまま。
+6. **後片付け**: `datasheets/.cache/pdf_render/{型番}*` の一時 PNG を削除する。
 
-- **Claude**: `CLAUDE.md` の「Claude での対話型ファクトチェック手順」を参照（PDF を PNG 化して Claude が直接目視確認）
-- **GitHub Copilot Agent**: `.github/prompts/factcheck-interactive.prompt.md` を使用（VS Code Agent チャットで `#factcheck-interactive 74x00` と入力）
-
-信頼度基準は共通: **85% 以上は自動確認**（`[x]` 更新）、**85% 未満はユーザーに目視確認を依頼**。
+エージェントごとの実行方法: Claude は `CLAUDE.md`、GitHub Copilot は `.github/prompts/factcheck-interactive.prompt.md`（VS Code の Agent チャットで `#factcheck-interactive 74x00`）。Codex はこの手順をそのまま行う。
 
 ---
 
@@ -443,8 +484,8 @@ python  scripts/generate_pcb_layout.py --stages erc,netlist           # netlist 
 
 ### KiCAD MCP Server
 
-`~/.claude.json` の `mcpServers.kicad` に登録済み（**kicad-mcp v2.7.0**, MIT, 233 ツール / 24 カテゴリ）。
-**Claude Code は起動時に MCP を読み込むため、登録後に開始したセッションでのみ利用できる。**
+Windows 機 halvan の **kicad-mcp v2.7.0**（MIT, 233 ツール / 24 カテゴリ）を、Claude Code（`~/.claude.json` の `mcpServers.kicad`）・Codex（`~/.codex/config.toml` の `mcp_servers.kicad`）・Claude デスクトップ（Cowork。2026-11-23 から利用可）に登録している。
+**MCP は起動時に読み込まれるため、登録後に開始したセッションでのみ利用できる。** MCP が使えない環境では作業を止めず、`kicad-cli` と既存スクリプトで代える。
 
 既存スクリプトとは**置き換えではなく併用**する。162 件の一括バッチは既存スクリプトが速く、1 枚を作り込む作業は MCP が向く。
 
@@ -492,3 +533,24 @@ python  scripts/generate_pcb_layout.py --stages erc,netlist           # netlist 
 - **段階的な変更**: 大規模変更は小さなステップに分割
 - **検証の徹底**: 変更後は必ずデータの妥当性を確認
 - **国際化**: 英語・日本語両対応（説明文）
+
+---
+
+## Code Review Rules
+
+このリポジトリの変更をレビューするときに確かめること。書式や表記の細部は指摘しない。
+
+### データの整合性
+
+- `getstarting/`（入手履歴・購入予定。`.gitignore` で除外した私物情報）を追跡対象に戻す変更や、その内容（購入先・入手メモ・購入予定）をほかのファイルへ写す変更を指摘する。
+- マスター（`overview/`）・カテゴリ JSON・データシート収集状況・`datasheet_sources.json` の間で `PartNumber` が食い違う変更、`74x` 形式を崩す変更、配列の並び（`PartNumber` 昇順など）を壊す変更、`ensure_ascii=False` / `indent=2` 以外で書き直した JSON を指摘する。
+
+### 一次資料
+
+- `usage/`・pinspec・回路図に、ピン配置・真理値表・電気特性を一次資料の照合なしに断定して書いていたら指摘する。照合済みの記述には、メーカー・実型番・資料（URL か DocID と Revision）・参照日・読み取り信頼度が添えてある。85% 未満の値は、ユーザーが確認したと書かれていなければ指摘する。
+- データシートの本文・図表の転載や、PDF 本体・レンダリング画像（`datasheets/.cache/`）の追加を指摘する。
+
+### Specimen Tiles（`pcb-demo/_carrier/`）
+
+- `tiles/` と `panels/` の生成物を、`scripts/generate_specimen_tile.py`・`build_mixed_panel.py` を直さずに手で編集していたら指摘する。
+- 型番ごとに変えてよいのは電源接点・セル種別（DNP の組合せ）・シルクの 3 点だけ。リファレンスの振り直し、`Rd`（1 kΩ）の省略や 470 Ω 以下への変更、pinspec の無い型番の生成を指摘する。

@@ -190,7 +190,7 @@ VS Code から実行可能なタスク：
 ## 🔗 参照リソース
 
 - [List of 7400-series integrated circuits - Wikipedia](https://en.wikipedia.org/wiki/List_of_7400-series_integrated_circuits)
-- [GitHub Copilot Instructions](.github/copilot-instructions.md) - 詳細な開発ガイドライン
+- [AGENTS.md](AGENTS.md) - 詳細な開発ガイドライン（Codex・Claude・Copilot 共通の単一の正本）
 
 ## 📐 回路設計例の作成
 
@@ -235,7 +235,7 @@ python3 scripts/generate_usage_cheatsheets.py
 8. トラブルシューティング
 9. 回路の拡張性
 
-詳細は[Copilot Instructions](.github/copilot-instructions.md#回路設計ドキュメント作成ガイド-usage)を参照。
+詳細は [AGENTS.md の回路設計ドキュメント作成ガイド](AGENTS.md#回路設計ドキュメント作成ガイドusage)を参照。
 
 ## 🔌 デモ基板の製作（`pcb-demo/`）
 
