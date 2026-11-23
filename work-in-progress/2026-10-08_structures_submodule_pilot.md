@@ -42,3 +42,15 @@
 - 設計上の決定事項を Structures の `docs/DECISIONS.md` に転記（Structures 単独で読めるようにする）
 - Structures の `.temp/` に残っていた sn7400.pdf・データシート PNG・ERC JSON・抽出一時ファイルを削除
 - Structures コミット ad80e39 を push し、本リポジトリのサブモジュールポインタを更新（このコミットは structures/ と本ログのみ）
+
+## 追記 2（2026-11-23）: Structures 第 2 バッチの取り込み
+
+- Structures コミット 9845c77（74LS / 74S の物理構造、構造の型 18 図、型番別補足 31 件、図の論理検証）を取り込み、サブモジュールポインタを ad80e39 → 9845c77 に更新（このコミットは structures/ と本ログのみ）
+- 追加された内容: `structures/families/ttl_ls/`（74LS00 全体図・PNP 入力）、`structures/families/ttl_s/`（74S00 全体図）、`structures/patterns/` の 01〜04・06〜12・18、`structures/parts/` 31 型番（pinspec 照合済みの 32 型番ぶんが揃った）、`structures/scripts/gen_lib.py` / `verify_logic.py` / `figures_ttl.py` / `figures_gates.py`
+- 一次資料は本リポジトリの `datasheets/_download/` のデータシートと TI データブック（`_databooks/1988_TI_Standard_TTL_Logic_Data_Book.pdf` ほか）を目視で照合した。参照頁・参照日・読み取り信頼度は各 `structures/parts/*.md` と `structures/families/*/README.md` に記載
+- 本リポジトリ側の導線（AGENTS.md / copilot-instructions.md / README.md / usage/index.md）は記述が一般的なため変更なし
+
+### 未実施（ユーザー指示待ち）
+
+- `usage/` の各チートシートから `structures/parts/{74xNN}.md` へのリンク追加（`generate_usage_cheatsheets.py` の雛形の改修を含む）。parts/ が 32 件になったので着手できる
+- 型番専用の構造図、`families/` の残りファミリ（Structures の `docs/DECISIONS.md` の「未着手・保留」を参照）
