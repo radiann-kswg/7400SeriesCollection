@@ -19,7 +19,7 @@
     (at 10 15 0)
     (effects (font (size 1.5 1.5)))
   )
-  (text "【ピン配置】\n1=A0  2=A1  3=A2  4=G  5=G  6=G2  7=Y7\n8=GND  9=Y6  10=Y5  11=Y4  12=Y3  13=Y2  14=Y1\n15=Y0  16=VCC"
+  (text "【ピン配置】\n1=A0  2=A1  3=A2  4=/G0  5=/G1  6=G2  7=Y7\n8=GND  9=Y6  10=Y5  11=Y4  12=Y3  13=Y2  14=Y1\n15=Y0  16=VCC"
     (at 10 38 0)
     (effects (font (size 1.27 1.27)))
   )

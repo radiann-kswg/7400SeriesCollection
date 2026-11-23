@@ -19,7 +19,7 @@
     (at 10 15 0)
     (effects (font (size 1.5 1.5)))
   )
-  (text "【ピン配置】\n1=1A  2=1B  3=Feedback  4=1C  5=1D  6=1Y  7=GND\n8=2Y  9=2A  10=2B  12=2C  13=2D  14=VCC"
+  (text "【ピン配置】\n1=1A  2=1B  3=NC  4=1C  5=1D  6=1Y  7=GND\n8=2Y  9=2A  10=2B  11=NC  12=2C  13=2D  14=VCC"
     (at 10 38 0)
     (effects (font (size 1.27 1.27)))
   )

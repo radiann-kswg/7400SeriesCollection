@@ -224,13 +224,11 @@ def plan_for(exact: str, manufacturer: str, seed_url: str) -> tuple[str, list[st
 
 
 def ti_subdir(stem_upper: str) -> str:
+    """TI 型番 -> シリーズ別サブフォルダ名（SN54xx は SN74xx に寄せる。無印 TTL は "SN74"）。"""
     if stem_upper.startswith("CD74"):
         return "CD74HC"
-    if stem_upper.startswith("SN74HC") or stem_upper.startswith("SN54HC"):
-        return "SN74HC"
-    if stem_upper.startswith("SN74LS") or stem_upper.startswith("SN54LS"):
-        return "SN74LS"
-    return ""
+    m = re.match(r"SN(?:54|74)([A-Z]*)\d", stem_upper)
+    return f"SN74{m.group(1)}" if m else ""
 
 
 def target_path(folder: str, stem_upper: str) -> Path:

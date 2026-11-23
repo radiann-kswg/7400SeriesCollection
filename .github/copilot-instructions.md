@@ -53,12 +53,13 @@
 │       │   └── *.PDF                     # NXP Semiconductors製データシート
 │       ├── RENESAS/
 │       │   └── *.PDF                     # RENESAS製データシート
-│       ├── TI(TexasInstruments)/
+│       ├── TI(TexasInstruments)/         # 型番プレフィックス別（直下に PDF は置かない）
 │       │   ├── CD74HC/                   # CD74HCシリーズ
+│       │   ├── SN74/                     # 無印（標準 TTL: SN7404 など）
 │       │   ├── SN74HC/                   # SN74HCシリーズ
 │       │   ├── SN74LS/                   # SN74LSシリーズ
 │       │   │   └── _cache/               # ダウンロードキャッシュ
-│       │   └── *.PDF                     # その他TI製データシート
+│       │   └── SN74{ABT,AHC,ALS,AS,F,S}/ # その他シリーズ
 │       ├── TOSHIBA/
 │       │   └── *.PDF                     # TOSHIBA製データシート
 │       └── UTC(UnisonicTechnologies)/
@@ -248,7 +249,10 @@ _download/
 │   ├── SN74LS/                    # SN74LSシリーズ専用
 │   │   ├── SN74LS06.PDF など
 │   │   └── _cache/                # ダウンロード一時キャッシュ
-│   └── SN7427.PDF など            # シリーズ分類外のファイル
+│   ├── SN74/                      # 無印（標準 TTL）
+│   │   └── SN7427.PDF など
+│   └── SN74{ABT,AHC,ALS,AS,F,S}/  # その他シリーズ
+│       └── SN74ALS04B.PDF など
 ├── TOSHIBA/
 │   └── TC74HC00AF.PDF など
 └── UTC(UnisonicTechnologies)/
@@ -258,7 +262,7 @@ _download/
 **データシート管理ルール:**
 
 1. メーカー名ディレクトリは統一表記を使用（例：`TI(TexasInstruments)`）
-2. 大量のファイルを持つシリーズは、型番プレフィックスでサブディレクトリ化
+2. TI は型番プレフィックス（`SN74LS` など。SN54xx は SN74xx に寄せ、無印 TTL は `SN74`）でサブディレクトリ化し、直下に PDF を置かない（保存先は `scripts/fetch_missing_datasheets.py` の `ti_subdir()` が決める）
 3. 複数型番を含むデータシートは、カンマ区切りで型番を列挙（例：`SN74HC257,SN74HC258.PDF`）
 4. `_cache/`ディレクトリは一時ファイル用（`.gitignore`で除外を推奨）
 

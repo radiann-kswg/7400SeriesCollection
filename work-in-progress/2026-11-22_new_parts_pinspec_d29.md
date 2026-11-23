@@ -17,9 +17,9 @@
 
 | 汎用型番 | PDF | ピン数 | VCC/GND | 主な出力 | 信頼度 |
 |---|---|---|---|---|---|
-| 74x284 / 74x285 | `datasheets/_download/TI(TexasInstruments)/SN74284,SN74285.pdf`（Revised December 1983） | 16 | 16 / 8 | Y: オープンコレクタ | ピン 95% / 出力形式 92% |
+| 74x284 / 74x285 | `datasheets/_download/TI(TexasInstruments)/SN74/SN74284,SN74285.pdf`（Revised December 1983） | 16 | 16 / 8 | Y: オープンコレクタ | ピン 95% / 出力形式 92% |
 | 74x385 | `datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS385.PDF`（D2412, Revised April 1985） | 20 | 20 / 10 | SUM: トーテムポール | ピン 95% / 出力形式 90% |
-| 74x89 | `datasheets/_download/TI(TexasInstruments)/SN7489.pdf`（D1416, Revised February 1984） | 16 | 16 / 8 | Q̄: オープンコレクタ（反転） | ピン 93% / 出力形式 98% |
+| 74x89 | `datasheets/_download/TI(TexasInstruments)/SN74/SN7489.pdf`（D1416, Revised February 1984） | 16 | 16 / 8 | Q̄: オープンコレクタ（反転） | ピン 93% / 出力形式 98% |
 | 74x227 | `datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS224,SN74LS227,SN74LS228.PDF`（Revised March 1985、Rochester 表紙付き） | 20 | 20 / 10 | Q: オープンコレクタ、IR/OR: トーテムポール | ピン 95% / Q 98% / IR・OR 93% |
 
 全項目が信頼度 85% 以上のため自動確認とした。レンダリング PNG（`datasheets/.cache/pdf_render/`）は確認後に削除済み。
@@ -156,3 +156,24 @@ kicad-cli sch export bom ... --exclude-dnp / kicad-cli pcb export pos --format c
 | 74x1032 | 0 | 0 | 0 | 25 / 25 一致 |
 
 診断で生成された 74x82 のタイル（ツーリングホールと衝突）は `.temp/stale_tiles/74x82` に退避。
+
+## 追記: 74x1804 の National 原典での再照合（2026-11-23）
+
+所蔵品 DM74AS1804N の National 原典（1987 ALS/AS Logic Databook、bitsavers 収録）を `datasheets/_download/NSC(NationalSemiconductor)/1987_ALS_AS_Logic_Databook.pdf` に保存し、PDF 638〜639 ページ（印刷ページ 3-217〜3-218）を `render_datasheet_pages.py --pages 637-640` で PNG 化して目視した。
+
+- 3-217 Connection Diagram（Order Number DM74AS1804N / NS Package N20A）: 全 20 ピンが pinspec と一致（VCC=5、GND=15、20=5A）。TI SN74AS1804 とも一致
+- 3-218: 推奨動作条件 IOH −48 mA / IOL 48 mA、電気特性 VOH・IO 規定からトーテムポール出力
+- 読み取り信頼度: ピン配置 97%、出力形式 95%（85% 以上のため自動確認）
+
+### データの更新
+
+- `datasheets/datasheet_sources.json`: 74x1804 に DM74AS1804N（NSC）の出典を追加（URL / TL/F/8619 / ページ / Sha256 / LocalPath）。TI の出典は比較用に残した
+- `datasheets/7400_series_ic_datasheet_collection_status.json`: `DM74AS1804N` を「(保留)」→「NSC(National Semiconductor)」
+- `pcb-demo/_carrier/pinspec/74x1804.json`: `source` を National 原典に差し替え、confidence 80 → 95、notes の「ユーザー確認待ち」を解消。`pins` は変更なし
+- レンダリング PNG（`datasheets/.cache/pdf_render/74x1804_nsc/`）は確認後に削除
+
+### 残課題
+
+- R11（接点 20 の入力セルとツーリングホールの干渉）は未解決のため、74x1804 のタイルは引き続き生成しない
+- `usage/02_nand_and_gates/74x1804/74x1804.md` のファクトチェック項目は未更新（同じ原典で実施可能）
+- メーカー表記 `NSC(NationalSemiconductor)` / `NSC(National Semiconductor)` は今回が初出。`scripts/fetch_missing_datasheets.py` の `FOLDER` には未登録（入手済み扱いのため現状は影響なし）

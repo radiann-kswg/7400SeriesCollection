@@ -2,7 +2,7 @@
   "part": "74x1032",
   "package_pins": 14,
   "source": {
-    "file": "datasheets/_download/TI(TexasInstruments)/SN74ALS1032A,SN74AS1032A.pdf",
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74ALS/SN74ALS1032A,SN74AS1032A.pdf",
     "doc_id": "D2661（REVISED MAY 1986）",
     "page": 1,
     "table": "pin diagram (TOP VIEW, D/J/N) / logic symbol",

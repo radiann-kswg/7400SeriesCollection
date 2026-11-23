@@ -2,7 +2,7 @@
   "part": "74x1000",
   "package_pins": 14,
   "source": {
-    "file": "datasheets/_download/TI(TexasInstruments)/SN74ALS1000A,SN74AS1000A.pdf",
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74ALS/SN74ALS1000A,SN74AS1000A.pdf",
     "doc_id": "SDAS056A / D2661（REVISED MAY 1986）",
     "page": 1,
     "table": "pin diagram (TOP VIEW, D/J/N) / logic symbol",

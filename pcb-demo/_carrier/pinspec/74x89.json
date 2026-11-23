@@ -2,7 +2,7 @@
   "part": "74x89",
   "package_pins": 16,
   "source": {
-    "file": "datasheets/_download/TI(TexasInstruments)/SN7489.pdf",
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74/SN7489.pdf",
     "doc_id": "D1416",
     "page": 1,
     "table": "pin diagram (TOP VIEW) / logic symbol",

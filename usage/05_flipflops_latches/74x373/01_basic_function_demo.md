@@ -33,13 +33,13 @@
 | タクトスイッチ（クロック用） | チャタリング対策コンデンサ込み | 1 |
 | チャタリング対策コンデンサ | 0.1µF | 1 |
 
-## ピン配置（データシートより抽出）
+## ピン配置（一次資料で照合済み）
 
-対象の実型番 `SN74HC373N` のデータシートPDFから、ピン名/番号を機械抽出しました（抽出元: `.temp/datasheet_fetch/generated_samples/TI/SN74HC373N.pdf`）。
+対象の実型番 `SN74HC373N` のピン配置です。データシート PDF から機械抽出した表を、一次資料 `datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC373.PDF` p.3（TI SCLS140G, Revised February 2025）と照合して修正しました（2026-11-23, 読み取り信頼度 98%）。名前が `/` で始まるピンは Low アクティブ（データシートの上線表記）です。LE は High アクティブ。
 
 | Pin | Name |
 |---:|---|
-| 1 | OE |
+| 1 | /OE |
 | 2 | 1Q |
 | 3 | 1D |
 | 4 | 2D |

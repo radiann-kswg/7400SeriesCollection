@@ -218,6 +218,21 @@ def parse_demo_md(md_path: Path) -> dict:
     return result
 
 
+def format_pin_text(pins: list, category: str, part_number: str) -> str:
+    """【ピン配置】注記の本文（エスケープ前）を返す。7 ピンごとに改行する。
+
+    scripts/check_demo_pin_tables.py も同じ整形で KiCad 注記との差分を確認する。
+    """
+    if not pins:
+        return f"(ピン情報なし — usage/{category}/{part_number}/ を参照)"
+    chunk = 7
+    rows = [
+        "  ".join(f"{p['pin']}={p['name']}" for p in pins[i:i + chunk])
+        for i in range(0, len(pins), chunk)
+    ]
+    return "\n".join(rows)
+
+
 def build_sch_from_demo(demo_info: dict, replacements: dict) -> str:
     """demo_info を元にリッチな .kicad_sch コンテンツを生成して返す。"""
     part_number = replacements["{{PART_NUMBER}}"]
@@ -231,16 +246,7 @@ def build_sch_from_demo(demo_info: dict, replacements: dict) -> str:
         return _esc_sch(s)
 
     # ピン配置テキスト（7ピンごとに折り返し）
-    pins = demo_info.get("pins", [])
-    if pins:
-        chunk = 7
-        rows = [
-            "  ".join(f"{p['pin']}={p['name']}" for p in pins[i:i + chunk])
-            for i in range(0, len(pins), chunk)
-        ]
-        pin_text = t("\n".join(rows))
-    else:
-        pin_text = t(f"(ピン情報なし — usage/{category}/{part_number}/ を参照)")
+    pin_text = t(format_pin_text(demo_info.get("pins", []), category, part_number))
 
     # 配線要点
     notes = demo_info.get("notes", [])

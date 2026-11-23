@@ -19,7 +19,7 @@
     (at 10 15 0)
     (effects (font (size 1.5 1.5)))
   )
-  (text "【ピン配置】\n1=OE  2=1Q  3=1D  4=2D  5=2Q  6=3Q  7=3D\n8=4D  9=4Q  10=GND  11=LE  12=5Q  13=5D  14=6D\n15=6Q  16=7Q  17=7D  18=8D  19=8Q  20=VCC"
+  (text "【ピン配置】\n1=/OE  2=1Q  3=1D  4=2D  5=2Q  6=3Q  7=3D\n8=4D  9=4Q  10=GND  11=LE  12=5Q  13=5D  14=6D\n15=6Q  16=7Q  17=7D  18=8D  19=8Q  20=VCC"
     (at 10 38 0)
     (effects (font (size 1.27 1.27)))
   )

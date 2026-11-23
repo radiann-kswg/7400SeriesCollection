@@ -2,7 +2,7 @@
   "part": "74x82",
   "package_pins": 14,
   "source": {
-    "file": "datasheets/_download/TI(TexasInstruments)/SN7482.pdf",
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74/SN7482.pdf",
     "doc_id": "(記載なし。DECEMBER 1972 - REVISED DECEMBER 1983)",
     "page": 1,
     "table": "pin diagram (TOP VIEW, J/N) / logic diagram",

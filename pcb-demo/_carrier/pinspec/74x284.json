@@ -2,7 +2,7 @@
   "part": "74x284",
   "package_pins": 16,
   "source": {
-    "file": "datasheets/_download/TI(TexasInstruments)/SN74284,SN74285.pdf",
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74/SN74284,SN74285.pdf",
     "doc_id": "(記載なし。MAY 1972 - REVISED DECEMBER 1983)",
     "page": 1,
     "table": "pin diagram (TOP VIEW) / logic symbols",

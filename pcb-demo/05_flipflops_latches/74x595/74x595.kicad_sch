@@ -19,7 +19,7 @@
     (at 10 15 0)
     (effects (font (size 1.5 1.5)))
   )
-  (text "【ピン配置】\n1=QB  2=O  3=O  4=O  5=O  6=QG  7=O\n8=GND  9=O  10=SRCLR  11=SRCLK  12=O  13=OE  14=I\n15=QA  16=VCC  17=I  18=I  19=O"
+  (text "【ピン配置】\n1=QB  2=QC  3=QD  4=QE  5=QF  6=QG  7=QH\n8=GND  9=QH'  10=/SRCLR  11=SRCLK  12=RCLK  13=/OE  14=SER\n15=QA  16=VCC"
     (at 10 38 0)
     (effects (font (size 1.27 1.27)))
   )

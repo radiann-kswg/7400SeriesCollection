@@ -34,9 +34,9 @@
 | チャタリング対策コンデンサ | 0.1µF | 1 |
 | LED（出力ビット観測） | 任意 | 出力ビット数分（最大8本） |
 
-## ピン配置（データシートより抽出）
+## ピン配置（一次資料で照合済み）
 
-対象の実型番 `SN74HC164N` のデータシートPDFから、ピン名/番号を機械抽出しました（抽出元: `.temp/datasheet_fetch/generated_samples/TI/SN74HC164N.pdf`）。
+対象の実型番 `SN74HC164N` のピン配置です。データシート PDF から機械抽出した表を、一次資料 `datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC164.PDF` p.4（TI SCLS115G, Revised September 2015）と照合して修正しました（2026-11-23, 読み取り信頼度 98%）。名前が `/` で始まるピンは Low アクティブ（データシートの上線表記）です。
 
 | Pin | Name |
 |---:|---|
@@ -48,8 +48,8 @@
 | 6 | QD |
 | 7 | GND |
 | 8 | CLK |
-| 9 | CLR |
-| 10 | Active-Low |
+| 9 | /CLR |
+| 10 | QE |
 | 11 | QF |
 | 12 | QG |
 | 13 | QH |

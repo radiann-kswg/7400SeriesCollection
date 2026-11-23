@@ -32,9 +32,9 @@
 | 入力プルアップ/プルダウン | 10kΩ | 入力数分 |
 | デカップリング | 0.1µF | 1 |
 
-## ピン配置（抽出）
+## ピン配置（一次資料で照合済み）
 
-対象の実型番 `SN74HC126N` のデータシートPDFから、ピン名/番号を機械抽出しました（抽出元: `.temp/datasheet_fetch/generated_samples/TI/SN74HC126N.pdf`）。
+対象の実型番 `SN74HC126N` のピン配置です。データシート PDF から機械抽出した表を、一次資料 `datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC126.PDF` p.3（TI SCLS103F, Revised April 2021）と照合し、誤りがないことを確認しました（2026-11-23, 読み取り信頼度 98%）。名前が `/` で始まるピンは Low アクティブ（データシートの上線表記）です。OE は High アクティブ（74x125 と逆）。
 
 | Pin | Name |
 |---:|---|

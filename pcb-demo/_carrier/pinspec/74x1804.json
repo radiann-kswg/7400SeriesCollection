@@ -2,13 +2,13 @@
   "part": "74x1804",
   "package_pins": 20,
   "source": {
-    "file": "datasheets/_download/TI(TexasInstruments)/SN74AS1804.PDF",
-    "doc_id": "SDAS042C（REVISED JANUARY 1995）",
-    "page": 1,
-    "table": "pin diagram (TOP VIEW, D/J/N) / logic symbol",
-    "checked": "2026-11-22",
-    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。p.1 のピン配置図と論理記号のピン番号を相互確認。出力形式は p.2 の電気的特性（VOH・IO 規定）からトーテムポールと判断",
-    "confidence": 80
+    "file": "datasheets/_download/NSC(NationalSemiconductor)/1987_ALS_AS_Logic_Databook.pdf",
+    "doc_id": "National Semiconductor 1987 ALS/AS Logic Databook, DM74AS1804（TL/F/8619）",
+    "page": 638,
+    "table": "Connection Diagram（印刷ページ 3-217。Order Number DM74AS1804N / NS Package N20A）",
+    "checked": "2026-11-23",
+    "method": "PDF の 638〜639 ページ（印刷ページ 3-217〜3-218）を PNG 化して目視（CLAUDE.md の手順）。Connection Diagram で全 20 ピンを確認し、TI SN74AS1804（SDAS042C）p.1 のピン配置とも一致。出力形式は 3-218 の推奨動作条件・電気的特性（IOH −48 mA、VOH、IO 規定）からトーテムポールと判断",
+    "confidence": 95
   },
   "dir_values": [
     "input",
@@ -104,7 +104,8 @@
   },
   "notes": [
     "電源ピンが中央（VCC=5、GND=15）の 6 回路 2 入力 NAND ドライバ",
-    "手持ちは National の DM74AS1804N だが、照合した資料は TI の SN74AS1804（出典 JSON の注記どおり別の型番）。メーカー違いの資料での照合のため信頼度を 80% とし、ユーザー確認待ちとする（DM74AS1804 の一次資料が入手できれば再照合）",
-    "読み取り信頼度（TI 資料に対して）: ピン配置 95%、出力形式 95%"
+    "手持ちの National DM74AS1804N の原典（1987 ALS/AS Logic Databook）で再照合済み（2026-11-23）。2026-11-22 の TI SN74AS1804 による照合（信頼度 80%・ユーザー確認待ち）はこれで解消",
+    "読み取り信頼度（National 原典に対して）: ピン配置 97%（TI 資料との相互一致を含む）、出力形式 95%",
+    "接点 20（5A）が入力で左上ツーリングホールと干渉するため（R11）、タイルは未生成のまま。ピン定義の変更はなし"
   ]
 }

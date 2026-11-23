@@ -1064,7 +1064,7 @@
         "Url": "https://www.pulsar-cad.com/datasheets/33/02/00000000233.pdf",
         "LastAccessed": "2026-11-22",
         "Notes": "TI原資料のミラー、印刷ページ 3-245～3-248。SN7460 の N パッケージを掲載。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
-        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN7460.PDF",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74/SN7460.PDF",
         "LocalBytes": 478756,
         "LocalSha256": "c4bb615be324f3fe7404724eaf020fa59d02a3b84b357542e230ece736c72831",
         "LocalCheckedAt": "2026-11-22"
@@ -1237,7 +1237,7 @@
         "Url": "https://pulsar-cad.com/datasheets/39/02/00000000239.pdf",
         "LastAccessed": "2026-11-22",
         "Notes": "TI原資料のミラー（1972年12月初版）。Nパッケージを掲載。2ビット全加算器（4ビットではない）。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
-        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN7482.pdf",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74/SN7482.pdf",
         "LocalBytes": 392097,
         "LocalSha256": "6ba3bb7b1c89f877c57c99604cf3b3b4f79e3fb3581ac7a6384da01f233b3a6a",
         "LocalCheckedAt": "2026-11-22"
@@ -1323,7 +1323,7 @@
         "Url": "https://doctor-pasquale.com/wp-content/uploads/2017/05/7489-64-BIT-RAM.pdf",
         "LastAccessed": "2026-11-22",
         "Notes": "TI原資料のミラー（TI公式ホストではない）。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
-        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN7489.pdf",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74/SN7489.pdf",
         "LocalBytes": 302451,
         "LocalSha256": "7ae8990298643dcf3f37b36ccc1141eeaab093dfb46b21d82c30a9fa9684fce1",
         "LocalCheckedAt": "2026-11-22"
@@ -3383,7 +3383,7 @@
         "Url": "https://datasheet.datasheetarchive.com/originals/library/Datasheet-081/DASF0028600.pdf",
         "LastAccessed": "2026-11-22",
         "Notes": "TI原資料のミラー（1983年12月初版）。Nパッケージを掲載。相補出力4回路：1・4回路はバッファ／反転、2・3回路はAND／NAND。XNORではない。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
-        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74265.pdf",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74/SN74265.pdf",
         "LocalBytes": 423167,
         "LocalSha256": "3837bbe57d850394a8df98e6b64c045a286fd617b96f3ee8723a06ccf167bac3",
         "LocalCheckedAt": "2026-11-22"
@@ -3578,7 +3578,7 @@
         "Url": "https://sapr.asvcorp.ru/datasheets/34/03/00000000334.pdf",
         "LastAccessed": "2026-11-22",
         "Notes": "TI原資料のミラー（TI公式ホストではない）。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
-        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74284,SN74285.pdf",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74/SN74284,SN74285.pdf",
         "LocalBytes": 570896,
         "LocalSha256": "6dde43d41165b9700a1a44580b723531b0c03c286af1135b38d94a01c93371da",
         "LocalCheckedAt": "2026-11-22"
@@ -3596,7 +3596,7 @@
         "Url": "https://sapr.asvcorp.ru/datasheets/34/03/00000000334.pdf",
         "LastAccessed": "2026-11-22",
         "Notes": "TI原資料のミラー（TI公式ホストではない）。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
-        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74284,SN74285.pdf",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74/SN74284,SN74285.pdf",
         "LocalBytes": 570896,
         "LocalSha256": "6dde43d41165b9700a1a44580b723531b0c03c286af1135b38d94a01c93371da",
         "LocalCheckedAt": "2026-11-22"
@@ -4895,7 +4895,7 @@
         "Url": "https://radio-hobby.org/uploads/datasheet/35/sn54/sn54als1000a.pdf",
         "LastAccessed": "2026-11-22",
         "Notes": "TI原資料のミラー（1984年4月初版）。ALS型とNパッケージ掲載。後年のSDAS056BはAS型のみ。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
-        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74ALS1000A,SN74AS1000A.pdf",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74ALS/SN74ALS1000A,SN74AS1000A.pdf",
         "LocalBytes": 55917,
         "LocalSha256": "88a071b33ec440e780c73331fdd65e214ec49533b498a43403ff15f8c6033373",
         "LocalCheckedAt": "2026-11-22"
@@ -4913,7 +4913,7 @@
         "Url": "https://www.ti.com/lit/ds/symlink/sn54als1002a.pdf",
         "LastAccessed": "2026-11-22",
         "Notes": "TI公式PDF（1983年12月初版）。SN54ALS1002Aとの共通資料にSN74ALS1002ANを掲載。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
-        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74ALS1002A.pdf",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74ALS/SN74ALS1002A.pdf",
         "LocalBytes": 338718,
         "LocalSha256": "e1722cbfd503b36781e3e94003d890f8bf320fc8e8f85baa2e1b215a220b0712",
         "LocalCheckedAt": "2026-11-22"
@@ -4931,7 +4931,7 @@
         "Url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-112/DSAP0048680.pdf",
         "LastAccessed": "2026-11-22",
         "Notes": "TI原資料のミラー（1982年12月初版）。ALS型とNパッケージを掲載する3ページ。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
-        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74ALS1032A,SN74AS1032A.pdf",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74ALS/SN74ALS1032A,SN74AS1032A.pdf",
         "LocalBytes": 95809,
         "LocalSha256": "79210058bb3a43fd7a14edb2f071988ab488020a72ae59e9a783a1d0c4d5602a",
         "LocalCheckedAt": "2026-11-22"
@@ -4949,10 +4949,28 @@
         "Url": "https://www.silicon-ark.co.uk/datasheets/sn74as1804-datasheet-texas-instruments.pdf",
         "LastAccessed": "2026-11-22",
         "Notes": "TI原資料のミラー（1984年8月初版）。TI製Nパッケージの参照資料。所蔵登録のNational Semiconductor製DM74AS1804Nとは別の正確な型番であり、所蔵扱いにしない。PDF は LocalPath に保存済み（2026-11-22。Url 先との一致は未確認）。",
-        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74AS1804.PDF",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74AS/SN74AS1804.PDF",
         "LocalBytes": 163292,
         "LocalSha256": "2011b5e7dd73dec04ace3232cdd72a026113abbdb7b97d1c981de7f7235d8f47",
         "LocalCheckedAt": "2026-11-22"
+      },
+      {
+        "ExactPartNumber": "DM74AS1804N",
+        "Manufacturer": "NSC(NationalSemiconductor)",
+        "DocumentId": "TL/F/8619",
+        "Revision": "1987 ALS/AS Logic Databook（印刷ページ 3-217〜3-218、PDF 638〜639 ページ）",
+        "Url": "https://bitsavers.trailing-edge.com/components/national/_dataBooks/1987_ALS_AS_Logic_Databook.pdf",
+        "LastAccessed": "2026-11-23",
+        "Notes": "所蔵品 DM74AS1804N の National 原典（データブック収録。Order Number DM74AS1804N / NS Package N20A）。3-217 に Connection Diagram と Function Table、3-218 に絶対最大定格・推奨動作条件・電気特性・スイッチング特性。PDF は Url から直接取得して LocalPath に保存（Sha256 一致）。",
+        "FinalUrl": "https://bitsavers.trailing-edge.com/components/national/_dataBooks/1987_ALS_AS_Logic_Databook.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "38246713",
+        "Sha256": "82e8d268894343f669367fd0fa1f6724fa0e8928dc1e035a8583c7868cd255b4",
+        "CheckedAt": "2026-11-23",
+        "LocalPath": "datasheets/_download/NSC(NationalSemiconductor)/1987_ALS_AS_Logic_Databook.pdf",
+        "LocalBytes": 38246713,
+        "LocalSha256": "82e8d268894343f669367fd0fa1f6724fa0e8928dc1e035a8583c7868cd255b4",
+        "LocalCheckedAt": "2026-11-23"
       }
     ]
   }

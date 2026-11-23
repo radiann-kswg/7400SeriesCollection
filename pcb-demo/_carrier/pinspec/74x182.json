@@ -2,7 +2,7 @@
   "part": "74x182",
   "package_pins": 16,
   "source": {
-    "file": "datasheets/_download/TI(TexasInstruments)/SN74S182.pdf",
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74S/SN74S182.pdf",
     "doc_id": "SDLS206（REVISED MARCH 1988）",
     "page": 1,
     "table": "pin diagram (TOP VIEW) / PIN DESIGNATIONS",

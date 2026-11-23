@@ -26,10 +26,10 @@
 │       ├── FAIRCHILD(FairchildSemiconductor)/
 │       ├── PHILIPS(NXPSemiconductors)/
 │       ├── RENESAS/
-│       ├── TI(TexasInstruments)/
+│       ├── TI(TexasInstruments)/         # 型番プレフィックス別（直下に PDF は置かない）
 │       │   ├── CD74HC/
-│       │   ├── SN74HC/
-│       │   └── SN74LS/
+│       │   ├── SN74/                     # 無印（標準 TTL）
+│       │   └── SN74{ABT,AHC,ALS,AS,F,HC,LS,S}/
 │       ├── TOSHIBA/
 │       └── UTC(UnisonicTechnologies)/
 ├── getstarting/                          # 入手・購入管理【git 管理外】
