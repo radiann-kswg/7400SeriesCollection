@@ -139,7 +139,7 @@ def main() -> int:
             OutputSpec(
                 path=os.path.join(
                     getstarting_dir, "7400_series_ic_purchase_plan_rare.json"),
-                allowed_rarities=("Rare", "Rare+"),
+                allowed_rarities=("Rare",),
             ),
         ),
         (

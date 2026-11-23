@@ -213,7 +213,7 @@ single-context（リポジトリ直下の `CONTEXT.md` + `docs/adr/`、いずれ
 `overview` から該当レア度をフィルタしたサブセット。**エージェントは配列要素を追加しない**（ユーザー管理）。
 
 - `..._purchase_plan_normal_or_lower.json`: Commons, Normal, Normal+
-- `..._purchase_plan_rare.json`: Rare, Rare+
+- `..._purchase_plan_rare.json`: Rare
 - `..._purchase_plan_maniac.json`: SuperRare, Abolition(R+), Maniac(SR+)
 - `..._purchase_wishlist_very_nerd.json`: ManiacRare(SSR), VeryNerd(UR)
 
@@ -223,7 +223,7 @@ single-context（リポジトリ直下の `CONTEXT.md` + `docs/adr/`、いずれ
 
 ### レア度分類システム
 
-**一般流通品**: `Commons`（容易）/ `Normal` / `Normal+`（やや困難）/ `Rare` / `Rare+`（非常にレア）/ `SuperRare`（極めてレア）
+**一般流通品**: `Commons`（容易）/ `Normal` / `Normal+`（やや困難）/ `Rare` / `SuperRare`（極めてレア）
 
 **一般流通していない品**: `Abolition(R+)`（廃止品系）/ `Maniac(SR+)`（マニア向け）/ `ManiacRare(SSR)`（マニア向けレア）/ `VeryNerd(UR)`（超マニア向け・極めて入手困難）
 

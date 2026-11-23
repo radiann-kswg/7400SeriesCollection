@@ -4988,7 +4988,7 @@
     "Category": "01_buffers_inverters",
     "Description": "octal buffer / driver, non-inverting (lower-power version of 74x244)",
     "Description_JP": "8回路バッファ/ドライバ（非反転、74x244の低消費電力版）",
-    "Rarity": "Rare+"
+    "Rarity": "Rare"
   },
   {
     "PartNumber": "74x1804",

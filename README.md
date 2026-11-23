@@ -73,7 +73,7 @@
 
 **レア度分類**:
 
-- **一般流通品**: `Commons`, `Normal`, `Normal+`, `Rare`, `Rare+`, `SuperRare`
+- **一般流通品**: `Commons`, `Normal`, `Normal+`, `Rare`, `SuperRare`
 - **廃止品/特殊品**: `Abolition(R+)`, `Maniac(SR+)`, `ManiacRare(SSR)`, `VeryNerd(UR)`
 
 ### 入手管理データ
