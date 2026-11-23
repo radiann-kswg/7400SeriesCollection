@@ -261,7 +261,11 @@ def main() -> None:
     if args.find:
         for pdf_path in pdfs:
             hits = find_pages(pdf_path, args.find)
-            print(f"{pdf_path.relative_to(REPO_ROOT)}: '{args.find}' を含む PDF ページ = {hits or 'なし'}")
+            try:
+                rel = pdf_path.relative_to(REPO_ROOT)
+            except ValueError:
+                rel = pdf_path
+            print(f"{rel}: '{args.find}' を含む PDF ページ = {hits or 'なし'}")
         print("（OCR 由来のため取りこぼし・誤検出がある。該当ページは必ずレンダリングして目視する）")
         return
 
