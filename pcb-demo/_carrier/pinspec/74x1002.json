@@ -80,6 +80,7 @@
   },
   "notes": [
     "74x02 と同じピン配置の 2 入力 NOR バッファ",
-    "手持ちの実型番 SN74ALS1002AN と同じ TI データシート。読み取り信頼度: ピン配置 95%、出力形式 95%"
+    "手持ちの実型番 SN74ALS1002AN と同じ TI データシート。読み取り信頼度: ピン配置 95%、出力形式 95%",
+    "TI データブックでもピン配置の一致を目視確認（2026-11-23、相互確認）: 1986 ALS/AS Logic Data Book 印刷ページ 2-829 / PDF 868 ページ（datasheets/_download/TI(TexasInstruments)/_databooks/1986_TI_ALS_AS_Logic_Data_Book.pdf。D2661, REVISED MAY 1986。個別 PDF と同じ改訂）"
   ]
 }

@@ -107,6 +107,7 @@
   "notes": [
     "出力 Q1〜Q4（データシート表記 Q̄1〜Q̄4）は 3 ステートで、読み出し時は書き込んだデータの反転を出す。attr は D18 に従い complement",
     "S（S̄、チップセレクト）と RW（R/W̄、L で書き込み）は負論理。WE はレベル動作でクロックではない",
-    "PDF は 'LS189A/'LS219A/'LS289A/'LS319A の共通資料で、所蔵の SN74LS189AN と一致。スキャン画像のため読み取り信頼度: ピン配置 93%、出力形式 95%"
+    "PDF は 'LS189A/'LS219A/'LS289A/'LS319A の共通資料で、所蔵の SN74LS189AN と一致。スキャン画像のため読み取り信頼度: ピン配置 93%、出力形式 95%",
+    "TI データブックでもピン配置の一致を目視確認（2026-11-23、相互確認）: 1986 The TTL Data Book Vol. 4 印刷ページ 5-19 / PDF 362 ページ（datasheets/_download/TI(TexasInstruments)/_databooks/1986_TI_The_TTL_Data_Book_Vol_4.pdf。D2417, REVISED FEBRUARY 1985。個別 PDF と同じ改訂。LS189A が 3 ステート・反転出力である点も一致）"
   ]
 }

@@ -159,7 +159,7 @@ kicad-cli sch export bom ... --exclude-dnp / kicad-cli pcb export pos --format c
 
 ## 追記: 74x1804 の National 原典での再照合（2026-11-23）
 
-所蔵品 DM74AS1804N の National 原典（1987 ALS/AS Logic Databook、bitsavers 収録）を `datasheets/_download/NSC(NationalSemiconductor)/1987_ALS_AS_Logic_Databook.pdf` に保存し、PDF 638〜639 ページ（印刷ページ 3-217〜3-218）を `render_datasheet_pages.py --pages 637-640` で PNG 化して目視した。
+所蔵品 DM74AS1804N の National 原典（1987 ALS/AS Logic Databook、bitsavers 収録）を `datasheets/_download/NSC(NationalSemiconductor)/1987_ALS_AS_Logic_Databook.pdf` に保存し（同日中に `NSC(NationalSemiconductor)/_databooks/` へ移動。現在のパスは `datasheets/_download/NSC(NationalSemiconductor)/_databooks/1987_ALS_AS_Logic_Databook.pdf`）、PDF 638〜639 ページ（印刷ページ 3-217〜3-218）を `render_datasheet_pages.py --pages 637-640` で PNG 化して目視した。
 
 - 3-217 Connection Diagram（Order Number DM74AS1804N / NS Package N20A）: 全 20 ピンが pinspec と一致（VCC=5、GND=15、20=5A）。TI SN74AS1804 とも一致
 - 3-218: 推奨動作条件 IOH −48 mA / IOL 48 mA、電気特性 VOH・IO 規定からトーテムポール出力

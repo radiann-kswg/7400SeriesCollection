@@ -108,6 +108,7 @@
     "出力 Q1〜Q4（データシート表記は Q̄1〜Q̄4）はオープンコレクタで、書き込んだデータの反転を出す。ME=H かつ WE=H では H（オフ）。attr は D18 に従い active_low ではなく complement とした（LED は D29 により点灯 = L = 記憶値 1）",
     "共通回路では REQUIREMENTS D29 により赤 LED + プルアップ配線で表示。点灯 = ピンが L",
     "ME・WE は負論理。WE はレベル動作の書き込み（クロックではない）",
-    "読み取り信頼度: ピン配置 93%（スキャン画像だが判読可能）、出力形式 98%"
+    "読み取り信頼度: ピン配置 93%（スキャン画像だが判読可能）、出力形式 98%",
+    "TI データブックでもピン配置の一致を目視確認（2026-11-23、相互確認）: 1986 The TTL Data Book Vol. 4 印刷ページ 5-3 / PDF 346 ページ（datasheets/_download/TI(TexasInstruments)/_databooks/1986_TI_The_TTL_Data_Book_Vol_4.pdf。D1416, REVISED FEBRUARY 1984。個別 PDF と同じ改訂。オープンコレクタ出力の記載も一致）"
   ]
 }

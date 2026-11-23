@@ -96,6 +96,7 @@
     "出力 Y4・Y5・Y6・Y7 はオープンコレクタ（データシート p.2 等価回路・p.4 推奨動作条件 VOH max 5.5 V）。共通回路では REQUIREMENTS D29 により赤 LED + プルアップ配線で表示。点灯 = ピンが L",
     "GA・GB は負論理イネーブル。両方 L で出力有効（データシート Figure A は両方 GND 接続）",
     "1A〜1D が一方の 4 ビット語（1A=2^0）、2A〜2D がもう一方の語（2A=2^0）",
-    "読み取り信頼度: ピン配置 95%、出力形式 92%"
+    "読み取り信頼度: ピン配置 95%、出力形式 92%",
+    "TI データブックでもピン配置の一致を目視確認（2026-11-23、相互確認）: 1986 The TTL Data Book Vol. 4 印刷ページ 5-33 / PDF 376 ページ（datasheets/_download/TI(TexasInstruments)/_databooks/1986_TI_The_TTL_Data_Book_Vol_4.pdf。REVISED DECEMBER 1983。個別 PDF と同じ改訂）"
   ]
 }

@@ -84,6 +84,7 @@
   "notes": [
     "LD/SH（データシート表記 LD/SH̄）は H でパラレルロード、L でシフト。OC は H で出力有効（L で高インピーダンス）",
     "CLK は立ち下がりエッジ。ピン 9 が接点 15 に来るため、現状はクロックセルの配置制約（REQUIREMENTS R10）でタイル生成が停止する",
-    "手持ちの実型番 SN74LS295BN と同じ TI データシート（'LS295B）。読み取り信頼度: ピン配置 95%、出力形式 95%"
+    "手持ちの実型番 SN74LS295BN と同じ TI データシート（'LS295B）。読み取り信頼度: ピン配置 95%、出力形式 95%",
+    "TI データブックでもピン配置の一致を目視確認（2026-11-23、相互確認）: 1985 The TTL Data Book Vol. 2 印刷ページ 3-940 / PDF 991 ページ（datasheets/_download/TI(TexasInstruments)/_databooks/1985_TI_The_TTL_Data_Book_Vol_2.pdf。REVISED DECEMBER 1983。個別 PDF（REVISED MARCH 1988）より古い版）"
   ]
 }

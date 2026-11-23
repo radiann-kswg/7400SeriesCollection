@@ -83,7 +83,8 @@
     "データシート上の出力名は Σ1 / Σ2（ASCII で SUM1 / SUM2 と表記）。2 ビットの全加算器（C0 は桁上げ入力、C2 は桁上げ出力）",
     "C2 の IOH 規定は -200 µA と小さいが、出力 LED（白、4.7kΩ）の電流は VOH≈3.4 V で 0.1 mA 程度と見積もられ範囲内",
     "手持ちの実型番 SN7482N と同じ TI データシート。読み取り信頼度: ピン配置 95%、出力形式 92%",
-    "overview の説明は「4-bit parallel adder」だが一次資料では 2 ビット全加算器のため、シルクは silk_desc で正しい表記にする（overview 本体の修正はユーザー判断）"
+    "overview の説明は「4-bit parallel adder」だが一次資料では 2 ビット全加算器のため、シルクは silk_desc で正しい表記にする（overview 本体の修正はユーザー判断）",
+    "TI データブックでもピン配置の一致を目視確認（2026-11-23、相互確認）: 1985 The TTL Data Book Vol. 2 印刷ページ 3-330 / PDF 381 ページ（datasheets/_download/TI(TexasInstruments)/_databooks/1985_TI_The_TTL_Data_Book_Vol_2.pdf。REVISED DECEMBER 1983。個別 PDF と同じ改訂）"
   ],
   "silk_desc": "2-bit binary full adder",
   "silk_desc_jp": "2ビット2進全加算器"

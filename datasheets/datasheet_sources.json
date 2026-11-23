@@ -4967,7 +4967,7 @@
         "ContentLength": "38246713",
         "Sha256": "82e8d268894343f669367fd0fa1f6724fa0e8928dc1e035a8583c7868cd255b4",
         "CheckedAt": "2026-11-23",
-        "LocalPath": "datasheets/_download/NSC(NationalSemiconductor)/1987_ALS_AS_Logic_Databook.pdf",
+        "LocalPath": "datasheets/_download/NSC(NationalSemiconductor)/_databooks/1987_ALS_AS_Logic_Databook.pdf",
         "LocalBytes": 38246713,
         "LocalSha256": "82e8d268894343f669367fd0fa1f6724fa0e8928dc1e035a8583c7868cd255b4",
         "LocalCheckedAt": "2026-11-23"
