@@ -2,12 +2,12 @@
   "part": "74x244",
   "package_pins": 20,
   "source": {
-    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC244.PDF",
-    "doc_id": "SCLS130H",
-    "page": 3,
-    "table": "Pin Functions",
-    "checked": "2026-09-16",
-    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）",
+    "file": "datasheets/_download/XBLW/SN74HC244N.pdf",
+    "doc_id": "XBLW SN74HC244 (XBLW Version 2.0)",
+    "page": 4,
+    "table": "Pin Configurations / Pin Description",
+    "checked": "2026-11-27",
+    "method": "PDF（画像 PDF、文字層なし）を PNG 化して目視。ピン配置図と Pin Description の表を相互確認",
     "confidence": 95
   },
   "dir_values": [
@@ -110,6 +110,7 @@
   },
   "notes": [
     "出力は 3 ステート。OE=H で Hi-Z になり LED は消灯（Rled 4.7k が GND に落とすので浮かない）",
-    "OE は負論理。スイッチ GND 側で出力有効"
+    "OE は負論理。スイッチ GND 側で出力有効",
+    "2026-11-27: 所蔵の SN74HC244N は XBLW 製。XBLW の資料でピン数・VCC/GND の位置・各ピンの方向を照合し、以前の TI の資料 datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC244.PDF（SCLS130H p.3、2026-09-16） による記録と一致した。名前の付け方が TI と違う（XBLW は 1A0〜1A3 / 2Y0〜2Y3 の 0 始まり。TI の 2Y4 にあたるピン 3 が XBLW では 2Y0）。ピン番号ごとの役割（入力・3 ステート出力・OE）と VCC/GND の位置は一致"
   ]
 }

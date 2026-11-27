@@ -2,12 +2,12 @@
   "part": "74x574",
   "package_pins": 20,
   "source": {
-    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC574.PDF",
-    "doc_id": "SCLS148H",
-    "page": 3,
-    "table": "Figure: Pin Configuration (J/W/DB/DW/N/NS/PW package, Top View)",
-    "checked": "2026-09-25",
-    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。同ページのピン配置図と相互確認",
+    "file": "datasheets/_download/XBLW/SN74HC574N.pdf",
+    "doc_id": "XBLW SN74HC574 (XBLW Version 2.0)",
+    "page": 4,
+    "table": "Pin Configurations / Pin Description",
+    "checked": "2026-11-27",
+    "method": "PDF（画像 PDF、文字層なし）を PNG 化して目視。ピン配置図と Pin Description の表を相互確認",
     "confidence": 95
   },
   "dir_values": [
@@ -109,6 +109,7 @@
     }
   },
   "notes": [
-    "同 PDF の p.3 に Pin Functions 表が無いため、ピン配置図から読み取った。74x374 と機能同一でピン配置のみ異なる（D が片側、Q が反対側）"
+    "同 PDF の p.3 に Pin Functions 表が無いため、ピン配置図から読み取った。74x374 と機能同一でピン配置のみ異なる（D が片側、Q が反対側）",
+    "2026-11-27: 所蔵の SN74HC574N は XBLW 製。XBLW の資料でピン数・VCC/GND の位置・各ピンの方向を照合し、以前の TI の資料 datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC574.PDF（SCLS148H p.3、2026-09-25） による記録と一致した。名前は XBLW では D0〜D7 / Q0〜Q7 の 0 始まり（ピン 12〜19 が Q7〜Q0）。出力の説明は flip-flop output だが、OE による 3 ステートなので tri_state のまま"
   ]
 }

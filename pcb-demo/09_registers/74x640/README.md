@@ -1,7 +1,7 @@
 # 74x640 Demo PCB
 
 > このファイルはスクリプトにより自動生成されたスタブです。
-> 回路の詳細（ピン配置・真理値表・サンプル回路）は一次資料を確認後、以下を参照して補完してください。
+> 東芝 TC74HC640AP（DIP-20）のピン配置と反転・双方向・Hi-Z の動作は、下記の基本動作デモを参照してください。KiCad回路図は未配線のスタブです。
 
 ## IC 情報
 
@@ -34,7 +34,7 @@ KiCAD 10 には 74xx シリーズのシンボル・フットプリントが標�
 
 ## 関連ドキュメント
 
-- 回路設計情報（usage）: [`usage/09_registers/74x640/`](../../../usage/09_registers/74x640/)
+- 回路設計情報（usage）: [基本動作デモ](../../../usage/09_registers/74x640/01_basic_function_demo.md)
 - データシート収集状況: [`datasheets/7400_series_ic_datasheet_collection_status.json`](../../../datasheets/7400_series_ic_datasheet_collection_status.json)
 - 入手履歴: [`getstarting/7400_series_ic_collection_acquisition_history.json`](../../../getstarting/7400_series_ic_collection_acquisition_history.json)
 

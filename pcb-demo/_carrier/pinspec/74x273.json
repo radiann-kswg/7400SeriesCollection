@@ -2,12 +2,12 @@
   "part": "74x273",
   "package_pins": 20,
   "source": {
-    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC273.PDF",
-    "doc_id": "SCLS136F",
-    "page": 3,
-    "table": "Pin Functions",
-    "checked": "2026-09-16",
-    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）",
+    "file": "datasheets/_download/XBLW/SN74HC273N.pdf",
+    "doc_id": "XBLW SN74HC273 (XBLW Version 2.0)",
+    "page": 5,
+    "table": "Pin Configurations / Pin Description",
+    "checked": "2026-11-27",
+    "method": "PDF（画像 PDF、文字層なし）を PNG 化して目視。ピン配置図と Pin Description の表を相互確認",
     "confidence": 95
   },
   "dir_values": [
@@ -111,6 +111,7 @@
   },
   "notes": [
     "CLK はスライドスイッチ駆動。チャタリングで複数回エッジが入っても D が安定していれば同じ値を再ラッチするだけなので実害なし（カウンタ系とは異なる）",
-    "CLR は負論理。スイッチ GND 側でクリア"
+    "CLR は負論理。スイッチ GND 側でクリア",
+    "2026-11-27: 所蔵の SN74HC273N は XBLW 製。XBLW の資料でピン数・VCC/GND の位置・各ピンの方向を照合し、以前の TI の資料 datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC273.PDF（SCLS136F p.3、2026-09-16） による記録と一致した。名前は XBLW では MR / CP / D0〜D7 / Q0〜Q7"
   ]
 }

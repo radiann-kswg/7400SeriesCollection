@@ -2,11 +2,11 @@
 
 ## 目的
 
-若松通商で注文した 5 型番（SN74284N / SN74285N / SN74LS385N / SN7489N / SN74LS227N）について、Specimen Tile 生成の前段となるピン仕様（REQUIREMENTS §4.1）を一次資料で確認し、`pcb-demo/_carrier/pinspec/` に記録する。あわせて、これまで全部 DNP としていたオープンコレクタ出力の表示方法を決める。
+追加で注文した 5 型番（SN74284N / SN74285N / SN74LS385N / SN7489N / SN74LS227N）について、Specimen Tile 生成の前段となるピン仕様（REQUIREMENTS §4.1）を一次資料で確認し、`pcb-demo/_carrier/pinspec/` に記録する。あわせて、これまで全部 DNP としていたオープンコレクタ出力の表示方法を決める。
 
 ## 変更点
 
-- 入手履歴（`getstarting/`、git 追跡外）: 5 型番の `GetStartingECS_JP` に「若松通商」を追加
+- 入手履歴（`getstarting/`、git 追跡外）: 5 型番の `GetStartingECS_JP` に購入先を追加
 - `datasheets/7400_series_ic_datasheet_collection_status.json`: `autofill_gottenitems.py` → `sort_datasheet_by_partnumber.py` で 5 型番を追加（コミット 82e46f0）
 - `pcb-demo/_carrier/pinspec/`: `74x284.json` / `74x285.json` / `74x385.json` / `74x89.json` / `74x227.json` を新規作成
 - REQUIREMENTS D29（新設）: `open_collector` 出力接点を LED のみのセルとし、`active_low` 出力と同じ赤 LED + プルアップ配線（+5V → Dk → Rk 4.7kΩ → 接点 k、点灯 = L）にする

@@ -2,12 +2,12 @@
   "part": "74x10",
   "package_pins": 14,
   "source": {
-    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC10.PDF",
-    "doc_id": "SCLS083E",
-    "page": 3,
-    "table": "Pin Functions",
-    "checked": "2026-09-25",
-    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。p.1 の Functional Pinout と相互確認",
+    "file": "datasheets/_download/XBLW/SN74HC10N.pdf",
+    "doc_id": "XBLW SN74HC10 (XBLW Version 2.0)",
+    "page": 4,
+    "table": "Pin Configurations / Pin Description",
+    "checked": "2026-11-27",
+    "method": "PDF（画像 PDF、文字層なし）を PNG 化して目視。ピン配置図と Pin Description の表を相互確認",
     "confidence": 95
   },
   "dir_values": [
@@ -79,6 +79,7 @@
     }
   },
   "notes": [
-    "3回路3入力NAND。ゲート1の入出力が 1,2,13→12 と非隣接配置な点に注意（回路は共通トポロジで問題なし）"
+    "3回路3入力NAND。ゲート1の入出力が 1,2,13→12 と非隣接配置な点に注意（回路は共通トポロジで問題なし）",
+    "2026-11-27: 所蔵の SN74HC10N は XBLW 製。XBLW の資料でピン数・VCC/GND の位置・各ピンの方向を照合し、以前の TI の資料 datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC10.PDF（SCLS083E p.3、2026-09-25） による記録と一致した"
   ]
 }

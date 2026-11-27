@@ -2,12 +2,12 @@
   "part": "74x00",
   "package_pins": 14,
   "source": {
-    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC00.PDF",
-    "doc_id": "SCLS181H",
-    "page": 3,
-    "table": "Pin Functions",
-    "checked": "2026-09-16",
-    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）",
+    "file": "datasheets/_download/XBLW/SN74HC00N.pdf",
+    "doc_id": "XBLW SN74HC00 (XBLW Version 2.0)",
+    "page": 4,
+    "table": "Pin Configurations / Pin Description",
+    "checked": "2026-11-27",
+    "method": "PDF（画像 PDF、文字層なし）を PNG 化して目視。ピン配置図と Pin Description の表を相互確認",
     "confidence": 95
   },
   "dir_values": [
@@ -79,6 +79,7 @@
     }
   },
   "notes": [
-    "全ピンが単純な入出力。共通回路で問題なし"
+    "全ピンが単純な入出力。共通回路で問題なし",
+    "2026-11-27: 所蔵の SN74HC00N は XBLW 製。XBLW の資料でピン数・VCC/GND の位置・各ピンの方向を照合し、以前の TI の資料 datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC00.PDF（SCLS181H p.3、2026-09-16） による記録と一致した"
   ]
 }

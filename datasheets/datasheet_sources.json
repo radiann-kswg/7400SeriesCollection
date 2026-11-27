@@ -4,12 +4,12 @@
     "Sources": [
       {
         "ExactPartNumber": "74HC00AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "74HC00N",
@@ -41,12 +41,17 @@
       },
       {
         "ExactPartNumber": "SN74HC00N",
-        "Manufacturer": "TI(Texas Instruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "",
-        "LastAccessed": "",
-        "Notes": "TODO: メーカー公式URL/DocID/Rev/参照日を記録（転載は避ける）"
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/a2e3f7aae90ed825d481dc8e1c234119.pdf?productCode=C18723495",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723495）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC00」を目視で確認。",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC00N.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "4073280",
+        "Sha256": "2c298e3ca7266b7e9e65a1513a7b3e671cf08daeeadfdf0e66f7bc615f66fe75",
+        "CheckedAt": "2026-11-27"
       },
       {
         "ExactPartNumber": "SN74S00N",
@@ -133,16 +138,17 @@
       },
       {
         "ExactPartNumber": "SN74HC02N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc02.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc02.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/cb4d837013ef44b9e94183f65043a2c8.pdf?productCode=C18723496",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723496）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC02」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc02.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC02N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2497596",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "4134364",
+        "Sha256": "79b29869a1d80cdf6255c28d862bdea244995ad8f72734e7ef54af040e10a8b2",
+        "CheckedAt": "2026-11-27"
       },
       {
         "ExactPartNumber": "TC74HC02AF",
@@ -202,26 +208,21 @@
     "Sources": [
       {
         "ExactPartNumber": "74HC04AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "74HCU04AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://assets.nexperia.com/documents/data-sheet/74HCU04.pdf",
+        "Url": "",
         "LastAccessed": "2026-06-15",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) ",
-        "FinalUrl": "https://assets.nexperia.com/documents/data-sheet/74HCU04.pdf",
-        "ContentType": "application/pdf",
-        "ContentLength": "261756",
-        "Sha256": "d9b751e606932081c550a0e0c2939c4b640be4be0d6210db0d61e6ba9cf6eae9",
-        "CheckedAt": "2026-06-15T12:59:35+00:00"
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。 以前の Url は別メーカー（Nexperia）の資料だったので外した: https://assets.nexperia.com/documents/data-sheet/74HCU04.pdf"
       },
       {
         "ExactPartNumber": "MM74HC04N/MC74HC04N",
@@ -290,16 +291,17 @@
       },
       {
         "ExactPartNumber": "SN74HC04N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc04.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/68c718a2c5ea508cec25211ddc494052.pdf?productCode=C18723497",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723497）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC04」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc04.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC04N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2153599",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "3942358",
+        "Sha256": "969563d598eded228f07e680518c95aefe791bcc6a4844b28015f97b684c38b2",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -335,17 +337,12 @@
       },
       {
         "ExactPartNumber": "SN74LS05N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "MOTOROLA",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74ls05.pdf",
-        "LastAccessed": "2026-06-15",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74ls05.pdf",
-        "ContentType": "application/pdf",
-        "ContentLength": "1491956",
-        "CheckedAt": "2026-06-15T12:59:40+00:00",
-        "Sha256": "1a04c8fe6e99a9e50d272c5c692025b93307326dfbb489496c9f25efff39a659"
+        "Url": "",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は Motorola のロゴ（IICM8801A）。写真で確認（2026-11-27）。Motorola の資料は未入手。以前は TI と記録し、TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74ls05.pdf"
       }
     ]
   },
@@ -372,12 +369,12 @@
     "Sources": [
       {
         "ExactPartNumber": "74HC07AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       }
     ]
   },
@@ -386,12 +383,12 @@
     "Sources": [
       {
         "ExactPartNumber": "74HC08AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "74S08DC",
@@ -441,16 +438,17 @@
       },
       {
         "ExactPartNumber": "SN74HC08N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc08.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/0f51ea61c604213782c0936df7fd42d1.pdf?productCode=C18723499",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723499）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC08」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc08.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC08N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2047658",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "4151354",
+        "Sha256": "a08d11abcc2e2c2163c9f999a773bb52e45a97283467c74999b48e029633cc08",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -492,16 +490,17 @@
       },
       {
         "ExactPartNumber": "SN74HC10N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc10.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc10.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/2b0fe8f3827ab3f80e8313e17210bb14.pdf?productCode=C18723500",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723500）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC10」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc10.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC10N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1989161",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "4117064",
+        "Sha256": "a7df6075071b838ec2794ec3ec2a1cbe83a25fc2d9656094c3c963c2f115aec6",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -573,25 +572,26 @@
       },
       {
         "ExactPartNumber": "74HC14AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "SN74HC14N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc14.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc14.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/d90d8bf8dfe1207f2f38daed7d213ef6.pdf?productCode=C18723505",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723505）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC14」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc14.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC14N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2078952",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "4110541",
+        "Sha256": "16d3a6141ecc648b58b874a68bae919aa7acfc8eaf661eddf4738c263d0f5766",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -623,12 +623,12 @@
       },
       {
         "ExactPartNumber": "74HC20AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "DM74LS20N",
@@ -677,25 +677,26 @@
     "Sources": [
       {
         "ExactPartNumber": "74HC21AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "SN74HC21N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc21.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc21.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/bb2518d0f709624af893bf7f8cba8b61.pdf?productCode=C19708128",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C19708128）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC21」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc21.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC21N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1929720",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "3972772",
+        "Sha256": "8061ffccfb31a99d5f6f674a89856cf783bfd69ef87fa2c9ebd32d3799970df2",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -824,12 +825,12 @@
       },
       {
         "ExactPartNumber": "SN74HC30N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc30.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py"
+        "Url": "",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料は未入手（2026-11-27 時点で LCSC と芯伯乐の公式サイトの 74HC 系列一覧に掲載なし）。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc30.pdf"
       }
     ]
   },
@@ -838,25 +839,26 @@
     "Sources": [
       {
         "ExactPartNumber": "74HC32AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "SN74HC32N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc32.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc32.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/e003f4a7ad6c7db2d0dab0b167376fc8.pdf?productCode=C18723522",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723522）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC32」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc32.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC32N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2124322",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "4096884",
+        "Sha256": "00c1d27e2d07a367b5d550428636d8e8dc511a773d37585d3af0455826ea6d7d",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -1144,12 +1146,12 @@
       },
       {
         "ExactPartNumber": "74HC74AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "74S74N",
@@ -1204,16 +1206,17 @@
       },
       {
         "ExactPartNumber": "SN74HC74N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc74.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc74.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/e0bfda0b7e524b411623fd5c0eb5bd99.pdf?productCode=C18723532",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723532）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC74」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc74.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC74N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2255847",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "4389205",
+        "Sha256": "ed9f74787911c8a6fff5a08b50f49b3e1eccde81aaf8c64ba27c5cbda9e9d9f3",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -1366,7 +1369,7 @@
     "Sources": [
       {
         "ExactPartNumber": "SN7489N",
-        "Manufacturer": "TI(Texas Instruments)",
+        "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "D1416",
         "Revision": "Revised February 1984",
         "Url": "https://doctor-pasquale.com/wp-content/uploads/2017/05/7489-64-BIT-RAM.pdf",
@@ -1721,12 +1724,12 @@
     "Sources": [
       {
         "ExactPartNumber": "74HC123AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       }
     ]
   },
@@ -1762,13 +1765,13 @@
     "PartNumber": "74x125",
     "Sources": [
       {
-        "ExactPartNumber": "74HC125P",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "ExactPartNumber": "74AC125P",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物の刻印は 74AC125P（東芝のマーク、JAPAN 0843H）。写真とユーザーの現物確認（2026-11-27）。以前は 74HC125P・PHILIPS（推定）と記録していた。東芝の資料は未入手。"
       },
       {
         "ExactPartNumber": "SN74F125N",
@@ -1786,16 +1789,12 @@
       },
       {
         "ExactPartNumber": "SN74HC125N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc125.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc125.pdf",
-        "ContentType": "application/pdf",
-        "ContentLength": "2109740",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "Url": "",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料は未入手（2026-11-27 時点で LCSC と芯伯乐の公式サイトの 74HC 系列一覧に掲載なし）。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc125.pdf"
       }
     ]
   },
@@ -1804,16 +1803,17 @@
     "Sources": [
       {
         "ExactPartNumber": "SN74HC126N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc126.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc126.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/04422bedd548e132794cee2025f4246f.pdf?productCode=C18723502",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723502）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC126」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc126.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC126N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2109098",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "4459835",
+        "Sha256": "c8258f4ecac9c0af49cc25acbee25032e3b1d359b69ca7815959298ea0cadbf7",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -1831,16 +1831,17 @@
       },
       {
         "ExactPartNumber": "SN74HC132N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc132.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc132.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/8ea6941548fb12c4872ef17a7c9ac07b.pdf?productCode=C42376980",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C42376980）から入手（2026-11-27）（LCSC 上は SOP 品 SN74HC132DTR(XBLW) の掲載だが、資料は DIP-14 の SN74HC132N を含む共通版）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC132」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc132.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC132N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2526348",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "4191197",
+        "Sha256": "e673966d5dee77706208a36cac763091a8531940e4e230acb8931b2be92db73f",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -1939,25 +1940,26 @@
       },
       {
         "ExactPartNumber": "74HC138AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "SN74HC138N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc138.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc138.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/e99a7ec6761720088da6d3f6622f3b2c.pdf?productCode=C18723503",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723503）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC138」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc138.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC138N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1988928",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "4628632",
+        "Sha256": "042344a699711d41910c85063e01ddf3a5d3a21247b7e596453b75ae75b74f5a",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -1975,16 +1977,17 @@
       },
       {
         "ExactPartNumber": "SN74HC139N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc139.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc139.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/6a6195c209367f4f109e1271826aeb79.pdf?productCode=C18723504",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723504）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC139」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc139.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC139N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1929574",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "4476816",
+        "Sha256": "720dd5e990bffdf3c835abd884e6a341966fb97a4655ec9294c3ad8d89bd76b9",
+        "CheckedAt": "2026-11-27"
       },
       {
         "ExactPartNumber": "SN74LS139AN",
@@ -2163,12 +2166,12 @@
       },
       {
         "ExactPartNumber": "74HC153AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "東芝製であることをユーザーが現物で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "74LS153N",
@@ -2177,7 +2180,7 @@
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物は「SB」のように見えるロゴ（8201）。メーカー未特定（2026-11-27 本人の目視）。Manufacturer の PHILIPS は接頭辞からの推定のまま。"
       },
       {
         "ExactPartNumber": "HD74LS153P",
@@ -2192,6 +2195,15 @@
         "ContentLength": "258340",
         "Sha256": "921d18b2b19091a2a14d31ec54d62809adc3c8f0785129809beba5efa1b54098",
         "CheckedAt": "2026-06-15T13:01:25+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74LS153N",
+        "Manufacturer": "MOTOROLA",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は Motorola のロゴ（I8724）。写真と本人の目視で確認（2026-11-27）。Motorola の資料は未入手。"
       }
     ]
   },
@@ -2362,16 +2374,17 @@
       },
       {
         "ExactPartNumber": "SN74HC157N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc157.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc157.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/59ad0a4a8c82604d900c015541bc63d4.pdf?productCode=C19708124",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C19708124）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC157」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc157.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC157N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2002804",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "4498575",
+        "Sha256": "0ae3c04b99495eb3777daada6feac88b82c6e5c8c6b3e3c89b37b0013628a7f3",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -2489,16 +2502,17 @@
       },
       {
         "ExactPartNumber": "SN74HC163N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc163.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc163.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/3129c2c6876d7c5eefc7f9c2c693eff7.pdf?productCode=C19708125",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C19708125）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC163」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc163.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC163N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1395498",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "5555365",
+        "Sha256": "f2224de66530671974bac6c6eb3b0922ec13cfec6cd9a76173cc3462bb044e67",
+        "CheckedAt": "2026-11-27"
       },
       {
         "ExactPartNumber": "SN74S163N",
@@ -2544,16 +2558,17 @@
       },
       {
         "ExactPartNumber": "SN74HC164N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc164.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc164.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/982a58fb488c9917d30214fe729a4564.pdf?productCode=C20612518",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C20612518）から入手（2026-11-27）（LCSC 上は SOP 品 SN74HC164DTR(XBLW) の掲載だが、資料は DIP-14 の SN74HC164N を含む共通版）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC164」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc164.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC164N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1553593",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "5396315",
+        "Sha256": "2fd08237d66b4f619ce4147596247ae61414c6f706c72c4a6b2f17b3b597a005",
+        "CheckedAt": "2026-11-27"
       },
       {
         "ExactPartNumber": "SN74LS164N",
@@ -2584,12 +2599,12 @@
       },
       {
         "ExactPartNumber": "74HC165AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "SN74165N",
@@ -2602,16 +2617,17 @@
       },
       {
         "ExactPartNumber": "SN74HC165N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc165.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc165.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/cb66727438162fc305a0a72b345004f1.pdf?productCode=C18723511",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723511）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC165」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc165.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC165N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "1570269",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "4910591",
+        "Sha256": "c4cc4852263722f6295c7cb320475a00fa354dad15c6c4fb5f75911ed4b3f953",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -2706,16 +2722,12 @@
       },
       {
         "ExactPartNumber": "SN74HC174N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc174.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc174.pdf",
-        "ContentType": "application/pdf",
-        "ContentLength": "1958893",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "Url": "",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料は未入手（2026-11-27 時点で LCSC と芯伯乐の公式サイトの 74HC 系列一覧に掲載なし）。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc174.pdf"
       }
     ]
   },
@@ -2733,12 +2745,12 @@
       },
       {
         "ExactPartNumber": "74HC175AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "DM74175N",
@@ -3110,7 +3122,7 @@
     "Sources": [
       {
         "ExactPartNumber": "SN74LS227N",
-        "Manufacturer": "TI(Texas Instruments)",
+        "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "Revised March 1985",
         "Url": "https://cdn.semikey.com/upload/pdfs/38/00/38000a8f1a33203ab5110604491913be.pdf#page=2",
@@ -3182,12 +3194,12 @@
       },
       {
         "ExactPartNumber": "74HC240AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "MC74F240N",
@@ -3310,12 +3322,12 @@
     "Sources": [
       {
         "ExactPartNumber": "74HC243AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "SN74ALS243AN",
@@ -3360,16 +3372,17 @@
       },
       {
         "ExactPartNumber": "SN74HC244N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc244.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc244.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/d8f11d5fc67ff1122a576bbe8dfa5abd.pdf?productCode=C18723516",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723516）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC244」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc244.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC244N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2195410",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "4635653",
+        "Sha256": "00448a2ff21f3d25d67f45ae4b9f4cc20590878d0f967557262ff5cd8ba48f86",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -3396,16 +3409,17 @@
       },
       {
         "ExactPartNumber": "SN74HC245N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc245.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc245.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/73b661d00787eb2b92e96134a0144798.pdf?productCode=C18723518",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723518）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC245」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc245.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC245N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2942326",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "4665072",
+        "Sha256": "4cb6b08ab9ecf30c2ed8388b1f907aa31052d9e9ffa5470d9a3f0cf374fbd96e",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -3663,12 +3677,12 @@
       },
       {
         "ExactPartNumber": "74HC273AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "74LS273",
@@ -3703,16 +3717,17 @@
       },
       {
         "ExactPartNumber": "SN74HC273N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc273.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc273.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/96787ada003e9aafa9de9ba344a02278.pdf?productCode=C18723521",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723521）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC273」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc273.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC273N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2179592",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "5300335",
+        "Sha256": "378a991cdaa89fe2c2893b6e423c90626cf612167f826cd62190d36f2ceb104f",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -3844,7 +3859,7 @@
     "Sources": [
       {
         "ExactPartNumber": "SN74284N",
-        "Manufacturer": "TI(Texas Instruments)",
+        "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "Revised December 1983",
         "Url": "https://sapr.asvcorp.ru/datasheets/34/03/00000000334.pdf",
@@ -3862,7 +3877,7 @@
     "Sources": [
       {
         "ExactPartNumber": "SN74285N",
-        "Manufacturer": "TI(Texas Instruments)",
+        "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "",
         "Revision": "Revised December 1983",
         "Url": "https://sapr.asvcorp.ru/datasheets/34/03/00000000334.pdf",
@@ -4141,12 +4156,12 @@
     "Sources": [
       {
         "ExactPartNumber": "74HC373AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "MC74F373N",
@@ -4169,6 +4184,20 @@
         "ContentType": "application/pdf",
         "ContentLength": "2165526",
         "CheckedAt": "2026-02-14T05:59:43+00:00"
+      },
+      {
+        "ExactPartNumber": "SN74HC373N(XBLW)",
+        "Manufacturer": "XBLW",
+        "DocumentId": "",
+        "Revision": "",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/ccc4c0a641c505fdcd805b424a0f4e2e.pdf?productCode=C18723524",
+        "LastAccessed": "2026-11-27",
+        "Notes": "所蔵の SN74HC373N には TI 製と XBLW 製の両方がある（本人の目視で確認 2026-11-27）。この項目は XBLW 製の分。ExactPartNumber の (XBLW) は LCSC の型番表記にならった区別。XBLW の資料を LCSC（C18723524）から入手（2026-11-27）。2 ページ目の見出し「XBLW SN74HC/HCT373」を目視で確認（この資料だけ文字層あり）。",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC373N.pdf",
+        "ContentType": "application/pdf",
+        "ContentLength": "1039266",
+        "Sha256": "ffcd8848fcd3534730b28f34b014bb42273fac3a7122b5a6a2119f98cf938b5e",
+        "CheckedAt": "2026-11-27"
       },
       {
         "ExactPartNumber": "SN74S373N",
@@ -4251,16 +4280,17 @@
       },
       {
         "ExactPartNumber": "SN74HC374N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc374.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc374.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/04f031024b105211e08ad37646709ee5.pdf?productCode=C18723526",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723526）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC374」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc374.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC374N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2051650",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "5422830",
+        "Sha256": "039996776db80666505ce847cd27b59142b8401b4bf8a4f1d0b288e8a09864b7",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -4375,11 +4405,29 @@
     ]
   },
   {
+    "PartNumber": "74x382",
+    "Sources": [
+      {
+        "ExactPartNumber": "SN74LS382AN",
+        "Manufacturer": "TI(TexasInstruments)",
+        "DocumentId": "SDLS168",
+        "Revision": "January 1981, Revised March 1988",
+        "Url": "",
+        "LastAccessed": "2026-11-27",
+        "Notes": "SN74LS381A と共通の TI 資料（表題に SN74LS382A を含む。テキスト層で確認し、目視は未実施）。PDF のメタデータは ALLDATASHEET 経由の転載を示す。現物は TI のロゴ・PORTUGAL 8505X（写真で確認 2026-11-27）。",
+        "LocalPath": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS381A.PDF",
+        "LocalBytes": 392797,
+        "LocalSha256": "4189ad694be00807346f6bb89e7d43e3fceb02e7f4c3fcb95e8c0350ade04cda",
+        "LocalCheckedAt": "2026-11-27"
+      }
+    ]
+  },
+  {
     "PartNumber": "74x385",
     "Sources": [
       {
         "ExactPartNumber": "SN74LS385N",
-        "Manufacturer": "TI(Texas Instruments)",
+        "Manufacturer": "TI(TexasInstruments)",
         "DocumentId": "D2412",
         "Revision": "Revised April 1985",
         "Url": "https://sapr.asvcorp.ru/datasheets/97/03/00000000397.pdf",
@@ -4455,16 +4503,12 @@
     "Sources": [
       {
         "ExactPartNumber": "SN74HC393N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc393.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc393.pdf",
-        "ContentType": "application/pdf",
-        "ContentLength": "2549805",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "Url": "",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料は未入手（2026-11-27 時点で LCSC と芯伯乐の公式サイトの 74HC 系列一覧に掲載なし）。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc393.pdf"
       }
     ]
   },
@@ -4523,12 +4567,12 @@
     "Sources": [
       {
         "ExactPartNumber": "74HC423AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       }
     ]
   },
@@ -4677,12 +4721,12 @@
     "Sources": [
       {
         "ExactPartNumber": "74HC541AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       },
       {
         "ExactPartNumber": "SN74HC541N",
@@ -4795,16 +4839,17 @@
       },
       {
         "ExactPartNumber": "SN74HC573N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc573a.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc573a.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/207108c12bbc3942f7c5eb9ce76420ce.pdf?productCode=C18723528",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723528）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC573」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc573a.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC573N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2070315",
-        "CheckedAt": "2026-02-14T06:47:21+00:00"
+        "ContentLength": "5309197",
+        "Sha256": "66f6947bd06e1dcfb62e552dc54c77e5b1f19026090b7014f47bf8a8f128aeb4",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -4845,16 +4890,17 @@
       },
       {
         "ExactPartNumber": "SN74HC574N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc574.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc574.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/bc5babe4ca02ab702c592eaaf1d11c94.pdf?productCode=C18723530",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C18723530）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC574」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc574.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC574N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2052276",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "5101794",
+        "Sha256": "8816f98fdb06c8008c5fb8904277238e0d981cb3cb1ff88a70e7f5e2bd075a71",
+        "CheckedAt": "2026-11-27"
       }
     ]
   },
@@ -4863,12 +4909,12 @@
     "Sources": [
       {
         "ExactPartNumber": "74HC590AP",
-        "Manufacturer": "PHILIPS(NXPSemiconductors)",
+        "Manufacturer": "TOSHIBA",
         "DocumentId": "",
         "Revision": "",
         "Url": "",
         "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; manufacturer is a conservative guess (prefix-less 74**) "
+        "Notes": "現物の刻印（東芝のマークと JAPAN。接頭辞 TC なし）を写真で確認（2026-11-27）。以前の PHILIPS は接頭辞からの推定だった。"
       }
     ]
   },
@@ -4917,16 +4963,17 @@
       },
       {
         "ExactPartNumber": "SN74HC595N",
-        "Manufacturer": "TI(TexasInstruments)",
+        "Manufacturer": "XBLW",
         "DocumentId": "",
         "Revision": "",
-        "Url": "https://www.ti.com/lit/ds/symlink/sn74hc595.pdf",
-        "LastAccessed": "2026-02-14",
-        "Notes": "AUTO: from history; TI symlink URL candidate; validate with check_datasheet_sources.py",
-        "FinalUrl": "https://www.ti.com/lit/ds/symlink/sn74hc595.pdf",
+        "Url": "https://datasheet.lcsc.com/datasheet/pdf/6b5cf1cb4e8d819dbf0dbf0c3b052d79.pdf?productCode=C49242126",
+        "LastAccessed": "2026-11-27",
+        "Notes": "現物は XBLW 製（刻印の 2 行目が「XBLW ＋ 4 桁コード」、TI のロゴなし）。写真と本人の目視で確認（2026-11-27）。XBLW の資料を LCSC（C49242126）から入手（2026-11-27）。資料は画像 PDF で文字層なし。2 ページ目の見出し「XBLW SN74HC595」を目視で確認。 以前は TI として TI の資料を紐づけていた: https://www.ti.com/lit/ds/symlink/sn74hc595.pdf",
+        "LocalPath": "datasheets/_download/XBLW/SN74HC595N.pdf",
         "ContentType": "application/pdf",
-        "ContentLength": "2710529",
-        "CheckedAt": "2026-02-14T05:59:43+00:00"
+        "ContentLength": "5716543",
+        "Sha256": "5502d4077590a4a6c9fa3cddd0bcd3fbf77fe686cfcf56bdfad963fc4868c364",
+        "CheckedAt": "2026-11-27"
       },
       {
         "ExactPartNumber": "U74HC595AC",
@@ -5022,7 +5069,7 @@
         "Revision": "Rev.1.0.A",
         "Url": "https://toshiba-semicon-storage.com/info/TC74HC640AP_datasheet_en_20220304.pdf?did=141723&prodName=TC74HC640AP",
         "LastAccessed": "2026-11-23",
-        "Notes": "東芝公式PDF。PDF pp.1–2,7に完全型番とDIP-20。 LocalPathは同じRev.1.0.Aの日本語公式版。",
+        "Notes": "東芝公式PDF Rev.1.0.A。p.2 §5にピン配置、§6にTC74HC640AP（DIP-20）の刻印例「74HC640AP」、p.3 §8に反転・方向・Hi-Zの真理値表。LocalPathは同じ版の日本語公式PDF。",
         "LocalPath": "datasheets/_download/TOSHIBA/TC74HC640AP.PDF",
         "LocalBytes": 454462,
         "LocalSha256": "39162f7cdb85ea2b97739284d4c521c48a709858e3304c9b1a91600209d81b1f",

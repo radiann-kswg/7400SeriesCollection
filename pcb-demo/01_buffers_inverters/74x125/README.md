@@ -11,7 +11,7 @@
 | **機能 (EN)**        | Quad bus buffer, tri-state outputs    |
 | **機能 (JP)**        | 4回路バスバッファ（3状態出力） |
 | **カテゴリ**         | `01_buffers_inverters`     |
-| **入手済み (CMOS)**  | 74HC125P, SN74HC125N     |
+| **入手済み (CMOS)**  | 74AC125P, SN74HC125N     |
 | **入手済み (TTL)**   | SN74F125N      |
 | **入手済み (Other)** | (なし)    |
 

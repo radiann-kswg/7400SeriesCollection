@@ -200,13 +200,15 @@ single-context（リポジトリ直下の `CONTEXT.md` + `docs/adr/`、いずれ
   "Comments": ["Amazonの74HCシリーズICキットなどから入手"],
   "GottenItemsMN_CMOS": ["74HC00N", "SN74HC00N"],
   "GottenItemsMN_TTL": ["SN74S00N"],
-  "GottenItemsMN_Other": []
+  "GottenItemsMN_Other": [],
+  "GottenItemsMaker": {"SN74HC00N": ["XBLW"], "74HC00AP": ["TOSHIBA"]}
 }
 ```
 
 - `GetStartingECS_JP`: 購入先（日本語）
 - `Comments`: 入手メモ
 - `GottenItemsMN_CMOS` / `_TTL` / `_Other`: 入手済みの **実型番**（Other はソビエト互換品など）
+- `GottenItemsMaker`（任意）: 実型番 → **現物の刻印・ロゴで確かめたメーカー**の一覧。同じ実型番に複数メーカーの現物があれば並べる（例: `"SN74HC373N": ["TI", "XBLW"]`）。確かめていない実型番は載せない。値は刻印のメーカー名を英大文字で書く（`TI` / `TOSHIBA` / `HITACHI` / `MITSUBISHI` / `MOTOROLA` / `NSC` / `FAIRCHILD` / `RAYTHEON` / `MMI` / `XBLW` など。日立品は RENESAS ではなく `HITACHI`）。メーカーを特定できないものは `(未特定:手がかり)`（例: `(未特定:SBロゴ)`）。データシートの発行元（収集状況 JSON・`datasheet_sources.json` のメーカー）とは別の情報で、型番の接頭辞からの推定より優先する（2026-11-27 追加）
 
 ### 購入予定・希望 JSON（レア度別サブセット）
 
