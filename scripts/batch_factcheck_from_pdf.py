@@ -248,20 +248,12 @@ def extract_pin_summary(page_texts: list[str], exact_pn: str) -> list[str]:
         if m:
             packages.append(f"{name}-{m.group(1)}")
 
-    # Find VCC/GND pins
-    vcc_pins = re.findall(r"pin\s*(\d{1,2})[^A-Za-z]{0,10}vcc", full_text, re.IGNORECASE)
-    gnd_pins = re.findall(r"pin\s*(\d{1,2})[^A-Za-z]{0,10}gnd", full_text, re.IGNORECASE)
-    # also reversed: VCC ... Pin N
-    vcc_pins += re.findall(r"vcc[^A-Za-z\n]{0,20}?(\d{1,2})", full_text, re.IGNORECASE)
-    gnd_pins += re.findall(r"gnd[^A-Za-z\n]{0,20}?(\d{1,2})", full_text, re.IGNORECASE)
-
+    # VCC/GND のピン番号は書き出さない。文字層の近接一致は電圧値や別の信号の番号を
+    # 拾い、「VCC: Pin 4」のような誤記を生んだ（Issue #4）。ピン番号は
+    # 対話型ファクトチェック手順でデータシートの頁を目視して書く。
     result: list[str] = []
     if packages:
         result.append(f"  - パッケージ: {', '.join(dict.fromkeys(packages))}")
-    if vcc_pins:
-        result.append(f"  - VCC: Pin {vcc_pins[0]}")
-    if gnd_pins:
-        result.append(f"  - GND: Pin {gnd_pins[0]}")
     result.append(f"  - 参照: (PDF 参照) Pin Configuration（一次資料）")
     # clean duplicates
     seen: set[str] = set()
