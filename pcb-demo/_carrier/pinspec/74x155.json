@@ -1,0 +1,128 @@
+{
+  "part": "74x155",
+  "package_pins": 16,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74LS/SN74LS155A,SN74LS156.PDF",
+    "doc_id": "SDLS057",
+    "page": 1,
+    "table": "pin diagram (TOP VIEW) / logic symbols",
+    "checked": "2026-11-28",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。p.1 のピン配置図（N パッケージ、TOP VIEW）と論理記号のピン番号を相互確認。出力形式は同頁の Choice of Outputs と論理記号の OC 記号で確認",
+    "confidence": 92
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "1C",
+      "dir": "input"
+    },
+    "2": {
+      "name": "~{1G}",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "3": {
+      "name": "B",
+      "dir": "input"
+    },
+    "4": {
+      "name": "~{1Y3}",
+      "dir": "output",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "5": {
+      "name": "~{1Y2}",
+      "dir": "output",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "6": {
+      "name": "~{1Y1}",
+      "dir": "output",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "7": {
+      "name": "~{1Y0}",
+      "dir": "output",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "8": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "9": {
+      "name": "~{2Y0}",
+      "dir": "output",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "10": {
+      "name": "~{2Y1}",
+      "dir": "output",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "11": {
+      "name": "~{2Y2}",
+      "dir": "output",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "12": {
+      "name": "~{2Y3}",
+      "dir": "output",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "13": {
+      "name": "A",
+      "dir": "input"
+    },
+    "14": {
+      "name": "~{2G}",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "15": {
+      "name": "~{2C}",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "16": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "出力はトーテムポール（'155・'LS155A）で負論理。active_low（赤 LED、点灯 = 選ばれた出力）",
+    "1C は正論理、~{2C} は負論理のデータ入力。A・B は 2 回路共通の選択入力（A が下位）。1C と ~{2C} をつなぎ、~{1G} と ~{2G} をつなぐと 3-8 デコーダになる",
+    "所蔵は 74155N・SN74LS155AN・DM74155N ほか。標準の 74x155 のピン配置で、TI の資料で照合した",
+    "読み取り信頼度: ピン配置 95%、出力形式 92%（スキャン PDF）"
+  ]
+}

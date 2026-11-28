@@ -1,0 +1,96 @@
+{
+  "part": "74x151",
+  "package_pins": 16,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC151.PDF",
+    "doc_id": "SCLS110F",
+    "page": 3,
+    "table": "Pin Configuration and Functions (TOP VIEW)",
+    "checked": "2026-11-28",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。Pin Configuration の図（TOP VIEW、DIP）で確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "D3",
+      "dir": "input"
+    },
+    "2": {
+      "name": "D2",
+      "dir": "input"
+    },
+    "3": {
+      "name": "D1",
+      "dir": "input"
+    },
+    "4": {
+      "name": "D0",
+      "dir": "input"
+    },
+    "5": {
+      "name": "Y",
+      "dir": "output"
+    },
+    "6": {
+      "name": "W",
+      "dir": "output"
+    },
+    "7": {
+      "name": "~{G}",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "8": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "9": {
+      "name": "C",
+      "dir": "input"
+    },
+    "10": {
+      "name": "B",
+      "dir": "input"
+    },
+    "11": {
+      "name": "A",
+      "dir": "input"
+    },
+    "12": {
+      "name": "D7",
+      "dir": "input"
+    },
+    "13": {
+      "name": "D6",
+      "dir": "input"
+    },
+    "14": {
+      "name": "D5",
+      "dir": "input"
+    },
+    "15": {
+      "name": "D4",
+      "dir": "input"
+    },
+    "16": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "W は Y の反転（補出力）。負論理のアクティブ出力ではないので active_low は付けない（D18。74x04 の出力と同じ扱いで白 LED）",
+    "~{G}=H で Y=L・W=H。A が最下位、C が最上位の選択入力"
+  ]
+}

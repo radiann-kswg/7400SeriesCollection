@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Specimen")(type "KiCad")(uri "${KIPRJMOD}/../../Specimen.pretty")(options "")(descr "Specimen Tile footprints"))
+)

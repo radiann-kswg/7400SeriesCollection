@@ -1,0 +1,97 @@
+{
+  "part": "74x257",
+  "package_pins": 16,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC257,SN74HC258.PDF",
+    "doc_id": "SCLS224B",
+    "page": 1,
+    "table": "pin diagram (TOP VIEW)",
+    "checked": "2026-11-28",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。Pin Configuration の図（TOP VIEW、DIP）で確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "~{A}/B",
+      "dir": "input"
+    },
+    "2": {
+      "name": "1A",
+      "dir": "input"
+    },
+    "3": {
+      "name": "1B",
+      "dir": "input"
+    },
+    "4": {
+      "name": "1Y",
+      "dir": "tri_state"
+    },
+    "5": {
+      "name": "2A",
+      "dir": "input"
+    },
+    "6": {
+      "name": "2B",
+      "dir": "input"
+    },
+    "7": {
+      "name": "2Y",
+      "dir": "tri_state"
+    },
+    "8": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "9": {
+      "name": "3Y",
+      "dir": "tri_state"
+    },
+    "10": {
+      "name": "3B",
+      "dir": "input"
+    },
+    "11": {
+      "name": "3A",
+      "dir": "input"
+    },
+    "12": {
+      "name": "4Y",
+      "dir": "tri_state"
+    },
+    "13": {
+      "name": "4B",
+      "dir": "input"
+    },
+    "14": {
+      "name": "4A",
+      "dir": "input"
+    },
+    "15": {
+      "name": "~{G}",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "16": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "ピン配置は 74x157 と同じ。出力は 3 ステートで、~{G}=H で Hi-Z（LED は Rled で GND に落ちて消灯）",
+    "~{A}/B は L で A、H で B を選ぶ",
+    "所蔵の SN74HC257N は XBLW のセル品に含まれない型番で、メーカーの確認はしていない（TI の資料で照合）"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "part": "74x540",
+  "package_pins": 20,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC540.PDF",
+    "doc_id": "SCLS007F",
+    "page": 3,
+    "table": "Pin Configuration and Functions (TOP VIEW)",
+    "checked": "2026-11-28",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。Pin Configuration の図（TOP VIEW、DIP）で確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "~{OE1}",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "2": {
+      "name": "A1",
+      "dir": "input"
+    },
+    "3": {
+      "name": "A2",
+      "dir": "input"
+    },
+    "4": {
+      "name": "A3",
+      "dir": "input"
+    },
+    "5": {
+      "name": "A4",
+      "dir": "input"
+    },
+    "6": {
+      "name": "A5",
+      "dir": "input"
+    },
+    "7": {
+      "name": "A6",
+      "dir": "input"
+    },
+    "8": {
+      "name": "A7",
+      "dir": "input"
+    },
+    "9": {
+      "name": "A8",
+      "dir": "input"
+    },
+    "10": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "11": {
+      "name": "Y8",
+      "dir": "tri_state"
+    },
+    "12": {
+      "name": "Y7",
+      "dir": "tri_state"
+    },
+    "13": {
+      "name": "Y6",
+      "dir": "tri_state"
+    },
+    "14": {
+      "name": "Y5",
+      "dir": "tri_state"
+    },
+    "15": {
+      "name": "Y4",
+      "dir": "tri_state"
+    },
+    "16": {
+      "name": "Y3",
+      "dir": "tri_state"
+    },
+    "17": {
+      "name": "Y2",
+      "dir": "tri_state"
+    },
+    "18": {
+      "name": "Y1",
+      "dir": "tri_state"
+    },
+    "19": {
+      "name": "~{OE2}",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "20": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "ピン配置は 74x541 と同じで、出力が反転（Y = /A）。反転は補出力の扱いで active_low は付けない（D18）",
+    "~{OE1}・~{OE2} のどちらかが H で Hi-Z"
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "part": "74x157",
+  "package_pins": 16,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC157.PDF",
+    "doc_id": "SCLS113F",
+    "page": 3,
+    "table": "Pin Configuration and Functions",
+    "checked": "2026-11-28",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。Pin Configuration の図（TOP VIEW、DIP）で確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "~{A}/B",
+      "dir": "input"
+    },
+    "2": {
+      "name": "1A",
+      "dir": "input"
+    },
+    "3": {
+      "name": "1B",
+      "dir": "input"
+    },
+    "4": {
+      "name": "1Y",
+      "dir": "output"
+    },
+    "5": {
+      "name": "2A",
+      "dir": "input"
+    },
+    "6": {
+      "name": "2B",
+      "dir": "input"
+    },
+    "7": {
+      "name": "2Y",
+      "dir": "output"
+    },
+    "8": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "9": {
+      "name": "3Y",
+      "dir": "output"
+    },
+    "10": {
+      "name": "3B",
+      "dir": "input"
+    },
+    "11": {
+      "name": "3A",
+      "dir": "input"
+    },
+    "12": {
+      "name": "4Y",
+      "dir": "output"
+    },
+    "13": {
+      "name": "4B",
+      "dir": "input"
+    },
+    "14": {
+      "name": "4A",
+      "dir": "input"
+    },
+    "15": {
+      "name": "~{G}",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "16": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "SCLS113F の Pin Functions 表は TYPE 欄に誤りがある（1Y=I、2A=O、3Y=I など）。ピン配置図と DESCRIPTION 欄、XBLW の資料に従い Y を出力、A/B を入力とした",
+    "~{A}/B は L で A、H で B を選ぶ（選択入力で負論理のイネーブルではない）。~{G} は負論理ストローブ。H で全出力 L",
+    "所蔵の SN74HC157N は XBLW 製。XBLW の資料 datasheets/_download/XBLW/SN74HC157N.pdf（XBLW Version 2.0）p.4 のピン配置・Pin Description とも、ピン数・VCC/GND の位置・各ピンの方向が一致した（2026-11-28）"
+  ]
+}

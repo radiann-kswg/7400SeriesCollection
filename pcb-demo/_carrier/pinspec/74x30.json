@@ -1,0 +1,85 @@
+{
+  "part": "74x30",
+  "package_pins": 14,
+  "source": {
+    "file": "datasheets/_download/PHILIPS(NXPSemiconductors)/74HC30.PDF",
+    "doc_id": "Philips 74HC/HCT30 Product specification (December 1990)",
+    "page": 3,
+    "table": "PIN DESCRIPTION / Fig.1 Pin configuration",
+    "checked": "2026-11-28",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。PIN DESCRIPTION の表と Fig.1 のピン配置を相互確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "A",
+      "dir": "input"
+    },
+    "2": {
+      "name": "B",
+      "dir": "input"
+    },
+    "3": {
+      "name": "C",
+      "dir": "input"
+    },
+    "4": {
+      "name": "D",
+      "dir": "input"
+    },
+    "5": {
+      "name": "E",
+      "dir": "input"
+    },
+    "6": {
+      "name": "F",
+      "dir": "input"
+    },
+    "7": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "8": {
+      "name": "Y",
+      "dir": "output"
+    },
+    "9": {
+      "name": "NC",
+      "dir": "nc"
+    },
+    "10": {
+      "name": "NC",
+      "dir": "nc"
+    },
+    "11": {
+      "name": "G",
+      "dir": "input"
+    },
+    "12": {
+      "name": "H",
+      "dir": "input"
+    },
+    "13": {
+      "name": "NC",
+      "dir": "nc"
+    },
+    "14": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "9・10・13 ピンは NC（内部接続なし）。セルは全部 DNP",
+    "所蔵の SN74HC30N は XBLW 製（セル品）だが、手元に XBLW と TI の 74HC30 の資料が無く、Philips の資料で照合した。所蔵品の資料での照合は未了"
+  ]
+}

@@ -1,0 +1,115 @@
+{
+  "part": "74x541",
+  "package_pins": 20,
+  "source": {
+    "file": "datasheets/_download/TI(TexasInstruments)/SN74HC/SN74HC541.PDF",
+    "doc_id": "SCLS305E",
+    "page": 3,
+    "table": "Pin Configuration and Functions / Pin Functions",
+    "checked": "2026-11-28",
+    "method": "PDF を PNG 化して目視（CLAUDE.md の手順）。Pin Configuration の図（TOP VIEW）と Pin Functions の表を相互確認",
+    "confidence": 95
+  },
+  "dir_values": [
+    "input",
+    "output",
+    "tri_state",
+    "open_collector",
+    "bidirectional",
+    "nc",
+    "power",
+    "ground"
+  ],
+  "pins": {
+    "1": {
+      "name": "~{OE1}",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "2": {
+      "name": "A1",
+      "dir": "input"
+    },
+    "3": {
+      "name": "A2",
+      "dir": "input"
+    },
+    "4": {
+      "name": "A3",
+      "dir": "input"
+    },
+    "5": {
+      "name": "A4",
+      "dir": "input"
+    },
+    "6": {
+      "name": "A5",
+      "dir": "input"
+    },
+    "7": {
+      "name": "A6",
+      "dir": "input"
+    },
+    "8": {
+      "name": "A7",
+      "dir": "input"
+    },
+    "9": {
+      "name": "A8",
+      "dir": "input"
+    },
+    "10": {
+      "name": "GND",
+      "dir": "ground"
+    },
+    "11": {
+      "name": "Y8",
+      "dir": "tri_state"
+    },
+    "12": {
+      "name": "Y7",
+      "dir": "tri_state"
+    },
+    "13": {
+      "name": "Y6",
+      "dir": "tri_state"
+    },
+    "14": {
+      "name": "Y5",
+      "dir": "tri_state"
+    },
+    "15": {
+      "name": "Y4",
+      "dir": "tri_state"
+    },
+    "16": {
+      "name": "Y3",
+      "dir": "tri_state"
+    },
+    "17": {
+      "name": "Y2",
+      "dir": "tri_state"
+    },
+    "18": {
+      "name": "Y1",
+      "dir": "tri_state"
+    },
+    "19": {
+      "name": "~{OE2}",
+      "dir": "input",
+      "attr": [
+        "active_low"
+      ]
+    },
+    "20": {
+      "name": "VCC",
+      "dir": "power"
+    }
+  },
+  "notes": [
+    "データシートの I/O 欄は O だが、~{OE1}・~{OE2} のどちらかが H で Hi-Z になるので tri_state とした（74x244 と同じ扱い）",
+    "所蔵は 74HC541AP（東芝）と SN74HC541N。どちらも標準の 74x541 のピン配置で、TI の資料で照合した"
+  ]
+}
